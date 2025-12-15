@@ -1,15 +1,11 @@
 @import "tailwindcss";
 
+/* =========================
+   VARIABLES BASE
+========================= */
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +18,198 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
+
+/* =========================
+   FONDO LOGIN
+========================= */
+.bg-login {
+  background-image: url("/NILLOCO_ONLINE[1].png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  .bg-login {
+    background-size: cover;
+  }
+}
+
+@keyframes neonGlow {
+  0%, 100% {
+    filter:
+      drop-shadow(0 0 4px #22d3ee)
+      drop-shadow(0 0 8px #8b5cf6);
+  }
+  50% {
+    filter:
+      drop-shadow(0 0 8px #22d3ee)
+      drop-shadow(0 0 16px #8b5cf6);
+  }
+}
+
+/* Neon base */
+.neon-glow {
+  animation: neonGlow 3s ease-in-out infinite;
+}
+
+/* Desktop boost */
+@media (min-width: 768px) {
+  .neon-glow {
+    animation-duration: 2.5s;
+  }
+}
+
+/* Mobile: más liviano */
+@media (max-width: 640px) {
+  .neon-glow {
+    filter:
+      drop-shadow(0 0 3px #22d3ee)
+      drop-shadow(0 0 6px #8b5cf6);
+    animation: none;
+  }
+}
+
+@media (hover: hover) {
+  .neon-glow:hover {
+    filter:
+      drop-shadow(0 0 14px #22d3ee)
+      drop-shadow(0 0 28px #8b5cf6);
+  }
+}
+
+/* INICIO DEL BLOQUE COMENTADO DE NILLA */
+/*
+.nilla-sprite-animado {
+  background-image: url('/sprites/Black-Idle.png');
+  background-size: 1400px 280px;
+  animation: playSpriteNilla 1.5s steps(5) infinite;
+  box-shadow: 0 0 25px rgba(236, 72, 153, 0.45);
+  transition: transform 0.3s ease-in-out;
+}
+*/
+/* FIN DEL BLOQUE COMENTADO DE NILLA */
+
+/* INICIO DEL BLOQUE COMENTADO DE COCO */
+/*
+.coco-sprite-animado {
+  background-image: url('/sprites/Black-Idle.png');
+  background-size: 1400px 280px;
+  animation: playSpriteCoco 1.5s steps(5) infinite;
+  box-shadow: 0 0 25px rgba(34, 211, 238, 0.45);
+  transition: transform 0.3s ease-in-out;
+}
+*/
+/* FIN DEL BLOQUE COMENTADO DE COCO */
+
+/* INICIO DEL BLOQUE COMENTADO DE HOVER */
+/*
+.nilla-sprite-animado:hover,
+.coco-sprite-animado:hover {
+  transform: scale(1.05);
+}
+*/
+/* FIN DEL BLOQUE COMENTADO DE HOVER */
+
+/* INICIO DEL BLOQUE COMENTADO DE KEYFRAMES NILLA */
+/*
+@keyframes playSpriteNilla {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1400px 0;
+  }
+}
+*/
+/* FIN DEL BLOQUE COMENTADO DE KEYFRAMES NILLA */
+
+/* INICIO DEL BLOQUE COMENTADO DE KEYFRAMES COCO */
+/*
+@keyframes playSpriteCoco {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -1400px 0;
+  }
+}
+*/
+/* FIN DEL BLOQUE COMENTADO DE KEYFRAMES COCO */
+
+/* Animación de flotación para los sprites (ESTA ESTÁ CORRECTA) */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-16px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 6s ease-in-out infinite;
+  animation-delay: 1.5s;
+}
+/* =========================
+   GATITO ESTILO GOOGLE COLAB
+   (movimiento continuo) - NUEVA IMAGEN
+========================= 
+
+.cat-layer {
+  position: fixed;
+  bottom: 16px;
+  left: -100px;
+  width: 100%;
+  pointer-events: none;
+  z-index: 99999;
+}
+
+.cat-sprite {
+  width: 120px;
+  height: 120px;
+
+  /* 1. Usar el nuevo archivo de imagen (reemplaza 'Cat-Walk-New.png' con tu nombre real) *
+  background-image: url("/cats/PACK/cat 4 (64х64).png"); 
+  
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+  image-rendering: pixelated;
+
+  filter:
+    drop-shadow(0 0 4px rgba(0,0,0,0.4)) /* Usé un drop-shadow oscuro para siluetas negras *
+    drop-shadow(0 0 8px rgba(0,0,0,0.2));
+
+  /* 2. Ajuste de animaciones:
+     - cat-walk 0.7s: 8 pasos en 0.7 segundos (velocidad moderada)
+     - steps(8): Coincide con los 8 frames de tu nueva imagen
+     - cat-move 35s: Movimiento lateral lento y natural
+  *
+  animation:
+    cat-walk 1.5s steps(22) infinite,
+    cat-move 40s linear infinite;
+}
+
+/* Animación de pasos (cat-walk) *
+@keyframes cat-walk {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    /* 3. Desplazamiento total para 8 frames (8 * 64px = 512px) *
+    background-position-x: -512px; 
+  }
+}
+
+/* Movimiento SIN FLASH (cat-move) *
+@keyframes cat-move {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(calc(100vw + 100px));
+  }
+}
+*/

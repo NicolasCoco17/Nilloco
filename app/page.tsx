@@ -1,77 +1,92 @@
 'use client'
 
-import Image from "next/image";
-import { supabase } from "@/lib/supabase";
-import { useEffect, useState } from "react";
+import Link from 'next/link'
+import Image from 'next/image'
 
-export default function Home() {
-  const [rows, setRows] = useState<any[]>([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const { data, error } = await supabase.from("users").select("*");
-      if (error) {
-        console.error("Error al consultar Supabase:", error);
-      } else {
-        setRows(data);
-      }
-    };
-
-    fetchData();
-  }, []);
-
+export default function HomeHero() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            Datos desde Supabase 🎉
+    // Usa 'min-h-screen' para asegurar que el contenido se centre verticalmente
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#020617] via-[#020617] to-black">
+
+      {/* Glow background */}
+      <div className="absolute inset-0">
+        {/* El glow es un elemento de fondo no interactivo */}
+        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full bg-cyan-500/10 blur-3xl" />
+        <div className="absolute bottom-0 right-1/3 w-[500px] h-[500px] rounded-full bg-violet-500/10 blur-3xl" />
+      </div>
+
+      {/* GRID PRINCIPAL (3 Columnas para Sprites y Contenido) */}
+      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-7xl w-full px-6 items-center py-16">
+
+        {/* COLUMNA 1: Bloque del Chico (Coco) - Izquierda */}
+        {/* Usamos lg:justify-start para que flote a la izquierda en pantallas grandes */}
+        <div className="flex justify-center lg:justify-start animate-float-delayed order-2 lg:order-1 mb-6 lg:mb-0">
+          <Image
+            src="/coco1.png"
+            alt="Coco"
+            width={280}
+            height={280}
+            // Sombra azul (Cyan) para Coco
+            className="drop-shadow-[0_0_25px_rgba(34,211,238,0.45)] hover:scale-105 transition"
+            priority
+          />
+        </div>
+
+        {/* COLUMNA 2: Center Content */}
+        {/* Usamos order-1 para que el contenido central quede arriba en móvil, pero en medio en escritorio */}
+        <div className="text-center space-y-6 order-1 lg:order-2">
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-violet-500">
+            NILLOCO ONLINE
           </h1>
-          <ul className="space-y-2 w-full">
-            {rows.map((row) => (
-              <li
-                key={row.id}
-                className="p-4 rounded bg-gray-100 dark:bg-zinc-800 text-black dark:text-zinc-50"
-              >
-                {JSON.stringify(row)}
-              </li>
-            ))}
-          </ul>
+
+          <p className="text-gray-300 text-base md:text-lg max-w-xl mx-auto">
+            Comunidad, guías y herramientas para jugadores de Toram Online.
+            Todo en un solo lugar.
+          </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/registro"
+              className="px-8 py-3 rounded-full font-semibold bg-cyan-500 hover:bg-cyan-400 text-black transition shadow-lg shadow-cyan-500/30"
+            >
+              Crear usuario
+            </Link>
+
+            <Link
+              href="/login"
+              className="px-8 py-3 rounded-full font-semibold border border-violet-500 text-violet-400 hover:bg-violet-500/10 transition"
+            >
+              Iniciar Secion
+            </Link>
+          </div>
+
+          <div className="flex justify-center mt-2">
+            <Link
+              href="https://www.youtube.com/@nilloconline"
+              target="_blank"
+              className="px-10 py-3 rounded-full font-semibold border border-red-500 text-red-400 hover:bg-red-500/10 transition"
+            >
+              Nuestro canal de YouTube
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        {/* COLUMNA 3: Nilla Sprite - Derecha */}
+        {/* Usamos lg:justify-end para que flote a la derecha en pantallas grandes */}
+        <div className="flex justify-center lg:justify-end animate-float order-3">
+          <Image
+            src="/nilla2.png"
+            alt="Nilla"
+            width={280}
+            height={280}
+            // Sombra rosa (Pink) para Nilla
+            className="drop-shadow-[0_0_25px_rgba(236,72,153,0.45)] hover:scale-105 transition"
+            priority
+          />
         </div>
-      </main>
-    </div>
-  );
+
+      </div> {/* FIN DEL GRID PRINCIPAL */}
+
+    </section>
+  )
 }
