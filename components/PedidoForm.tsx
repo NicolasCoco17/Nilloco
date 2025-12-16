@@ -195,6 +195,7 @@ export default function PedidoForm() {
           className="w-full p-3 border border-gray-700 rounded-lg resize-none h-16 focus:ring-blue-500 focus:border-blue-500 transition duration-150 text-gray-900"
         />
 
+        {nick ? (
         <button
           type="submit"
           disabled={loading}
@@ -202,6 +203,14 @@ export default function PedidoForm() {
               ${loading ? "bg-gray-400 cursor-not-allowed" : ""}`}
         >
           {loading ? "Enviando Pedido..." : "Enviar Pedido"}
+        </button>
+         ) : (
+        <button
+          type="button"
+          onClick={() => window.location.href = "/login"}
+          className="w-full py-3 rounded-lg font-bold text-white shadow-md transition duration-200 mt-6 bg-yellow-500 hover:bg-yellow-600"
+        >
+          Iniciar sesión para enviar pedido 🔒
         </button>
       </form>
         
