@@ -127,7 +127,7 @@ export function usePedidoForm() {
             setMensaje("Debes Iniciar Sesión para enviar el Pedido. 🔒");
             setLoading(false);
             // Redirigir al login (raíz)
-            router.push("/");
+            router.push("/login");
             return;
         }
 
