@@ -56,7 +56,7 @@ export default function HomeHero() {
               href="/login"
               className="px-8 py-3 rounded-full font-semibold border border-violet-500 text-violet-400 hover:bg-violet-500/10 transition"
             >
-              Iniciar Secion
+              Iniciar Sesión
             </Link>
           </div>
 
