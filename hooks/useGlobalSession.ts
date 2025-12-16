@@ -10,7 +10,6 @@ export function useGlobalSession() {
     const router = useRouter();
 
     useEffect(() => {
-        // 1. Verificar sesión en localStorage
         const tel = localStorage.getItem("userTelefono");
         const nick = localStorage.getItem("userNick");
         
@@ -21,27 +20,29 @@ export function useGlobalSession() {
             setIsLoggedIn(false);
             setUserNick(null);
         }
-    }, []); // Se ejecuta solo al montar
+    }, []);
 
-    // MODIFICACIÓN: Acepta un path de redirección opcional. Si es null, no redirige.
     const logout = (redirectPath: string | null = '/') => { 
-        // Limpieza de todos los ítems de sesión y borrador
+        // 1. Limpieza de datos
         localStorage.removeItem("userTelefono");
         localStorage.removeItem("userNick");
         localStorage.removeItem("draftPedido");
+        localStorage.removeItem("puedeHacerMensual"); // Agregado para limpiar todo
         
-        // 2. Forzar la actualización del estado del hook
+        // 2. Actualizar estado local
         setIsLoggedIn(false);
         setUserNick(null);
 
-        // 3. Redirección condicional
+        // 3. Redirección o Recarga forzada
         if (redirectPath) {
-            // Usa replace para evitar que la página de login esté en el historial
             router.replace(redirectPath);
+            // Opcional: forzar recarga tras redirección para limpiar otros hooks
+            setTimeout(() => window.location.reload(), 100);
+        } else {
+            // Si no hay redirección (como pides), refrescamos la página actual.
+            // Esto hará que usePedidoForm vuelva a leer el localStorage vacío y se bloquee.
+            window.location.reload();
         }
-        
-        // Nota: Si solo limpias el estado local sin recargar o redirigir,
-        // la página actual (ej. /pedidos) se quedará mostrando la vista de no logueado.
     };
 
     return { isLoggedIn, userNick, logout };
