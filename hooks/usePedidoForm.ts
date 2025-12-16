@@ -19,8 +19,9 @@ type PedidoFormType = {
 export function usePedidoForm() {
     const [puedeHacerMensual, setPuedeHacerMensual] = useState(true);
     // Cambiado a null para que PedidoForm.tsx muestre el estado de "Cargando"
-    const [telefono, setTelefono] = useState<string | null>(undefined); 
-    const [nick, setNick] = useState<string | null>(undefined);
+    const [telefono, setTelefono] = useState<string | null>(null);
+    const [nick, setNick] = useState<string | null>(null);
+
     
     const [form, setForm] = useState<PedidoFormType>({
       nombre: "",
