@@ -212,8 +212,8 @@ export default function PedidoForm() {
         >
           Iniciar sesión para enviar pedido 🔒
         </button>
-      </form>
-        
+         )}
+      </form>   
     </div>
   );
 }
