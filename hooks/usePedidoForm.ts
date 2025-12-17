@@ -126,7 +126,6 @@ export function usePedidoForm() {
         if (!telefono || !nick) {
             setMensaje("Debes Iniciar Sesión para enviar el Pedido. 🔒");
             setLoading(false);
-            // Redirigir al login (raíz)
             router.push("/login");
             return;
         }
