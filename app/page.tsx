@@ -6,6 +6,9 @@ import Sidebar from '@/components/Sidebar';
 
 export default function HomeHero() {
   return (
+
+    <Sidebar /> 
+    
     // Usa 'min-h-screen' para asegurar que el contenido se centre verticalmente
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#020617] via-[#020617] to-black">
 
