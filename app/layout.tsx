@@ -1,9 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-
-/*import Header from "@/components/Header";*/
 import Sidebar from "@/components/Sidebar";
-/*import FloatingCats from "@/components/FloatingCats";*/
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,19 +16,19 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`font-sans ${inter.className} bg-gray-900`}>
+      <body className={`font-sans ${inter.className} bg-gray-900 text-white`}>
         
-        {/* Sidebar solo en desktop */}
-        <div className="hidden lg:block">
-          <Sidebar />
-        </div>
+        {/* ELIMINAMOS el div que tenía "hidden lg:block" */}
+        <Sidebar />
 
-        {/* Contenido principal */}
-        <main className="min-h-screen lg:ml-64 p-4 transition-all duration-300">
+        {/* Ajustamos el main: 
+          - ml-0 por defecto (móvil)
+          - lg:ml-64 solo en pantallas grandes para dejar espacio al menú fijo
+        */}
+        <main className="min-h-screen lg:ml-64 transition-all duration-300">
           {children}
         </main>
       </body>
     </html>
   );
 }
-
