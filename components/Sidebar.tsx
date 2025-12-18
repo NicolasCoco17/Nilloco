@@ -13,6 +13,9 @@ export default function Sidebar() {
         <a href="/pedidos" className="hover:bg-white/10 p-2 rounded">
           Stateos 
         </a>
+        <a href="/dyes" className="hover:bg-white/10 p-2 rounded">
+          Simulador de dyes
+        </a>
       </nav>
     </div>
   );
