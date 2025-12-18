@@ -40,17 +40,27 @@ export default function HomeHero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/registro" className="px-8 py-3 rounded-full font-semibold bg-cyan-500 hover:bg-cyan-400 text-black transition shadow-lg shadow-cyan-500/30">
+            <Link
+              href="/registro"
+              className="px-8 py-3 rounded-full font-semibold bg-cyan-500 hover:bg-cyan-400 text-black transition shadow-lg shadow-cyan-500/30"
+            >
               Crear usuario
             </Link>
 
-            <Link href="/login" className="px-8 py-3 rounded-full font-semibold border border-violet-500 text-violet-400 hover:bg-violet-500/10 transition">
+            <Link
+              href="/login"
+              className="px-8 py-3 rounded-full font-semibold border border-violet-500 text-violet-400 hover:bg-violet-500/10 transition"
+            >
               Iniciar Sesión
             </Link>
           </div>
 
           <div className="flex justify-center mt-2">
-            <Link href="https://www.youtube.com/@nilloconline" target="_blank" className="px-10 py-3 rounded-full font-semibold border border-red-500 text-red-400 hover:bg-red-500/10 transition">
+            <Link
+              href="https://www.youtube.com/@nilloconline"
+              target="_blank"
+              className="px-10 py-3 rounded-full font-semibold border border-red-500 text-red-400 hover:bg-red-500/10 transition"
+            >
               Nuestro canal de YouTube
             </Link>
           </div>
@@ -69,7 +79,6 @@ export default function HomeHero() {
         </div>
 
       </div>
-
     </section>
   )
 }
