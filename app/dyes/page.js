@@ -57,7 +57,7 @@ export default function DyeSimulator() {
       <div style={styles.container}>
         {/* VISOR */}
         <div style={styles.viewer}>
-          <img src={getImgPath("base.png")} style={styles.base} alt="base" />
+          <img src={getImgPath("base1.png")} style={styles.base} alt="base" />
           <div style={layerStyle(colors.a, "a.png")} />
           <div style={layerStyle(colors.b, "b.png")} />
           <div style={layerStyle(colors.c, "c.png")} />
