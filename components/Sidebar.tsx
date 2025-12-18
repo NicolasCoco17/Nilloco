@@ -3,7 +3,7 @@
 
 export default function Sidebar() {
   return (
-    <div className="bg-[#1f375a] text-white w-64 h-screen fixed top-0 left-0 p-4 shadow-xl">
+    <div className="bg-[#1f375a] text-white w-64 h-screen fixed top-0 left-0 p-4 shadow-xl z-50">
       <h2 className="text-xl font-bold mb-4">Menú</h2>
 
       <nav className="flex flex-col gap-2">
