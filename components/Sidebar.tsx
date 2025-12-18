@@ -32,18 +32,18 @@ export default function Sidebar() {
         lg:translate-x-0
       `}>
         <h2 className="text-xl font-bold mb-6 mt-12 lg:mt-0 border-b border-white/10 pb-2">
-          [span_1](start_span)Menú[span_1](end_span)
+          Menú
         </h2>
 
         <nav className="flex flex-col gap-2">
           <a href="/" className="hover:bg-white/10 p-2 rounded transition" onClick={() => setIsOpen(false)}>
-            [span_2](start_span)Inicio[span_2](end_span)
+            Inicio
           </a>
           <a href="/pedidos" className="hover:bg-white/10 p-2 rounded transition" onClick={() => setIsOpen(false)}>
-            [span_3](start_span)Stateos[span_3](end_span)
+            Stateos
           </a>
           <a href="/dyes" className="hover:bg-white/10 p-2 rounded transition" onClick={() => setIsOpen(false)}>
-            [span_4](start_span)Simulador de dyes[span_4](end_span)
+            Simulador de dyes
           </a>
         </nav>
       </div>
