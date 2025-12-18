@@ -12,18 +12,18 @@ export default function DyeSimulator() {
     c: "#ffffff"
   });
 
-  // 🔹 Cargar JSON desde public/dye-data.json
+  // 1. Cargar el JSON de datos
   useEffect(() => {
     fetch("/dye-data.json")
-      .then(res => res.json())
-      .then(json => {
+      .then((res) => res.json())
+      .then((json) => {
         setDATA(json);
         setSelectedItem(json.armor[0]);
       })
-      .catch(err => console.error("Error cargando el JSON:", err));
+      .catch((err) => console.error("Error al cargar JSON:", err));
   }, []);
 
-  // 🔹 Reset de variante al cambiar de ítem
+  // 2. Reset de variante al cambiar de item
   useEffect(() => {
     setVariant("normal");
   }, [selectedItem]);
@@ -32,9 +32,11 @@ export default function DyeSimulator() {
     return <div style={{ color: "white", padding: "20px" }}>Cargando simulador...</div>;
   }
 
-  // 🔹 Ruta de imagen ajustada a tus nombres de archivo
+  // 3. Lógica de rutas corregida
   const getImgPath = (file) => {
-    const folderPath = (type === "armor" && selectedItem.hasVariants)
+    // Si es armadura y NO es normal, entra a la carpeta de la variante
+    // Si es normal o es un arma, usa la ruta base del item
+    const folderPath = (type === "armor" && variant !== "normal")
       ? `${selectedItem.path}/${variant}`
       : selectedItem.path;
     
@@ -46,35 +48,42 @@ export default function DyeSimulator() {
     inset: 0,
     backgroundColor: color,
     mixBlendMode: "multiply",
-    // Usamos dye_a.png, dye_b.png, dye_c.png
     maskImage: `url('${getImgPath(file)}')`,
     WebkitMaskImage: `url('${getImgPath(file)}')`,
     maskSize: "contain",
     maskRepeat: "no-repeat",
     maskPosition: "center",
-    opacity: 0.9
+    opacity: 0.9,
+    transition: "background-color 0.2s ease"
   });
 
   return (
     <main style={styles.main}>
       <div style={styles.container}>
-        {/* VISOR */}
+        {/* --- VISOR DE IMAGEN --- */}
         <div style={styles.viewer}>
-          {/* Usamos base1.png */}
-          <img src={getImgPath("base1.png")} style={styles.base} alt="base" />
+          {/* Imagen Base (base1.png) */}
+          <img 
+            src={getImgPath("base1.png")} 
+            style={styles.base} 
+            alt="base"
+            onError={(e) => (e.target.style.display = 'none')}
+            onLoad={(e) => (e.target.style.display = 'block')}
+          />
+          {/* Capas de Tinte (dye_a, dye_b, dye_c) */}
           <div style={layerStyle(colors.a, "dye_a.png")} />
           <div style={layerStyle(colors.b, "dye_b.png")} />
           <div style={layerStyle(colors.c, "dye_c.png")} />
         </div>
 
-        {/* CONTROLES */}
+        {/* --- PANEL DE CONTROL --- */}
         <div style={styles.controls}>
-          <h2 style={{ marginBottom: "15px" }}>Toram Dye Simulator</h2>
+          <h2 style={styles.title}>Toram Dye Simulator</h2>
 
           <label style={styles.label}>Categoría</label>
           <select
             value={type}
-            onChange={e => {
+            onChange={(e) => {
               const newType = e.target.value;
               setType(newType);
               setSelectedItem(DATA[newType][0]);
@@ -88,24 +97,24 @@ export default function DyeSimulator() {
           <label style={styles.label}>Modelo</label>
           <select
             value={selectedItem.path}
-            onChange={e =>
-              setSelectedItem(DATA[type].find(i => i.path === e.target.value))
+            onChange={(e) =>
+              setSelectedItem(DATA[type].find((i) => i.path === e.target.value))
             }
             style={styles.select}
           >
-            {DATA[type].map(item => (
+            {DATA[type].map((item) => (
               <option key={item.path} value={item.path}>
                 {item.name}
               </option>
             ))}
           </select>
 
-          {/* VARIANTES (Normal, Ligero, Pesado) */}
+          {/* Botones de Variante (Solo si el JSON dice que tiene) */}
           {type === "armor" && selectedItem.hasVariants && (
-            <div style={{ marginBottom: "15px" }}>
-              <label style={styles.label}>Variante</label>
+            <div style={{ marginBottom: "20px" }}>
+              <label style={styles.label}>Forma (N / L / H)</label>
               <div style={styles.variantBox}>
-                {["normal", "light", "heavy"].map(v => (
+                {["normal", "light", "heavy"].map((v) => (
                   <button
                     key={v}
                     onClick={() => setVariant(v)}
@@ -115,25 +124,25 @@ export default function DyeSimulator() {
                       borderColor: variant === v ? "#00a2ff" : "#444"
                     }}
                   >
-                    {v === "normal" ? "N" : v === "light" ? "L" : "H"}
+                    {v === "normal" ? "Normal" : v === "light" ? "Ligero" : "Pesado"}
                   </button>
                 ))}
               </div>
             </div>
           )}
 
-          {/* SELECTORES DE COLOR */}
-          <div style={{ borderTop: "1px solid #333", paddingTop: "15px" }}>
-            {["a", "b", "c"].map(ch => (
+          {/* Selectores de Color */}
+          <div style={styles.colorSection}>
+            {["a", "b", "c"].map((ch) => (
               <div key={ch} style={styles.colorRow}>
-                <span style={{ fontSize: "14px" }}>Dye {ch.toUpperCase()}</span>
+                <span>Tinte {ch.toUpperCase()}</span>
                 <input
                   type="color"
                   value={colors[ch]}
-                  onChange={e =>
+                  onChange={(e) =>
                     setColors({ ...colors, [ch]: e.target.value })
                   }
-                  style={styles.colorPicker}
+                  style={styles.picker}
                 />
               </div>
             ))}
@@ -146,14 +155,17 @@ export default function DyeSimulator() {
 
 const styles = {
   main: { minHeight: "100vh", background: "#0a0a0a", color: "white", padding: "20px", fontFamily: "sans-serif" },
-  container: { display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "30px", marginTop: "20px" },
-  viewer: { position: "relative", width: "320px", height: "500px", background: "#000", border: "2px solid #333", borderRadius: "8px", overflow: "hidden" },
+  container: { display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "30px", marginTop: "10px" },
+  viewer: { position: "relative", width: "320px", height: "500px", background: "#000", border: "2px solid #333", borderRadius: "12px", overflow: "hidden" },
   base: { position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "contain" },
-  controls: { width: "300px", background: "#151515", padding: "20px", borderRadius: "12px", border: "1px solid #222" },
-  label: { display: "block", fontSize: "12px", color: "#888", marginBottom: "5px", textTransform: "uppercase" },
-  select: { width: "100%", padding: "10px", marginBottom: "15px", background: "#222", color: "white", border: "1px solid #333", borderRadius: "6px" },
-  variantBox: { display: "flex", gap: "8px" },
-  vBtn: { flex: 1, padding: "8px", border: "1px solid", color: "white", cursor: "pointer", borderRadius: "6px", transition: "0.2s" },
-  colorRow: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" },
-  colorPicker: { border: "none", width: "40px", height: "40px", cursor: "pointer", background: "none" }
+  controls: { width: "300px", background: "#151515", padding: "25px", borderRadius: "15px", border: "1px solid #222", boxShadow: "0 10px 30px rgba(0,0,0,0.5)" },
+  title: { fontSize: "1.4rem", marginBottom: "20px", textAlign: "center", color: "#fff" },
+  label: { display: "block", fontSize: "11px", color: "#666", marginBottom: "5px", textTransform: "uppercase", letterSpacing: "1px" },
+  select: { width: "100%", padding: "12px", marginBottom: "15px", background: "#222", color: "white", border: "1px solid #333", borderRadius: "8px", outline: "none" },
+  variantBox: { display: "flex", gap: "5px" },
+  vBtn: { flex: 1, padding: "10px 5px", border: "1px solid", color: "white", cursor: "pointer", borderRadius: "6px", fontSize: "12px", transition: "0.3s" },
+  colorSection: { borderTop: "1px solid #333", paddingTop: "20px" },
+  colorRow: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" },
+  picker: { border: "none", width: "45px", height: "30px", cursor: "pointer", background: "none" }
 };
+                            
