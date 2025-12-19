@@ -1,6 +1,12 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 
+// En ESM, __dirname no existe por defecto, se define así:
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Usamos process.cwd() para asegurar que las rutas sean correctas en Vercel
 const DYES_PATH = path.join(process.cwd(), "public", "dyes");
 const OUTPUT_FILE = path.join(process.cwd(), "public", "dye-data.json");
 
@@ -14,9 +20,11 @@ function getDirectories(srcpath) {
 const data = { armor: [], arma: [] };
 
 // 🔹 Armaduras
-const armors = getDirectories(path.join(DYES_PATH, "armor"));
+const armorRoot = path.join(DYES_PATH, "armor");
+const armors = getDirectories(armorRoot);
+
 armors.forEach(folder => {
-  const subFolders = getDirectories(path.join(DYES_PATH, "armor", folder));
+  const subFolders = getDirectories(path.join(armorRoot, folder));
   const hasVariants = subFolders.includes("light") || subFolders.includes("heavy");
 
   data.armor.push({
@@ -27,9 +35,11 @@ armors.forEach(folder => {
 });
 
 // 🔹 Armas
-const armaTypes = getDirectories(path.join(DYES_PATH, "arma"));
+const armaRoot = path.join(DYES_PATH, "arma");
+const armaTypes = getDirectories(armaRoot);
+
 armaTypes.forEach(type => {
-  const items = getDirectories(path.join(DYES_PATH, "arma", type));
+  const items = getDirectories(path.join(armaRoot, type));
   items.forEach(item => {
     data.arma.push({
       name: `[${type.toUpperCase()}] ${item.replace(/_/g, " ")}`,
@@ -39,5 +49,9 @@ armaTypes.forEach(type => {
   });
 });
 
-fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
-console.log("✅ dye-data.json generado correctamente");
+try {
+  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2));
+  console.log("✅ dye-data.json generado correctamente");
+} catch (error) {
+  console.error("❌ Error al escribir dye-data.json:", error.message);
+}
