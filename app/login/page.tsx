@@ -1,52 +1,87 @@
-// app/page.tsx
+//app/login
 
-"use client";
+'use client';
+
 import { useState } from "react";
-import LoginForm from "@/components/LoginForm";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-
 export default function LoginPage() {
-  // Estado para manejar el modo actual: 'login' o 'registro'
-  const [mode, setMode] = useState<'login' | 'registro'>('login');
-  
-  const isLogin = mode === 'login';
-  const toggleMode = () => {
-    setMode(isLogin ? 'registro' : 'login');
+  const [telefono, setTelefono] = useState("");
+  const [mensaje, setMensaje] = useState("");
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setMensaje("");
+    setLoading(true);
+
+    try {
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ telefono }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        setMensaje(data.error || "Error al iniciar sesión ❌");
+        setLoading(false);
+        return;
+      }
+
+      // ✅ Guardamos datos en el navegador
+      localStorage.setItem("userTelefono", telefono);
+      localStorage.setItem("userNick", data.nick);
+
+      router.push("/pedidos");
+    } catch (error) {
+      setMensaje("Error de conexión ❌");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
-    // Aplicamos los estilos visuales de fondo (bg-login y bg-cover)
-    <main className="min-h-screen flex items-center justify-center bg-login bg-cover">
+    <main className="min-h-screen flex items-center justify-center bg-login bg-cover px-4">
       <div className="bg-black/70 p-8 rounded-xl shadow-2xl max-w-sm w-full text-white">
-        
-        {/* Título que cambia según el modo */}
-        <h1 className="text-2xl font-bold text-center mb-6">
-          {isLogin 
-            ? "Bienvenid@ a nuestra página de Toram Online" 
-            : "Crear una Cuenta"
-          }
-        </h1>
+        <h1 className="text-2xl font-bold text-center mb-6">Iniciar Sesión</h1>
 
-        {/* Pasamos el estado 'mode' actual al LoginForm */}
-        <LoginForm mode={mode} />
-        
-        {/* Mensaje y botón para alternar el modo */}
-        <p className="text-center text-sm mt-4">
-          {isLogin 
-            ? "¿No tienes cuenta? " 
-            : "¿Ya tienes cuenta? "
-          }
-          
-          <Link
-            href={isLogin ? "/registro" : "/"}
-            className="text-blue-400 hover:text-blue-300 font-semibold underline"
+        {mensaje && (
+          <p className="p-2 mb-4 text-center text-sm bg-red-800 rounded text-white">
+            {mensaje}
+          </p>
+        )}
+
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <input
+            type="text"
+            placeholder="Teléfono"
+            value={telefono}
+            onChange={(e) => setTelefono(e.target.value)}
+            className="w-full p-2 rounded bg-white text-black outline-none"
+            required
+          />
+
+          <button
+            type="submit"
+            disabled={loading}
+            className={`w-full p-2 rounded text-white font-bold transition ${
+              loading ? "bg-gray-500" : "bg-blue-600 hover:bg-blue-700"
+            }`}
           >
-           {isLogin ? "Regístrate" : "Iniciar Sesión"}
+            {loading ? "Ingresando..." : "Entrar"}
+          </button>
+        </form>
+
+        <p className="text-center text-sm mt-6">
+          ¿No tienes cuenta?{" "}
+          <Link href="/registro" className="text-blue-400 hover:underline">
+            Regístrate aquí
           </Link>
-
         </p>
-
       </div>
     </main>
   );

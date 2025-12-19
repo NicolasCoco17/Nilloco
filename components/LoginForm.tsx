@@ -1,84 +1,78 @@
-// components/LoginForm.tsx
+'use client';
 
-'use client'
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { loginUser, registerUser } from "@/hooks/useAuth";
 
-export default function LoginForm({ mode }: { mode: 'login' | 'registro' }) {
+export default function LoginForm() {
   const [telefono, setTelefono] = useState("");
-  const [nombre, setNombre] = useState(""); 
-  const [gremio, setGremio] = useState(""); 
   const [mensaje, setMensaje] = useState("");
+  const [loading, setLoading] = useState(false);
   const router = useRouter();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setMensaje(""); 
+    setMensaje("");
+    setLoading(true);
 
-    if (mode === "login") {
-      // Lógica de Login
-      const { data, error } = await loginUser(telefono);
+    try {
+      const res = await fetch("/api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ telefono }),
+      });
 
-      if (error || !data) {
-        setMensaje("Usuario no encontrado ❌");
-      } else {
-        localStorage.setItem("userTelefono", telefono);
-        localStorage.setItem("userNick", data.nick);
-        router.push("/pedidos");
+      const data = await res.json();
+
+      if (!res.ok) {
+        setMensaje(data.error || "Error al iniciar sesión ❌");
+        setLoading(false);
+        return;
       }
 
-    } else {
-      // Lógica de Registro con 3 campos
-      const { data, error } = await registerUser(telefono, nombre, gremio);
-      if (error) {
-         setMensaje(`Error al registrar ❌: ${error.message}`);
-         console.error("Error de registro:", error);
-      } else {
-        localStorage.setItem("userTelefono", telefono);
-        localStorage.setItem("userNick", nombre);
-        router.push("/pedidos");
-      }
+      // ✅ LOGIN OK
+      localStorage.setItem("userTelefono", telefono);
+      localStorage.setItem("userNick", data.nick);
+
+      router.push("/pedidos");
+
+    } catch (error) {
+      setMensaje("Error de conexión ❌");
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-3">
-      
+    <form onSubmit={handleSubmit} className="space-y-4 max-w-sm mx-auto">
+      <h1 className="text-2xl font-bold text-center text-white">
+        Iniciar Sesión
+      </h1>
+
       {mensaje && (
-        <p className="p-2 text-center text-sm bg-red-800 rounded">{mensaje}</p>
+        <p className="p-2 text-center text-sm bg-red-800 rounded text-white">
+          {mensaje}
+        </p>
       )}
 
-      {/* Teléfono */}
       <input
-        className="p-2 border rounded w-full bg-white text-black" 
-        placeholder="Teléfono del jugador"
+        type="text"
+        placeholder="Teléfono"
         value={telefono}
         onChange={(e) => setTelefono(e.target.value)}
+        className="w-full p-2 rounded bg-white text-black"
+        required
       />
 
-      {/* Campos adicionales para el REGISTRO (Solo si mode="registro") */}
-      {mode === "registro" && (
-        <>
-          <input
-            className="p-2 border rounded w-full bg-white text-black"
-            placeholder="Nombre"
-            value={nombre}
-            onChange={(e) => setNombre(e.target.value)}
-          />
-          <input
-            className="p-2 border rounded w-full bg-white text-black"
-            placeholder="Gremio"
-            value={gremio}
-            onChange={(e) => setGremio(e.target.value)}
-          />
-        </>
-      )}
-
-      <button className="bg-blue-600 text-white p-2 rounded w-full hover:bg-blue-700 transition">
-        {mode === "login" ? "Iniciar Sesión" : "Registrarse"}
+      <button
+        type="submit"
+        disabled={loading}
+        className={`w-full p-2 rounded text-white font-bold transition
+          ${loading ? "bg-gray-500" : "bg-blue-600 hover:bg-blue-700"}`}
+      >
+        {loading ? "Ingresando..." : "Iniciar sesión"}
       </button>
-      
     </form>
   );
 }
