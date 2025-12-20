@@ -1,45 +1,33 @@
-// app/pedidos/page.tsx
+'use client';
 
-'use client'
-import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
-import { supabase } from '@/lib/supabase'; // Tu cliente de supabase
+import { useEffect, useState } from "react";
+import { supabase } from "@/lib/supabase";
+import PedidoForm from "@/components/PedidoForm";
 
 export default function PedidoPage() {
-  const router = useRouter();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function checkAccess() {
-      const { data: { user } } = await supabase.auth.getUser();
-      
-      if (!user) {
-        router.push('/login');
-        return;
-      }
+    const init = async () => {
+      // Solo consultamos si hay sesión, NO redirigimos
+      await supabase.auth.getUser();
+      setLoading(false);
+    };
 
-      // Buscamos su gremio en la tabla de usuarios
-      const { data: profile } = await supabase
-        .from('usuarios')
-        .select('gremio')
-        .eq('id', user.id)
-        .single();
-
-      const gremiosPermitidos = ['DarkCats', 'Organization Xlll'];
-      
-      if (!profile || !gremiosPermitidos.includes(profile.gremio)) {
-        router.push('/acceso-denegado'); // ¡Aquí el bloqueo!
-      } else {
-        setLoading(false);
-      }
-    }
-    checkAccess();
+    init();
   }, []);
 
-  if (loading) return <p>Cargando búnker...</p>;
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
+        Cargando...
+      </div>
+    );
+  }
 
   return (
-    // Aquí va tu formulario normal que ya tenías
-    <form>...</form>
+    <main className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+      <PedidoForm />
+    </main>
   );
 }

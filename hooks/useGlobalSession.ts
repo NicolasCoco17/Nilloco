@@ -1,49 +1,71 @@
 // hooks/useGlobalSession.ts
 
-'use client'
-import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+'use client';
+
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { supabase } from "@/lib/supabase";
 
 export function useGlobalSession() {
-    const [isLoggedIn, setIsLoggedIn] = useState<boolean | undefined>(undefined);
-    const [userNick, setUserNick] = useState<string | null>(null);
-    const router = useRouter();
+  const [isLoggedIn, setIsLoggedIn] = useState<boolean | undefined>(undefined);
+  const [userNick, setUserNick] = useState<string | null>(null);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        const tel = localStorage.getItem("userTelefono");
-        const nick = localStorage.getItem("userNick");
-        
-        if (tel && nick) {
-            setIsLoggedIn(true);
-            setUserNick(nick);
-        } else {
-            setIsLoggedIn(false);
-            setUserNick(null);
-        }
-    }, []);
+  const router = useRouter();
 
-    const logout = (redirectPath: string | null = '/') => { 
-        // 1. Limpieza de datos
-        localStorage.removeItem("userTelefono");
-        localStorage.removeItem("userNick");
-        localStorage.removeItem("draftPedido");
-        localStorage.removeItem("puedeHacerMensual"); // Agregado para limpiar todo
-        
-        // 2. Actualizar estado local
+  useEffect(() => {
+    const loadSession = async () => {
+      const { data: { user } } = await supabase.auth.getUser();
+
+      if (!user) {
         setIsLoggedIn(false);
         setUserNick(null);
+        setLoading(false);
+        return;
+      }
 
-        // 3. Redirección o Recarga forzada
-        if (redirectPath) {
-            router.replace(redirectPath);
-            // Opcional: forzar recarga tras redirección para limpiar otros hooks
-            setTimeout(() => window.location.reload(), 100);
-        } else {
-            // Si no hay redirección (como pides), refrescamos la página actual.
-            // Esto hará que usePedidoForm vuelva a leer el localStorage vacío y se bloquee.
-            window.location.reload();
-        }
+      setIsLoggedIn(true);
+
+      const { data: profile, error } = await supabase
+        .from("usuarios")
+        .select("nick")
+        .eq("id", user.id)
+        .single();
+
+      if (!error && profile) {
+        setUserNick(profile.nick);
+      } else {
+        setUserNick(null);
+      }
+
+      setLoading(false);
     };
 
-    return { isLoggedIn, userNick, logout };
+    loadSession();
+
+    // 🔁 escucha cambios de sesión (login / logout)
+    const { data: listener } = supabase.auth.onAuthStateChange(() => {
+      loadSession();
+    });
+
+    return () => {
+      listener.subscription.unsubscribe();
+    };
+  }, []);
+
+  const logout = async (redirectPath: string = "/") => {
+    await supabase.auth.signOut();
+
+    setIsLoggedIn(false);
+    setUserNick(null);
+
+    router.replace(redirectPath);
+  };
+
+  return {
+    isLoggedIn,
+    userNick,
+    loading,
+    logout,
+  };
 }

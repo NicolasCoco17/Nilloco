@@ -1,60 +1,36 @@
 // hooks/useAuth.ts
 
 "use client";
+
+import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
+import type { User } from "@supabase/supabase-js";
 
-// Login profesional con Email y Password
-export async function loginUser(email: string, password: string) {
-  // 1. Autentica en el sistema de seguridad de Supabase
-  const { data, error } = await supabase.auth.signInWithPassword({
-    email,
-    password,
-  });
+export function useAuth() {
+  const [user, setUser] = useState<User | null>(null);
+  const [loading, setLoading] = useState(true);
 
-  if (error) return { data: null, error };
+  useEffect(() => {
+    supabase.auth.getUser().then(({ data }) => {
+      setUser(data.user ?? null);
+      setLoading(false);
+    });
 
-  // 2. Una vez logueado, buscamos su Nick y Gremio en tu tabla 'usuarios'
-  const { data: profile, error: profileError } = await supabase
-    .from("usuarios")
-    .select("nick, gremio")
-    .eq("id", data.user.id)
-    .single();
+    const { data: listener } = supabase.auth.onAuthStateChange(
+      (_event, session) => {
+        setUser(session?.user ?? null);
+      }
+    );
 
-  return { 
-    user: data.user, 
-    profile, 
-    error: profileError 
+    return () => {
+      listener.subscription.unsubscribe();
+    };
+  }, []);
+
+  return {
+    user,
+    loading,
+    isAuthenticated: !!user,
+    logout: () => supabase.auth.signOut(),
   };
-}
-
-// Registro profesional
-export async function registerUser(email: string, password: string, nick: string, gremio: string, telefono: string) {
-  // 1. Crea el usuario en Supabase Auth
-  const { data, error: authError } = await supabase.auth.signUp({
-    email,
-    password,
-  });
-
-  if (authError) return { data: null, error: authError };
-
-  // 2. Crea el perfil en tu tabla 'usuarios' usando el ID generado
-  const { data: profile, error: dbError } = await supabase
-    .from("usuarios")
-    .insert([{ 
-      id: data.user?.id, 
-      nick, 
-      gremio, 
-      email,
-      telefono 
-    }])
-    .select()
-    .single();
-
-  return { user: data.user, profile, error: dbError };
-}
-
-// Cerrar sesión
-export async function logoutUser() {
-  await supabase.auth.signOut(); // Cierra sesión en el servidor
-  localStorage.clear(); // Limpia todo el rastro local
 }

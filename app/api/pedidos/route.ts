@@ -3,78 +3,111 @@ import { createClient } from "@supabase/supabase-js";
 
 export async function POST(req: Request) {
   try {
+    const body = await req.json();
+
+    const {
+      tipo,
+      categoria,
+      pot,
+      stats,
+      gamble,
+      stater,
+    } = body;
+
+    // 1️⃣ Cliente con SERVICE ROLE (solo backend)
     const supabase = createClient(
       process.env.NEXT_PUBLIC_SUPABASE_URL!,
       process.env.SUPABASE_SERVICE_ROLE_KEY!
     );
 
-    const body = await req.json();
-
-    // 1. Insertamos en Supabase y obtenemos el ID generado
-    const { data: pedido, error: dbError } = await supabase
-      .from("stateos")
-      .insert({
-        email: body.email,
-        nombre: body.nombre,
-        stater: body.stater,
-        tipo: body.tipo,
-        categoria: body.categoria,
-        stats: body.stats,
-        pot: Number(body.pot) || 0,
-        gamble: body.gamble || "",
-        estado: "Pendiente"
-      })
-      .select()
-      .single();
-
-    if (dbError) throw dbError;
-
-    // 2. Enviar a Discord usando el BOT
-    const CHANNEL_ID = "TU_ID_DE_CANAL_DE_PRUEBAS";
-    const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
-
-    const response = await fetch(`https://discord.com/api/v10/channels/${CHANNEL_ID}/messages`, {
-      method: "POST",
-      headers: {
-        "Authorization": `Bot ${DISCORD_TOKEN}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        embeds: [{
-          title: `⚒️ NUEVO PEDIDO #${pedido.id}`,
-          color: body.tipo === "Mensual" ? 5763719 : 3447003,
-          fields: [
-            { name: "👤 Usuario", value: body.nombre, inline: true },
-            { name: "📦 Item", value: body.stater, inline: true },
-            { name: "📊 Potencia", value: body.pot.toString(), inline: true },
-            { name: "📜 Stats", value: body.stats }
-          ],
-          footer: { text: `ID del Pedido: ${pedido.id}` }
-        }],
-        components: [
-          {
-            type: 1, // Action Row
-            components: [
-              {
-                type: 2, // Button
-                style: 3, // Green (Success)
-                label: "Marcar como Terminado ✅",
-                // El custom_id lleva el ID del pedido para que la otra API sepa cuál actualizar
-                custom_id: `terminar_${pedido.id}`
-              }
-            ]
-          }
-        ]
-      }),
-    });
-
-    if (!response.ok) {
-      console.error("Error enviando a Discord:", await response.json());
+    // 2️⃣ Obtenemos sesión desde headers
+    const authHeader = req.headers.get("authorization");
+    if (!authHeader) {
+      return NextResponse.json(
+        { error: "Debes iniciar sesión para enviar pedidos" },
+        { status: 401 }
+      );
     }
 
-    return NextResponse.json({ success: true, id: pedido.id });
+    const token = authHeader.replace("Bearer ", "");
 
-  } catch (err: any) {
-    return NextResponse.json({ error: err.message }, { status: 500 });
+    const { data: userData, error: userError } =
+      await supabase.auth.getUser(token);
+
+    if (userError || !userData.user) {
+      return NextResponse.json(
+        { error: "Sesión inválida" },
+        { status: 401 }
+      );
+    }
+
+    const user = userData.user;
+
+    // 3️⃣ Buscamos perfil del usuario
+    const { data: profile, error: profileError } = await supabase
+      .from("usuarios")
+      .select("id, gremio")
+      .eq("id", user.id)
+      .single();
+
+    if (profileError || !profile) {
+      return NextResponse.json(
+        { error: "Perfil no encontrado" },
+        { status: 403 }
+      );
+    }
+
+    // 4️⃣ Validamos gremio
+    const gremiosPermitidos = ["DarkCats", "Organization Xlll"];
+
+    if (!gremiosPermitidos.includes(profile.gremio)) {
+      return NextResponse.json(
+        { error: "No tienes permisos para enviar pedidos" },
+        { status: 403 }
+      );
+    }
+
+    // 5️⃣ Validación pedido mensual
+    if (tipo === "Mensual") {
+      const { count } = await supabase
+        .from("stateos")
+        .select("*", { count: "exact", head: true })
+        .eq("usuario_id", user.id)
+        .eq("tipo", "Mensual");
+
+      if ((count ?? 0) >= 2) {
+        return NextResponse.json(
+          { error: "Límite mensual alcanzado (2/2)" },
+          { status: 403 }
+        );
+      }
+    }
+
+    // 6️⃣ Insertamos pedido
+    const { error: insertError } = await supabase.from("stateos").insert({
+      usuario_id: user.id,
+      categoria,
+      pot,
+      stats,
+      gamble,
+      tipo,
+      stater,
+      estado_pedido: "Pendiente",
+    });
+
+    if (insertError) {
+      return NextResponse.json(
+        { error: "Error al guardar el pedido" },
+        { status: 500 }
+      );
+    }
+
+    return NextResponse.json({ success: true });
+
+  } catch (err) {
+    return NextResponse.json(
+      { error: "Error interno del servidor" },
+      { status: 500 }
+    );
   }
 }
