@@ -58,8 +58,7 @@ export default function DyeSimulator() {
   });
 
   return (
-    <main style={styles.main}>
-      <div style={styles.container}>
+    <main className="min-h-screen flex items-center justify-center bg-login bg-cover px-4">      <div style={styles.container}>
         {/* --- VISOR DE IMAGEN --- */}
         <div style={styles.viewer}>
           {/* Imagen Base (base1.png) */}

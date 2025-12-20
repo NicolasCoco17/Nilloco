@@ -26,8 +26,8 @@ export default function PedidoPage() {
   }
 
   return (
-    <main className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
-      <PedidoForm />
+    <main className="min-h-screen flex items-center justify-center bg-login bg-cover px-4">
+        <PedidoForm />
     </main>
   );
 }
