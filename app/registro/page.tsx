@@ -2,10 +2,18 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link"; // <--- ESTA ES LA LÍNEA QUE FALTA
+import Link from "next/link";
 
 export default function RegisterPage() {
-  const [form, setForm] = useState({ telefono: "", nick: "", gremio: "" });
+  // 1. Agregamos email y password al estado inicial
+  const [form, setForm] = useState({ 
+    email: "", 
+    password: "", 
+    nick: "", 
+    gremio: "", 
+    telefono: "" 
+  });
+  
   const [mensaje, setMensaje] = useState("");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
@@ -19,19 +27,20 @@ export default function RegisterPage() {
       const res = await fetch("/api/registro", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify(form), // Envía los 5 campos
       });
 
       const data = await res.json();
 
       if (!res.ok) throw new Error(data.error || "Error al registrar");
 
-      setMensaje("¡Registro exitoso! ✅");
+      setMensaje("¡Registro exitoso! Revisa tu email ✅");
       
-      localStorage.setItem("userTelefono", form.telefono);
+      // Guardamos el Nick para uso inmediato en la web
       localStorage.setItem("userNick", form.nick);
 
-      setTimeout(() => router.push("/pedidos"), 1500);
+      // Redirigimos al login para que entre con sus nuevas credenciales
+      setTimeout(() => router.push("/login"), 2000);
     } catch (err: any) {
       setMensaje(err.message + " ❌");
     } finally {
@@ -51,26 +60,44 @@ export default function RegisterPage() {
         )}
 
         <form onSubmit={handleRegister} className="space-y-4">
+          {/* Campos de Autenticación */}
           <input
-            type="text"
-            placeholder="Teléfono"
+            type="email"
+            placeholder="Correo electrónico (Para recuperar cuenta)"
             required
-            className="w-full p-2 rounded bg-white text-black"
-            onChange={(e) => setForm({...form, telefono: e.target.value})}
+            className="w-full p-2 rounded bg-white text-black outline-none"
+            onChange={(e) => setForm({...form, email: e.target.value})}
           />
           <input
-            type="text"
-            placeholder="Nick"
+            type="password"
+            placeholder="Contraseña"
             required
-            className="w-full p-2 rounded bg-white text-black"
+            className="w-full p-2 rounded bg-white text-black outline-none"
+            onChange={(e) => setForm({...form, password: e.target.value})}
+          />
+
+          <hr className="border-gray-600 my-2" />
+
+          {/* Campos de Perfil */}
+          <input
+            type="text"
+            placeholder="Nick en el juego"
+            required
+            className="w-full p-2 rounded bg-white text-black outline-none"
             onChange={(e) => setForm({...form, nick: e.target.value})}
           />
           <input
             type="text"
             placeholder="Gremio"
             required
-            className="w-full p-2 rounded bg-white text-black"
+            className="w-full p-2 rounded bg-white text-black outline-none"
             onChange={(e) => setForm({...form, gremio: e.target.value})}
+          />
+          <input
+            type="text"
+            placeholder="Teléfono (Referencia)"
+            className="w-full p-2 rounded bg-white text-black outline-none"
+            onChange={(e) => setForm({...form, telefono: e.target.value})}
           />
 
           <button
@@ -78,12 +105,12 @@ export default function RegisterPage() {
             disabled={loading}
             className="w-full bg-green-600 hover:bg-green-700 p-2 rounded font-bold transition"
           >
-            {loading ? "Registrando..." : "Crear Cuenta"}
+            {loading ? "Creando usuario..." : "Finalizar Registro"}
           </button>
         </form>
 
         <Link href="/login" className="text-blue-400 underline block text-center mt-4 text-sm">
-          Volver al Login
+          ¿Ya tienes cuenta? Inicia sesión
         </Link>
       </div>
     </main>

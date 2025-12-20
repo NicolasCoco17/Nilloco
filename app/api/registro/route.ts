@@ -1,15 +1,15 @@
+//api/registro
+
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
 export async function POST(req: Request) {
   try {
-    const { telefono, nick, gremio } = await req.json();
+    const { email, password, nick, gremio, telefono } = await req.json();
 
-    if (!telefono || !nick || !gremio) {
-      return NextResponse.json(
-        { error: "Todos los campos son obligatorios" },
-        { status: 400 }
-      );
+    // Validación básica
+    if (!email || !password || !nick) {
+      return NextResponse.json({ error: "Email, contraseña y nick son obligatorios" }, { status: 400 });
     }
 
     const supabase = createClient(
@@ -17,25 +17,32 @@ export async function POST(req: Request) {
       process.env.SUPABASE_SERVICE_ROLE_KEY!
     );
 
-    // Insertar nuevo usuario
-    const { data, error } = await supabase
-      .from("users")
-      .insert([{ telefono, nick, gremio }])
+    // 1. Crear el usuario en Supabase Auth (Capa de seguridad)
+    const { data: authData, error: authError } = await supabase.auth.signUp({
+      email,
+      password,
+    });
+
+    if (authError) return NextResponse.json({ error: authError.message }, { status: 400 });
+
+    // 2. Crear el perfil en tu tabla 'usuarios' (Capa de datos de juego)
+    // El 'id' debe ser el mismo que generó Auth
+    const { data: profileData, error: dbError } = await supabase
+      .from("usuarios")
+      .insert([{ 
+        id: authData.user?.id, 
+        email, 
+        nick, 
+        gremio, 
+        telefono 
+      }])
       .select()
       .single();
 
-    if (error) {
-      if (error.code === '23505') { // Código de duplicado en Postgres
-        return NextResponse.json({ error: "El teléfono ya está registrado 📱" }, { status: 400 });
-      }
-      return NextResponse.json({ error: error.message }, { status: 500 });
-    }
+    if (dbError) return NextResponse.json({ error: dbError.message }, { status: 500 });
 
-    return NextResponse.json({ success: true, user: data });
+    return NextResponse.json({ success: true, user: profileData });
   } catch (error) {
-    return NextResponse.json(
-      { error: "Error al procesar el registro" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Error interno" }, { status: 500 });
   }
 }

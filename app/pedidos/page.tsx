@@ -1,29 +1,45 @@
 // app/pedidos/page.tsx
-'use client';
 
-import PedidoForm from "@/components/PedidoForm";
-import Header from '@/components/Header';
+'use client'
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
+import { supabase } from '@/lib/supabase'; // Tu cliente de supabase
 
-export default function PedidosPage() {
-    return (
-        <>
-            <Header /> 
+export default function PedidoPage() {
+  const router = useRouter();
+  const [loading, setLoading] = useState(true);
 
-            {/* Ajuste de márgenes:
-                - pt-16: Para compensar la altura del Header fijo.
-                - lg:ml-64: Para compensar el ancho del menú lateral.
-                - lg:pt-0: Se restablece el padding superior en escritorio.
-            */}
-            <main className="min-h-screen flex flex-col items-center justify-center 
-                             pt-16 lg:pt-0 
-                             sm:px-4 md:px-6 lg:px-16 
-                             bg-[url('/NILLOCO_ONLINE[1].png')] bg-cover bg-center 
-                             sm:bg-auto sm:bg-top md:bg-contain md:bg-top lg:bg-cover lg:bg-center">
-                {/* Contenido centrado dentro del área de la página */}
-                <div className="p-4 w-full max-w-4xl flex items-center justify-center">
-                    <PedidoForm />
-                </div>
-            </main>
-        </>
-    );
+  useEffect(() => {
+    async function checkAccess() {
+      const { data: { user } } = await supabase.auth.getUser();
+      
+      if (!user) {
+        router.push('/login');
+        return;
+      }
+
+      // Buscamos su gremio en la tabla de usuarios
+      const { data: profile } = await supabase
+        .from('usuarios')
+        .select('gremio')
+        .eq('id', user.id)
+        .single();
+
+      const gremiosPermitidos = ['DarkCats', 'Organization Xlll'];
+      
+      if (!profile || !gremiosPermitidos.includes(profile.gremio)) {
+        router.push('/acceso-denegado'); // ¡Aquí el bloqueo!
+      } else {
+        setLoading(false);
+      }
+    }
+    checkAccess();
+  }, []);
+
+  if (loading) return <p>Cargando búnker...</p>;
+
+  return (
+    // Aquí va tu formulario normal que ya tenías
+    <form>...</form>
+  );
 }

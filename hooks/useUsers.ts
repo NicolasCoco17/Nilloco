@@ -1,3 +1,5 @@
+//useUsers.ts
+
 'use client'
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
@@ -8,9 +10,10 @@ export function useUsers() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const { data, error } = await supabase.from("users").select("*");
+      // Cambiamos "users" por "usuarios"
+      const { data, error } = await supabase.from("usuarios").select("*");
       if (error) {
-        console.error("Error al consultar Supabase:", error);
+        console.error("Error al consultar la tabla usuarios:", error);
       } else {
         setRows(data ?? []);
       }
@@ -22,4 +25,3 @@ export function useUsers() {
 
   return { rows, loading };
 }
-

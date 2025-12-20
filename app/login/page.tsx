@@ -1,5 +1,3 @@
-//app/login
-
 'use client';
 
 import { useState } from "react";
@@ -7,7 +5,8 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 export default function LoginPage() {
-  const [telefono, setTelefono] = useState("");
+  const [email, setEmail] = useState(""); // Cambiado de telefono
+  const [password, setPassword] = useState(""); // Nuevo campo
   const [mensaje, setMensaje] = useState("");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
@@ -21,7 +20,7 @@ export default function LoginPage() {
       const res = await fetch("/api/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ telefono }),
+        body: JSON.stringify({ email, password }), // Enviamos las nuevas credenciales
       });
 
       const data = await res.json();
@@ -32,9 +31,11 @@ export default function LoginPage() {
         return;
       }
 
-      // ✅ Guardamos datos en el navegador
-      localStorage.setItem("userTelefono", telefono);
+      // ✅ Guardamos los datos profesionales en el navegador
+      // Guardamos el token para peticiones seguras y el nick para la interfaz
+      localStorage.setItem("token", data.token);
       localStorage.setItem("userNick", data.nick);
+      localStorage.setItem("userEmail", email);
 
       router.push("/pedidos");
     } catch (error) {
@@ -57,10 +58,19 @@ export default function LoginPage() {
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
-            type="text"
-            placeholder="Teléfono"
-            value={telefono}
-            onChange={(e) => setTelefono(e.target.value)}
+            type="email"
+            placeholder="Correo electrónico"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="w-full p-2 rounded bg-white text-black outline-none"
+            required
+          />
+
+          <input
+            type="password"
+            placeholder="Contraseña"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
             className="w-full p-2 rounded bg-white text-black outline-none"
             required
           />
