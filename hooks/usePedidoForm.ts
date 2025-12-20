@@ -27,40 +27,35 @@ export function usePedidoForm() {
   const [nick, setNick] = useState<string | null | undefined>(undefined);
   const [mensaje, setMensaje] = useState("");
   const [loading, setLoading] = useState(false);
+  const [mensualesUsados, setMensualesUsados] = useState<string[]>([]);
 
-  const statersDisponibles = [
-    "CocoN",
-    "Nilloco",
-    "Stater 3",
-    "Stater 4",
-  ];
+  const statersDisponibles = ["CocoN", "Stater 2", "Stater 3", "Stater 4"];
 
-  // 🔐 Sesión (solo para mostrar nick)
   useEffect(() => {
-    const loadSession = async () => {
+    const loadData = async () => {
       const { data: { user } } = await supabase.auth.getUser();
-
       if (!user) {
         setNick(null);
         return;
       }
 
-      const { data: profile } = await supabase
-        .from("usuarios")
-        .select("nick")
-        .eq("id", user.id)
-        .single();
-
+      // Cargar Nick
+      const { data: profile } = await supabase.from("usuarios").select("nick").eq("id", user.id).single();
       setNick(profile?.nick ?? null);
-    };
 
-    loadSession();
+      // Cargar qué mensuales ya pidió (esto no afecta a los normales)
+      const { data: pedidos } = await supabase
+        .from("stateos")
+        .select("categoria")
+        .eq("usuario_id", user.id)
+        .eq("tipo", "Mensual");
+
+      if (pedidos) setMensualesUsados(pedidos.map(p => p.categoria));
+    };
+    loadData();
   }, []);
 
-  // ✍️ handlers
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
-  ) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setForm(prev => ({ ...prev, [name]: value }));
   };
@@ -77,20 +72,17 @@ export function usePedidoForm() {
     }));
   };
 
-  // 📦 ENVÍO REAL (API)
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setMensaje("");
-
     const { data: sessionData } = await supabase.auth.getSession();
 
     if (!sessionData.session) {
-      setMensaje("❌ Debes iniciar sesión para enviar pedidos");
+      setMensaje("❌ Debes iniciar sesión");
       return;
     }
 
     setLoading(true);
-
     try {
       const res = await fetch("/api/pedidos", {
         method: "POST",
@@ -102,23 +94,18 @@ export function usePedidoForm() {
       });
 
       const data = await res.json();
-
       if (!res.ok) {
         setMensaje(`❌ ${data.error}`);
-        setLoading(false);
         return;
       }
 
       setMensaje("✅ Pedido enviado correctamente");
-      setForm({
-        tipo: "Normal",
-        categoria: "Arma",
-        stater: "",
-        pot: "",
-        stats: "",
-        gamble: "",
-      });
-
+      // Si fue mensual, lo añadimos a la lista local para bloquear el botón de inmediato
+      if (form.tipo === "Mensual") {
+        setMensualesUsados([...mensualesUsados, form.categoria]);
+      }
+      
+      setForm({ tipo: "Normal", categoria: "Arma", stater: "", pot: "", stats: "", gamble: "" });
     } catch {
       setMensaje("❌ Error de conexión");
     } finally {
@@ -126,15 +113,13 @@ export function usePedidoForm() {
     }
   };
 
+  // Lógica para exportar al componente
+  const puedeHacerMensual = mensualesUsados.length < 2;
+  const yaPidioEstaCategoriaMensual = form.tipo === "Mensual" && mensualesUsados.includes(form.categoria);
+
   return {
-    form,
-    mensaje,
-    loading,
-    nick,
-    statersDisponibles,
-    handleChange,
-    handleCategoryChange,
-    handleTypeChange,
-    handleSubmit,
+    form, mensaje, loading, nick, 
+    puedeHacerMensual, yaPidioEstaCategoriaMensual,
+    statersDisponibles, handleChange, handleCategoryChange, handleTypeChange, handleSubmit,
   };
 }

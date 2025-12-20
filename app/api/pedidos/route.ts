@@ -1,3 +1,5 @@
+//app/api/pedidos
+
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 
@@ -67,19 +69,25 @@ export async function POST(req: Request) {
       );
     }
 
-    // 5️⃣ Validación pedido mensual
+    // 5️⃣ Validación pedido mensual estricta (1 Arma, 1 Armadura)
     if (tipo === "Mensual") {
-      const { count } = await supabase
+      const { data: pedidosMensuales } = await supabase
         .from("stateos")
-        .select("*", { count: "exact", head: true })
+        .select("categoria")
         .eq("usuario_id", user.id)
         .eq("tipo", "Mensual");
 
-      if ((count ?? 0) >= 2) {
-        return NextResponse.json(
-          { error: "Límite mensual alcanzado (2/2)" },
-          { status: 403 }
-        );
+      if (pedidosMensuales) {
+        // Regla 1: Máximo 2 totales (Arma + Armadura)
+        if (pedidosMensuales.length >= 2) {
+          return NextResponse.json({ error: "Límite mensual alcanzado (2/2)" }, { status: 403 });
+        }
+
+        // Regla 2: No repetir la misma categoría en mensual
+        const yaPidioEsaCategoria = pedidosMensuales.some(p => p.categoria === categoria);
+        if (yaPidioEsaCategoria) {
+          return NextResponse.json({ error: `Ya solicitaste el mensual de ${categoria}. Solo puedes pedir uno de cada uno.` }, { status: 403 });
+        }
       }
     }
 
