@@ -1,3 +1,5 @@
+//components/header
+
 'use client'
 
 import Link from 'next/link'
@@ -46,14 +48,13 @@ export default function Header() {
         <nav className="flex items-center space-x-4">
           {isLoggedIn ? (
             <button
-              onClick={() => logout(null)}
+              onClick={logout}
               className="
                 py-1 px-4 rounded-full text-sm font-semibold
                 bg-red-600 hover:bg-red-700
                 transition duration-200
               "
             >
-
               Cerrar Sesión
             </button>
           ) : (
@@ -68,6 +69,7 @@ export default function Header() {
               Iniciar Sesión
             </Link>
           )}
+
         </nav>
 
       </div>
