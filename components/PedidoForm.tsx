@@ -127,17 +127,17 @@ export default function PedidoForm() {
         </div>
         
         <div className="space-y-1">
-           <label className="text-sm font-bold text-gray-700">Potencia (POT)</label>
+           <label className="text-sm font-bold text-gray-700">POT</label>
            <input type="number" name="pot" value={form.pot} onChange={handleChange} placeholder="Ej: 94" className="w-full p-3 border-2 border-gray-200 rounded-lg text-gray-900 focus:border-blue-500 outline-none" />
         </div>
 
         <div className="space-y-1">
            <label className="text-sm font-bold text-gray-700">Stats Deseados</label>
-           <textarea name="stats" value={form.stats} onChange={handleChange} placeholder="Atk14% Cd10% Cc27..." className="w-full p-3 border-2 border-gray-200 rounded-lg h-24 text-gray-900 focus:border-blue-500 outline-none resize-none" required />
+           <textarea name="stats" value={form.stats} onChange={handleChange} placeholder="Atk14% Cd10% Cd10 Cr30..." className="w-full p-3 border-2 border-gray-200 rounded-lg h-24 text-gray-900 focus:border-blue-500 outline-none resize-none" required />
         </div>
 
         <div className="space-y-1">
-           <label className="text-sm font-bold text-gray-700">Gamble / Comentarios</label>
+           <label className="text-sm font-bold text-gray-700">Gamble </label>
            <textarea name="gamble" value={form.gamble} onChange={handleChange} placeholder="Opcional..." className="w-full p-3 border-2 border-gray-200 rounded-lg h-16 text-gray-900 focus:border-blue-500 outline-none resize-none" />
         </div>
 
