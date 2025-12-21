@@ -1,8 +1,10 @@
+//components/PedidoForm.tsx
+
 'use client'
 import { usePedidoForm } from "@/hooks/usePedidoForm";
 
 export default function PedidoForm() {
-  const {
+    const {
     form,
     mensaje,
     loading,
@@ -10,11 +12,14 @@ export default function PedidoForm() {
     puedeHacerMensual,
     yaPidioEstaCategoriaMensual,
     statersDisponibles,
+    formulasDisponibles,
+    formulaSeleccionada,
     handleChange,
     handleCategoryChange,
     handleTypeChange,
     handleSubmit,
   } = usePedidoForm();
+
 
   if (nick === undefined) { 
       return (
@@ -126,19 +131,114 @@ export default function PedidoForm() {
           )}
         </div>
         
+        {/* POT */}
         <div className="space-y-1">
-           <label className="text-sm font-bold text-gray-700">POT</label>
-           <input type="number" name="pot" value={form.pot} onChange={handleChange} placeholder="Ej: 94" className="w-full p-3 border-2 border-gray-200 rounded-lg text-gray-900 focus:border-blue-500 outline-none" />
+          <label className="text-sm font-bold text-gray-700">POT</label>
+          <input
+            type="number"
+            name="pot"
+            value={form.pot}
+            onChange={handleChange}
+            placeholder="Ej: 120"
+            className="w-full p-3 border-2 border-gray-200 rounded-lg text-gray-900"
+            min={0}
+          />
         </div>
 
+        {/* FÓRMULA */}
         <div className="space-y-1">
-           <label className="text-sm font-bold text-gray-700">Stats Deseados</label>
-           <textarea name="stats" value={form.stats} onChange={handleChange} placeholder="Atk14% Cd10% Cd10 Cr30..." className="w-full p-3 border-2 border-gray-200 rounded-lg h-24 text-gray-900 focus:border-blue-500 outline-none resize-none" required />
+          <label className="text-sm font-bold text-gray-700">Las Mejores Fórmulas 100%</label>
+          <select
+            name="formulaId"
+            value={form.formulaId}
+            onChange={handleChange}
+            disabled={form.custom}
+            className={`w-full p-3 border-2 rounded-lg text-gray-900 font-medium transition-colors ${
+              form.custom 
+                ? "bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed" // Gris si es custom
+                : "bg-white border-gray-200"
+            }`}
+          >
+            <option value="">Selecciona una fórmula</option>
+            {formulasDisponibles.map(f => (
+              <option key={f.id} value={f.id}>{f.label} (POT ≥ {f.potMin})</option>
+            ))}
+          </select>
         </div>
 
+        {/* ELEMENTO */}
         <div className="space-y-1">
-           <label className="text-sm font-bold text-gray-700">Gamble </label>
-           <textarea name="gamble" value={form.gamble} onChange={handleChange} placeholder="Opcional..." className="w-full p-3 border-2 border-gray-200 rounded-lg h-16 text-gray-900 focus:border-blue-500 outline-none resize-none" />
+          <label className="text-sm font-bold text-gray-700">Elemento</label>
+          <select
+            name="elemento"
+            value={form.elemento}
+            onChange={handleChange}
+            disabled={form.custom || !formulaSeleccionada?.usaElemento}
+            className={`w-full p-3 border-2 rounded-lg text-gray-900 font-medium transition-colors ${
+              (form.custom || !formulaSeleccionada?.usaElemento)
+                ? "bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed" // Gris si es custom o no aplica
+                : "bg-white border-gray-200"
+            }`}
+          >
+            <option value="">Seleccionar elemento</option>
+            <option value="Fuego">Fuego</option>
+            <option value="Agua">Agua</option>
+            <option value="Viento">Viento</option>
+            <option value="Tierra">Tierra</option>
+            <option value="Luz">Luz</option>
+            <option value="Oscuridad">Oscuridad</option>
+          </select>
+        </div>
+
+        {/* DTE */}
+        <div className="space-y-1">
+          <label className="text-sm font-bold text-gray-700">DTE</label>
+          <select
+            name="dte"
+            value={form.dte}
+            onChange={handleChange}
+            disabled={form.custom || !formulaSeleccionada?.usaDte}
+            className={`w-full p-3 border-2 rounded-lg text-gray-900 font-medium transition-colors ${
+              (form.custom || !formulaSeleccionada?.usaDte)
+                ? "bg-gray-200 text-gray-500 border-gray-300 cursor-not-allowed" // Gris si es custom o no aplica
+                : "bg-white border-gray-200"
+            }`}
+          >
+            <option value="">Seleccionar DTE</option>
+            <option value="Fuego">DTE Fuego</option>
+            <option value="Agua">DTE Agua</option>
+            <option value="Viento">DTE Viento</option>
+            <option value="Tierra">DTE Tierra</option>
+            <option value="Luz">DTE Luz</option>
+            <option value="Oscuridad">DTE Oscuridad</option>
+          </select>
+        </div>
+
+        {/* CUSTOM */}
+        <div className="space-y-2 p-3 bg-gray-50 border rounded-lg">
+          <label className="flex items-center space-x-2 cursor-pointer">
+            <input
+              type="checkbox"
+              name="custom"
+              checked={form.custom}
+              onChange={handleChange}
+              className="w-4 h-4 text-blue-600"
+            />
+            <span className="text-sm font-bold text-gray-700">
+              No encontré lo que busco, contactar al stater
+            </span>
+          </label>
+
+          {form.custom && (
+            <textarea
+              name="customText"
+              value={form.customText}
+              onChange={handleChange}
+              placeholder="Describe qué stats o idea tenés en mente (opcional)"
+              // Agregamos text-gray-900 aquí también
+              className="w-full p-3 border-2 border-gray-200 rounded-lg h-24 resize-none text-gray-900"
+            />
+          )}
         </div>
 
         {nick ? (

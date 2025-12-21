@@ -4,12 +4,19 @@
 
 import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
+import { FORMULAS_ARMAS, FormulaArma } from "@/data/formulas/armas";
+import { filtrarFormulasArma } from "@/utils/formulas";
 
 type PedidoFormType = {
   tipo: "Normal" | "Mensual";
   categoria: "Arma" | "Armadura";
   stater: string;
   pot: number | "";
+  formulaId: string;
+  elemento: string;
+  dte: string;
+  custom: boolean;
+  customText: string;
   stats: string;
   gamble: string;
 };
@@ -20,6 +27,11 @@ export function usePedidoForm() {
     categoria: "Arma",
     stater: "",
     pot: "",
+    formulaId: "",
+    elemento: "",
+    dte: "",
+    custom: false,
+    customText: "",
     stats: "",
     gamble: "",
   });
@@ -31,6 +43,9 @@ export function usePedidoForm() {
 
   const statersDisponibles = ["CocoN", "Stater 2", "Stater 3", "Stater 4"];
 
+  // =========================
+  // SESSION / USER DATA
+  // =========================
   useEffect(() => {
     const loadData = async () => {
       const { data: { user } } = await supabase.auth.getUser();
@@ -39,11 +54,14 @@ export function usePedidoForm() {
         return;
       }
 
-      // Cargar Nick
-      const { data: profile } = await supabase.from("usuarios").select("nick").eq("id", user.id).single();
+      const { data: profile } = await supabase
+        .from("usuarios")
+        .select("nick")
+        .eq("id", user.id)
+        .single();
+
       setNick(profile?.nick ?? null);
 
-      // Cargar qué mensuales ya pidió (esto no afecta a los normales)
       const { data: pedidos } = await supabase
         .from("stateos")
         .select("categoria")
@@ -52,12 +70,63 @@ export function usePedidoForm() {
 
       if (pedidos) setMensualesUsados(pedidos.map(p => p.categoria));
     };
+
     loadData();
   }, []);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
-    setForm(prev => ({ ...prev, [name]: value }));
+  // =========================
+  // FORM HELPERS
+  // =========================
+  const formulasDisponibles: FormulaArma[] =
+    form.pot !== ""
+      ? filtrarFormulasArma(FORMULAS_ARMAS, {
+          pot: Number(form.pot),
+          elemento: form.elemento,
+          dte: form.dte,
+        })
+      : [];
+
+  const formulaSeleccionada = FORMULAS_ARMAS.find(
+    f => f.id === form.formulaId
+  );
+
+  // =========================
+  // HANDLERS
+  // =========================
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+  ) => {
+    const { name, value, type, checked } = e.target as HTMLInputElement;
+
+    setForm(prev => {
+      let updated = {
+        ...prev,
+        [name]: type === "checkbox" ? checked : value,
+      };
+
+      // Si cambia el POT, resetear fórmula
+      if (name === "pot") {
+        updated.formulaId = "";
+        updated.elemento = "";
+        updated.dte = "";
+      }
+
+      // Si cambia la fórmula
+      if (name === "formulaId") {
+        const formula = FORMULAS_ARMAS.find(f => f.id === value);
+        updated.elemento = formula?.usaElemento ? prev.elemento : "";
+        updated.dte = formula?.usaDte ? prev.dte : "";
+      }
+
+      // Si activa custom
+      if (name === "custom" && checked) {
+        updated.formulaId = "";
+        updated.elemento = "";
+        updated.dte = "";
+      }
+
+      return updated;
+    });
   };
 
   const handleCategoryChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -72,11 +141,14 @@ export function usePedidoForm() {
     }));
   };
 
+  // =========================
+  // SUBMIT
+  // =========================
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setMensaje("");
-    const { data: sessionData } = await supabase.auth.getSession();
 
+    const { data: sessionData } = await supabase.auth.getSession();
     if (!sessionData.session) {
       setMensaje("❌ Debes iniciar sesión");
       return;
@@ -100,12 +172,24 @@ export function usePedidoForm() {
       }
 
       setMensaje("✅ Pedido enviado correctamente");
-      // Si fue mensual, lo añadimos a la lista local para bloquear el botón de inmediato
+
       if (form.tipo === "Mensual") {
         setMensualesUsados([...mensualesUsados, form.categoria]);
       }
-      
-      setForm({ tipo: "Normal", categoria: "Arma", stater: "", pot: "", stats: "", gamble: "" });
+
+      setForm({
+        tipo: "Normal",
+        categoria: "Arma",
+        stater: "",
+        pot: "",
+        formulaId: "",
+        elemento: "",
+        dte: "",
+        custom: false,
+        customText: "",
+        stats: "",
+        gamble: "",
+      });
     } catch {
       setMensaje("❌ Error de conexión");
     } finally {
@@ -113,13 +197,26 @@ export function usePedidoForm() {
     }
   };
 
-  // Lógica para exportar al componente
+  // =========================
+  // EXPORT
+  // =========================
   const puedeHacerMensual = mensualesUsados.length < 2;
-  const yaPidioEstaCategoriaMensual = form.tipo === "Mensual" && mensualesUsados.includes(form.categoria);
+  const yaPidioEstaCategoriaMensual =
+    form.tipo === "Mensual" && mensualesUsados.includes(form.categoria);
 
   return {
-    form, mensaje, loading, nick, 
-    puedeHacerMensual, yaPidioEstaCategoriaMensual,
-    statersDisponibles, handleChange, handleCategoryChange, handleTypeChange, handleSubmit,
+    form,
+    mensaje,
+    loading,
+    nick,
+    puedeHacerMensual,
+    yaPidioEstaCategoriaMensual,
+    statersDisponibles,
+    formulasDisponibles,
+    formulaSeleccionada,
+    handleChange,
+    handleCategoryChange,
+    handleTypeChange,
+    handleSubmit,
   };
 }
