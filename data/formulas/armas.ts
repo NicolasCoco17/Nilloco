@@ -107,8 +107,4 @@ export const FORMULAS_ARMAS: FormulaArma[] = [
   { id: "dte23_atk10_dex10_cd23_cr21", label: "DTE23% ATK10% DEX10% CD23 CR21", potMin: 125, usaElemento: false, usaDte: true },
   { id: "dte23_atk10_agi10_cd23_cr21", label: "DTE23% ATK10% AGI10% CD23 CR21", potMin: 125, usaElemento: false, usaDte: true },
 
-  // ==========================================
-  // CUSTOM
-  // ==========================================
-  { id: "custom", label: "No encuentro la fórmula que quiero", potMin: 0, usaElemento: false, usaDte: false }
 ];
