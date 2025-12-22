@@ -1,0 +1,121 @@
+import { useRef, useState, useEffect } from "react";
+
+export default function DyeSimulator() {
+  const canvasRef = useRef(null);
+  const [DATA, setDATA] = useState(null);
+  const [type, setType] = useState("armor");
+  const [selectedItem, setSelectedItem] = useState(null);
+  const [variant, setVariant] = useState("normal");
+  const [gender, setGender] = useState("female"); // Para superar a Coryn
+  const [selectedDyes, setSelectedDyes] = useState({ a: 0, b: 0, c: 0 });
+
+  useEffect(() => {
+    fetch("/dye-data.json")
+      .then(res => res.json())
+      .then(json => { setDATA(json); setSelectedItem(json.armor[0]); });
+  }, []);
+
+  useEffect(() => {
+    if (!selectedItem) return;
+    renderCanvas();
+  }, [selectedItem, variant, gender, selectedDyes]);
+
+  const renderCanvas = async () => {
+    const canvas = canvasRef.current;
+    const ctx = canvas.getContext("2d");
+    
+    // Construcción de ruta compatible con tu script de generación
+    const folderPath = (type === "armor" && variant !== "normal")
+      ? `${selectedItem.path}/${variant}`
+      : selectedItem.path;
+
+    const loadImage = (src) => new Promise(res => {
+      const img = new Image();
+      img.src = src;
+      img.onload = () => res(img);
+      img.onerror = () => res(null);
+    });
+
+    const [imgBase, imgA, imgB, imgC] = await Promise.all([
+      loadImage(`${folderPath}/base1.png`),
+      loadImage(`${folderPath}/dye_a.png`),
+      loadImage(`${folderPath}/dye_b.png`),
+      loadImage(`${folderPath}/dye_c.png`)
+    ]);
+
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    if (imgBase) ctx.drawImage(imgBase, 0, 0, 400, 600);
+
+    const applyDye = (img, dyeId) => {
+      if (!img || dyeId === 0) return;
+      const dye = TORAM_PALETTE.find(d => d.id === parseInt(dyeId));
+      
+      const tempCanvas = document.createElement("canvas");
+      tempCanvas.width = 400; tempCanvas.height = 600;
+      const tCtx = tempCanvas.getContext("2d");
+
+      tCtx.drawImage(img, 0, 0, 400, 600);
+      tCtx.globalCompositeOperation = "source-in";
+      tCtx.fillStyle = dye.hex;
+      tCtx.fillRect(0, 0, 400, 600);
+
+      ctx.globalAlpha = 0.85; // Opacidad fiel
+      ctx.globalCompositeOperation = "multiply"; // EL SECRETO DE LAS SOMBRAS
+      ctx.drawImage(tempCanvas, 0, 0);
+      ctx.globalCompositeOperation = "source-over";
+      ctx.globalAlpha = 1;
+    };
+
+    applyDye(imgA, selectedDyes.a);
+    applyDye(imgB, selectedDyes.b);
+    applyDye(imgC, selectedDyes.c);
+  };
+
+  if (!DATA || !selectedItem) return <div className="text-white">Cargando...</div>;
+
+  return (
+    <main className="min-h-screen bg-neutral-950 flex items-center justify-center p-4">
+      <div className="flex flex-wrap gap-8 justify-center items-start">
+        
+        {/* VISOR CANVAS */}
+        <div className="relative bg-black rounded-xl border-2 border-neutral-800 overflow-hidden shadow-2xl">
+          <canvas ref={canvasRef} width="400" height="600" className="w-[320px] h-[480px] md:w-[400px] md:h-[600px]" />
+        </div>
+
+        {/* CONTROLES */}
+        <div className="w-80 bg-neutral-900 p-6 rounded-2xl border border-neutral-800 shadow-xl">
+          <h1 className="text-xl font-bold text-white mb-6 text-center">Toram Dye Simulator</h1>
+
+          {/* Selectores de Modelo/Variante (Tus controles actuales mejorados) */}
+          <div className="space-y-4 mb-6">
+             {/* ... Agrega aquí tus selectores de Categoría y Modelo que ya tenías ... */}
+          </div>
+
+          {/* SELECTORES DE TINTE 0-85 */}
+          <div className="space-y-4 pt-4 border-t border-neutral-800">
+            {['a', 'b', 'c'].map(ch => (
+              <div key={ch} className="space-y-2">
+                <label className="text-[10px] text-neutral-500 uppercase tracking-widest font-bold">Tinte {ch}</label>
+                <select
+                  value={selectedDyes[ch]}
+                  onChange={(e) => setSelectedDyes({...selectedDyes, [ch]: e.target.value})}
+                  className="w-full p-3 rounded-lg bg-neutral-800 text-white border border-neutral-700 outline-none transition-all focus:border-blue-500"
+                  style={{
+                    backgroundColor: TORAM_PALETTE.find(d => d.id == selectedDyes[ch])?.hex,
+                    color: selectedDyes[ch] > 5 ? 'black' : 'white'
+                  }}
+                >
+                  {TORAM_PALETTE.map(dye => (
+                    <option key={dye.id} value={dye.id} style={{ backgroundColor: dye.hex, color: 'black' }}>
+                      {dye.id === 0 ? "Sin Tinte" : `${dye.id} - ${dye.hex}`}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}

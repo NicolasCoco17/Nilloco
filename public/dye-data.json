@@ -3,7 +3,7 @@
     {
       "name": "adv garb",
       "path": "/dyes/armor/adv_garb",
-      "hasVariants": true
+      "hasVariants": false
     }
   ],
   "arma": []
