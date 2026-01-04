@@ -20,6 +20,10 @@ export const FORMULAS_ARMAS: FormulaArma[] = [
   { id: "atk14_agi10_ele_dte22", label: "Ele DTE22% ATK14% AGI10%", potMin: 118, usaElemento: true, usaDte: true },
   { id: "atk14_agi10_ele_dte23", label: "Ele DTE23% ATK14% AGI10%", potMin: 128, usaElemento: true, usaDte: true },
 
+  { id: "atk10_str10_cr30_ele_dte20", label: "Ele DTE20% ATK10% STR10% CR30", potMin: 120, usaElemento: true, usaDte: true },
+  { id: "atk10_str10_cr25_ele_dte21", label: "Ele DTE21% ATK10% STR10% CR25", potMin: 120, usaElemento: true, usaDte: true },
+  { id: "atk10_str9_cr30_ele_dte20", label: "Ele DTE21% ATK10% STR9% CR30", potMin: 120, usaElemento: true, usaDte: true },
+
   // ==========================================
   // MATK + INT / CD / CR (Ele + DTE)
   // ==========================================
@@ -32,6 +36,10 @@ export const FORMULAS_ARMAS: FormulaArma[] = [
   { id: "matk11_int10_ele_dte23", label: "Ele DTE23% MATK11% INT10%", potMin: 112, usaElemento: true, usaDte: true },
   { id: "matk13_int10_ele_dte21", label: "Ele DTE21% MATK13% INT10%", potMin: 118, usaElemento: true, usaDte: true },
   { id: "matk13_int10_ele_dte22", label: "Ele DTE22% MATK13% INT10%", potMin: 123, usaElemento: true, usaDte: true },
+
+  { id: "matk10_int10_cr30_ele_dte20", label: "Ele DTE20% MATK10% INT10% CR30", potMin: 120, usaElemento: true, usaDte: true },
+  { id: "matk10_int10_cr25_ele_dte21", label: "Ele DTE21% MATK10% INT10% CR25", potMin: 120, usaElemento: true, usaDte: true },
+  { id: "matk10_int9_cr30_ele_dte21", label: "Ele DTE21% MATK10% INT9% CR30", potMin: 120, usaElemento: true, usaDte: true },
 
   // ==========================================
   // MATK + CD (Ele + DTE)
