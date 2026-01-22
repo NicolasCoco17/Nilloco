@@ -1,0 +1,4506 @@
+[
+  {
+    "id": "10th_anniv_sword_iv",
+    "name": "10th Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 485,
+        "stability": 80,
+        "potential": 55
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_sword_vi",
+    "name": "10th Anniv Sword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 637,
+        "stability": 80,
+        "potential": 63
+      }
+    }
+  },
+  {
+    "id": "accordion-fold_sword",
+    "name": "Accordion-fold Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Aggro%": 30,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 1,
+        "stability": 40
+      }
+    }
+  },
+  {
+    "id": "shortsword",
+    "name": "Shortsword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 80,
+        "potential": 15,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "wood_sword",
+    "name": "Wood Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 40,
+        "potential": 15,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "longsword",
+    "name": "Longsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 50,
+          "Accuracy": 1
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 80,
+        "potential": 16,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "gladius",
+    "name": "Gladius",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": 5,
+          "CriticalRate": 1
+        },
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ASPD%": 10,
+          "CriticalRate": 3
+        },
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 80,
+        "potential": 18,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "brutal_dragon_sword",
+    "name": "Brutal Dragon Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 250,
+          "CSPD": 750
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ASPD": 500,
+          "CSPD": 150
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 80,
+        "potential": 20,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_sword",
+    "name": "1st Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 1,
+          "ATK%": 1,
+          "MagicResistance%": 6,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 80,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_sword",
+    "name": "2nd Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 1,
+          "ATK%": 1,
+          "MagicResistance%": 6,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 80,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_sword",
+    "name": "3rd Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 1,
+          "ATK%": 1,
+          "MagicResistance%": 6,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 80,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword",
+    "name": "4th Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 1,
+          "ATK%": 1,
+          "MagicResistance%": 6,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 80,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cone_sword",
+    "name": "Cone Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 1000,
+          "Accuracy": 30,
+          "ReduceDmg(PlayerEpicenter)%": 4,
+          "ReduceDmg(FoeEpicenter)%": 4,
+          "ReduceDmg(Charge)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 80,
+        "potential": 17,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sabre",
+    "name": "Sabre",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 1,
+          "Accuracy%": 2,
+          "CriticalRate": 1
+        },
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 1,
+          "Accuracy": 4,
+          "CriticalRate": 2
+        },
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 80,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "chicken_sword",
+    "name": "Chicken Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 250,
+          "AttackMPRecovery": 1,
+          "%strongeragainstNeutral": 10
+        },
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "adel_sword",
+    "name": "Adel Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 100,
+          "ATK%": 1,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 200,
+          "ATK%": 1,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 80,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "jupiter_sword",
+    "name": "Jupiter Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "WindElement": 1,
+          "MotionSpeed%": 2
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "relic_sword",
+    "name": "Relic Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 5,
+          "GuardRecharge%": 3,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_sword_ii",
+    "name": "1st Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "ATK%": 2,
+          "MagicResistance%": 9,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_sword_ii",
+    "name": "2nd Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "ATK%": 2,
+          "MagicResistance%": 9,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_sword_ii",
+    "name": "3rd Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "ATK%": 2,
+          "MagicResistance%": 9,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword_ii",
+    "name": "4th Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "ATK%": 2,
+          "MagicResistance%": 9,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "burning_cross_dagger",
+    "name": "Burning Cross Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "Accuracy%": 6,
+          "Dodge%": 18,
+          "ASPD": 300,
+          "CSPD": 300,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 80,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "rapier",
+    "name": "Rapier",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "PhysicalPierce%": 6,
+          "ASPD": 50,
+          "EvasionRecharge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 80,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 2,
+          "PhysicalPierce%": 4,
+          "ASPD%": 10,
+          "EvasionRecharge%": 3
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "sword_of_sin",
+    "name": "Sword of Sin",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 2,
+          "MATK%": 1,
+          "Accuracy": 20,
+          "AilmentResistance%": 2,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 61,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "Accuracy": 15,
+          "AilmentResistance%": 1,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 61,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 61,
+        "stability": 80,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_kodachi",
+    "name": "Sakura Kodachi",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": 1,
+          "CriticalDamage": 1,
+          "GuardRecharge%": 5,
+          "LightElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 67,
+        "stability": 80
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 4,
+          "CriticalDamage": 2,
+          "GuardRecharge%": 5,
+          "LightElement": 1,
+          "AttackMPRecovery": 3,
+          "WeaponATK": 300
+        },
+        "special_effects": {},
+        "base_atk": 67,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "scimitar",
+    "name": "Scimitar",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 3,
+          "ATK%": 2,
+          "Dodge%": 4,
+          "CriticalRate": 13
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "ATK%": 2,
+          "Dodge%": 6,
+          "CriticalRate": 10
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 80,
+        "potential": 24,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "phyto_blade",
+    "name": "Phyto Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK": 70,
+          "MagicResistance%": 5,
+          "CriticalDamage%": 10,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 74,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "MATK": 40,
+          "MagicResistance%": 10,
+          "CriticalDamage%": 9,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 74,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 74,
+        "stability": 90,
+        "potential": 26,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "blitz_sword",
+    "name": "Blitz Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "WindElement": 1,
+          "AttackMPRecovery": 3,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "WindElement": 1,
+          "AttackMPRecovery": 3,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 80,
+        "potential": 26,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_sword_iii",
+    "name": "1st Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "ATK%": 3,
+          "MagicResistance%": 12,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_sword_iii",
+    "name": "2nd Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "ATK%": 3,
+          "MagicResistance%": 12,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_sword_iii",
+    "name": "3rd Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "ATK%": 3,
+          "MagicResistance%": 12,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword_iii",
+    "name": "4th Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "ATK%": 3,
+          "MagicResistance%": 12,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_sword",
+    "name": "5th Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "MagicResistance%": 30,
+          "CriticalRate": 3,
+          "AttackMPRecovery": 9
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 80,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "black_sword_of_delusion",
+    "name": "Black Sword of Delusion",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 3,
+          "CSPD": 500,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 94,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": 3,
+          "CSPD": 250,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 94,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 94,
+        "stability": 80,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "butcher's_knife",
+    "name": "Butcher's Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "CriticalDamage%": 5,
+          "AttackMPRecovery": 20,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "cone_sword_ii",
+    "name": "Cone Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "Accuracy": 60,
+          "ReduceDmg(PlayerEpicenter)%": 8,
+          "ReduceDmg(FoeEpicenter)%": 8,
+          "ReduceDmg(Charge)%": 8
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 80,
+        "potential": 26,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ilwoon",
+    "name": "Ilwoon",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "VIT%": 2,
+          "MaxHP": 750,
+          "ATK%": 3,
+          "DEF": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 2
+        },
+        "base_atk": 100,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "VIT%": 3,
+          "MaxHP": 1000,
+          "ATK%": 3,
+          "DEF": 20
+        },
+        "special_effects": {
+          "Fractional Barrier %": 4
+        },
+        "base_atk": 100,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sacred_sword_xmas",
+    "name": "Sacred Sword Xmas",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 30,
+          "Darkresistance%": 15,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_sword",
+    "name": "6th Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "MagicResistance%": 30,
+          "CriticalRate": 10,
+          "AttackMPRecovery": 5,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {
+          "Shield only:Accuracy": "Accuracy"
+        },
+        "base_atk": 101,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 101,
+        "stability": 80,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "icebrand_glacier",
+    "name": "Icebrand Glacier",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "WaterElement": 1,
+          "AttackMPRecovery": 5,
+          "ShortRangeDamage%": 1,
+          "AdditionalMagic%": 100,
+          "ATKUP(INT%)": 150,
+          "ATKDOWN(STR%)": 200
+        },
+        "special_effects": {},
+        "base_atk": 101,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 101,
+        "stability": 80,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "indigo_sword",
+    "name": "Indigo Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 3,
+          "ATK%": 3,
+          "CriticalRate": 3,
+          "CriticalDamage": 3
+        },
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "ATK%": 3,
+          "CriticalRate": 9,
+          "CriticalDamage": 3
+        },
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 80,
+        "potential": 29,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_sword_iv",
+    "name": "2nd Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "MagicResistance%": 15,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 80,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_sword_iv",
+    "name": "3rd Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "MagicResistance%": 15,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 80,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword_iv",
+    "name": "4th Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "MagicResistance%": 15,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 80,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "tomahawk",
+    "name": "Tomahawk",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicResistance%": 5,
+          "CriticalRate": 6,
+          "LongRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 40
+      }
+    }
+  },
+  {
+    "id": "hatsune_miku's_hand_fan",
+    "name": "HATSUNE MIKU's Hand Fan",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxMP": 300,
+          "ATK%": 4,
+          "PhysicalPierce%": 20,
+          "ASPD": 500,
+          "CriticalRate": 25,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "soldier_sword",
+    "name": "Soldier Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 8,
+          "CriticalDamage": 4,
+          "EarthElement": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 800
+        },
+        "base_atk": 125,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "Accuracy": 8,
+          "CriticalDamage": 4,
+          "EarthElement": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 1000
+        },
+        "base_atk": 125,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 80,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "toy_hammer",
+    "name": "Toy Hammer",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 100,
+          "CriticalDamage": -150
+        },
+        "special_effects": {},
+        "base_atk": 125
+      }
+    }
+  },
+  {
+    "id": "dark_general's_sword",
+    "name": "Dark General's Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "VIT%": 3,
+          "ATK%": 4,
+          "GuardRecharge%": 6,
+          "Aggro%": 20,
+          "DarkElement": 1
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        },
+        "base_atk": 130,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "VIT%": 2,
+          "ATK%": 4,
+          "GuardRecharge%": 6,
+          "Aggro%": 30,
+          "DarkElement": 1
+        },
+        "special_effects": {
+          "Magic Barrier": 500
+        },
+        "base_atk": 130,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 80,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "imperial_sword",
+    "name": "Imperial Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 4,
+          "Accuracy%": 6,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Fractional Barrier %": 12
+        },
+        "base_atk": 140,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 4,
+          "Accuracy%": 8,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Fractional Barrier %": 16
+        },
+        "base_atk": 140,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 140,
+        "stability": 80,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_sword_v",
+    "name": "2nd Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "ATK%": 5,
+          "MagicResistance%": 18,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_sword_v",
+    "name": "3rd Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "ATK%": 5,
+          "MagicResistance%": 18,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword_v",
+    "name": "4th Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "ATK%": 5,
+          "MagicResistance%": 18,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_sword_ii",
+    "name": "5th Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "ATK%": 5,
+          "MagicResistance%": 30,
+          "CriticalRate": 5,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "burning_cross_dagger_ii",
+    "name": "Burning Cross Dagger II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "Accuracy%": 9,
+          "Dodge%": 21,
+          "ASPD": 400,
+          "CSPD": 400,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 80,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "wind_rapier",
+    "name": "Wind Rapier",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 500,
+          "CriticalRate": 10,
+          "WindElement": 1,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "ASPD": 250,
+          "CriticalRate": 20,
+          "WindElement": 1,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 90,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "red_steel_slayer",
+    "name": "Red Steel Slayer",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 100,
+          "AdditionalMelee%": 120,
+          "Anticipate%": 30
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "leve_fang",
+    "name": "Leve Fang",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1600,
+          "ATK%": 4,
+          "PhysicalPierce%": 8,
+          "DEF%": -30,
+          "Dodge%": 30,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 154
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 800,
+          "ATK%": 4,
+          "PhysicalPierce%": 4,
+          "DEF%": -15,
+          "Dodge%": 15,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 154,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 154,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_sword_ii",
+    "name": "6th Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "MagicResistance%": 30,
+          "CriticalRate": 12,
+          "AttackMPRecovery": 5,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {
+          "Shield only:Accuracy": "Accuracy"
+        },
+        "base_atk": 160,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 80,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_sword",
+    "name": "7th Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "MagicResistance%": 30,
+          "Accuracy%": 10,
+          "CriticalRate": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 160,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 80,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_sword",
+    "name": "Dia Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "PhysicalPierce%": 5,
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "ski_pole_sword",
+    "name": "Ski Pole Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicPierce%": 50,
+          "CSPD%": 75,
+          "%strongeragainstNeutral": 30,
+          "ReduceDmg(Charge)%": 30,
+          "MATKUP(DEX%)": 100
+        },
+        "special_effects": {
+          "Dual Swords only:Critical Rate": "Critical Rate"
+        },
+        "base_atk": 170,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_sword_vi",
+    "name": "3rd Anniv Sword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MaxHP%": 4,
+          "ATK%": 6,
+          "MagicResistance%": 21,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 80,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword_vi",
+    "name": "4th Anniv Sword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MaxHP%": 4,
+          "ATK%": 6,
+          "MagicResistance%": 21,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 80,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cake_knife",
+    "name": "Cake Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicResistance%": -15,
+          "CriticalRate": 15,
+          "CriticalRate%": 30,
+          "LightElement": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "elfin_sword",
+    "name": "Elfin Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Dodge%": 10,
+          "WaterElement": 1,
+          "MotionSpeed%": 1,
+          "NeutralResistance%": 5
+        },
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 80,
+        "potential": 36,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "Dodge%": 5,
+          "WaterElement": 1,
+          "MotionSpeed%": 1,
+          "NeutralResistance%": 4
+        },
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "zahhak_sword",
+    "name": "Zahhak Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 3,
+          "MaxHP%": 1,
+          "ATK%": 7,
+          "CriticalRate": 20,
+          "LightElement": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 500,
+          "Fractional Barrier %": 12
+        },
+        "base_atk": 184,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "MaxHP%": 10,
+          "ATK%": 5,
+          "CriticalRate": 5,
+          "LightElement": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 1000,
+          "Fractional Barrier %": 2
+        },
+        "base_atk": 180,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 80,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "moonlight_sword",
+    "name": "Moonlight Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "MATK%": 6,
+          "MagicPierce%": 20,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 184,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 184,
+        "stability": 90,
+        "potential": 40,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "clarity_rose",
+    "name": "Clarity Rose",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 250,
+          "MATK%": 12,
+          "PhysicalPierce%": 25,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_atk": 190,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "MATK%": 2,
+          "PhysicalPierce%": 25,
+          "AttackMPRecovery": 15
+        },
+        "special_effects": {},
+        "base_atk": 190,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 190,
+        "stability": 70,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "calibur",
+    "name": "Calibur",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalHPRegen%": 5,
+          "CriticalDamage": 10,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 199,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "NaturalHPRegen%": 20,
+          "CriticalDamage": 10,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 199,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 199,
+        "stability": 80,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cone_sword_iii",
+    "name": "Cone Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "Accuracy": 90,
+          "ReduceDmg(PlayerEpicenter)%": 12,
+          "ReduceDmg(FoeEpicenter)%": 12,
+          "ReduceDmg(Charge)%": 12
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 80,
+        "potential": 35,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "festival_sword",
+    "name": "Festival Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "Accuracy": 30,
+          "AilmentResistance%": 10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 1
+      }
+    }
+  },
+  {
+    "id": "maton_saber",
+    "name": "Maton Saber",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 10,
+          "ATK%": 5,
+          "Dodge%": 5,
+          "ASPD": 1000,
+          "AbsoluteDodge%": 3
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "ATK%": 5,
+          "Dodge%": 15,
+          "ASPD": 500,
+          "AbsoluteDodge%": 1
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 80,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_sword_vii",
+    "name": "3rd Anniv Sword VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MaxHP%": 8,
+          "ATK%": 6,
+          "MagicResistance%": 24,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 80,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword_vii",
+    "name": "4th Anniv Sword VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MaxHP%": 24,
+          "ATK%": 6,
+          "MagicResistance%": 8,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 80,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_sword_iii",
+    "name": "5th Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "ATK%": 6,
+          "MagicResistance%": 30,
+          "CriticalRate": 7,
+          "AttackMPRecovery": 11
+        },
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 80,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_sword_iii",
+    "name": "6th Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MagicResistance%": 30,
+          "CriticalRate": 14,
+          "AttackMPRecovery": 10,
+          "ShortRangeDamage%": 6,
+          "ReduceDmg(Floor)%": 2
+        },
+        "special_effects": {
+          "Shield only:Accuracy": "Accuracy"
+        },
+        "base_atk": 220,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_sword_ii",
+    "name": "7th Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "ATK%": 6,
+          "MagicResistance%": 30,
+          "Accuracy%": 15,
+          "CriticalRate": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 11
+        },
+        "base_atk": 220,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_sword",
+    "name": "8th Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "ATK%": 6,
+          "MagicResistance%": 35,
+          "ASPD": 650,
+          "CriticalRate": 35,
+          "Anticipate%": 15,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fluck_sword",
+    "name": "Fluck Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "Aggro%": -75,
+          "AdditionalMelee%": 50,
+          "ReduceDmg(Floor)%": 15,
+          "ReduceDmg(Meteor)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "Aggro%": -25,
+          "AdditionalMelee%": 100,
+          "ReduceDmg(Floor)%": 15,
+          "ReduceDmg(Meteor)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_sword",
+    "name": "Sakura Lantern Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "MaxMP": 500,
+          "MagicResistance%": 20,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "shotel",
+    "name": "Shotel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 5,
+          "CriticalRate": 25,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "CriticalRate": 20,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 80,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "snow_bear_sword",
+    "name": "Snow Bear Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 4000,
+          "Accuracy%": 20,
+          "%strongeragainstWind": 25,
+          "WaterElement": 1,
+          "GuardBreak%": 30,
+          "ReduceDmg(Floor)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 222,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "crescent_axe",
+    "name": "Crescent Axe",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 12,
+          "ATK%": 5,
+          "MagicResistance%": 3,
+          "CriticalDamage": 4,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 225,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "lil_empress_sword",
+    "name": "Lil Empress Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 150,
+          "ATK%": 6,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 75
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 450,
+          "ATK%": 6,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 75
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 75,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hero_sword_(pom)",
+    "name": "Hero Sword (Pom)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 2000,
+          "ATK%": 10,
+          "ASPD": -9999,
+          "ATKDOWN(VIT%)": 100,
+          "ATKUP(STR%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword_viii",
+    "name": "4th Anniv Sword VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MaxHP%": 12,
+          "ATK%": 6,
+          "MagicResistance%": 27,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 80,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_sword_iv",
+    "name": "5th Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "ATK%": 6,
+          "MagicResistance%": 30,
+          "CriticalRate": 9,
+          "AttackMPRecovery": 12
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 80,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "holy_sword",
+    "name": "Holy Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "MagicResistance%": 10,
+          "Darkresistance%": 15,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "MagicResistance%": 15,
+          "Darkresistance%": 20,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 80,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dark_dragon_fang_sword",
+    "name": "Dark Dragon Fang Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "Accuracy": 160,
+          "Darkresistance%": 20,
+          "DarkElement": 1,
+          "ATKUP(AGI%)": 200,
+          "ReduceDmg(StraightLine)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 253,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 1500,
+          "ATK%": 6,
+          "CriticalDamage%": 3,
+          "DarkElement": 1,
+          "AbsoluteAccuracy%": 5,
+          "ReduceDmg(StraightLine)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 253,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 253,
+        "stability": 80,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "firework_stick",
+    "name": "Firework Stick",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 45,
+          "Waterresistance%": -40,
+          "Darkresistance%": 20,
+          "FireElement": 1,
+          "UnsheatheAttack%": 5
+        },
+        "special_effects": {},
+        "base_atk": 253,
+        "stability": 40
+      }
+    }
+  },
+  {
+    "id": "sapphire_mace",
+    "name": "Sapphire Mace",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "PhysicalPierce%": 30,
+          "PhysicalResistance%": 20,
+          "Accuracy%": 25,
+          "WaterElement": 1,
+          "GuardBreak%": 5
+        },
+        "special_effects": {},
+        "base_atk": 260,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "PhysicalPierce%": 15,
+          "PhysicalResistance%": 15,
+          "Accuracy%": 30,
+          "WaterElement": 1,
+          "GuardBreak%": 20
+        },
+        "special_effects": {},
+        "base_atk": 260,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 260,
+        "stability": 90,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "burning_cross_dagger_iii",
+    "name": "Burning Cross Dagger III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "Accuracy%": 12,
+          "Dodge%": 24,
+          "ASPD": 500,
+          "CSPD": 500,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 80,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "catafnia_sword",
+    "name": "Catafnia Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "FireElement": 1,
+          "ShortRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "FireElement": 1,
+          "ShortRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 80,
+        "potential": 42,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "glacial_ice_sword",
+    "name": "Glacial Ice Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "MATK%": 6,
+          "PhysicalPierce%": 15,
+          "Fireresistance%": 10,
+          "WaterElement": 1,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_sword_ix",
+    "name": "4th Anniv Sword IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "MaxHP%": 16,
+          "ATK%": 7,
+          "MagicResistance%": 30,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_sword_v",
+    "name": "5th Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "MagicResistance%": 30,
+          "CriticalRate": 11,
+          "AttackMPRecovery": 13,
+          "ReduceDmg(Floor)%": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_sword_iv",
+    "name": "6th Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "MagicResistance%": 30,
+          "CriticalRate": 16,
+          "AttackMPRecovery": 10,
+          "ShortRangeDamage%": 7,
+          "ReduceDmg(Floor)%": 4
+        },
+        "special_effects": {
+          "Shield only:Accuracy": "Accuracy"
+        },
+        "base_atk": 277,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_sword_iii",
+    "name": "7th Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "MagicResistance%": 30,
+          "Accuracy%": 20,
+          "CriticalRate": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 12
+        },
+        "base_atk": 277,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_sword_ii",
+    "name": "8th Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "MagicResistance%": 35,
+          "ASPD": 800,
+          "CriticalRate": 35,
+          "Anticipate%": 17,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_sword",
+    "name": "9th Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MaxMP": 300,
+          "ATK%": 7,
+          "MagicResistance%": 40,
+          "CriticalRate": 40,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "choco_roll_hammer",
+    "name": "Choco Roll Hammer",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 6,
+          "ASPD%": -30,
+          "Aggro%": -15,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "seadevil_sword",
+    "name": "Seadevil Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 8,
+          "ASPD": 1000,
+          "Fireresistance%": 10,
+          "WaterElement": 1,
+          "AdditionalMagic%": 100,
+          "MATKUP(DEX%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "proto_clarity_rose",
+    "name": "Proto Clarity Rose",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 40,
+          "PhysicalPierce%": 70,
+          "Accuracy%": -45,
+          "ASPD%": -10,
+          "CriticalRate%": 140,
+          "AttackMPRecovery": 1,
+          "AttackRange(m)": 2.5
+        },
+        "special_effects": {},
+        "base_atk": 285,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "reptilian_sword",
+    "name": "Reptilian Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 2000,
+          "ATK%": 7,
+          "Accuracy%": 3,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 289,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "ATK%": 7,
+          "Accuracy%": 9,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 289,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 289,
+        "stability": 80,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pom_pom_sword_mace",
+    "name": "Pom Pom Sword Mace",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 999,
+          "AilmentResistance%": 14,
+          "Aggro%": 30,
+          "LightElement": 1,
+          "%strongeragainstNeutral": 30
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "mischievous_candy",
+    "name": "Mischievous Candy",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 25,
+          "CriticalRate": 50,
+          "AilmentResistance%": 10,
+          "Aggro%": 20,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 300,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_sword_vi",
+    "name": "5th Anniv Sword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "MagicResistance%": 30,
+          "CriticalRate": 13,
+          "AttackMPRecovery": 14,
+          "ReduceDmg(Floor)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 301,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 301,
+        "stability": 80,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "windgrace_sword",
+    "name": "Windgrace Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 10,
+          "Stability%": 5,
+          "ASPD": 1000,
+          "Waterresistance%": 25,
+          "WindElement": 1,
+          "ReduceDmg(FoeEpicenter)%": 25,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Dual Swords only:Tumble Unavailable": "Tumble Unavailable"
+        },
+        "base_atk": 485,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "jupiter_sword_ii",
+    "name": "Jupiter Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "WindElement": 1,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {},
+        "base_atk": 310,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "laguna_sword",
+    "name": "Laguna Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "CriticalRate": 14,
+          "CriticalDamage%": 7,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 314,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "CriticalRate": 14,
+          "CriticalDamage%": 7,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 314,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 314,
+        "stability": 80,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "golden_candy_sword",
+    "name": "Golden Candy Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 30,
+          "Waterresistance%": 30,
+          "WindElement": 1,
+          "ReduceDmg(StraightLine)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 319,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_sword",
+    "name": "10th Anniv Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_sword_vii",
+    "name": "5th Anniv Sword VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "MagicResistance%": 30,
+          "CriticalRate": 15,
+          "AttackMPRecovery": 15,
+          "ReduceDmg(Floor)%": 6
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_sword_v",
+    "name": "6th Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "MagicResistance%": 30,
+          "CriticalRate": 18,
+          "AttackMPRecovery": 15,
+          "ShortRangeDamage%": 7,
+          "ReduceDmg(Floor)%": 6
+        },
+        "special_effects": {
+          "Shield only:Accuracy": "Accuracy"
+        },
+        "base_atk": 327,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_sword_iv",
+    "name": "7th Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "MagicResistance%": 30,
+          "Accuracy%": 20,
+          "CriticalRate": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 13
+        },
+        "base_atk": 327,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_sword_iii",
+    "name": "8th Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "MagicResistance%": 35,
+          "ASPD": 950,
+          "CriticalRate": 35,
+          "Anticipate%": 19,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_sword_ii",
+    "name": "9th Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "MaxMP": 360,
+          "ATK%": 7,
+          "MagicResistance%": 40,
+          "CriticalRate": 40
+        },
+        "special_effects": {
+          "Anticipate %": "Anticipate %",
+          "Dual Swords only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 327,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "demon_empress_sword",
+    "name": "Demon Empress Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 25,
+          "FireElement": 1,
+          "AttackMPRecovery": 5,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Shield only:Aggro %": "Aggro %"
+        },
+        "base_atk": 327,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 20,
+          "FireElement": 1,
+          "AttackMPRecovery": 10,
+          "%strongeragainstNeutral": 10
+        },
+        "special_effects": {
+          "Shield only:Aggro %": "Aggro %"
+        },
+        "base_atk": 327,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 80,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "thunder_axe",
+    "name": "Thunder Axe",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Accuracy": 100,
+          "CriticalRate": 75,
+          "Earthresistance%": -25,
+          "Aggro%": 40,
+          "WindElement": 1,
+          "AdditionalMagic%": 80,
+          "GuardBreak%": 25
+        },
+        "special_effects": {},
+        "base_atk": 333,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "arachnid_sword",
+    "name": "Arachnid Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 800,
+          "CriticalDamage%": 16,
+          "Aggro%": -45,
+          "DarkElement": 1,
+          "Anticipate%": 25,
+          "ReduceDmg(Floor)%": -30,
+          "ReduceDmg(Bowling)%": -15
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 75
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 800,
+          "CriticalDamage%": 8,
+          "Aggro%": -15,
+          "DarkElement": 1,
+          "Anticipate%": 30,
+          "ReduceDmg(Floor)%": -10,
+          "ReduceDmg(Bowling)%": -5
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 75
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 75,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "luster_sword",
+    "name": "Luster Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 8,
+          "%strongeragainstDark": 5,
+          "LightElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 8,
+          "%strongeragainstDark": 5,
+          "LightElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 80,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "yozakura_sword",
+    "name": "Yozakura Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "MaxMP": 400,
+          "Accuracy": 300,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "ShortRangeDamage%": 6,
+          "ReduceDmg(Bowling)%": 30
+        },
+        "special_effects": {
+          "Dual Swords only:Critical Rate": "Critical Rate"
+        },
+        "base_atk": 340,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "fruhschneid",
+    "name": "Fruhschneid",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "%strongeragainstFire": 10,
+          "Windresistance%": -30,
+          "WaterElement": 1,
+          "AttackMPRecovery": 16
+        },
+        "special_effects": {
+          "Dual Swords only:Motion Speed %": "Motion Speed %"
+        },
+        "base_atk": 353,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "gemma_spada",
+    "name": "Gemma Spada",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalResistance%": 20,
+          "CSPD": 750,
+          "NeutralResistance%": 20,
+          "%strongeragainstNeutral": 30
+        },
+        "special_effects": {
+          "Physical Barrier": 2000,
+          "Dual Swords only:Critical Rate": "Critical Rate",
+          "Aggro %": "Aggro %"
+        },
+        "base_atk": 353,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalResistance%": 20,
+          "CSPD": 750,
+          "NeutralResistance%": 10,
+          "%strongeragainstNeutral": 30
+        },
+        "special_effects": {
+          "Physical Barrier": 1500
+        },
+        "base_atk": 353,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 353,
+        "stability": 80,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "queen_bee_needle",
+    "name": "Queen Bee Needle",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalPierce%": 35,
+          "PhysicalResistance%": -40,
+          "Dodge": 175,
+          "ASPD": 750,
+          "WindElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 355,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_sword_ii",
+    "name": "10th Anniv Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_sword_vi",
+    "name": "6th Anniv Sword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "MagicResistance%": 30,
+          "CriticalRate": 20,
+          "AttackMPRecovery": 15,
+          "ShortRangeDamage%": 8,
+          "ReduceDmg(Floor)%": 8
+        },
+        "special_effects": {
+          "Shield only:Accuracy": "Accuracy"
+        },
+        "base_atk": 367,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_sword_v",
+    "name": "7th Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "ATK%": 8,
+          "MagicResistance%": 30,
+          "Accuracy%": 25,
+          "CriticalRate": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 14
+        },
+        "base_atk": 367,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_sword_iv",
+    "name": "8th Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "ATK%": 8,
+          "MagicResistance%": 35,
+          "ASPD": 1100,
+          "CriticalRate": 35,
+          "Anticipate%": 21,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_sword_iii",
+    "name": "9th Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "MaxMP": 420,
+          "ATK%": 8,
+          "MagicResistance%": 40,
+          "CriticalRate": 40
+        },
+        "special_effects": {
+          "Anticipate %": "Anticipate %",
+          "Dual Swords only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 367,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "aeria_spada",
+    "name": "Aeria Spada",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 15,
+          "ASPD%": 40,
+          "CriticalRate": 45,
+          "WindElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 16,
+          "ASPD%": 50,
+          "CriticalRate": 50,
+          "WindElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "beastlord_sword",
+    "name": "Beastlord Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 80,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_sword",
+    "name": "Pearl Sakura Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "CSPD%": 50,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 390,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "eradicator_bayonet",
+    "name": "Eradicator Bayonet",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "CriticalRate": 25,
+          "%strongeragainstWind": 5,
+          "EarthElement": 1,
+          "AttackMPRecovery": 5,
+          "AdditionalMelee%": 150,
+          "GuardBreak%": 20,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 8,
+          "CriticalRate": 25,
+          "%strongeragainstWind": 5,
+          "EarthElement": 1,
+          "AttackMPRecovery": 10,
+          "AdditionalMelee%": 100,
+          "GuardBreak%": 15,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 80,
+        "potential": 50,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hakuro_sword",
+    "name": "Hakuro Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 6000,
+          "MaxMP": 200,
+          "CriticalRate": 40,
+          "%strongeragainstDark": 10,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "luxurie_sword",
+    "name": "Luxurie Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 35,
+          "ASPD": 500,
+          "FireElement": 1,
+          "ShortRangeDamage%": 8,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "sword_of_light_(ohs)",
+    "name": "Sword of Light (OHS)",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxMP": 300,
+          "ATK%": 10,
+          "PhysicalPierce%": 30,
+          "ASPD": 300,
+          "CriticalRate": 100,
+          "LightElement": 1,
+          "ATKUP(INT%)": 150,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "ocean_phantom_sword",
+    "name": "Ocean Phantom Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 10,
+          "CriticalRate": 40,
+          "EvasionRecharge%": 50,
+          "WaterElement": 1,
+          "AttackMPRecovery": 20,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Neutral Resistance %": "Neutral Resistance %",
+          "Dagger only:ASPD": "ASPD"
+        },
+        "base_atk": 400,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "ice_spirit_sword",
+    "name": "Ice Spirit Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 9,
+          "CSPD%": 50,
+          "Aggro%": -50,
+          "WaterElement": 1,
+          "MATKUP(DEX%)": 100,
+          "AttackRange(m)": 2.5
+        },
+        "special_effects": {},
+        "base_atk": 409,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "moonlight_sword_ii",
+    "name": "Moonlight Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "MATK%": 9,
+          "MagicPierce%": 25,
+          "CSPD": 1000,
+          "WaterElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Magic Device only:Critical Rate": "Critical Rate",
+          "Attack MP Recovery": "Attack MP Recovery"
+        },
+        "base_atk": 409,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "evgenis",
+    "name": "Evgenis",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 1000,
+          "Accuracy%": 100,
+          "Dodge": 50
+        },
+        "special_effects": {
+          "Shield only:Aggro %": "Aggro %"
+        },
+        "base_atk": 485,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_sword_iii",
+    "name": "10th Anniv Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 80,
+        "potential": 52
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_sword_vi",
+    "name": "7th Anniv Sword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 9,
+          "ATK%": 9,
+          "MagicResistance%": 30,
+          "Accuracy%": 30,
+          "CriticalRate": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        },
+        "base_atk": 424,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 80,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_sword_v",
+    "name": "8th Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 9,
+          "ATK%": 9,
+          "MagicResistance%": 35,
+          "ASPD": 1250,
+          "CriticalRate": 35,
+          "Anticipate%": 23,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 80,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_sword_iv",
+    "name": "9th Anniv Sword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 9,
+          "MaxMP": 480,
+          "ATK%": 9,
+          "MagicResistance%": 40,
+          "CriticalRate": 40
+        },
+        "special_effects": {
+          "Anticipate %": "Anticipate %",
+          "Dual Swords only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 424,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 80,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "profound_sword",
+    "name": "Profound Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "%strongeragainstLight": 10,
+          "Lightresistance%": 18,
+          "DarkElement": 1,
+          "AttackMPRecovery": 14
+        },
+        "special_effects": {},
+        "base_atk": 424
+      }
+    }
+  },
+  {
+    "id": "rolling_pin_sword",
+    "name": "Rolling Pin Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 8000,
+          "ATK%": 10,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 25,
+          "MotionSpeed%": 5,
+          "%strongeragainstNeutral": 35,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 444,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "squash_mace",
+    "name": "Squash Mace",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 75,
+          "Darkresistance%": 20,
+          "Aggro%": 40,
+          "DarkElement": 1,
+          "AttackMPRecovery": 15,
+          "ReduceDmg(FoeEpicenter)%": 20,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 445,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "erde_sword",
+    "name": "Erde Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 5000,
+          "MaxHP%": 25,
+          "CriticalRate": 20,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 454
+      }
+    }
+  },
+  {
+    "id": "filrocas_sword",
+    "name": "Filrocas Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "ATK%": 9,
+          "Accuracy%": 40,
+          "%strongeragainstFire": 10,
+          "WaterElement": 1,
+          "Anticipate%": 20,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Knuckle only:ASPD": "ASPD"
+        },
+        "base_atk": 454,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 700,
+          "ATK%": 9,
+          "Accuracy%": 50,
+          "%strongeragainstFire": 10,
+          "WaterElement": 1,
+          "Anticipate%": 10,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 454,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 454,
+        "stability": 80,
+        "potential": 54,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_sword_vi",
+    "name": "8th Anniv Sword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 10,
+          "ATK%": 10,
+          "MagicResistance%": 35,
+          "ASPD": 1400,
+          "CriticalRate": 35,
+          "Anticipate%": 25,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 485,
+        "stability": 80
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 485,
+        "stability": 80,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_sword_v",
+    "name": "9th Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 10,
+          "MaxMP": 540,
+          "ATK%": 10,
+          "MagicResistance%": 40,
+          "CriticalRate": 40
+        },
+        "special_effects": {
+          "Anticipate %": "Anticipate %",
+          "Dual Swords only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 485,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 485,
+        "stability": 80,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "broken_greatsword",
+    "name": "Broken Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalPierce%": 8,
+          "CriticalRate%": 88,
+          "CriticalDamage%": 8,
+          "ShortRangeDamage%": 8
+        },
+        "special_effects": {},
+        "base_atk": 510
+      }
+    }
+  },
+  {
+    "id": "lightning_sword",
+    "name": "Lightning Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 1000,
+          "Waterresistance%": -30,
+          "WindElement": 1,
+          "AttackMPRecovery": 25,
+          "AdditionalMelee%": 75
+        },
+        "special_effects": {
+          "Ninjutsu Scroll only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 510,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "amnis_rapier",
+    "name": "Amnis Rapier",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 40,
+          "CriticalRate": 120,
+          "WaterElement": 1
+        },
+        "special_effects": {
+          "Aggro %": "Aggro %",
+          "Shield only:Physical Resistance %": "Physical Resistance %",
+          "Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 517,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 40,
+          "CriticalRate": 80,
+          "WaterElement": 1
+        },
+        "special_effects": {
+          "Aggro %": "Aggro %",
+          "Shield only:Physical Resistance %": "Physical Resistance %",
+          "Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 517,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 517,
+        "stability": 70,
+        "potential": 57,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sunlight_saber",
+    "name": "Sunlight Saber",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "DEX%": 10,
+          "MaxMP": 200,
+          "ATK%": 10,
+          "MATK%": 10,
+          "%strongeragainstWater": 10,
+          "WindElement": 1,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        },
+        "base_atk": 533,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_sword_v",
+    "name": "10th Anniv Sword V",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 80,
+        "potential": 59
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_sword_vi",
+    "name": "9th Anniv Sword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 10,
+          "MaxMP": 600,
+          "ATK%": 11,
+          "MagicResistance%": 40,
+          "CriticalRate": 40
+        },
+        "special_effects": {
+          "Anticipate %": "Anticipate %",
+          "Dual Swords only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 550,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 80,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "meteor_sword",
+    "name": "Meteor Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 10,
+          "Dodge%": 10,
+          "ASPD%": 50,
+          "Lightresistance%": -30,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 10,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {
+          "Dual Swords only:Physical Pierce %": "Physical Pierce %",
+          "Evasion Recharge %": "Evasion Recharge %"
+        },
+        "base_atk": 550,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "anguish_sword",
+    "name": "Anguish Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 11,
+          "Stability%": 10,
+          "PhysicalPierce%": 20,
+          "ASPD": 900,
+          "%strongeragainstLight": 10,
+          "DarkElement": 1,
+          "GuardBreak%": 30
+        },
+        "special_effects": {},
+        "base_atk": 584,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "mace_sword",
+    "name": "Mace Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Aggro%": 100,
+          "ShortRangeDamage%": 10,
+          "UnsheatheAttack%": -50
+        },
+        "special_effects": {
+          "Shield only:Physical Pierce %": "Physical Pierce %",
+          "Physical Resistance %": "Physical Resistance %",
+          "Heavy Armor only:Magic Resistance %": "Magic Resistance %",
+          "Critical Rate": "Critical Rate"
+        },
+        "base_atk": 600,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "eerie_bird_warblade",
+    "name": "Eerie Bird Warblade",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxHP": 5000,
+          "MaxMP": 500,
+          "ATK%": 11,
+          "Accuracy": 250,
+          "ASPD": 750,
+          "CriticalDamage%": 11,
+          "ShortRangeDamage%": 11
+        },
+        "special_effects": {},
+        "base_atk": 637,
+        "stability": 80
+      }
+    }
+  }
+]

@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "goddess's_dagger",
+    "name": "Goddess's Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "INT": 5,
+          "MaxMP": 100,
+          "PhysicalResistance%": -10,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 1
+      }
+    }
+  },
+  {
+    "id": "throwing_knife",
+    "name": "Throwing Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "INT": 1,
+          "EvasionRecharge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 1
+      }
+    }
+  },
+  {
+    "id": "caravan_dagger",
+    "name": "Caravan Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 4
+      }
+    }
+  },
+  {
+    "id": "power_knife",
+    "name": "Power Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 2,
+          "WeaponATK": 4
+        },
+        "special_effects": {},
+        "base_atk": 8
+      }
+    }
+  },
+  {
+    "id": "twilight_dagger",
+    "name": "Twilight Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": 10,
+          "CSPD%": 10,
+          "AdditionalMelee%": 10,
+          "AdditionalMagic%": 10
+        },
+        "special_effects": {},
+        "base_atk": 10
+      }
+    }
+  },
+  {
+    "id": "dagger",
+    "name": "Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge": 3,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 12
+      }
+    }
+  },
+  {
+    "id": "thorny_twig",
+    "name": "Thorny Twig",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 1
+        },
+        "special_effects": {
+          "Bowgun only:Stability %": "Stability %"
+        },
+        "base_atk": 14
+      }
+    }
+  },
+  {
+    "id": "flower_bud_dagger",
+    "name": "Flower Bud Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 1,
+          "CSPD": 300,
+          "AilmentResistance%": 5
+        },
+        "special_effects": {},
+        "base_atk": 15
+      }
+    }
+  },
+  {
+    "id": "magic_dagger",
+    "name": "Magic Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CSPD": 50,
+          "EvasionRecharge%": 5,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 15
+      }
+    }
+  },
+  {
+    "id": "heavy_knife",
+    "name": "Heavy Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 3,
+          "Accuracy": -3,
+          "CriticalRate": 5
+        },
+        "special_effects": {},
+        "base_atk": 17
+      }
+    }
+  },
+  {
+    "id": "knife_shaft",
+    "name": "Knife Shaft",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "CriticalDamage": 1,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {
+          "Bowgun only:Weapon ATK": "Weapon ATK"
+        },
+        "base_atk": 20,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "storm_dagger",
+    "name": "Storm Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge%": 7,
+          "ASPD%": 7,
+          "CriticalRate%": 7
+        },
+        "special_effects": {},
+        "base_atk": 20
+      }
+    }
+  },
+  {
+    "id": "parrying_dagger",
+    "name": "Parrying Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 5,
+          "GuardPower%": 15,
+          "GuardRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 22
+      }
+    }
+  },
+  {
+    "id": "parrying_dagger_zc",
+    "name": "Parrying Dagger ZC",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "GuardPower%": 20,
+          "GuardRecharge%": 20
+        },
+        "special_effects": {
+          "Bowgun only:Critical Rate": "Critical Rate"
+        },
+        "base_atk": 22
+      }
+    }
+  },
+  {
+    "id": "army_knife",
+    "name": "Army Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 2,
+          "MaxMP": 100,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 27
+      }
+    }
+  },
+  {
+    "id": "magical_dagger",
+    "name": "Magical Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxMP": 300,
+          "AdditionalMagic%": 70
+        },
+        "special_effects": {},
+        "base_atk": 30
+      }
+    }
+  },
+  {
+    "id": "sailor's_dagger",
+    "name": "Sailor's Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxMP": 100,
+          "MATK%": 1,
+          "ShortRangeDamage%": -3
+        },
+        "special_effects": {},
+        "base_atk": 30
+      }
+    }
+  },
+  {
+    "id": "lightweight_knife",
+    "name": "Lightweight Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicResistance%": -10,
+          "ASPD": 100,
+          "EvasionRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "blood_drain_knife",
+    "name": "Blood Drain Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "NaturalHPRegen%": 5,
+          "Stability%": -10,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_atk": 40
+      }
+    }
+  },
+  {
+    "id": "marshmallow_knife",
+    "name": "Marshmallow Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "Accuracy%": 10,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {
+          "Bowgun only:Stability %": "Stability %"
+        },
+        "base_atk": 45
+      }
+    }
+  },
+  {
+    "id": "fin_knife",
+    "name": "Fin Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Stability%": -10,
+          "CriticalDamage": 5,
+          "Fireresistance%": -20,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 47
+      }
+    }
+  },
+  {
+    "id": "kukri",
+    "name": "Kukri",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 7,
+          "EvasionRecharge%": 10,
+          "AdditionalMelee%": 50
+        },
+        "special_effects": {},
+        "base_atk": 50
+      },
+      "npc": {
+        "stats": {
+          "Accuracy": 10,
+          "EvasionRecharge%": 10,
+          "AdditionalMelee%": 50
+        },
+        "special_effects": {},
+        "base_atk": 50
+      }
+    }
+  },
+  {
+    "id": "bush_knife",
+    "name": "Bush Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 6,
+          "ASPD%": -2,
+          "WeaponATK": 10
+        },
+        "special_effects": {},
+        "base_atk": 54
+      }
+    }
+  },
+  {
+    "id": "demi_knife",
+    "name": "Demi Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 150,
+          "CriticalRate": 5,
+          "EvasionRecharge%": -30,
+          "FlinchUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 54
+      }
+    }
+  },
+  {
+    "id": "dully_glowing_knife",
+    "name": "Dully Glowing Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "AGI": 2,
+          "CriticalRate": 4
+        },
+        "special_effects": {},
+        "base_atk": 54
+      }
+    }
+  },
+  {
+    "id": "chocolate_knife",
+    "name": "Chocolate Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "NaturalHPRegen%": 15,
+          "EvasionRecharge%": 5,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 60
+      }
+    }
+  },
+  {
+    "id": "cursed_dagger",
+    "name": "Cursed Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": -200,
+          "PhysicalPierce%": 5,
+          "AilmentResistance%": -5,
+          "WeaponATK": 13
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "sorting_knife",
+    "name": "Sorting Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 15,
+          "Darkresistance%": -15,
+          "Anticipate%": 3
+        },
+        "special_effects": {},
+        "base_atk": 60
+      }
+    }
+  },
+  {
+    "id": "trench_knife",
+    "name": "Trench Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 5,
+          "DEF": 15,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 60
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_dagger",
+    "name": "Anniv Festive Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CSPD": 100,
+          "EvasionRecharge%": 10,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 62
+      }
+    }
+  },
+  {
+    "id": "biscuit_knife",
+    "name": "Biscuit Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "NaturalHPRegen%": 10,
+          "MaxMP": 200,
+          "Aggro%": -20
+        },
+        "special_effects": {},
+        "base_atk": 70
+      }
+    }
+  },
+  {
+    "id": "dive_knife",
+    "name": "Dive Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 12,
+          "Windresistance%": -9,
+          "EvasionRecharge%": 6
+        },
+        "special_effects": {},
+        "base_atk": 70
+      }
+    }
+  },
+  {
+    "id": "rat_knife",
+    "name": "Rat Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 5,
+          "ASPD": 250,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 71
+      }
+    }
+  },
+  {
+    "id": "odd-shaped_knife",
+    "name": "Odd-Shaped Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MDEF%": -33,
+          "CriticalDamage": 3,
+          "CriticalDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 72,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "sealing_talisman",
+    "name": "Sealing Talisman",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 3,
+          "CSPD%": 10,
+          "Lightresistance%": -30
+        },
+        "special_effects": {
+          "Staff only:Light Resistance": "Light Resistance"
+        },
+        "base_atk": 72,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "guardian_dagger",
+    "name": "Guardian Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 10,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10
+        },
+        "special_effects": {},
+        "base_atk": 80
+      }
+    }
+  },
+  {
+    "id": "wood_choco_dagger",
+    "name": "Wood Choco Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "EvasionRecharge%": 4,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 82
+      }
+    }
+  },
+  {
+    "id": "chaos_knife",
+    "name": "Chaos Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "MaxMP": -100,
+          "NeutralResistance%": 10
+        },
+        "special_effects": {},
+        "base_atk": 84
+      }
+    }
+  },
+  {
+    "id": "antique_knife",
+    "name": "Antique Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 100
+      }
+    }
+  },
+  {
+    "id": "holy_knife",
+    "name": "Holy Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 2,
+          "Darkresistance%": 10,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 100
+      }
+    }
+  },
+  {
+    "id": "lil_empress_dagger",
+    "name": "Lil Empress Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 10,
+          "Waterresistance%": -15,
+          "EvasionRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 104
+      }
+    }
+  },
+  {
+    "id": "icy_dagger",
+    "name": "Icy Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Waterresistance%": 10,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {
+          "1-Handed Sword only:% stronger against Fire": "% stronger against Fire"
+        },
+        "base_atk": 110
+      }
+    }
+  },
+  {
+    "id": "insect_knife",
+    "name": "Insect Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 30,
+          "ASPD": 200,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 110
+      }
+    }
+  },
+  {
+    "id": "sakura_princess_dagger",
+    "name": "Sakura Princess Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "Stability%": 5,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25
+        },
+        "special_effects": {},
+        "base_atk": 110
+      }
+    }
+  },
+  {
+    "id": "trick_dagger",
+    "name": "Trick Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CSPD": 150,
+          "AdditionalMagic%": 75
+        },
+        "special_effects": {},
+        "base_atk": 121
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_dagger_ii",
+    "name": "Anniv Festive Dagger II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CSPD": 200,
+          "EvasionRecharge%": 12,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 126
+      }
+    }
+  },
+  {
+    "id": "apple_branch_dagger",
+    "name": "Apple Branch Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": 5,
+          "%strongeragainstWind": 5,
+          "Windresistance%": 5
+        },
+        "special_effects": {},
+        "base_atk": 126
+      }
+    }
+  },
+  {
+    "id": "sashimi_knife",
+    "name": "Sashimi Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "%strongeragainstWater": 5,
+          "Waterresistance%": 10,
+          "Aggro%": -15
+        },
+        "special_effects": {},
+        "base_atk": 130
+      }
+    }
+  },
+  {
+    "id": "twilight_sakura_dagger",
+    "name": "Twilight Sakura Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 400,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 130
+      }
+    }
+  },
+  {
+    "id": "hefty_knife",
+    "name": "Hefty Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR": 4,
+          "CriticalRate": 4,
+          "CriticalDamage": 4
+        },
+        "special_effects": {},
+        "base_atk": 138
+      }
+    }
+  },
+  {
+    "id": "demon_empress_dagger",
+    "name": "Demon Empress Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicPierce%": 5,
+          "CriticalRate": 10,
+          "EvasionRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 150
+      }
+    }
+  },
+  {
+    "id": "fallen_angel_dagger",
+    "name": "Fallen Angel Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 3,
+          "CriticalDamage": 3,
+          "Recoil%": 0.01
+        },
+        "special_effects": {},
+        "base_atk": 150
+      }
+    }
+  },
+  {
+    "id": "kitchen_knife",
+    "name": "Kitchen Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "%strongeragainstEarth": 5,
+          "Earthresistance%": 10,
+          "Aggro%": -15
+        },
+        "special_effects": {},
+        "base_atk": 150
+      }
+    }
+  },
+  {
+    "id": "life_branch_dagger",
+    "name": "Life Branch Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalHPRegen%": 10,
+          "MaxHP%": 20,
+          "Stability%": 5
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "beak_knife",
+    "name": "Beak Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 1,
+          "ATK%": 1,
+          "Stability%": -3,
+          "UnsheatheAttack%": 1
+        },
+        "special_effects": {},
+        "base_atk": 157
+      }
+    }
+  },
+  {
+    "id": "scarlet_sakura_dagger",
+    "name": "Scarlet Sakura Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 7,
+          "CriticalRate": 14,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 170
+      }
+    }
+  },
+  {
+    "id": "scratch_knife",
+    "name": "Scratch Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 8,
+          "ASPD%": 20,
+          "AdditionalMelee%": 50,
+          "AdditionalMagic%": 50
+        },
+        "special_effects": {},
+        "base_atk": 170
+      }
+    }
+  },
+  {
+    "id": "steel_leaf_knife",
+    "name": "Steel Leaf Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 5,
+          "Fireresistance%": 10,
+          "LongRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 178
+      }
+    }
+  },
+  {
+    "id": "rock_fang_dagger",
+    "name": "Rock Fang Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 179
+      }
+    }
+  },
+  {
+    "id": "white_beast_dagger",
+    "name": "White Beast Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "Dodge": 20,
+          "%strongeragainstDark": 5,
+          "Darkresistance%": 10,
+          "EvasionRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 180
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_dagger_iii",
+    "name": "Anniv Festive Dagger III",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CSPD": 300,
+          "EvasionRecharge%": 14,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 183
+      }
+    }
+  },
+  {
+    "id": "corroded_dragon_claw_sword",
+    "name": "Corroded Dragon Claw Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Aggro%": 20,
+          "AttackMPRecovery": 10,
+          "ReduceDmg(Floor)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 183
+      }
+    }
+  },
+  {
+    "id": "honeybee_sting_dagger",
+    "name": "Honeybee Sting Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 1,
+          "Dodge%": 10,
+          "CriticalRate": 10
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_dagger",
+    "name": "Pearl Sakura Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 250,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 15,
+          "Aggro%": -20
+        },
+        "special_effects": {},
+        "base_atk": 200
+      }
+    }
+  },
+  {
+    "id": "anger_knife",
+    "name": "Anger Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 20,
+          "Aggro%": 80,
+          "Anticipate%": 5
+        },
+        "special_effects": {},
+        "base_atk": 219
+      }
+    }
+  },
+  {
+    "id": "tuning_knife",
+    "name": "Tuning Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "Stability%": 10,
+          "CriticalRate": 10,
+          "ReduceDmg(Bowling)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 222
+      }
+    }
+  },
+  {
+    "id": "melting_knife",
+    "name": "Melting Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 5,
+          "Waterresistance%": -15,
+          "%strongeragainstNeutral": 5,
+          "GuardBreak%": 5
+        },
+        "special_effects": {},
+        "base_atk": 234
+      }
+    }
+  },
+  {
+    "id": "dewclaw_dagger",
+    "name": "Dewclaw Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 15,
+          "CriticalDamage%": -1
+        },
+        "special_effects": {},
+        "base_atk": 236
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_dagger_iv",
+    "name": "Anniv Festive Dagger IV",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CSPD": 400,
+          "EvasionRecharge%": 16,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 242
+      }
+    }
+  },
+  {
+    "id": "dagger_of_grace",
+    "name": "Dagger of Grace",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "MaxMP": 200,
+          "Aggro%": -30
+        },
+        "special_effects": {},
+        "base_atk": 242
+      }
+    }
+  },
+  {
+    "id": "frog_warrior_dagger",
+    "name": "Frog Warrior Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 5,
+          "Aggro%": -10,
+          "ShortRangeDamage%": 1,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {
+          "Bowgun only:CSPD %": "CSPD %",
+          "1-Handed Sword only:Critical Rate %": "Critical Rate %"
+        },
+        "base_atk": 250
+      }
+    }
+  },
+  {
+    "id": "medical_messer",
+    "name": "Medical Messer",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 20,
+          "CriticalRate%": 20,
+          "AilmentResistance%": 10,
+          "GuardBreak%": 10,
+          "InvincibleAid(sec)": 1
+        },
+        "special_effects": {},
+        "base_atk": 295,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "sakura_branch_dagger",
+    "name": "Sakura Branch Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 1,
+          "PhysicalPierce%": 2,
+          "MagicPierce%": 3
+        },
+        "special_effects": {},
+        "base_atk": 300
+      }
+    }
+  },
+  {
+    "id": "battle_cadence_dagger",
+    "name": "Battle Cadence Dagger",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "AGI%": 2,
+          "ATK%": 2,
+          "Stability%": 4,
+          "Lightresistance%": -16,
+          "MotionSpeed%": 4
+        },
+        "special_effects": {},
+        "base_atk": 365
+      }
+    }
+  }
+]

@@ -26,7 +26,7 @@ export default function Header() {
           className="group flex items-center neon-glow"
         >
           <Image
-            src="/1729466966609.png"
+            src="/1000239745.jpg"
             alt="Nilloco Online - YouTube Channel"
             width={1920}
             height={400}

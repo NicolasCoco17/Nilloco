@@ -1,0 +1,2831 @@
+[
+  {
+    "id": "1st_anniv_shield",
+    "name": "1st Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "VIT%": 1,
+          "GuardPower%": 24,
+          "GuardRecharge%": 8,
+          "Aggro%": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_shield",
+    "name": "2nd Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "VIT%": 1,
+          "GuardPower%": 24,
+          "GuardRecharge%": 8,
+          "Aggro%": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_shield",
+    "name": "3rd Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "VIT%": 1,
+          "GuardPower%": 24,
+          "GuardRecharge%": 8,
+          "Aggro%": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield",
+    "name": "4th Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "VIT%": 1,
+          "GuardPower%": 24,
+          "GuardRecharge%": 8,
+          "Aggro%": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "buckler",
+    "name": "Buckler",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 0,
+          "GuardPower%": 15,
+          "GuardRecharge%": 15
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "MaxHP": 30,
+          "GuardPower%": 15,
+          "GuardRecharge%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "cake_shield",
+    "name": "Cake Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "MaxHP": 250,
+          "GuardPower%": 10,
+          "GuardRecharge%": 10,
+          "AttackMPRecovery": 1,
+          "NeutralResistance%": 5
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "huge_heavy_shield",
+    "name": "Huge Heavy Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 0,
+          "MaxMP": 10,
+          "GuardPower%": 32,
+          "GuardRecharge%": 2
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "light_shield",
+    "name": "Light Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 0,
+          "GuardPower%": 5,
+          "GuardRecharge%": 26
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "AGI": 2,
+          "GuardPower%": 5,
+          "GuardRecharge%": 26
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "maton_shield",
+    "name": "Maton Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 0,
+          "MaxHP": 1000,
+          "AdditionalMelee%": 50
+        },
+        "special_effects": {
+          "Physical Barrier": 1000,
+          "Magic Barrier": 1000
+        }
+      }
+    }
+  },
+  {
+    "id": "mirror_shield",
+    "name": "Mirror Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 0,
+          "GuardPower%": 5,
+          "GuardRecharge%": 5,
+          "EvasionRecharge%": 10,
+          "Aggro%": 5
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "shampy_doll",
+    "name": "Shampy Doll",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 0,
+          "MaxHP": 1500
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10,
+          "Barrier Cooldown %": 20
+        }
+      },
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "MaxHP": 1000
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15,
+          "Barrier Cooldown %": 10
+        }
+      }
+    }
+  },
+  {
+    "id": "spirit_shield_navida",
+    "name": "Spirit Shield Navida",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 0,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25
+        },
+        "special_effects": {
+          "Event only:MaxHP %": "MaxHP %",
+          "ASPD": "ASPD",
+          "Critical Rate": "Critical Rate",
+          "Fractional Barrier %": null
+        }
+      }
+    }
+  },
+  {
+    "id": "zoe's_magic_book",
+    "name": "Zoe's Magic Book",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -20,
+          "MaxMP": 100,
+          "MATK%": 1,
+          "CSPD": 100,
+          "AdditionalMagic%": 100,
+          "MATKDOWN(STR%)": 40
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "coryn_memorial_shield",
+    "name": "Coryn Memorial Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 1,
+          "MaxHP%": 30,
+          "Darkresistance%": 30,
+          "GuardPower%": 30,
+          "GuardRecharge%": 30,
+          "Aggro%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "hagoita",
+    "name": "Hagoita",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 1,
+          "MaxHP": 2000,
+          "CSPD%": 20,
+          "GuardPower%": 20,
+          "GuardRecharge%": 20
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "hero_shield_(pom)",
+    "name": "Hero Shield (Pom)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 1,
+          "AilmentResistance%": -10,
+          "GuardPower%": 20,
+          "GuardRecharge%": 30,
+          "Aggro%": 25
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "iron_shield",
+    "name": "Iron Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 1,
+          "GuardPower%": 13,
+          "GuardRecharge%": 20
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 1,
+          "GuardPower%": 13,
+          "GuardRecharge%": 20,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "juno_shield",
+    "name": "Juno Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 1,
+          "Windresistance%": 10,
+          "GuardPower%": 15,
+          "GuardRecharge%": 10,
+          "MotionSpeed%": 2
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "kite_shield",
+    "name": "Kite Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 1,
+          "MaxHP": 30,
+          "GuardPower%": 22,
+          "GuardRecharge%": 10
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 1,
+          "MaxHP": 90,
+          "GuardPower%": 22,
+          "GuardRecharge%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "shell_shield",
+    "name": "Shell Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 2,
+          "PhysicalResistance%": 2,
+          "GuardPower%": 12,
+          "GuardRecharge%": 24,
+          "Aggro%": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "hard_buckler",
+    "name": "Hard Buckler",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 3,
+          "CriticalRate": 2,
+          "GuardPower%": 17,
+          "GuardRecharge%": 17
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 3,
+          "CriticalRate": 4,
+          "GuardPower%": 17,
+          "GuardRecharge%": 17
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "relic_shield",
+    "name": "Relic Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 3,
+          "PhysicalResistance%": 1,
+          "Accuracy": 5,
+          "GuardPower%": 15,
+          "GuardRecharge%": 22
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "ooze_shield",
+    "name": "Ooze Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 4,
+          "NaturalHPRegen%": 2,
+          "MagicResistance%": 4,
+          "GuardPower%": 15,
+          "GuardRecharge%": 23
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 4,
+          "NaturalHPRegen%": 2,
+          "MagicResistance%": 1,
+          "GuardPower%": 23,
+          "GuardRecharge%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_shield_ii",
+    "name": "1st Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 5,
+          "VIT%": 2,
+          "GuardPower%": 27,
+          "GuardRecharge%": 9,
+          "Aggro%": 6
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_shield_ii",
+    "name": "2nd Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 5,
+          "VIT%": 2,
+          "GuardPower%": 27,
+          "GuardRecharge%": 9,
+          "Aggro%": 6
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_shield_ii",
+    "name": "3rd Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 5,
+          "VIT%": 2,
+          "GuardPower%": 27,
+          "GuardRecharge%": 9,
+          "Aggro%": 6
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield_ii",
+    "name": "4th Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 5,
+          "VIT%": 2,
+          "GuardPower%": 27,
+          "GuardRecharge%": 9,
+          "Aggro%": 6
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "porcupine_quills_shield",
+    "name": "Porcupine Quills Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 5,
+          "ATK%": 1,
+          "PhysicalPierce%": 3,
+          "CriticalDamage": 2,
+          "Fireresistance%": -25,
+          "Earthresistance%": 25,
+          "GuardPower%": 40
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 5,
+          "ATK%": 1,
+          "PhysicalPierce%": 1,
+          "CriticalDamage": 1,
+          "Fireresistance%": -25,
+          "Earthresistance%": 25,
+          "GuardPower%": 40
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "red_steel_buckler",
+    "name": "Red Steel Buckler",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 5,
+          "Dodge": 50,
+          "ASPD": 300,
+          "CriticalRate": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "scale_shield",
+    "name": "Scale Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 5,
+          "GuardPower%": 10,
+          "GuardRecharge%": 25,
+          "Aggro%": 5
+        },
+        "special_effects": {}
+      },
+      "drop": {
+        "stats": {
+          "DEF": 5,
+          "GuardPower%": 10,
+          "GuardRecharge%": 25,
+          "Aggro%": 2
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "sugar_cookie",
+    "name": "Sugar Cookie",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 5,
+          "Lightresistance%": 25,
+          "AilmentResistance%": 5,
+          "GuardPower%": 10,
+          "GuardRecharge%": 45,
+          "ReduceDmg(Floor)%": 25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "relief_shield",
+    "name": "Relief Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 6,
+          "MaxHP": 300,
+          "Darkresistance%": 5,
+          "GuardPower%": 30,
+          "GuardRecharge%": 9
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 6,
+          "MaxMP": 100,
+          "Darkresistance%": 1,
+          "GuardPower%": 30,
+          "GuardRecharge%": 9
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "albero_shield",
+    "name": "Albero Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 7,
+          "VIT%": 2,
+          "MaxHP": 200,
+          "GuardPower%": 18,
+          "GuardRecharge%": 18
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 7,
+          "VIT%": 3,
+          "MaxHP": 300,
+          "GuardPower%": 18,
+          "GuardRecharge%": 18
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "marble_shield",
+    "name": "Marble Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 9,
+          "GuardPower%": 20,
+          "GuardRecharge%": 20,
+          "Aggro%": 24,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 9,
+          "GuardPower%": 20,
+          "GuardRecharge%": 20,
+          "Aggro%": 6,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "shell_buckler",
+    "name": "Shell Buckler",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 9,
+          "VIT%": 3,
+          "Accuracy%": 10,
+          "GuardPower%": 30,
+          "GuardRecharge%": 7
+        },
+        "special_effects": {}
+      },
+      "drop": {
+        "stats": {
+          "DEF": 9,
+          "VIT%": 1,
+          "Accuracy%": 8,
+          "GuardPower%": 30,
+          "GuardRecharge%": 7
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_shield_iii",
+    "name": "1st Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 10,
+          "VIT%": 3,
+          "GuardPower%": 30,
+          "GuardRecharge%": 10,
+          "Aggro%": 9
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_shield_iii",
+    "name": "2nd Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 10,
+          "VIT%": 3,
+          "GuardPower%": 30,
+          "GuardRecharge%": 10,
+          "Aggro%": 9
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_shield_iii",
+    "name": "3rd Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 10,
+          "VIT%": 3,
+          "GuardPower%": 30,
+          "GuardRecharge%": 10,
+          "Aggro%": 9
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield_iii",
+    "name": "4th Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 10,
+          "VIT%": 3,
+          "GuardPower%": 30,
+          "GuardRecharge%": 10,
+          "Aggro%": 9
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_shield",
+    "name": "5th Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 10,
+          "MaxHP%": 3,
+          "PhysicalResistance%": 3,
+          "MagicResistance%": 3,
+          "GuardPower%": 30,
+          "GuardRecharge%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "coffin_shield",
+    "name": "Coffin Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 10,
+          "MATK": 30,
+          "Darkresistance%": 15,
+          "GuardPower%": 20,
+          "GuardRecharge%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "cross_shield",
+    "name": "Cross Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 10,
+          "PhysicalResistance%": 3,
+          "MagicResistance%": 1,
+          "GuardPower%": 19,
+          "GuardRecharge%": 19
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 10,
+          "PhysicalResistance%": 6,
+          "MagicResistance%": 2,
+          "GuardPower%": 19,
+          "GuardRecharge%": 19
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "black_shield_of_delusion",
+    "name": "Black Shield of Delusion",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 11,
+          "CriticalDamage": 4,
+          "GuardPower%": 10,
+          "GuardRecharge%": 32,
+          "NeutralResistance%": 25
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 11,
+          "CriticalDamage": 2,
+          "GuardPower%": 10,
+          "GuardRecharge%": 32,
+          "NeutralResistance%": 20
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "vulcan_shield",
+    "name": "Vulcan Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 11,
+          "Accuracy": 6,
+          "ASPD": 250,
+          "CriticalRate": 12,
+          "GuardPower%": 10,
+          "GuardRecharge%": 35
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 11,
+          "Accuracy": 16,
+          "ASPD": 250,
+          "CriticalRate": 8,
+          "GuardPower%": 10,
+          "GuardRecharge%": 35
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_shield",
+    "name": "6th Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 12,
+          "VIT%": 4,
+          "PhysicalResistance%": 7,
+          "MagicResistance%": 7,
+          "GuardPower%": 30,
+          "GuardRecharge%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "indigo_shield",
+    "name": "Indigo Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 14,
+          "CriticalDamage": 1,
+          "GuardPower%": 15,
+          "GuardRecharge%": 24
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 14,
+          "CriticalDamage": 2,
+          "GuardPower%": 15,
+          "GuardRecharge%": 24
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_shield_iv",
+    "name": "2nd Anniv Shield IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 16,
+          "VIT%": 4,
+          "GuardPower%": 33,
+          "GuardRecharge%": 11,
+          "Aggro%": 12
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_shield_iv",
+    "name": "3rd Anniv Shield IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 16,
+          "VIT%": 4,
+          "GuardPower%": 33,
+          "GuardRecharge%": 11,
+          "Aggro%": 12
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield_iv",
+    "name": "4th Anniv Shield IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 16,
+          "VIT%": 4,
+          "GuardPower%": 33,
+          "GuardRecharge%": 11,
+          "Aggro%": 12
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "spike_shield",
+    "name": "Spike Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 18,
+          "GuardPower%": 5,
+          "GuardRecharge%": 35,
+          "Aggro%": 10,
+          "WeaponATK%": 10,
+          "Reflect%": 10,
+          "AdditionalMelee%": 10
+        },
+        "special_effects": {}
+      },
+      "drop": {
+        "stats": {
+          "DEF": 18,
+          "GuardPower%": 5,
+          "GuardRecharge%": 35,
+          "Aggro%": 10,
+          "WeaponATK%": 10,
+          "Reflect%": 10,
+          "AdditionalMelee%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dark_general's_shield",
+    "name": "Dark General's Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 20,
+          "VIT%": 2,
+          "Darkresistance%": 10,
+          "GuardPower%": 30,
+          "GuardRecharge%": 14,
+          "Aggro%": 30
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 20,
+          "VIT%": 3,
+          "Darkresistance%": 10,
+          "GuardPower%": 30,
+          "GuardRecharge%": 14,
+          "Aggro%": 20
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "phalanx_(shield)",
+    "name": "Phalanx (Shield)",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "DEF": 20,
+          "Aggro%": 20
+        },
+        "special_effects": {
+          "Physical Barrier": 1500,
+          "Magic Barrier": 1500,
+          "Barrier Cooldown %": 25
+        }
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_shield_v",
+    "name": "2nd Anniv Shield V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 22,
+          "VIT%": 5,
+          "GuardPower%": 36,
+          "GuardRecharge%": 12,
+          "Aggro%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_shield_v",
+    "name": "3rd Anniv Shield V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 22,
+          "VIT%": 5,
+          "GuardPower%": 36,
+          "GuardRecharge%": 12,
+          "Aggro%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield_v",
+    "name": "4th Anniv Shield V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 22,
+          "VIT%": 5,
+          "GuardPower%": 36,
+          "GuardRecharge%": 12,
+          "Aggro%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_shield_ii",
+    "name": "5th Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 22,
+          "MaxHP%": 5,
+          "PhysicalResistance%": 5,
+          "MagicResistance%": 5,
+          "GuardPower%": 36,
+          "GuardRecharge%": 12
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "imperial_shield",
+    "name": "Imperial Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 22,
+          "PhysicalResistance%": -5,
+          "MagicResistance%": 20,
+          "GuardPower%": 25,
+          "GuardRecharge%": 16
+        },
+        "special_effects": {}
+      },
+      "drop": {
+        "stats": {
+          "DEF": 26,
+          "PhysicalResistance%": -2,
+          "MagicResistance%": 15,
+          "GuardPower%": 25,
+          "GuardRecharge%": 16
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "moonlight_shield",
+    "name": "Moonlight Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 22,
+          "MagicResistance%": 25,
+          "Fireresistance%": 15
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        }
+      }
+    }
+  },
+  {
+    "id": "bullet_shield",
+    "name": "Bullet Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 25,
+          "GuardPower%": 19,
+          "GuardRecharge%": 30,
+          "ReduceDmg(Bullet)%": 10,
+          "ReduceDmg(Bowling)%": 10
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 25,
+          "GuardPower%": 19,
+          "GuardRecharge%": 30,
+          "ReduceDmg(Bullet)%": 12,
+          "ReduceDmg(Bowling)%": 12
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_shield_ii",
+    "name": "6th Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 26,
+          "VIT%": 5,
+          "PhysicalResistance%": 8,
+          "MagicResistance%": 8,
+          "GuardPower%": 36,
+          "GuardRecharge%": 12
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_shield",
+    "name": "7th Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 26,
+          "VIT%": 4,
+          "PhysicalResistance%": 8,
+          "MagicResistance%": 8,
+          "GuardPower%": 39,
+          "GuardRecharge%": 13,
+          "Aggro%": 16
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "sapphire_shield",
+    "name": "Sapphire Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 28,
+          "PhysicalResistance%": 10,
+          "GuardPower%": 10,
+          "GuardRecharge%": 30,
+          "EvasionRecharge%": 10,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 1000
+        }
+      },
+      "npc": {
+        "stats": {
+          "DEF": 28,
+          "PhysicalResistance%": 5,
+          "GuardPower%": 15,
+          "GuardRecharge%": 25,
+          "EvasionRecharge%": 1,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 100
+        }
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_shield_vi",
+    "name": "3rd Anniv Shield VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 30,
+          "VIT%": 5,
+          "GuardPower%": 38,
+          "GuardRecharge%": 13,
+          "Aggro%": 18
+        },
+        "special_effects": {
+          "Fractional Barrier %": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield_vi",
+    "name": "4th Anniv Shield VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 30,
+          "VIT%": 5,
+          "GuardPower%": 38,
+          "GuardRecharge%": 13,
+          "Aggro%": 18
+        },
+        "special_effects": {
+          "Fractional Barrier %": 2
+        }
+      }
+    }
+  },
+  {
+    "id": "elfin_shield",
+    "name": "Elfin Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 30,
+          "Dodge%": 10,
+          "GuardPower%": 30,
+          "GuardRecharge%": 20,
+          "NeutralResistance%": 5
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 30,
+          "Dodge%": 5,
+          "GuardPower%": 30,
+          "GuardRecharge%": 20,
+          "NeutralResistance%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "zahhak_shield",
+    "name": "Zahhak Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 30,
+          "MaxHP%": 10,
+          "CriticalDamage": 3,
+          "GuardPower%": 26,
+          "GuardRecharge%": 26
+        },
+        "special_effects": {
+          "Fractional Barrier %": 9,
+          "Magic Barrier": 500
+        }
+      },
+      "npc": {
+        "stats": {
+          "DEF": 30,
+          "MaxHP%": 10,
+          "CriticalDamage": 3,
+          "GuardPower%": 24,
+          "GuardRecharge%": 24
+        },
+        "special_effects": {
+          "Fractional Barrier %": 2,
+          "Magic Barrier": 1000
+        }
+      }
+    }
+  },
+  {
+    "id": "esca_shield",
+    "name": "Esca Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 34,
+          "GuardPower%": 31,
+          "GuardRecharge%": 20,
+          "Aggro%": 30,
+          "ReduceDmg(StraightLine)%": 5
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 34,
+          "GuardPower%": 31,
+          "GuardRecharge%": 20,
+          "Aggro%": 30,
+          "ReduceDmg(StraightLine)%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "windgrace_shield",
+    "name": "Windgrace Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 108,
+          "MaxHP": 5000,
+          "GuardPower%": 30,
+          "GuardRecharge%": 30,
+          "ReduceDmg(PlayerEpicenter)%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        }
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_shield_vii",
+    "name": "3rd Anniv Shield VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 36,
+          "VIT%": 5,
+          "GuardPower%": 38,
+          "GuardRecharge%": 13,
+          "Aggro%": 21
+        },
+        "special_effects": {
+          "Fractional Barrier %": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield_vii",
+    "name": "4th Anniv Shield VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 36,
+          "VIT%": 5,
+          "GuardPower%": 38,
+          "GuardRecharge%": 13,
+          "Aggro%": 21
+        },
+        "special_effects": {
+          "Fractional Barrier %": 4
+        }
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_shield_iii",
+    "name": "5th Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 36,
+          "MaxHP%": 7,
+          "PhysicalResistance%": 7,
+          "MagicResistance%": 7,
+          "GuardPower%": 38,
+          "GuardRecharge%": 13
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_shield_iii",
+    "name": "6th Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 39,
+          "VIT%": 6,
+          "PhysicalResistance%": 9,
+          "MagicResistance%": 9,
+          "GuardPower%": 39,
+          "GuardRecharge%": 13
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_shield_ii",
+    "name": "7th Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 39,
+          "VIT%": 6,
+          "PhysicalResistance%": 9,
+          "MagicResistance%": 9,
+          "GuardPower%": 39,
+          "GuardRecharge%": 14,
+          "Aggro%": 18
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_shield",
+    "name": "8th Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 39,
+          "VIT%": 6,
+          "PhysicalResistance%": 9,
+          "MagicResistance%": 9,
+          "GuardPower%": 39,
+          "GuardRecharge%": 14,
+          "Aggro%": 18
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "harmony_shield",
+    "name": "Harmony Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 39,
+          "PhysicalResistance%": 13,
+          "MagicResistance%": 13,
+          "GuardPower%": 26,
+          "GuardRecharge%": 26
+        },
+        "special_effects": {}
+      },
+      "drop": {
+        "stats": {
+          "DEF": 41,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "GuardPower%": 26,
+          "GuardRecharge%": 26
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "lil_empress_shield",
+    "name": "Lil Empress Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 40,
+          "Accuracy": 30,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "snow_bear_shield",
+    "name": "Snow Bear Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 40,
+          "Waterresistance%": 10,
+          "GuardPower%": 30,
+          "GuardRecharge%": 20,
+          "Aggro%": 40,
+          "ReduceDmg(Charge)%": 20
+        },
+        "special_effects": {
+          "Staff only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield_viii",
+    "name": "4th Anniv Shield VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 45,
+          "VIT%": 5,
+          "GuardPower%": 38,
+          "GuardRecharge%": 13,
+          "Aggro%": 24
+        },
+        "special_effects": {
+          "Fractional Barrier %": 6
+        }
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_shield_iv",
+    "name": "5th Anniv Shield IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 45,
+          "MaxHP%": 8,
+          "PhysicalResistance%": 8,
+          "MagicResistance%": 8,
+          "GuardPower%": 38,
+          "GuardRecharge%": 13
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "holy_shield",
+    "name": "Holy Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 45,
+          "MaxHP%": 15,
+          "MagicResistance%": 10,
+          "Darkresistance%": 10,
+          "GuardPower%": 13,
+          "GuardRecharge%": 40
+        },
+        "special_effects": {}
+      },
+      "drop": {
+        "stats": {
+          "DEF": 45,
+          "MaxHP%": 20,
+          "MagicResistance%": 8,
+          "Darkresistance%": 7,
+          "GuardPower%": 13,
+          "GuardRecharge%": 40
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "juno_shield_ii",
+    "name": "Juno Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 50,
+          "Windresistance%": 15,
+          "GuardPower%": 25,
+          "GuardRecharge%": 20,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "swirly_whirly_shield",
+    "name": "Swirly Whirly Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 50,
+          "GuardPower%": 30,
+          "Aggro%": -30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "catafnia_shield",
+    "name": "Catafnia Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 51,
+          "MaxMP": 200,
+          "GuardPower%": 34,
+          "GuardRecharge%": 20,
+          "Anticipate%": 6
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 51,
+          "MaxMP": 100,
+          "GuardPower%": 34,
+          "GuardRecharge%": 20,
+          "Anticipate%": 5
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_shield_ix",
+    "name": "4th Anniv Shield IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 54,
+          "VIT%": 5,
+          "GuardPower%": 39,
+          "GuardRecharge%": 14,
+          "Aggro%": 27
+        },
+        "special_effects": {
+          "Fractional Barrier %": 8
+        }
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_shield_v",
+    "name": "5th Anniv Shield V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 54,
+          "MaxHP%": 9,
+          "PhysicalResistance%": 9,
+          "MagicResistance%": 9,
+          "GuardPower%": 39,
+          "GuardRecharge%": 14
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_shield_iv",
+    "name": "6th Anniv Shield IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 54,
+          "VIT%": 7,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "GuardPower%": 40,
+          "GuardRecharge%": 14
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_shield_iii",
+    "name": "7th Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 54,
+          "VIT%": 7,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "GuardPower%": 40,
+          "GuardRecharge%": 14,
+          "Aggro%": 20
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_shield_ii",
+    "name": "8th Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 54,
+          "VIT%": 7,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "GuardPower%": 40,
+          "GuardRecharge%": 14,
+          "Aggro%": 20
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_shield",
+    "name": "9th Anniv Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 54,
+          "VIT%": 6,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "GuardPower%": 40,
+          "GuardRecharge%": 14,
+          "Aggro%": 20
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "seadevil_shield",
+    "name": "Seadevil Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 54,
+          "Accuracy": 50,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25,
+          "Aggro%": 50,
+          "AdditionalMelee%": 50,
+          "ReduceDmg(Meteor)%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "heart_cookie_shield",
+    "name": "Heart Cookie Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 57,
+          "Waterresistance%": -10,
+          "GuardPower%": 20,
+          "GuardRecharge%": 40,
+          "GuardBreak%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        }
+      }
+    }
+  },
+  {
+    "id": "reptilian_shield",
+    "name": "Reptilian Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 57,
+          "GuardPower%": 30,
+          "GuardRecharge%": 25,
+          "GuardBreak%": 5
+        },
+        "special_effects": {
+          "Magic Barrier": 2000
+        }
+      },
+      "npc": {
+        "stats": {
+          "DEF": 57,
+          "GuardPower%": 30,
+          "GuardRecharge%": 25,
+          "GuardBreak%": 10
+        },
+        "special_effects": {
+          "Magic Barrier": 1500
+        }
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_shield_vi",
+    "name": "5th Anniv Shield VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 60,
+          "MaxHP%": 10,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "GuardPower%": 39,
+          "GuardRecharge%": 14
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "laguna_shield",
+    "name": "Laguna Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 63,
+          "CriticalRate": 12,
+          "Waterresistance%": 12,
+          "GuardPower%": 16,
+          "GuardRecharge%": 40
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 63,
+          "CriticalRate": 14,
+          "Waterresistance%": 14,
+          "GuardPower%": 16,
+          "GuardRecharge%": 40
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_shield_vii",
+    "name": "5th Anniv Shield VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 66,
+          "MaxHP%": 11,
+          "PhysicalResistance%": 11,
+          "MagicResistance%": 11,
+          "GuardPower%": 39,
+          "GuardRecharge%": 14
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_shield_v",
+    "name": "6th Anniv Shield V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 66,
+          "VIT%": 7,
+          "PhysicalResistance%": 11,
+          "MagicResistance%": 11,
+          "GuardPower%": 40,
+          "GuardRecharge%": 15
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_shield_iv",
+    "name": "7th Anniv Shield IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 66,
+          "VIT%": 7,
+          "PhysicalResistance%": 11,
+          "MagicResistance%": 11,
+          "GuardPower%": 40,
+          "GuardRecharge%": 15,
+          "Aggro%": 22
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_shield_iii",
+    "name": "8th Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 66,
+          "VIT%": 7,
+          "PhysicalResistance%": 11,
+          "MagicResistance%": 11,
+          "GuardPower%": 40,
+          "GuardRecharge%": 15,
+          "Aggro%": 22
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_shield_ii",
+    "name": "9th Anniv Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 66,
+          "VIT%": 7,
+          "PhysicalResistance%": 11,
+          "MagicResistance%": 11,
+          "GuardPower%": 40,
+          "GuardRecharge%": 15,
+          "Aggro%": 22
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "demon_empress_shield",
+    "name": "Demon Empress Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 66,
+          "MDEF%": 10,
+          "CriticalRate": 15,
+          "GuardPower%": 28,
+          "GuardRecharge%": 28
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        }
+      }
+    }
+  },
+  {
+    "id": "luster_shield",
+    "name": "Luster Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 70,
+          "MaxMP": 300,
+          "GuardPower%": 28,
+          "GuardRecharge%": 29,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {}
+      },
+      "drop": {
+        "stats": {
+          "DEF": 70,
+          "MaxMP": 200,
+          "GuardPower%": 28,
+          "GuardRecharge%": 29,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "gingerbread_man_shield",
+    "name": "Gingerbread Man Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 72,
+          "MaxMP": 200,
+          "Aggro%": -20,
+          "ReviveTime%": -20
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_shield_vi",
+    "name": "6th Anniv Shield VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 76,
+          "VIT%": 8,
+          "PhysicalResistance%": 12,
+          "MagicResistance%": 12,
+          "GuardPower%": 41,
+          "GuardRecharge%": 15
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_shield_v",
+    "name": "7th Anniv Shield V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 76,
+          "VIT%": 8,
+          "PhysicalResistance%": 12,
+          "MagicResistance%": 12,
+          "GuardPower%": 41,
+          "GuardRecharge%": 15,
+          "Aggro%": 24
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_shield_iv",
+    "name": "8th Anniv Shield IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 76,
+          "VIT%": 8,
+          "PhysicalResistance%": 12,
+          "MagicResistance%": 12,
+          "GuardPower%": 41,
+          "GuardRecharge%": 15,
+          "Aggro%": 24
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_shield_iii",
+    "name": "9th Anniv Shield III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 76,
+          "VIT%": 8,
+          "PhysicalResistance%": 12,
+          "MagicResistance%": 12,
+          "GuardPower%": 41,
+          "GuardRecharge%": 15,
+          "Aggro%": 24
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "aeria_shield",
+    "name": "Aeria Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 76,
+          "PhysicalPierce%": 3,
+          "ASPD%": 20,
+          "GuardPower%": 29,
+          "GuardRecharge%": 29
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 76,
+          "PhysicalPierce%": 4,
+          "ASPD%": 20,
+          "GuardPower%": 29,
+          "GuardRecharge%": 29
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "beastlord_shield",
+    "name": "Beastlord Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 76,
+          "VIT%": 8,
+          "GuardPower%": 41,
+          "GuardRecharge%": 15,
+          "Aggro%": 30
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        }
+      }
+    }
+  },
+  {
+    "id": "eradicator_shield",
+    "name": "Eradicator Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 84,
+          "PhysicalResistance%": 15,
+          "CriticalRate": 10,
+          "GuardPower%": 40,
+          "GuardRecharge%": 17,
+          "ReduceDmg(Bullet)%": 25,
+          "ReduceDmg(Bowling)%": 20
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 84,
+          "PhysicalResistance%": 15,
+          "CriticalRate": 10,
+          "GuardPower%": 40,
+          "GuardRecharge%": 17,
+          "ReduceDmg(Bullet)%": 15,
+          "ReduceDmg(Bowling)%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "luxurie_shield",
+    "name": "Luxurie Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 84,
+          "MagicResistance%": 10,
+          "GuardPower%": 50,
+          "GuardRecharge%": 9,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 84,
+          "MagicResistance%": 15,
+          "GuardPower%": 50,
+          "GuardRecharge%": 9,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "moonlight_shield_ii",
+    "name": "Moonlight Shield II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 88,
+          "GuardBreak%": 10
+        },
+        "special_effects": {
+          "Magic Resistance %": "Magic Resistance %",
+          "Magic Barrier": 1500,
+          "Staff only:Magic Pierce %": "Magic Pierce %",
+          "Aggro %": "Aggro %",
+          "1-Handed Sword only:Fire resistance %": "Fire resistance %"
+        }
+      }
+    }
+  },
+  {
+    "id": "peismataris",
+    "name": "Peismataris",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 108,
+          "MaxHP%": 15,
+          "AilmentResistance%": 15,
+          "GuardPower%": 30,
+          "GuardRecharge%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "watermelon_shield",
+    "name": "Watermelon Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 90,
+          "Lightresistance%": 10,
+          "GuardRecharge%": 50,
+          "Aggro%": 40
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20,
+          "Magic Barrier": 3000
+        }
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_shield_vi",
+    "name": "7th Anniv Shield VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 92,
+          "VIT%": 9,
+          "PhysicalResistance%": 13,
+          "MagicResistance%": 13,
+          "GuardPower%": 41,
+          "GuardRecharge%": 16,
+          "Aggro%": 26
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_shield_v",
+    "name": "8th Anniv Shield V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 92,
+          "VIT%": 9,
+          "PhysicalResistance%": 13,
+          "MagicResistance%": 13,
+          "GuardPower%": 41,
+          "GuardRecharge%": 16,
+          "Aggro%": 26
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_shield_iv",
+    "name": "9th Anniv Shield IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 92,
+          "VIT%": 9,
+          "PhysicalResistance%": 13,
+          "MagicResistance%": 13,
+          "GuardPower%": 41,
+          "GuardRecharge%": 16,
+          "Aggro%": 26
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "profound_shield",
+    "name": "Profound Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 92,
+          "MaxHP%": 14,
+          "Darkresistance%": 18,
+          "GuardPower%": 30,
+          "GuardRecharge%": 30
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 92,
+          "MaxHP%": 15,
+          "Darkresistance%": 20,
+          "GuardPower%": 30,
+          "GuardRecharge%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "lolliodd_magic_shield",
+    "name": "Lolliodd Magic Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 99,
+          "CriticalRate%": 100,
+          "GuardRecharge%": -75,
+          "WeaponATK%": 25,
+          "AdditionalMelee%": 50,
+          "ReduceDmg(Floor)%": 25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "erde_shield",
+    "name": "Erde Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 100,
+          "MaxMP": 100,
+          "CriticalRate%": 40,
+          "GuardPower%": 40,
+          "GuardRecharge%": 21
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "evil_aristo_defense_shackles",
+    "name": "Evil Aristo Defense Shackles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 100,
+          "MaxHP%": 5,
+          "MagicResistance%": 15,
+          "CSPD": 500,
+          "Darkresistance%": 10,
+          "AilmentResistance%": 5,
+          "GuardPower%": 10,
+          "GuardRecharge%": 50
+        },
+        "special_effects": {
+          "Staff only:Aggro %": "Aggro %"
+        }
+      },
+      "npc": {
+        "stats": {
+          "DEF": 100,
+          "MaxHP%": 10,
+          "MagicResistance%": 5,
+          "CSPD": 750,
+          "Darkresistance%": 5,
+          "AilmentResistance%": 5,
+          "GuardPower%": 10,
+          "GuardRecharge%": 50
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "mischievous_buckler",
+    "name": "Mischievous Buckler",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 104,
+          "ASPD": 400,
+          "CSPD%": 20,
+          "GuardPower%": 66,
+          "GuardRecharge%": 6,
+          "Aggro%": -10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_shield_vi",
+    "name": "8th Anniv Shield VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 108,
+          "VIT%": 10,
+          "PhysicalResistance%": 14,
+          "MagicResistance%": 14,
+          "GuardPower%": 42,
+          "GuardRecharge%": 16,
+          "Aggro%": 28
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_shield_v",
+    "name": "9th Anniv Shield V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 108,
+          "VIT%": 10,
+          "PhysicalResistance%": 14,
+          "MagicResistance%": 14,
+          "GuardPower%": 42,
+          "GuardRecharge%": 16,
+          "Aggro%": 28
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "seashell_shield",
+    "name": "Seashell Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 108,
+          "MaxHP": 3000,
+          "Accuracy%": 20,
+          "CSPD%": 10,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "don_shield",
+    "name": "Don Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 112,
+          "MaxHP": 10000,
+          "GuardPower%": 36,
+          "GuardRecharge%": 25
+        },
+        "special_effects": {
+          "Light Armor only:Critical Rate": "Critical Rate",
+          "Aggro %": "Aggro %"
+        }
+      },
+      "npc": {
+        "stats": {
+          "DEF": 112,
+          "MaxHP": 5000,
+          "GuardPower%": 36,
+          "GuardRecharge%": 25
+        },
+        "special_effects": {
+          "Light Armor only:Critical Rate": "Critical Rate",
+          "Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "ghoulfish_buckler",
+    "name": "Ghoulfish Buckler",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 120,
+          "DEX%": 3,
+          "PhysicalPierce%": 6,
+          "ASPD": 600,
+          "Waterresistance%": 15
+        },
+        "special_effects": {
+          "Staff only:Magic Resistance %": "Magic Resistance %"
+        }
+      },
+      "npc": {
+        "stats": {
+          "DEF": 120,
+          "DEX%": 3,
+          "PhysicalPierce%": 6,
+          "ASPD": 300,
+          "Waterresistance%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_shield_vi",
+    "name": "9th Anniv Shield VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 130,
+          "VIT%": 10,
+          "PhysicalResistance%": 15,
+          "MagicResistance%": 15,
+          "GuardPower%": 42,
+          "GuardRecharge%": 17,
+          "Aggro%": 30
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        }
+      }
+    }
+  },
+  {
+    "id": "gloomy_tree_shield",
+    "name": "Gloomy Tree Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 130,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "ASPD%": 31,
+          "GuardPower%": 31,
+          "GuardRecharge%": 31,
+          "AdditionalMagic%": 40
+        },
+        "special_effects": {
+          "Knuckle only:CSPD %": "CSPD %"
+        }
+      }
+    }
+  },
+  {
+    "id": "cuddle_shark_shield",
+    "name": "Cuddle Shark Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "DEF": 140,
+          "PhysicalPierce%": 10,
+          "Waterresistance%": 20,
+          "GuardPower%": 15,
+          "EvasionRecharge%": 15,
+          "Aggro%": -10,
+          "WeaponATK%": 20
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "eerie_bird_feather_shield",
+    "name": "Eerie Bird Feather Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "DEF": 150,
+          "Stability%": 10,
+          "Accuracy": 50,
+          "GuardPower%": 33,
+          "GuardRecharge%": 33,
+          "ReduceDmg(Bowling)%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "rock_dragon_heavy_shield",
+    "name": "Rock Dragon Heavy Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 152,
+          "ASPD%": 30,
+          "AilmentResistance%": 3,
+          "GuardPower%": 24,
+          "GuardRecharge%": 32,
+          "Aggro%": 30,
+          "NeutralResistance%": 30
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "DEF": 152,
+          "ASPD%": 20,
+          "AilmentResistance%": 4,
+          "GuardPower%": 24,
+          "GuardRecharge%": 32,
+          "Aggro%": 40,
+          "NeutralResistance%": 20
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "maple\\'s_shield",
+    "name": "Maple\\'s Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "DEF": 300,
+          "VIT%": 10,
+          "MaxMP": -100,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "Dodge%": -100,
+          "AilmentResistance%": 10,
+          "GuardPower%": 40,
+          "GuardRecharge%": 40,
+          "ReduceExplosion%": 50
+        },
+        "special_effects": {}
+      }
+    }
+  }
+]

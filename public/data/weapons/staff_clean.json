@@ -1,0 +1,4247 @@
+[
+  {
+    "id": "10th_anniv_staff_vi",
+    "name": "10th Anniv Staff VI",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {},
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "INT%": 11,
+          "MATK%": 11,
+          "CSPD%": 70,
+          "CriticalRate": 30,
+          "CriticalRate%": 60,
+          "GuardBreak%": 30,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 637,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "caduceus",
+    "name": "Caduceus",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 100,
+          "MaxMP": 600,
+          "CSPD%": 200,
+          "Aggro%": -50,
+          "ShortRangeDamage%": -40,
+          "InvincibleAid(sec)": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "libra",
+    "name": "Libra",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": -50,
+          "CSPD": 1000
+        },
+        "special_effects": {},
+        "base_atk": 1,
+        "stability": 30
+      }
+    }
+  },
+  {
+    "id": "rod",
+    "name": "Rod",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 60,
+        "potential": 15,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "exorcism_arrow",
+    "name": "Exorcism Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicPierce%": 50,
+          "MagicResistance%": 30
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        },
+        "base_atk": 17,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "wind_staff",
+    "name": "Wind Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": -5,
+          "CSPD": 100,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MATK%": -10,
+          "CSPD": 200,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60,
+        "potential": 16,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mage_rod",
+    "name": "Mage Rod",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 50,
+          "Aggro%": -5
+        },
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 100
+        },
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 60,
+        "potential": 18,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_staff",
+    "name": "1st Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 1,
+          "MaxMP": 100,
+          "MATK%": 1,
+          "PhysicalResistance%": 6
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_staff",
+    "name": "2nd Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 1,
+          "MaxMP": 100,
+          "MATK%": 1,
+          "PhysicalResistance%": 6
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_staff",
+    "name": "3rd Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 1,
+          "MaxMP": 100,
+          "MATK%": 1,
+          "PhysicalResistance%": 6
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff",
+    "name": "4th Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 1,
+          "MaxMP": 100,
+          "MATK%": 1,
+          "PhysicalResistance%": 6
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bloom_of_peace",
+    "name": "Bloom of Peace",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicPierce%": 10,
+          "Aggro%": -100,
+          "LightElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 32,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "water_staff",
+    "name": "Water Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX": 2,
+          "Aggro%": -5,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 32,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "DEX": 3,
+          "Aggro%": -10,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 32,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 32,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "minotaur_staff",
+    "name": "Minotaur Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": -10,
+          "FireElement": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 55
+      }
+    }
+  },
+  {
+    "id": "lollipop_staff",
+    "name": "Lollipop Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "NaturalHPRegen%": 3,
+          "MaxMP": 100,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 35,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "morning_star",
+    "name": "Morning Star",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK": -1200,
+          "ASPD": 600
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "rock_staff",
+    "name": "Rock Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 3,
+          "PhysicalResistance%": 1,
+          "GuardRecharge%": 2,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "DEF%": 5,
+          "PhysicalResistance%": 1,
+          "GuardRecharge%": 3,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 60,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ooze_staff",
+    "name": "Ooze Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "VIT%": 4,
+          "MaxHP%": 8,
+          "MATK%": 1,
+          "Aggro%": -16
+        },
+        "special_effects": {},
+        "base_atk": 49,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "VIT%": 2,
+          "MaxHP%": 12,
+          "MATK%": 1,
+          "Aggro%": -8
+        },
+        "special_effects": {},
+        "base_atk": 49,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 49,
+        "stability": 60,
+        "potential": 22,
+        "allow_custom_stats": true
+      },
+      "unknown": {
+        "stats": {
+          "VIT%": 6,
+          "MaxHP%": 4,
+          "MATK%": 2,
+          "Aggro%": -12
+        },
+        "special_effects": {},
+        "base_atk": 49,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "fire_staff",
+    "name": "Fire Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "NaturalMPRegen%": -15,
+          "MATK%": 2,
+          "Fireresistance%": 10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "NaturalMPRegen%": -5,
+          "MATK%": 2,
+          "Fireresistance%": 5,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_staff_ii",
+    "name": "1st Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "MaxMP": 200,
+          "MATK%": 2,
+          "PhysicalResistance%": 9
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_staff_ii",
+    "name": "2nd Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "MaxMP": 200,
+          "MATK%": 2,
+          "PhysicalResistance%": 9
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_staff_ii",
+    "name": "3rd Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "MaxMP": 200,
+          "MATK%": 2,
+          "PhysicalResistance%": 9
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff_ii",
+    "name": "4th Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "MaxMP": 200,
+          "MATK%": 2,
+          "PhysicalResistance%": 9
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "abracadabra_cone",
+    "name": "Abracadabra Cone",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 500,
+          "MaxMP": 300,
+          "CSPD": 500,
+          "Waterresistance%": 5,
+          "WindElement": 1,
+          "GuardBreak%": 15
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 60,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "candy_coryn_staff",
+    "name": "Candy Coryn Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 777,
+          "Aggro%": -100,
+          "WaterElement": 1,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 777,
+          "Magic Barrier": 777
+        },
+        "base_atk": 62,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "sakura_staff",
+    "name": "Sakura Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 10,
+          "MaxMP": 200,
+          "MATK%": 1,
+          "LightElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 67,
+        "stability": 60
+      },
+      "drop": {
+        "stats": {
+          "MaxHP%": 20,
+          "MaxMP": 400,
+          "MATK%": 4,
+          "LightElement": 1,
+          "AttackMPRecovery": 3,
+          "WeaponATK": 300
+        },
+        "special_effects": {},
+        "base_atk": 67,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "mace_of_destruction",
+    "name": "Mace of Destruction",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK": 100,
+          "MATK%": 2,
+          "PhysicalResistance%": 4,
+          "DarkElement": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "ATK": 100,
+          "MATK%": 2,
+          "PhysicalResistance%": 3,
+          "DarkElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 50,
+        "potential": 24,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "storm_staff",
+    "name": "Storm Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicPierce%": 6,
+          "CSPD": 200,
+          "Windresistance%": 3,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60,
+        "potential": 24,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MagicPierce%": 4,
+          "CSPD": 200,
+          "Windresistance%": 1,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 72,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "crystal_wand",
+    "name": "Crystal Wand",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CSPD%": 12,
+          "GuardPower%": 3,
+          "WaterElement": 1,
+          "LongRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "CSPD%": 15,
+          "GuardPower%": 5,
+          "WaterElement": 1,
+          "LongRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 60,
+        "potential": 26,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "folium_staff",
+    "name": "Folium Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "INT%": 3,
+          "MagicResistance%": 10,
+          "ASPD": 500,
+          "Aggro%": -3,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 55
+      },
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MagicResistance%": 5,
+          "ASPD": 250,
+          "Aggro%": -9,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 55
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 55,
+        "potential": 26,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_staff_iii",
+    "name": "1st Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MaxMP": 300,
+          "MATK%": 3,
+          "PhysicalResistance%": 12
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_staff_iii",
+    "name": "2nd Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MaxMP": 300,
+          "MATK%": 3,
+          "PhysicalResistance%": 12
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_staff_iii",
+    "name": "3rd Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MaxMP": 300,
+          "MATK%": 3,
+          "PhysicalResistance%": 12
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff_iii",
+    "name": "4th Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MaxMP": 300,
+          "MATK%": 3,
+          "PhysicalResistance%": 12
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_staff",
+    "name": "5th Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MaxMP": 400,
+          "MATK%": 4,
+          "PhysicalResistance%": 30,
+          "CSPD%": 20
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "devil's_staff",
+    "name": "Devil's Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": -300,
+          "MATK%": 3,
+          "MagicResistance%": 6,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 60
+      },
+      "drop": {
+        "stats": {
+          "MaxHP": -100,
+          "MATK%": 3,
+          "MagicResistance%": 3,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "scrader_mace",
+    "name": "Scrader Mace",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalMPRegen%": -10,
+          "ATK": 140,
+          "PhysicalResistance%": -20,
+          "CSPD": 400,
+          "CriticalRate": 5,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 94,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "NaturalHPRegen%": -5,
+          "ATK": 140,
+          "PhysicalResistance%": -10,
+          "CSPD": 300,
+          "CriticalRate": 5,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 94,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 94,
+        "stability": 50,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "jibril's_diary_i",
+    "name": "Jibril's Diary I",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK%": 5,
+          "MagicPierce%": 20,
+          "EvasionRecharge%": 10,
+          "Aggro%": -50,
+          "DarkElement": 1,
+          "%strongeragainstNeutral": 20,
+          "StunUnavailable": 1,
+          "AbsoluteDodge%": 10,
+          "ReduceDmg(StraightLine)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_staff",
+    "name": "6th Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MaxMP": 500,
+          "MATK%": 4,
+          "PhysicalResistance%": 30,
+          "CSPD%": 10
+        },
+        "special_effects": {
+          "Knuckle only:Absolute Dodge %": "Absolute Dodge %"
+        },
+        "base_atk": 101,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 101,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "icestaff_frigus",
+    "name": "Icestaff Frigus",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 30,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 1,
+          "AdditionalMagic%": 150,
+          "ATKDOWN(STR%)": 300
+        },
+        "special_effects": {
+          "Magic Barrier": 500
+        },
+        "base_atk": 101,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 101,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sage_staff",
+    "name": "Sage Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "MATK%": 4,
+          "MagicPierce%": 5,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 60,
+        "potential": 29,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "MATK%": 4,
+          "MagicPierce%": 5,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "sweet_spoon",
+    "name": "Sweet Spoon",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": -1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Physical Barrier": 1000
+        },
+        "base_atk": 110,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_staff_iv",
+    "name": "2nd Anniv Staff IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MaxMP": 400,
+          "MATK%": 4,
+          "PhysicalResistance%": 15
+        },
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_staff_iv",
+    "name": "3rd Anniv Staff IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MaxMP": 400,
+          "MATK%": 4,
+          "PhysicalResistance%": 15
+        },
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff_iv",
+    "name": "4th Anniv Staff IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MaxMP": 400,
+          "MATK%": 4,
+          "PhysicalResistance%": 15
+        },
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 117,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bexiz_staff",
+    "name": "Bexiz Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 1,
+          "Dodge": 1,
+          "CSPD": 1000,
+          "EvasionRecharge%": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "Dodge": 3,
+          "CSPD": 500,
+          "EvasionRecharge%": 5,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hatsune_miku_microphone_stick",
+    "name": "HATSUNE MIKU Microphone Stick",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK%": 4,
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "CSPD": 1000,
+          "AilmentResistance%": 15,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "priest_mace",
+    "name": "Priest Mace",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 30,
+          "ASPD": 1000,
+          "CriticalRate": 15,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Accuracy": 30,
+          "ASPD": 750,
+          "CriticalRate": 15,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "vulcan_staff",
+    "name": "Vulcan Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "MagicResistance%": 12,
+          "%strongeragainstEarth": 8,
+          "Fireresistance%": 6,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 140,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 1000,
+          "MagicResistance%": 24,
+          "%strongeragainstEarth": 4,
+          "Fireresistance%": 12,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 140,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 140,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_staff_v",
+    "name": "2nd Anniv Staff V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MaxMP": 500,
+          "MATK%": 5,
+          "PhysicalResistance%": 18
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_staff_v",
+    "name": "3rd Anniv Staff V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MaxMP": 500,
+          "MATK%": 5,
+          "PhysicalResistance%": 18
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff_v",
+    "name": "4th Anniv Staff V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MaxMP": 500,
+          "MATK%": 5,
+          "PhysicalResistance%": 18
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_staff_ii",
+    "name": "5th Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MaxMP": 450,
+          "MATK%": 5,
+          "PhysicalResistance%": 30,
+          "CSPD%": 25
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "abracadabra_cone_ii",
+    "name": "Abracadabra Cone II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 1000,
+          "MaxMP": 300,
+          "CSPD": 750,
+          "Waterresistance%": 10,
+          "WindElement": 1,
+          "GuardBreak%": 20
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "crystal_rod",
+    "name": "Crystal Rod",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": 4,
+          "MagicPierce%": 30,
+          "GuardBreak%": 15
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MATK%": 4,
+          "MagicPierce%": 25,
+          "GuardBreak%": 20
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "hatsune_miku's_handbell",
+    "name": "HATSUNE MIKU's Handbell",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxMP": 300,
+          "MATK%": 4,
+          "MagicPierce%": 20,
+          "CSPD": 500,
+          "CriticalRate": 25,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "red_steel_staff",
+    "name": "Red Steel Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 50,
+          "CriticalRate": 100,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_staff_ii",
+    "name": "6th Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MaxMP": 500,
+          "MATK%": 5,
+          "PhysicalResistance%": 30,
+          "CSPD%": 20
+        },
+        "special_effects": {
+          "Knuckle only:Absolute Dodge %": "Absolute Dodge %"
+        },
+        "base_atk": 160,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_staff",
+    "name": "7th Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MATK%": 4,
+          "MagicPierce%": 10,
+          "CSPD%": 40,
+          "CriticalRate": 30,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_staff",
+    "name": "Dia Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MaxMP": 300,
+          "MATK%": 4,
+          "Darkresistance%": 10,
+          "Aggro%": -50,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "fleur_rod",
+    "name": "Fleur Rod",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 5,
+          "EarthElement": 1,
+          "ReduceDmg(Charge)%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        },
+        "base_atk": 161,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 5,
+          "EarthElement": 1,
+          "ReduceDmg(Charge)%": 20
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 161,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 161,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "Aggro%": -40,
+          "LightElement": 1,
+          "ReduceDmg(Charge)%": -100,
+          "ReduceDmg(Bullet)%": 20,
+          "ReduceDmg(Bowling)%": 20
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        },
+        "base_atk": 170,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_staff_vi",
+    "name": "3rd Anniv Staff VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxMP": 500,
+          "MATK%": 6,
+          "PhysicalResistance%": 21,
+          "CSPD%": 10
+        },
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 60,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff_vi",
+    "name": "4th Anniv Staff VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxMP": 500,
+          "MATK%": 6,
+          "PhysicalResistance%": 21,
+          "CSPD%": 10
+        },
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 179,
+        "stability": 60,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "elegia_staff",
+    "name": "Elegia Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK%": 4,
+          "DarkElement": 1,
+          "ReduceDmg(Meteor)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "MATK%": 4,
+          "DarkElement": 1,
+          "ReduceDmg(Meteor)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "spirit's_tear",
+    "name": "Spirit's Tear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": -100,
+          "ASPD": -1000,
+          "WaterElement": 1,
+          "AttackMPRecovery": 80,
+          "MATKUP(VIT%)": 100,
+          "MATKDOWN(DEX%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": -100,
+          "ASPD": -500,
+          "WaterElement": 1,
+          "AttackMPRecovery": 40,
+          "MATKUP(VIT%)": 100,
+          "MATKDOWN(DEX%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 60,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "laurel_staff",
+    "name": "Laurel Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CSPD": 750,
+          "WindElement": 1,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 199,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "CSPD": 1000,
+          "WindElement": 1,
+          "Anticipate%": 10
+        },
+        "special_effects": {},
+        "base_atk": 199,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 199,
+        "stability": 60,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "golden_rod",
+    "name": "Golden Rod",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK%": 6,
+          "DEF%": 20,
+          "AdditionalMagic%": 100
+        },
+        "special_effects": {
+          "Physical Barrier": 1000
+        },
+        "base_atk": 206,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_staff_vii",
+    "name": "3rd Anniv Staff VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxMP": 500,
+          "MATK%": 6,
+          "PhysicalResistance%": 24,
+          "CSPD%": 20
+        },
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff_vii",
+    "name": "4th Anniv Staff VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxMP": 500,
+          "MATK%": 6,
+          "PhysicalResistance%": 24,
+          "CSPD%": 20
+        },
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_staff_iii",
+    "name": "5th Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxMP": 500,
+          "MATK%": 6,
+          "PhysicalResistance%": 30,
+          "CSPD%": 30
+        },
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 209,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mischievous_magic_book",
+    "name": "Mischievous Magic Book",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxMP": 300,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 210,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_staff_iii",
+    "name": "6th Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxMP": 600,
+          "MATK%": 6,
+          "PhysicalResistance%": 30,
+          "CSPD%": 30,
+          "ReduceDmg(Bullet)%": 2
+        },
+        "special_effects": {
+          "Knuckle only:Absolute Dodge %": "Absolute Dodge %"
+        },
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_staff_ii",
+    "name": "7th Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 12,
+          "CSPD%": 48,
+          "CriticalRate": 30,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_staff",
+    "name": "8th Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 15,
+          "CriticalRate": 35,
+          "CriticalRate%": 50,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "luminous_mushroom_staff",
+    "name": "Luminous Mushroom Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3000,
+          "MATK%": 6,
+          "Aggro%": -20,
+          "LightElement": 1,
+          "ReduceDmg(Bullet)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 1500,
+          "MATK%": 6,
+          "Aggro%": -20,
+          "LightElement": 1,
+          "ReduceDmg(Bullet)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "queen_staff_(potum)",
+    "name": "Queen Staff (Potum)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 1000,
+          "MATK%": 10,
+          "CSPD": -9999,
+          "MATKUP(INT%)": 100,
+          "MATKDOWN(VIT%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_staff",
+    "name": "Sakura Lantern Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "MATK%": 6,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "Aggro%": -20,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "lil_empress_staff",
+    "name": "Lil Empress Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 6,
+          "CSPD": 200,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 55
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 6,
+          "CSPD": 600,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 55
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 55,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sacred_ice_staff",
+    "name": "Sacred Ice Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "MATK%": 4,
+          "%strongeragainstLight": -25,
+          "%strongeragainstDark": 10,
+          "AilmentResistance%": 3,
+          "WaterElement": 1,
+          "MATKUP(STR%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 231,
+        "stability": 65
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff_viii",
+    "name": "4th Anniv Staff VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxMP": 500,
+          "MATK%": 6,
+          "PhysicalResistance%": 27,
+          "CSPD%": 30
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_staff_iv",
+    "name": "5th Anniv Staff IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxMP": 550,
+          "MATK%": 6,
+          "PhysicalResistance%": 30,
+          "CSPD%": 35
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "spirit_staff",
+    "name": "Spirit Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "VIT%": 5,
+          "MaxHP%": 10,
+          "MATK%": 6,
+          "AilmentResistance%": 5,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "VIT%": 3,
+          "MaxHP%": 10,
+          "MATK%": 6,
+          "AilmentResistance%": 1,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "piton_staff",
+    "name": "Piton Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 10,
+          "MATK%": 6,
+          "PhysicalResistance%": 10,
+          "Fireresistance%": 10,
+          "WaterElement": 1,
+          "MATKUP(STR%)": 100
+        },
+        "special_effects": {
+          "Physical Barrier": 1000
+        },
+        "base_atk": 253,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": 5,
+          "MATK%": 6,
+          "PhysicalResistance%": 10,
+          "Fireresistance%": 15,
+          "WaterElement": 1,
+          "MATKUP(STR%)": 75
+        },
+        "special_effects": {
+          "Physical Barrier": 1500
+        },
+        "base_atk": 253,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 253,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "shaman_staff",
+    "name": "Shaman Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK%": 6,
+          "DarkElement": 1
+        },
+        "special_effects": {
+          "Magic Barrier": 1200
+        },
+        "base_atk": 260,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 260,
+        "stability": 50,
+        "potential": 39,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "MATK%": 6,
+          "DarkElement": 1
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        },
+        "base_atk": 260,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "abracadabra_cone_iii",
+    "name": "Abracadabra Cone III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 1500,
+          "MaxMP": 300,
+          "CSPD": 1000,
+          "Waterresistance%": 15,
+          "WindElement": 1,
+          "GuardBreak%": 25
+        },
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lightning_flame",
+    "name": "Lightning Flame",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicPierce%": 50,
+          "CSPD": 750,
+          "CSPD%": 25,
+          "AbsoluteDodge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "mana_cascade_staff",
+    "name": "Mana Cascade Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": 6,
+          "Stability%": 12,
+          "CSPD%": 24,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 60,
+        "potential": 42,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MATK%": 6,
+          "Stability%": 10,
+          "CSPD%": 20,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 265,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "lovely_wand",
+    "name": "Lovely Wand",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "CriticalRate%": 40,
+          "%strongeragainstFire": -25,
+          "%strongeragainstDark": 25,
+          "AttackMPRecovery": 16,
+          "Reflect%": 50,
+          "AdditionalMelee%": 100,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 272,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_staff_ix",
+    "name": "4th Anniv Staff IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MaxMP": 500,
+          "MATK%": 7,
+          "PhysicalResistance%": 30,
+          "CSPD%": 40
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_staff_v",
+    "name": "5th Anniv Staff V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MaxMP": 600,
+          "MATK%": 7,
+          "PhysicalResistance%": 30,
+          "CSPD%": 40,
+          "ReduceDmg(Bullet)%": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_staff_iv",
+    "name": "6th Anniv Staff IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MaxMP": 600,
+          "MATK%": 7,
+          "PhysicalResistance%": 30,
+          "CSPD%": 40,
+          "ReduceDmg(Bullet)%": 4
+        },
+        "special_effects": {
+          "Knuckle only:Absolute Dodge %": "Absolute Dodge %"
+        },
+        "base_atk": 277,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_staff_iii",
+    "name": "7th Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 14,
+          "CSPD%": 56,
+          "CriticalRate": 30,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_staff_ii",
+    "name": "8th Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 15,
+          "CriticalRate": 35,
+          "CriticalRate%": 60,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_staff",
+    "name": "9th Anniv Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 7,
+          "MagicPierce%": 10,
+          "CSPD%": 50,
+          "CriticalRate": 40,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "Knuckle only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 277,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "choco_parfait_staff",
+    "name": "Choco Parfait Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MATK%": 6,
+          "CSPD%": -30,
+          "Aggro%": -15,
+          "FireElement": 1,
+          "LongRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 55
+      }
+    }
+  },
+  {
+    "id": "seadevil_staff",
+    "name": "Seadevil Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 6000,
+          "MATK%": 8,
+          "CSPD": 1000,
+          "Lightresistance%": 10,
+          "DarkElement": 1,
+          "MATKUP(VIT%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "staff_of_cold_serenity",
+    "name": "Staff of Cold Serenity",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 2000,
+          "MATK%": 8,
+          "CSPD%": 100,
+          "%strongeragainstWater": 25,
+          "Lightresistance%": -30,
+          "Aggro%": -30,
+          "WaterElement": 1,
+          "MATKUP(DEX%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 289,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "jibril's_diary_ii",
+    "name": "Jibril's Diary II",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK%": 7,
+          "MagicPierce%": 20,
+          "EvasionRecharge%": 20,
+          "Aggro%": -50,
+          "DarkElement": 1,
+          "StunUnavailable": 1,
+          "AbsoluteDodge%": 10,
+          "ReduceDmg(StraightLine)%": 20,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "mortal_slate",
+    "name": "Mortal Slate",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 7,
+          "CSPD": 1000,
+          "AilmentResistance%": 5,
+          "WindElement": 1,
+          "ReduceDmg(Bowling)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 7,
+          "CSPD": 300,
+          "AilmentResistance%": 5,
+          "WindElement": 1,
+          "ReduceDmg(Bowling)%": 25
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 60,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "vine_staff",
+    "name": "Vine Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 6000,
+          "MATK%": 7,
+          "CriticalRate%": -80,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 7000,
+          "MATK%": 7,
+          "CriticalRate%": -70,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 60,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iris_ark_staff",
+    "name": "Iris Ark Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicPierce%": 12,
+          "DEF%": -25,
+          "MDEF%": -25,
+          "Aggro%": -30,
+          "WaterElement": 1,
+          "LongRangeDamage%": 6,
+          "AdditionalMelee%": 50,
+          "InvincibleAid(sec)": 3
+        },
+        "special_effects": {},
+        "base_atk": 300,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_staff_vi",
+    "name": "5th Anniv Staff VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MaxMP": 650,
+          "MATK%": 7,
+          "PhysicalResistance%": 30,
+          "CSPD%": 45,
+          "ReduceDmg(Bullet)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 301,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 301,
+        "stability": 60,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "eternal_melody_staff",
+    "name": "Eternal Melody Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MaxMP": 400,
+          "MATK%": 10,
+          "Lightresistance%": 15,
+          "DarkElement": 1,
+          "ReduceDmg(Meteor)%": 15,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Physical Barrier": 4000
+        },
+        "base_atk": 485,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "windchanter_staff",
+    "name": "Windchanter Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate%": -30,
+          "%strongeragainstWater": 5,
+          "WindElement": 1,
+          "LongRangeDamage%": 7,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 314,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "CriticalRate%": -15,
+          "%strongeragainstWater": 5,
+          "WindElement": 1,
+          "LongRangeDamage%": 7,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 314,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 314,
+        "stability": 60,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pom_pom_staff_mace",
+    "name": "Pom Pom Staff Mace",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "MATK%": 7,
+          "LightElement": 1,
+          "ShortRangeDamage%": 7,
+          "%strongeragainstNeutral": 30,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 318,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_staff_vii",
+    "name": "5th Anniv Staff VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MaxMP": 700,
+          "MATK%": 7,
+          "PhysicalResistance%": 30,
+          "CSPD%": 50,
+          "ReduceDmg(Bullet)%": 6
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_staff_v",
+    "name": "6th Anniv Staff V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MaxMP": 700,
+          "MATK%": 7,
+          "PhysicalResistance%": 30,
+          "CSPD%": 50,
+          "ReduceDmg(Bullet)%": 6
+        },
+        "special_effects": {
+          "Knuckle only:Absolute Dodge %": "Absolute Dodge %"
+        },
+        "base_atk": 327,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_staff_iv",
+    "name": "7th Anniv Staff IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 16,
+          "CSPD%": 64,
+          "CriticalRate": 30,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_staff_iii",
+    "name": "8th Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 20,
+          "CriticalRate": 35,
+          "CriticalRate%": 70,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_staff_ii",
+    "name": "9th Anniv Staff II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "CSPD%": 55,
+          "CriticalRate": 40,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "Magic Pierce %": "Magic Pierce %",
+          "Knuckle only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 327,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "demon_empress_staff",
+    "name": "Demon Empress Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 7,
+          "CriticalRate": 25,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 25,
+          "Anticipate%": 15
+        },
+        "special_effects": {
+          "Dagger only:CSPD": "CSPD"
+        },
+        "base_atk": 327,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 7,
+          "CriticalRate": 20,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 10,
+          "Anticipate%": 20
+        },
+        "special_effects": {
+          "Dagger only:CSPD": "CSPD"
+        },
+        "base_atk": 327,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sweet_spoon_ii",
+    "name": "Sweet Spoon II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 7,
+          "ASPD%": -100,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Physical Barrier": 1500
+        },
+        "base_atk": 327,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "ghoulfish_war_hammer",
+    "name": "Ghoulfish War Hammer",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "Stability%": 30,
+          "PhysicalPierce%": 15,
+          "CSPD": 500,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {
+          "Shield only:Physical Resistance %": "Physical Resistance %"
+        },
+        "base_atk": 340,
+        "stability": 40
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 8,
+          "Stability%": 20,
+          "PhysicalPierce%": 10,
+          "CSPD": 1000,
+          "AttackMPRecovery": 25
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 40
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 40,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "luster_staff",
+    "name": "Luster Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "MATK%": 8,
+          "%strongeragainstDark": 5,
+          "LightElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 60,
+        "potential": 47,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "MATK%": 8,
+          "%strongeragainstDark": 5,
+          "LightElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "phantom_wisp_staff",
+    "name": "Phantom Wisp Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 8,
+          "Dodge": 100,
+          "ASPD": 700,
+          "EvasionRecharge%": 30,
+          "EarthElement": 1,
+          "AbsoluteDodge%": 5
+        },
+        "special_effects": {
+          "Light Armor only:Aggro %": "Aggro %"
+        },
+        "base_atk": 340,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "shovel_staff",
+    "name": "Shovel Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "MaxHP": 4000,
+          "PhysicalPierce%": 40,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "WaterElement": 1
+        },
+        "special_effects": {
+          "Ninjutsu Scroll only:Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 340,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "yozakura_crescent_staff",
+    "name": "Yozakura Crescent Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "Accuracy": 300,
+          "CSPD": 800,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "LongRangeDamage%": 6,
+          "ReduceDmg(Bullet)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "phillip's_microphone",
+    "name": "Phillip's Microphone",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "MaxMP": 300,
+          "CSPD": 1000,
+          "Aggro%": -75
+        },
+        "special_effects": {},
+        "base_atk": 347,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "gemma_anello",
+    "name": "Gemma Anello",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "MATK%": 8,
+          "MagicResistance%": 20,
+          "NeutralResistance%": 20,
+          "%strongeragainstNeutral": 30
+        },
+        "special_effects": {
+          "Magic Barrier": 2000,
+          "Magic Device only:Critical Rate": "Critical Rate",
+          "Aggro %": "Aggro %"
+        },
+        "base_atk": 353,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "MATK%": 8,
+          "MagicResistance%": 20,
+          "NeutralResistance%": 10,
+          "%strongeragainstNeutral": 30
+        },
+        "special_effects": {
+          "Magic Barrier": 1500
+        },
+        "base_atk": 353,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 353,
+        "stability": 60,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ghost_candy_staff",
+    "name": "Ghost Candy Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 8,
+          "MagicPierce%": 20,
+          "CSPD%": -30,
+          "%strongeragainstWater": 10,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 353,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_staff_vi",
+    "name": "6th Anniv Staff VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 8,
+          "MaxMP": 700,
+          "MATK%": 8,
+          "PhysicalResistance%": 30,
+          "CSPD%": 60,
+          "ReduceDmg(Bullet)%": 8
+        },
+        "special_effects": {
+          "Knuckle only:Absolute Dodge %": "Absolute Dodge %"
+        },
+        "base_atk": 367,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_staff_v",
+    "name": "7th Anniv Staff V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 8,
+          "MATK%": 8,
+          "MagicPierce%": 18,
+          "CSPD%": 72,
+          "CriticalRate": 30,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_staff_iv",
+    "name": "8th Anniv Staff IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 8,
+          "MATK%": 8,
+          "MagicPierce%": 20,
+          "CriticalRate": 35,
+          "CriticalRate%": 80,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_staff_iii",
+    "name": "9th Anniv Staff III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 8,
+          "MATK%": 8,
+          "CSPD%": 60,
+          "CriticalRate": 40,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "Magic Pierce %": "Magic Pierce %",
+          "Knuckle only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 367,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "beastlord_staff",
+    "name": "Beastlord Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "solar_staff",
+    "name": "Solar Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalHPRegen%": 30,
+          "Stability%": 17,
+          "MagicPierce%": 16,
+          "CSPD%": 30,
+          "FireElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "NaturalHPRegen%": 32,
+          "Stability%": 16,
+          "MagicPierce%": 16,
+          "CSPD%": 32,
+          "FireElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_staff",
+    "name": "Pearl Sakura Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "Aggro%": -40,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 390,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "queen_of_hearts_staff",
+    "name": "Queen of Hearts Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "MaxMP": 400,
+          "ASPD": 600,
+          "CSPD": 1200,
+          "%strongeragainstLight": 10,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 395
+      }
+    }
+  },
+  {
+    "id": "twisted_staff",
+    "name": "Twisted Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 800,
+          "MagicResistance%": 40,
+          "Earthresistance%": 20,
+          "EarthElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "xellos'_staff",
+    "name": "Xellos' Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": 10,
+          "Stability%": 20,
+          "MagicPierce%": 15,
+          "ASPD": 1250,
+          "CSPD%": 75,
+          "Aggro%": -40,
+          "DarkElement": 1,
+          "AbsoluteDodge%": 20,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "cooling_fan",
+    "name": "Cooling Fan",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 10000,
+          "MaxMP": 500,
+          "AilmentResistance%": 25,
+          "WaterElement": 1,
+          "InvincibleAid(sec)": 1
+        },
+        "special_effects": {},
+        "base_atk": 400,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "oculasignio_fan_staff",
+    "name": "Oculasignio Fan Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 9,
+          "MagicResistance%": 25,
+          "%strongeragainstLight": 10,
+          "AilmentResistance%": 10,
+          "Aggro%": -30,
+          "DarkElement": 1,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 409,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 9,
+          "MagicResistance%": 30,
+          "%strongeragainstLight": 10,
+          "AilmentResistance%": 5,
+          "Aggro%": -20,
+          "DarkElement": 1,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 409,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 409,
+        "stability": 60,
+        "potential": 51,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "reticencia",
+    "name": "Reticencia",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "GuardBreak%": 50
+        },
+        "special_effects": {
+          "Fractional Barrier %": 25,
+          "Barrier Cooldown %": 25
+        },
+        "base_atk": 485,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_staff_vi",
+    "name": "7th Anniv Staff VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 9,
+          "MATK%": 9,
+          "MagicPierce%": 20,
+          "CSPD%": 80,
+          "CriticalRate": 30,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_staff_v",
+    "name": "8th Anniv Staff V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 9,
+          "MATK%": 9,
+          "MagicPierce%": 25,
+          "CriticalRate": 35,
+          "CriticalRate%": 90,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_staff_iv",
+    "name": "9th Anniv Staff IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 9,
+          "MATK%": 9,
+          "CSPD%": 65,
+          "CriticalRate": 40,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "Magic Pierce %": "Magic Pierce %",
+          "Knuckle only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 424
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "potum_staff",
+    "name": "Potum Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "MagicPierce%": 30,
+          "CSPD": 300,
+          "NeutralResistance%": 30,
+          "%strongeragainstNeutral": 30
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "sphere_staff",
+    "name": "Sphere Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 9,
+          "ASPD": 500,
+          "CSPD%": 50,
+          "WindElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "edgy_nova_(magic)",
+    "name": "Edgy Nova (Magic)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 1000,
+          "Aggro%": -75,
+          "LightElement": 1,
+          "%strongeragainstNeutral": 35,
+          "AdditionalMagic%": 200,
+          "ReduceDmg(FoeEpicenter)%": 25
+        },
+        "special_effects": {
+          "Dagger only:CSPD %": "CSPD %"
+        },
+        "base_atk": 430,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "rolling_pin_staff",
+    "name": "Rolling Pin Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 8000,
+          "MATK%": 10,
+          "PhysicalResistance%": 25,
+          "MagicResistance%": 20,
+          "MotionSpeed%": 5,
+          "%strongeragainstNeutral": 35,
+          "GuardBreak%": 15
+        },
+        "special_effects": {},
+        "base_atk": 444,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sakura_warrior_staff",
+    "name": "Sakura Warrior Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 800,
+          "Stability%": 7,
+          "LightElement": 1,
+          "ShortRangeDamage%": 9,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Dagger only:Magic Pierce %": "Magic Pierce %",
+          "Tumble Unavailable": "Tumble Unavailable"
+        },
+        "base_atk": 454,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "evil_aristo_staff",
+    "name": "Evil Aristo Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 10000,
+          "MATK%": 9,
+          "PhysicalResistance%": 15,
+          "CriticalRate": 75,
+          "Darkresistance%": 30,
+          "AilmentResistance%": 15,
+          "FireElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Shield only:Aggro %": "Aggro %"
+        },
+        "base_atk": 469,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 7500,
+          "MATK%": 9,
+          "PhysicalResistance%": 10,
+          "CriticalRate": 75,
+          "Darkresistance%": 40,
+          "AilmentResistance%": 10,
+          "FireElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 469,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 469,
+        "stability": 60,
+        "potential": 54,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_staff_vi",
+    "name": "8th Anniv Staff VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 10,
+          "MATK%": 10,
+          "MagicPierce%": 25,
+          "CriticalRate": 35,
+          "CriticalRate%": 100,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 485,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 485,
+        "stability": 60,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_staff_v",
+    "name": "9th Anniv Staff V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 10,
+          "MATK%": 10,
+          "CSPD%": 70,
+          "CriticalRate": 40,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "Magic Pierce %": "Magic Pierce %",
+          "Knuckle only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 485,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 485,
+        "stability": 60,
+        "potential": 60,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "amnis_staff",
+    "name": "Amnis Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicPierce%": 40,
+          "CriticalRate": 120,
+          "WaterElement": 1
+        },
+        "special_effects": {
+          "Aggro %": "Aggro %",
+          "Shield only:Magic Resistance %": "Magic Resistance %",
+          "Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 517,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "MagicPierce%": 40,
+          "CriticalRate": 80,
+          "WaterElement": 1
+        },
+        "special_effects": {
+          "Aggro %": "Aggro %",
+          "Shield only:Magic Resistance %": "Magic Resistance %",
+          "Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 517,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 517,
+        "stability": 50,
+        "potential": 57,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "megashout_microphone",
+    "name": "Megashout Microphone",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 10,
+          "MATK%": 10,
+          "CSPD": 1000,
+          "CSPD%": 100,
+          "FireElement": 1,
+          "FlinchUnavailable": 1,
+          "TumbleUnavailable": 1,
+          "GuardBreak%": 10,
+          "StunUnavailable": 1,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 531,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_staff_vi",
+    "name": "9th Anniv Staff VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 10,
+          "MATK%": 11,
+          "CSPD%": 75,
+          "CriticalRate": 40,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "Magic Pierce %": "Magic Pierce %",
+          "Knuckle only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 550,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 60,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "gloomy_flower_staff",
+    "name": "Gloomy Flower Staff",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 11,
+          "Dodge%": 110,
+          "CSPD": 1100,
+          "EarthElement": 1,
+          "LongRangeDamage%": 11,
+          "AdditionalMagic%": 110,
+          "MATKUP(AGI%)": 100,
+          "ReduceDmg(Floor)%": 25
+        },
+        "special_effects": {},
+        "base_atk": 567,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "jibril's_diary_iii",
+    "name": "Jibril's Diary III",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK%": 9,
+          "MagicPierce%": 20,
+          "EvasionRecharge%": 40,
+          "Aggro%": -50,
+          "DarkElement": 1,
+          "StunUnavailable": 1,
+          "AbsoluteDodge%": 10,
+          "ReduceDmg(StraightLine)%": 30,
+          "%strongeragainstNeutral": 30
+        },
+        "special_effects": {},
+        "base_atk": 580,
+        "stability": 60
+      }
+    }
+  }
+]

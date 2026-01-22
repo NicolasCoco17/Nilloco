@@ -1,0 +1,4051 @@
+[
+  {
+    "id": "magi_klug",
+    "name": "Magi Klug",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 5,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 5,
+        "stability": 70,
+        "potential": 16,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "birdie_wings",
+    "name": "Birdie Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CSPD": 500,
+          "PetEXP%": 5
+        },
+        "special_effects": {
+          "Physical Barrier": 500,
+          "Magic Barrier": 500
+        },
+        "base_atk": 8,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "magic_feather",
+    "name": "Magic Feather",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "ASPD%": 1
+        },
+        "special_effects": {},
+        "base_atk": 8,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "ASPD%": 5
+        },
+        "special_effects": {},
+        "base_atk": 8,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 8,
+        "stability": 70,
+        "potential": 16,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "watching_mom",
+    "name": "Watching Mom",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 10,
+          "%strongeragainstFire": 10,
+          "%strongeragainstWater": 10,
+          "%strongeragainstWind": 10,
+          "%strongeragainstEarth": 10,
+          "%strongeragainstLight": 10,
+          "%strongeragainstDark": 10,
+          "Aggro%": -10
+        },
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "magi_vein",
+    "name": "Magi Vein",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "CSPD": 3,
+          "EvasionRecharge%": 1
+        },
+        "special_effects": {},
+        "base_atk": 12,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 12,
+        "stability": 70,
+        "potential": 18,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_wings",
+    "name": "1st Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 1,
+          "MATK%": 1,
+          "CSPD": 100,
+          "EvasionRecharge%": 6
+        },
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_wings",
+    "name": "2nd Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 1,
+          "MATK%": 1,
+          "CSPD": 100,
+          "EvasionRecharge%": 6
+        },
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_wings",
+    "name": "3rd Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 1,
+          "MATK%": 1,
+          "CSPD": 100,
+          "EvasionRecharge%": 6
+        },
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings",
+    "name": "4th Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 1,
+          "MATK%": 1,
+          "CSPD": 100,
+          "EvasionRecharge%": 6
+        },
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "irogeon",
+    "name": "Irogeon",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -5,
+          "MaxMP": 150,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 14,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "whirlwind",
+    "name": "Whirlwind",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 1,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 1,
+          "WindElement": 1,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "autumn_leaf_wings",
+    "name": "Autumn Leaf Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 1000,
+          "CSPD": 1000,
+          "CriticalDamage%": -100,
+          "EarthElement": 1,
+          "MATKUP(VIT%)": 400
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 35
+      }
+    }
+  },
+  {
+    "id": "elflame",
+    "name": "Elflame",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "MagicResistance%": 2,
+          "Fireresistance%": 3,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "halloween_bat",
+    "name": "Halloween Bat",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicPierce%": 1,
+          "WindElement": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "ribbon_charm",
+    "name": "Ribbon Charm",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalMPRegen%": 30,
+          "MaxMP": 300,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "crystal_wing",
+    "name": "Crystal Wing",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge%": 10,
+          "ASPD": 300,
+          "LightElement": 1,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "metal_wings",
+    "name": "Metal Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "CriticalRate": 4,
+          "EvasionRecharge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 24,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "CriticalRate": 8,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 24,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 24,
+        "stability": 70,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_wings_ii",
+    "name": "1st Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "MATK%": 2,
+          "CSPD": 200,
+          "EvasionRecharge%": 9
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_wings_ii",
+    "name": "2nd Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "MATK%": 2,
+          "CSPD": 200,
+          "EvasionRecharge%": 9
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_wings_ii",
+    "name": "3rd Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "MATK%": 2,
+          "CSPD": 200,
+          "EvasionRecharge%": 9
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings_ii",
+    "name": "4th Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "MATK%": 2,
+          "CSPD": 200,
+          "EvasionRecharge%": 9
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "infinity_cone",
+    "name": "Infinity Cone",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "ATK%": 6,
+          "ASPD": 250,
+          "%strongeragainstNeutral": 25,
+          "ReduceDmg(Charge)%": 10,
+          "ReduceDmg(StraightLine)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "valentia",
+    "name": "Valentia",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 350,
+          "Waterresistance%": -15,
+          "FireElement": 1,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "vita_cores",
+    "name": "Vita Cores",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 10,
+          "Stability%": 10,
+          "DEF%": 10,
+          "PhysicalResistance%": 10,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": 5,
+          "Stability%": 5,
+          "DEF%": 5,
+          "PhysicalResistance%": 5,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fairy_peace",
+    "name": "Fairy Peace",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicResistance%": 3,
+          "Aggro%": -10,
+          "AttackMPRecovery": 2,
+          "%strongeragainstNeutral": 10
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MagicResistance%": 4,
+          "Aggro%": -10,
+          "AttackMPRecovery": 3,
+          "%strongeragainstNeutral": 10
+        },
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 29,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "elsand",
+    "name": "Elsand",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 240,
+          "PhysicalResistance%": 5,
+          "Earthresistance%": 10,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 70,
+        "potential": 24,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 120,
+          "PhysicalResistance%": 3,
+          "Earthresistance%": 10,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sakura_wings",
+    "name": "Sakura Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": 1,
+          "MATK%": 1,
+          "AilmentResistance%": 15,
+          "LightElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 70
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 4,
+          "MATK%": 4,
+          "AilmentResistance%": 30,
+          "LightElement": 1,
+          "AttackMPRecovery": 3,
+          "WeaponATK": 150
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "empress_soul",
+    "name": "Empress Soul",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicResistance%": 6,
+          "ASPD%": -100,
+          "CSPD": 250,
+          "%strongeragainstFire": 15,
+          "%strongeragainstWater": 15,
+          "%strongeragainstWind": 15,
+          "%strongeragainstEarth": 15
+        },
+        "special_effects": {},
+        "base_atk": 36,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MagicResistance%": 6,
+          "ASPD%": 5,
+          "CSPD": 50,
+          "%strongeragainstFire": 10,
+          "%strongeragainstWater": 10,
+          "%strongeragainstWind": 10,
+          "%strongeragainstEarth": 10
+        },
+        "special_effects": {},
+        "base_atk": 36,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 36,
+        "stability": 80,
+        "potential": 25,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "magic_brooch",
+    "name": "Magic Brooch",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 8,
+          "MDEF%": 8,
+          "PhysicalResistance%": 4,
+          "MagicResistance%": 4,
+          "%strongeragainstNeutral": 20
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 70,
+        "potential": 26,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": 10,
+          "PhysicalResistance%": 5,
+          "MagicResistance%": 5,
+          "%strongeragainstNeutral": 20
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_wings_iii",
+    "name": "1st Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MATK%": 3,
+          "CSPD": 300,
+          "EvasionRecharge%": 12
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_wings_iii",
+    "name": "2nd Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MATK%": 3,
+          "CSPD": 300,
+          "EvasionRecharge%": 12
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_wings_iii",
+    "name": "3rd Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MATK%": 3,
+          "CSPD": 300,
+          "EvasionRecharge%": 12
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings_iii",
+    "name": "4th Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MATK%": 3,
+          "CSPD": 300,
+          "EvasionRecharge%": 12
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_wings",
+    "name": "5th Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MATK%": 4,
+          "MagicPierce%": 8,
+          "CSPD": 1000,
+          "AdditionalMagic%": 80
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "watching_mom_ii",
+    "name": "Watching Mom II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 15,
+          "%strongeragainstFire": 15,
+          "%strongeragainstWater": 15,
+          "%strongeragainstWind": 15,
+          "%strongeragainstEarth": 15,
+          "%strongeragainstLight": 15,
+          "%strongeragainstDark": 15,
+          "Aggro%": -15
+        },
+        "special_effects": {},
+        "base_atk": 45,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "jade_wings",
+    "name": "Jade Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 8,
+          "MaxMP": 100,
+          "CSPD%": 40,
+          "WindElement": 1,
+          "LongRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 47,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "MaxMP": 400,
+          "CSPD%": 80,
+          "WindElement": 1,
+          "LongRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 47,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 47,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "la_lluvia",
+    "name": "La Lluvia",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 250,
+          "MagicResistance%": 3,
+          "Waterresistance%": 10,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 47,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 500,
+          "MagicResistance%": 5,
+          "Waterresistance%": 10,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 47,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 47,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_wings",
+    "name": "6th Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MATK%": 4,
+          "MagicPierce%": 10,
+          "CSPD": 1000,
+          "CriticalRate%": 50
+        },
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "icecrystal_icicle",
+    "name": "Icecrystal Icicle",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": 3,
+          "MagicPierce%": 5,
+          "WaterElement": 1,
+          "AdditionalMagic%": 150,
+          "ATKDOWN(AGI%)": 200
+        },
+        "special_effects": {
+          "Physical Barrier": 500
+        },
+        "base_atk": 50,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "layered_magic_system",
+    "name": "Layered Magic System",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 70,
+        "potential": 29,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "MATK%": -50,
+          "CSPD": 1000
+        },
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 70
+      },
+      "drop": {
+        "stats": {
+          "MATK%": -45,
+          "CSPD": 750
+        },
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_wings_iv",
+    "name": "2nd Anniv Wings IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MATK%": 4,
+          "CSPD": 400,
+          "EvasionRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_wings_iv",
+    "name": "3rd Anniv Wings IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MATK%": 4,
+          "CSPD": 400,
+          "EvasionRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings_iv",
+    "name": "4th Anniv Wings IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MATK%": 4,
+          "CSPD": 400,
+          "EvasionRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "aranea_ore",
+    "name": "Aranea Ore",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 14,
+          "MaxMP": 500,
+          "Fireresistance%": 9,
+          "GuardPower%": 15,
+          "GuardRecharge%": 20,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "AGI%": 10,
+          "MaxMP": 500,
+          "Fireresistance%": 7,
+          "GuardPower%": 15,
+          "GuardRecharge%": 15,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 76
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 76,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "el_vento",
+    "name": "El Vento",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 76,
+        "potential": 31,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Dodge%": 20,
+          "Windresistance%": 10,
+          "EvasionRecharge%": 5,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 62,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "Dodge%": 20,
+          "Windresistance%": 10,
+          "EvasionRecharge%": 10,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 62,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "floral_light",
+    "name": "Floral Light",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 600,
+          "Darkresistance%": 10,
+          "Aggro%": -20,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 68,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 68,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Darkresistance%": 10,
+          "Aggro%": -15,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 68,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "frost_skirt",
+    "name": "Frost Skirt",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "MATK%": 4,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "Aggro%": -10,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 1000,
+          "MATK%": 4,
+          "PhysicalResistance%": 15,
+          "MagicResistance%": 15,
+          "Aggro%": -15,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 80,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_wings_v",
+    "name": "2nd Anniv Wings V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MATK%": 5,
+          "CSPD": 500,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_wings_v",
+    "name": "3rd Anniv Wings V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MATK%": 5,
+          "CSPD": 500,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings_v",
+    "name": "4th Anniv Wings V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MATK%": 5,
+          "CSPD": 500,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_wings_ii",
+    "name": "5th Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MATK%": 5,
+          "MagicPierce%": 10,
+          "CSPD": 1000,
+          "AdditionalMagic%": 90
+        },
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "infinity_cone_ii",
+    "name": "Infinity Cone II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 12,
+          "ASPD": 500,
+          "%strongeragainstNeutral": 25,
+          "ReduceDmg(Charge)%": 15,
+          "ReduceDmg(StraightLine)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_wings_ii",
+    "name": "6th Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 5,
+          "MATK%": 5,
+          "MagicPierce%": 10,
+          "CSPD": 1000,
+          "CriticalRate%": 60
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 70,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_wings",
+    "name": "7th Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MATK%": 4,
+          "CSPD": 500,
+          "CriticalRate": 30,
+          "CriticalRate%": 50,
+          "AilmentResistance%": 15,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 70,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_wings",
+    "name": "Dia Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 4,
+          "MaxMP": 300,
+          "MATK%": 4,
+          "CSPD": 500,
+          "Darkresistance%": 10,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "wrath_of_vulcan",
+    "name": "Wrath of Vulcan",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "PhysicalResistance%": 12,
+          "Fireresistance%": 6,
+          "Earthresistance%": 16,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "PhysicalResistance%": 24,
+          "Fireresistance%": 12,
+          "Earthresistance%": 8,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "float",
+    "name": "Float",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": 5,
+          "CSPD": 1000,
+          "WaterElement": 1,
+          "TumbleUnavailable": 1,
+          "MATKUP(VIT%)": 200
+        },
+        "special_effects": {},
+        "base_atk": 84,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_wings_vi",
+    "name": "3rd Anniv Wings VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 4,
+          "CSPD": 600,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 89,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 89,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings_vi",
+    "name": "4th Anniv Wings VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 4,
+          "CSPD": 600,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 89,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 89,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "plant_arm",
+    "name": "Plant Arm",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 20,
+          "EarthElement": 1,
+          "AdditionalMelee%": 75,
+          "AdditionalMagic%": 75
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "Accuracy": 30,
+          "EarthElement": 1,
+          "AdditionalMelee%": 100,
+          "AdditionalMagic%": 50
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dark_fear",
+    "name": "Dark Fear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 5,
+          "MATK%": 5,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 5,
+          "ReduceDmg(Floor)%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10,
+          "Magic Barrier": 1000
+        },
+        "base_atk": 92,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "MATK%": 5,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 4,
+          "ReduceDmg(Floor)%": 5
+        },
+        "special_effects": {
+          "Fractional Barrier %": 5,
+          "Magic Barrier": 2000
+        },
+        "base_atk": 92,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "prism_ring",
+    "name": "Prism Ring",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF%": 15,
+          "MDEF%": 15,
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "CSPD%": 100,
+          "CriticalRate": 100
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "prism_ring_(dark)",
+    "name": "Prism Ring (Dark)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": 10,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CSPD%": 100,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "prism_ring_(earth)",
+    "name": "Prism Ring (Earth)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": 10,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CSPD%": 100,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "prism_ring_(fire)",
+    "name": "Prism Ring (Fire)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": 10,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CSPD%": 100,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "prism_ring_(light)",
+    "name": "Prism Ring (Light)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": 10,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CSPD%": 100,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "prism_ring_(water)",
+    "name": "Prism Ring (Water)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": 10,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CSPD%": 100,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "prism_ring_(wind)",
+    "name": "Prism Ring (Wind)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": 10,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CSPD%": 100,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "watching_mom_iii",
+    "name": "Watching Mom III",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 20,
+          "%strongeragainstFire": 20,
+          "%strongeragainstWater": 20,
+          "%strongeragainstWind": 20,
+          "%strongeragainstEarth": 20,
+          "%strongeragainstLight": 20,
+          "%strongeragainstDark": 20,
+          "Aggro%": -20
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_wings_vii",
+    "name": "3rd Anniv Wings VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 8,
+          "CSPD": 700,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 104,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 104,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings_vii",
+    "name": "4th Anniv Wings VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 8,
+          "CSPD": 700,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 104,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 104,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_wings_iii",
+    "name": "5th Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 12,
+          "CSPD": 1000,
+          "AdditionalMagic%": 100
+        },
+        "special_effects": {},
+        "base_atk": 104,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 104,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_wings_iii",
+    "name": "6th Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 15,
+          "CSPD": 1000,
+          "CriticalRate%": 70,
+          "AilmentResistance%": 2
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_wings_ii",
+    "name": "7th Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "CSPD": 650,
+          "CriticalRate": 30,
+          "CriticalRate%": 60,
+          "AilmentResistance%": 15,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_wings",
+    "name": "8th Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "CSPD": 650,
+          "CriticalRate": 35,
+          "AilmentResistance%": 20,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        },
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "flugel",
+    "name": "Flugel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 4,
+          "MATK%": 6,
+          "ASPD%": 12,
+          "EvasionRecharge%": 8,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MATK%": 6,
+          "ASPD%": 12,
+          "EvasionRecharge%": 12,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_wings",
+    "name": "Sakura Lantern Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 1000,
+          "CSPD": 250,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "EarthElement": 1,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "lil_empress_magic_device",
+    "name": "Lil Empress Magic Device",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 6,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1,
+          "AdditionalMagic%": 100
+        },
+        "special_effects": {},
+        "base_atk": 114,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 6,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1,
+          "AdditionalMagic%": 300
+        },
+        "special_effects": {},
+        "base_atk": 114,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 114,
+        "stability": 65,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "angel_halo",
+    "name": "Angel Halo",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Stability%": 90,
+          "Dodge%": 15,
+          "EvasionRecharge%": 20,
+          "LightElement": 1,
+          "%strongeragainstNeutral": 25,
+          "AbsoluteDodge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 120
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings_viii",
+    "name": "4th Anniv Wings VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 12,
+          "CSPD": 800,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 121,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 121,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_wings_iv",
+    "name": "5th Anniv Wings IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MATK%": 6,
+          "MagicPierce%": 14,
+          "CSPD": 1000,
+          "AdditionalMagic%": 110
+        },
+        "special_effects": {},
+        "base_atk": 121,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 121,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "aquarator",
+    "name": "Aquarator",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 500,
+          "MaxMP": 100,
+          "MATK": 100,
+          "EvasionRecharge%": 5,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 121,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 1000,
+          "MaxMP": 100,
+          "MATK": 100,
+          "EvasionRecharge%": 10,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 121,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 121,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bear_balloons",
+    "name": "Bear Balloons",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "MaxMP": 200,
+          "WaterElement": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "valentia_ii",
+    "name": "Valentia II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 2,
+          "ASPD": 700,
+          "FireElement": 1,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "glacial_icicle",
+    "name": "Glacial Icicle",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "MATK%": 6,
+          "MagicPierce%": 20,
+          "Fireresistance%": 10,
+          "WaterElement": 1,
+          "ReduceDmg(Meteor)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "infinity_cone_iii",
+    "name": "Infinity Cone III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 9,
+          "ATK%": 18,
+          "ASPD": 750,
+          "%strongeragainstNeutral": 25,
+          "ReduceDmg(Charge)%": 20,
+          "ReduceDmg(StraightLine)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "shell_orb",
+    "name": "Shell Orb",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "MATK%": 6,
+          "AilmentResistance%": 5,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 132
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "MATK%": 6,
+          "AilmentResistance%": 10,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 70,
+        "potential": 42,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_wings_ix",
+    "name": "4th Anniv Wings IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 16,
+          "CSPD": 900,
+          "EvasionRecharge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_wings_v",
+    "name": "5th Anniv Wings V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 16,
+          "CSPD": 1000,
+          "AilmentResistance%": 2,
+          "AdditionalMagic%": 120
+        },
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_wings_iv",
+    "name": "6th Anniv Wings IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 15,
+          "CSPD": 1000,
+          "CriticalRate%": 80,
+          "AilmentResistance%": 4
+        },
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_wings_iii",
+    "name": "7th Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "CSPD": 800,
+          "CriticalRate": 30,
+          "CriticalRate%": 70,
+          "AilmentResistance%": 15,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_wings_ii",
+    "name": "8th Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "CSPD": 800,
+          "CriticalRate": 35,
+          "AilmentResistance%": 20,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {
+          "Fractional Barrier %": 16
+        },
+        "base_atk": 138,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_wings",
+    "name": "9th Anniv Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 6,
+          "MaxHP": 5000,
+          "MATK%": 7,
+          "CriticalRate": 40,
+          "AilmentResistance%": 25,
+          "MATKUP(AGI%)": 100
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        },
+        "base_atk": 138,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "luminary_reaver_wings",
+    "name": "Luminary Reaver Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": 7,
+          "DarkElement": 1,
+          "AttackMPRecovery": 14,
+          "ShortRangeDamage%": 7
+        },
+        "special_effects": {},
+        "base_atk": 144,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 144,
+        "stability": 70,
+        "potential": 44,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MATK%": 7,
+          "DarkElement": 1,
+          "AttackMPRecovery": 8,
+          "ShortRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 144,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "rilevatore",
+    "name": "Rilevatore",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "ATK%": 7,
+          "MATK%": 7,
+          "CriticalRate": 30,
+          "Aggro%": -30,
+          "DarkElement": 1,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 144,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 7,
+          "MATK%": 7,
+          "CriticalRate": 60,
+          "Aggro%": -60,
+          "DarkElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 144,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 144,
+        "stability": 70,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "warrior_angel_armor",
+    "name": "Warrior Angel Armor",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "INT%": 3,
+          "MaxHP": 3000,
+          "MATK%": 6,
+          "MagicPierce%": 12,
+          "CSPD": 100,
+          "LightElement": 1
+        },
+        "special_effects": {
+          "Magic Barrier": 3000
+        },
+        "base_atk": 145,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MaxHP": 300,
+          "MATK%": 6,
+          "MagicPierce%": 12,
+          "CSPD": 1000,
+          "LightElement": 1
+        },
+        "special_effects": {
+          "Magic Barrier": 300
+        },
+        "base_atk": 145,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_wings_vi",
+    "name": "5th Anniv Wings VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 18,
+          "CSPD": 1000,
+          "AilmentResistance%": 4,
+          "AdditionalMagic%": 130
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "gravitar",
+    "name": "Gravitar",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 7,
+          "MagicPierce%": 40,
+          "CSPD%": 30,
+          "EvasionRecharge%": 20,
+          "NeutralResistance%": 10,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 7,
+          "MagicPierce%": 10,
+          "CSPD%": 40,
+          "EvasionRecharge%": 30,
+          "NeutralResistance%": 20,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sunlight_wings",
+    "name": "Sunlight Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 20,
+          "MATK%": 7,
+          "LightElement": 1,
+          "InvincibleAid(sec)": 2,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 157,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 157,
+        "stability": 70,
+        "potential": 45,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxHP%": 20,
+          "MATK%": 7,
+          "LightElement": 1,
+          "InvincibleAid(sec)": 1,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 157,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "audio_console",
+    "name": "Audio Console",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": 9,
+          "Windresistance%": 35,
+          "Aggro%": -60,
+          "EarthElement": 1,
+          "AttackMPRecovery": 4,
+          "ReduceDmg(Meteor)%": 35,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {
+          "Magic Barrier": 6000
+        },
+        "base_atk": 242,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_wings_vii",
+    "name": "5th Anniv Wings VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 20,
+          "CSPD": 1000,
+          "AilmentResistance%": 6,
+          "AdditionalMagic%": 140
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_wings_v",
+    "name": "6th Anniv Wings V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "MagicPierce%": 20,
+          "CSPD": 1000,
+          "CriticalRate%": 90,
+          "AilmentResistance%": 6
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_wings_iv",
+    "name": "7th Anniv Wings IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "CSPD": 950,
+          "CriticalRate": 30,
+          "CriticalRate%": 80,
+          "AilmentResistance%": 15,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_wings_iii",
+    "name": "8th Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MATK%": 7,
+          "CSPD": 950,
+          "CriticalRate": 35,
+          "AilmentResistance%": 20,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {
+          "Fractional Barrier %": 17
+        },
+        "base_atk": 163,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_wings_ii",
+    "name": "9th Anniv Wings II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 7,
+          "MaxHP": 6000,
+          "MATK%": 7,
+          "CriticalRate": 40,
+          "AilmentResistance%": 25,
+          "MATKUP(AGI%)": 100
+        },
+        "special_effects": {
+          "Fractional Barrier %": 16
+        },
+        "base_atk": 163,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "demon_empress_magic_device",
+    "name": "Demon Empress Magic Device",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 7,
+          "CSPD": 300,
+          "CriticalRate": 25,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Heavy Armor only:MaxHP": "MaxHP"
+        },
+        "base_atk": 163,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 7,
+          "CSPD": 350,
+          "CriticalRate": 20,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 10
+        },
+        "special_effects": {
+          "Heavy Armor only:MaxHP": "MaxHP"
+        },
+        "base_atk": 163,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pezvolador",
+    "name": "Pezvolador",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalMPRegen%": -25,
+          "MaxMP": 750,
+          "ASPD": 1500,
+          "EvasionRecharge%": 60,
+          "WaterElement": 1,
+          "MotionSpeed%": 30,
+          "AttackMPRecovery%": -25
+        },
+        "special_effects": {},
+        "base_atk": 170
+      }
+    }
+  },
+  {
+    "id": "storm_radar",
+    "name": "Storm Radar",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Stability%": 10,
+          "CSPD%": 20,
+          "%strongeragainstWater": 5,
+          "Windresistance%": 15,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 170,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 170,
+        "stability": 70,
+        "potential": 47,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Stability%": 5,
+          "CSPD%": 25,
+          "%strongeragainstWater": 5,
+          "Windresistance%": 15,
+          "WindElement": 1,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 170,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "yozakura_magic_device",
+    "name": "Yozakura Magic Device",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 2,
+          "Accuracy": 300,
+          "CSPD": 800,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "LongRangeDamage%": 6,
+          "ReduceDmg(Bullet)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 170,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "yozakura_wings",
+    "name": "Yozakura Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 8,
+          "Accuracy": 100,
+          "WaterElement": 1,
+          "%strongeragainstNeutral": 25,
+          "AdditionalMagic%": 100
+        },
+        "special_effects": {},
+        "base_atk": 170,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "wanderflasche",
+    "name": "Wanderflasche",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3000,
+          "%strongeragainstFire": 5,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 8,
+          "Anticipate%": 30
+        },
+        "special_effects": {
+          "Physical Barrier": 2000,
+          "Magic Barrier": 500
+        },
+        "base_atk": 180,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 4000,
+          "%strongeragainstFire": 5,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 8,
+          "Anticipate%": 3
+        },
+        "special_effects": {
+          "Physical Barrier": 1000,
+          "Magic Barrier": 1000
+        },
+        "base_atk": 180,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 70,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_wings_vi",
+    "name": "6th Anniv Wings VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 8,
+          "MATK%": 8,
+          "MagicPierce%": 20,
+          "CSPD": 1000,
+          "CriticalRate%": 100,
+          "AilmentResistance%": 8
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_wings_v",
+    "name": "7th Anniv Wings V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 8,
+          "MATK%": 8,
+          "CSPD": 1100,
+          "CriticalRate": 30,
+          "CriticalRate%": 90,
+          "AilmentResistance%": 15,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_wings_iv",
+    "name": "8th Anniv Wings IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 8,
+          "MATK%": 8,
+          "CSPD": 1100,
+          "CriticalRate": 35,
+          "AilmentResistance%": 20,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {
+          "Fractional Barrier %": 18
+        },
+        "base_atk": 183,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_wings_iii",
+    "name": "9th Anniv Wings III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 8,
+          "MaxHP": 7000,
+          "MATK%": 8,
+          "CriticalRate": 40,
+          "AilmentResistance%": 25,
+          "MATKUP(AGI%)": 100
+        },
+        "special_effects": {
+          "Fractional Barrier %": 17
+        },
+        "base_atk": 183
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "beastlord_wings",
+    "name": "Beastlord Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "flammarem",
+    "name": "Flammarem",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 7,
+          "MATK%": 8,
+          "ASPD%": 60,
+          "%strongeragainstEarth": 5,
+          "FireElement": 1,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "MATK%": 8,
+          "ASPD%": 80,
+          "%strongeragainstEarth": 5,
+          "FireElement": 1,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cruel_wings",
+    "name": "Cruel Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "MATK%": 9,
+          "Stability%": 10,
+          "CSPD%": 70,
+          "Aggro%": -50,
+          "EarthElement": 1,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 190,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "Stability%": 2,
+          "CSPD%": 50,
+          "%strongeragainstWind": 5,
+          "Aggro%": -30,
+          "EarthElement": 1,
+          "LongRangeDamage%": 8,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 190,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 190,
+        "stability": 70,
+        "potential": 50,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "rime_wing",
+    "name": "Rime Wing",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 4000,
+          "MaxMP": 400,
+          "MATK%": 8,
+          "WaterElement": 1,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 197,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 197,
+        "stability": 70,
+        "potential": 50,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxHP": 4000,
+          "MaxMP": 300,
+          "MATK%": 8,
+          "WaterElement": 1,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 197,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "visphalanx_(magic_device)",
+    "name": "Visphalanx (Magic Device)",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicPierce%": 30,
+          "CSPD%": 50,
+          "CriticalRate%": 100,
+          "Aggro%": -30,
+          "LightElement": 1,
+          "ShortRangeDamage%": 10,
+          "AdditionalMagic%": 150,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 197,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "falburrows_feelers",
+    "name": "Falburrows Feelers",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 40,
+          "MagicPierce%": 20,
+          "CSPD%": 30,
+          "Windresistance%": -30,
+          "WaterElement": 1,
+          "%strongeragainstNeutral": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Heavy Armor only:Guard Power %": "Guard Power %",
+          "Guard Recharge %": "Guard Recharge %"
+        },
+        "base_atk": 200,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_katashiro",
+    "name": "Pearl Sakura Katashiro",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "MaxMP": 500,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "temperament",
+    "name": "Temperament",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalResistance%": 40,
+          "MagicResistance%": 40,
+          "EvasionRecharge%": 80
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_wings_vi",
+    "name": "7th Anniv Wings VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 9,
+          "MATK%": 9,
+          "CSPD": 1250,
+          "CriticalRate": 30,
+          "CriticalRate%": 100,
+          "AilmentResistance%": 15,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_wings_v",
+    "name": "8th Anniv Wings V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 9,
+          "MATK%": 9,
+          "CSPD": 1250,
+          "CriticalRate": 35,
+          "AilmentResistance%": 20,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {
+          "Fractional Barrier %": 19
+        },
+        "base_atk": 212,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_wings_iv",
+    "name": "9th Anniv Wings IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 9,
+          "MaxHP": 8000,
+          "MATK%": 9,
+          "CriticalRate": 40,
+          "AilmentResistance%": 25,
+          "MATKUP(AGI%)": 100
+        },
+        "special_effects": {
+          "Fractional Barrier %": 18
+        },
+        "base_atk": 212,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "orbital_mystic_spheres",
+    "name": "Orbital Mystic Spheres",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": 50,
+          "CSPD": 400,
+          "Earthresistance%": 30,
+          "EarthElement": 1,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ASPD%": 50,
+          "CSPD": 500,
+          "Earthresistance%": 50,
+          "EarthElement": 1,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "super_costero",
+    "name": "Super Costero",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 500,
+          "CSPD": 500,
+          "%strongeragainstDark": 25,
+          "Aggro%": 100,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "alfreon",
+    "name": "Alfreon",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 7,
+          "MaxMP": 600,
+          "MATK%": 8,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 225,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_wings_vi",
+    "name": "8th Anniv Wings VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 10,
+          "MATK%": 10,
+          "CSPD": 1400,
+          "CriticalRate": 35,
+          "AilmentResistance%": 20,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        },
+        "base_atk": 242,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 70,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_wings_v",
+    "name": "9th Anniv Wings V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 10,
+          "MaxHP": 9000,
+          "MATK%": 10,
+          "CriticalRate": 40,
+          "AilmentResistance%": 25,
+          "MATKUP(AGI%)": 100
+        },
+        "special_effects": {
+          "Fractional Barrier %": 19
+        },
+        "base_atk": 242,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 70,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dominantrum",
+    "name": "Dominantrum",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MATK%": 10,
+          "MagicPierce%": 20,
+          "PhysicalResistance%": 40,
+          "GuardPower%": 40,
+          "DarkElement": 1,
+          "AttackMPRecovery": 30,
+          "ReduceDmg(Floor)%": 40,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MATK%": 10,
+          "MagicPierce%": 15,
+          "PhysicalResistance%": 40,
+          "GuardPower%": 50,
+          "DarkElement": 1,
+          "AttackMPRecovery": 20,
+          "ReduceDmg(Floor)%": 60
+        },
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 242,
+        "stability": 70,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fireworks",
+    "name": "Fireworks",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 1000,
+          "FireElement": 1,
+          "AdditionalMagic%": 100,
+          "Recoil%": 0.01
+        },
+        "special_effects": {},
+        "base_atk": 250,
+        "stability": 35
+      }
+    }
+  },
+  {
+    "id": "weeping_sakura_petals",
+    "name": "Weeping Sakura Petals",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "DEX%": 10,
+          "MATK%": 10,
+          "ASPD": 500,
+          "CSPD%": 50,
+          "%strongeragainstWater": 10,
+          "AilmentResistance%": 25,
+          "WindElement": 1,
+          "AttackRange(m)": 3,
+          "Lightresistance%": 25
+        },
+        "special_effects": {},
+        "base_atk": 266,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_wings_vi",
+    "name": "9th Anniv Wings VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 10,
+          "MaxHP": 10000,
+          "MATK%": 11,
+          "CriticalRate": 40,
+          "AilmentResistance%": 25,
+          "MATKUP(AGI%)": 100
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        },
+        "base_atk": 275,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 275,
+        "stability": 70,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "humida_wings",
+    "name": "Humida Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 700,
+          "MATK%": 9,
+          "CSPD%": 99,
+          "LightElement": 1,
+          "ShortRangeDamage%": -9,
+          "LongRangeDamage%": 9,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Light Armor only:Guard Break %": "Guard Break %"
+        },
+        "base_atk": 275
+      }
+    }
+  },
+  {
+    "id": "evil_crystal_beast_wings",
+    "name": "Evil Crystal Beast Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 309,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_wings_vi",
+    "name": "10th Anniv Wings VI",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 318,
+        "stability": 70,
+        "potential": 63
+      }
+    }
+  },
+  {
+    "id": "pholidota_shield",
+    "name": "Pholidota Shield",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 1000,
+          "MATK%": 9,
+          "DEF%": 15,
+          "MDEF%": 15,
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "AilmentResistance%": 15,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {
+          "Physical Barrier": 2000,
+          "Magic Barrier": 2000
+        },
+        "base_atk": 318,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 1000,
+          "MATK%": 9,
+          "DEF%": 20,
+          "MDEF%": 20,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "AilmentResistance%": 20,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 318,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 318,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "kanade\\'s_cube",
+    "name": "Kanade\\'s Cube",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxMP": 2000,
+          "CSPD": 1000,
+          "CSPD%": 100,
+          "NeutralResistance%": 20,
+          "%strongeragainstNeutral": 30,
+          "TumbleUnavailable": 1,
+          "GuardBreak%": 40
+        },
+        "special_effects": {},
+        "base_atk": 320,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "queen_bee_wings",
+    "name": "Queen Bee Wings",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 250,
+          "MagicPierce%": 25,
+          "Dodge%": 25,
+          "Earthresistance%": -40,
+          "WindElement": 1,
+          "LongRangeDamage%": 8,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 394,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "viridian_magic_device",
+    "name": "Viridian Magic Device",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "MATK%": 12,
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "CriticalRate": 60,
+          "AilmentResistance%": 15,
+          "LightElement": 1,
+          "MotionSpeed%": 15,
+          "%strongeragainstNeutral": 25,
+          "Anticipate%": 60
+        },
+        "special_effects": {},
+        "base_atk": 462
+      }
+    }
+  }
+]
