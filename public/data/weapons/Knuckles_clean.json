@@ -1,0 +1,4176 @@
+[
+  {
+    "id": "don_knuckles",
+    "name": "Don Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {
+          "DEF": 361
+        },
+        "special_effects": {},
+        "stability": 90,
+        "potential": 57,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxHP": 10000,
+          "ATK%": 10,
+          "PhysicalResistance%": 40,
+          "CriticalRate": 45,
+          "CriticalDamage%": 10,
+          "LightElement": 1,
+          "NeutralResistance%": 20
+        },
+        "special_effects": {},
+        "base_atk": 361,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 5000,
+          "ATK%": 10,
+          "PhysicalResistance%": 20,
+          "CriticalRate": 90,
+          "CriticalDamage%": 5,
+          "LightElement": 1,
+          "NeutralResistance%": 10
+        },
+        "special_effects": {},
+        "base_atk": 361,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "cat_paws",
+    "name": "Cat Paws",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": -50,
+          "ASPD": 1000
+        },
+        "special_effects": {},
+        "base_atk": 1,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "tiger_fists",
+    "name": "Tiger Fists",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF%": -25,
+          "MDEF%": -25,
+          "ASPD": 1000
+        },
+        "special_effects": {},
+        "base_atk": 1,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "knuckles",
+    "name": "Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 7,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 7,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 7,
+        "stability": 90,
+        "potential": 15,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iron_knuckles",
+    "name": "Iron Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge": 2,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 11,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 11,
+        "stability": 90,
+        "potential": 16,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "DEX": 2,
+          "CriticalRate%": 30,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "knuckle_duster",
+    "name": "Knuckle Duster",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX": 1,
+          "ASPD%": 2,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "DEX": 2,
+          "ASPD%": 3,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 90,
+        "potential": 18,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_knuckles",
+    "name": "1st Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 1,
+          "MaxHP": 300,
+          "Dodge%": 6,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 90,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_knuckles",
+    "name": "2nd Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 1,
+          "MaxHP": 300,
+          "Dodge%": 6,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 90,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_knuckles",
+    "name": "3rd Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 1,
+          "MaxHP": 300,
+          "Dodge%": 6,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 90,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles",
+    "name": "4th Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 1,
+          "MaxHP": 300,
+          "Dodge%": 6,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 90,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "claws",
+    "name": "Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 1,
+          "CriticalDamage%": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "CriticalDamage%": 2,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 90,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "minotaur_knuckles",
+    "name": "Minotaur Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": -20,
+          "CriticalRate": 10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 85
+      }
+    }
+  },
+  {
+    "id": "cone_knuckles",
+    "name": "Cone Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 5,
+          "GuardBreak%": 2,
+          "ReduceDmg(StraightLine)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 80,
+        "potential": 17,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "jamadhar",
+    "name": "Jamadhar",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX": 2,
+          "CriticalRate%": 30,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "DEX": 3,
+          "CriticalRate%": 40,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 90,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "volcanic_claws",
+    "name": "Volcanic Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge%": 3,
+          "EvasionRecharge%": 4,
+          "AttackMPRecovery": 1,
+          "MotionSpeed%": 2
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "Dodge%": 2,
+          "EvasionRecharge%": 2,
+          "AttackMPRecovery": 2,
+          "MotionSpeed%": 2
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 90,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "golem_arm",
+    "name": "Golem Arm",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 1,
+          "PhysicalPierce%": 1,
+          "EarthElement": 1,
+          "LongRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 32,
+        "stability": 85
+      }
+    }
+  },
+  {
+    "id": "chocolate_gifts",
+    "name": "Chocolate Gifts",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 37,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_knuckles_ii",
+    "name": "1st Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "MaxHP": 600,
+          "Dodge%": 9,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_knuckles_ii",
+    "name": "2nd Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "MaxHP": 600,
+          "Dodge%": 9,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_knuckles_ii",
+    "name": "3rd Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "MaxHP": 600,
+          "Dodge%": 9,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles_ii",
+    "name": "4th Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "MaxHP": 600,
+          "Dodge%": 9,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lethal_silver_knuckles",
+    "name": "Lethal Silver Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 45,
+          "AilmentResistance%": 3,
+          "EarthElement": 1,
+          "Anticipate%": 15,
+          "ReduceDmg(PlayerEpicenter)%": 5,
+          "ReduceDmg(FoeEpicenter)%": 5
+        },
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 38,
+        "stability": 90,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_gloves",
+    "name": "Sakura Gloves",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "CriticalRate": 10,
+          "CriticalDamage": 1,
+          "LightElement": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 90
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "CriticalRate": 40,
+          "CriticalDamage": 2,
+          "LightElement": 1,
+          "AttackMPRecovery": 6,
+          "WeaponATK": 210
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "iron_thorns",
+    "name": "Iron Thorns",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 3,
+          "Accuracy%": -6,
+          "CriticalRate%": 50
+        },
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 90,
+        "potential": 24,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 3,
+          "Accuracy%": -4,
+          "CriticalRate%": 40
+        },
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "berserker_cestuses",
+    "name": "Berserker Cestuses",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX": 6,
+          "MaxHP%": 4,
+          "ATK%": 2,
+          "DarkElement": 1,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {},
+        "base_atk": 51,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "DEX": 4,
+          "MaxHP%": 8,
+          "ATK%": 2,
+          "DarkElement": 1,
+          "MotionSpeed%": 1
+        },
+        "special_effects": {},
+        "base_atk": 51,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 51,
+        "stability": 90,
+        "potential": 25,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "tri_claws",
+    "name": "Tri Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 250,
+          "ATK%": 2,
+          "Accuracy": 30,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 90,
+        "potential": 26,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 3,
+          "Accuracy": 30,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "hard_knuckles",
+    "name": "Hard Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 1,
+          "PhysicalResistance%": 6,
+          "GuardPower%": 5,
+          "GuardRecharge%": 5,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 57,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 57,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 1,
+          "PhysicalResistance%": 3,
+          "GuardPower%": 4,
+          "GuardRecharge%": 4,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 57,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_knuckles_iii",
+    "name": "1st Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "MaxHP": 900,
+          "Dodge%": 12,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_knuckles_iii",
+    "name": "2nd Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "MaxHP": 900,
+          "Dodge%": 12,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_knuckles_iii",
+    "name": "3rd Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "MaxHP": 900,
+          "Dodge%": 12,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles_iii",
+    "name": "4th Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "MaxHP": 900,
+          "Dodge%": 312,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_knuckles",
+    "name": "5th Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "MaxHP": 3000,
+          "Dodge%": 12,
+          "ShortRangeDamage%": 4,
+          "AbsoluteDodge%": 2
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "drills",
+    "name": "Drills",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 100,
+          "CriticalDamage": -150
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "emeldia",
+    "name": "Emeldia",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 8,
+          "ASPD%": 40,
+          "WindElement": 1,
+          "AttackMPRecovery": 1,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "ASPD%": 80,
+          "WindElement": 1,
+          "AttackMPRecovery": 4,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 90,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "katar",
+    "name": "Katar",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "DEF%": -10,
+          "MDEF%": -10,
+          "EvasionRecharge%": 7,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 15,
+          "DEF%": -15,
+          "MDEF%": -15,
+          "EvasionRecharge%": 10,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 90,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_knuckles",
+    "name": "6th Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "ATK%": 4,
+          "CriticalRate": 10,
+          "EvasionRecharge%": 30,
+          "AbsoluteDodge%": 10
+        },
+        "special_effects": {
+          "Shield only:Dodge %": "Dodge %"
+        },
+        "base_atk": 70,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 90,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ghost_puppets",
+    "name": "Ghost Puppets",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 15,
+          "CriticalDamage": 15,
+          "%strongeragainstNeutral": -75,
+          "FlinchUnavailable": 1,
+          "TumbleUnavailable": 1,
+          "AdditionalMelee%": 150
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "iceclaw_snow",
+    "name": "Iceclaw Snow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate%": 3,
+          "CriticalDamage%": 1,
+          "WaterElement": 1,
+          "AdditionalMagic%": 100,
+          "ATKUP(INT%)": 25,
+          "ATKDOWN(DEX%)": 50
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 90,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "devil_claws",
+    "name": "Devil Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 500,
+          "CriticalRate%": 20,
+          "DarkElement": 1,
+          "AttackMPRecovery": 1,
+          "Anticipate%": 7
+        },
+        "special_effects": {},
+        "base_atk": 76,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "ASPD": 500,
+          "CriticalRate%": 30,
+          "DarkElement": 1,
+          "AttackMPRecovery": 2,
+          "Anticipate%": 10
+        },
+        "special_effects": {},
+        "base_atk": 76,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 76,
+        "stability": 90,
+        "potential": 29,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cone_knuckles_ii",
+    "name": "Cone Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 20,
+          "LightElement": 1,
+          "AttackMPRecovery": 10,
+          "GuardBreak%": 4,
+          "ReduceDmg(StraightLine)%": 8
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 80,
+        "potential": 26,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_knuckles_iv",
+    "name": "2nd Anniv Knuckles IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "MaxHP": 1200,
+          "Dodge%": 15,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 81,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 81,
+        "stability": 90,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_knuckles_iv",
+    "name": "3rd Anniv Knuckles IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "MaxHP": 1200,
+          "Dodge%": 15,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 81,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 81,
+        "stability": 90,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles_iv",
+    "name": "4th Anniv Knuckles IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "MaxHP": 1200,
+          "Dodge%": 15,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 81,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 81,
+        "stability": 90,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "gardien",
+    "name": "Gardien",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 900,
+          "GuardPower%": 9,
+          "GuardRecharge%": 9,
+          "FireElement": 1,
+          "AttackMPRecovery": 4,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 300,
+          "GuardPower%": 3,
+          "GuardRecharge%": 3,
+          "FireElement": 1,
+          "AttackMPRecovery": 4,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 87,
+        "stability": 90,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "epetal",
+    "name": "Epetal",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "CriticalDamage": 4,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 90,
+        "potential": 31,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "CriticalDamage": 4,
+          "%strongeragainstNeutral": 20
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_knuckles_v",
+    "name": "2nd Anniv Knuckles V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "MaxHP": 1500,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_knuckles_v",
+    "name": "3rd Anniv Knuckles V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "MaxHP": 1500,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles_v",
+    "name": "4th Anniv Knuckles V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "MaxHP": 1500,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_knuckles_ii",
+    "name": "5th Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "MaxHP": 3000,
+          "Dodge%": 15,
+          "ShortRangeDamage%": 5,
+          "AbsoluteDodge%": 4
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lethal_silver_knuckles_ii",
+    "name": "Lethal Silver Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 60,
+          "AilmentResistance%": 6,
+          "EarthElement": 1,
+          "Anticipate%": 20,
+          "ReduceDmg(PlayerEpicenter)%": 10,
+          "ReduceDmg(FoeEpicenter)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 90,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iron_bear_claw",
+    "name": "Iron Bear Claw",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate%": 8,
+          "CriticalDamage%": 8,
+          "AttackMPRecovery": 4,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 90,
+        "potential": 32,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "CriticalRate%": 6,
+          "CriticalDamage%": 8,
+          "AttackMPRecovery": 3,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "zaif_sadik",
+    "name": "Zaif Sadik",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 4,
+          "CriticalRate": 16,
+          "EarthElement": 1,
+          "GuardBreak%": 24
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 4,
+          "CriticalRate": 15,
+          "EarthElement": 1,
+          "GuardBreak%": 20
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 90,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_knuckles_ii",
+    "name": "6th Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "ATK%": 5,
+          "CriticalRate": 10,
+          "EvasionRecharge%": 30,
+          "AbsoluteDodge%": 11
+        },
+        "special_effects": {
+          "Shield only:Dodge %": "Dodge %"
+        },
+        "base_atk": 112,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 112,
+        "stability": 90,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_knuckles",
+    "name": "7th Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "PhysicalResistance%": 30,
+          "ASPD%": 40,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 4,
+          "AbsoluteDodge%": 10,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 112,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 112,
+        "stability": 90,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_knuckles",
+    "name": "Dia Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "Accuracy": 50,
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 5,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 112,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "chakrums",
+    "name": "Chakrums",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Aggro%": -16,
+          "WindElement": 1,
+          "LongRangeDamage%": 4,
+          "Anticipate%": 8
+        },
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 90,
+        "potential": 34,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "Aggro%": -8,
+          "WindElement": 1,
+          "LongRangeDamage%": 4,
+          "Anticipate%": 4
+        },
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_knuckles_vi",
+    "name": "3rd Anniv Knuckles VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxHP": 1800,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 6,
+          "AbsoluteDodge%": 2
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 90,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles_vi",
+    "name": "4th Anniv Knuckles VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxHP": 1800,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 6,
+          "AbsoluteDodge%": 2
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 90,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lupus_claws",
+    "name": "Lupus Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 5,
+          "Accuracy": 20,
+          "CriticalRate": 15,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 5,
+          "Accuracy": 15,
+          "CriticalRate": 20,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 90,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "triple_ice_cream",
+    "name": "Triple Ice Cream",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "Accuracy%": 300,
+          "WaterElement": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 300,
+          "Magic Barrier": 300
+        },
+        "base_atk": 125,
+        "stability": 85
+      }
+    }
+  },
+  {
+    "id": "mad_palms",
+    "name": "Mad Palms",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 20,
+          "Accuracy": 1,
+          "CSPD": -750,
+          "CriticalDamage%": 6,
+          "WindElement": 1,
+          "ShortRangeDamage%": 6,
+          "LongRangeDamage%": -15
+        },
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "Accuracy": 10,
+          "CSPD": -500,
+          "CriticalDamage%": 5,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 5,
+          "LongRangeDamage%": -5
+        },
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 138,
+        "stability": 80,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "white_bear_knuckles",
+    "name": "White Bear Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "WaterElement": 1,
+          "AttackMPRecovery": 10,
+          "ReduceDmg(Charge)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 90,
+        "potential": 37,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxHP": 1500,
+          "WaterElement": 1,
+          "AttackMPRecovery": 10,
+          "ReduceDmg(Charge)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "chemical_ring",
+    "name": "Chemical Ring",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 100,
+          "ASPD": 1,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 140,
+        "stability": 1
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_knuckles_vii",
+    "name": "3rd Anniv Knuckles VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxHP": 2100,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 6,
+          "AbsoluteDodge%": 4
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 90,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles_vii",
+    "name": "4th Anniv Knuckles VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxHP": 2100,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 6,
+          "AbsoluteDodge%": 4
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 90,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_knuckles_iii",
+    "name": "5th Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxHP": 3000,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 6,
+          "AbsoluteDodge%": 6
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 90,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_knuckles_iii",
+    "name": "6th Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 6,
+          "CriticalRate": 15,
+          "EvasionRecharge%": 30,
+          "ReduceDmg(Floor)%": 2,
+          "AbsoluteDodge%": 12
+        },
+        "special_effects": {
+          "Shield only:Dodge %": "Dodge %"
+        },
+        "base_atk": 154,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 154,
+        "stability": 90,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_knuckles_ii",
+    "name": "7th Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "PhysicalResistance%": 30,
+          "ASPD%": 48,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 6,
+          "AbsoluteDodge%": 11,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 154,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 154,
+        "stability": 90,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_knuckles",
+    "name": "8th Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxMP": 250,
+          "ATK%": 6,
+          "PhysicalResistance%": 35,
+          "CriticalRate": 35,
+          "GuardBreak%": 15,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 154,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 154,
+        "stability": 90,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_knuckles",
+    "name": "Sakura Lantern Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "MaxMP": 500,
+          "PhysicalResistance%": 20,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 154,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "katze_gloves",
+    "name": "Katze Gloves",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "Dodge%": 10,
+          "EarthElement": 1,
+          "AbsoluteDodge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 155,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 155,
+        "stability": 90,
+        "potential": 39,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "Dodge%": 16,
+          "EarthElement": 1,
+          "AbsoluteDodge%": 2
+        },
+        "special_effects": {},
+        "base_atk": 155,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "crab_pincers",
+    "name": "Crab Pincers",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 5000,
+          "ATK%": 6,
+          "PhysicalResistance%": 18,
+          "Lightresistance%": 15,
+          "DarkElement": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 30
+        },
+        "base_atk": 158,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "dango_&_dango",
+    "name": "Dango & Dango",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 158,
+          "Dodge": 158,
+          "CriticalRate": 158,
+          "CriticalDamage": -158
+        },
+        "special_effects": {},
+        "base_atk": 158,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "cone_knuckles_iii",
+    "name": "Cone Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 30,
+          "LightElement": 1,
+          "AttackMPRecovery": 15,
+          "GuardBreak%": 8,
+          "ReduceDmg(StraightLine)%": 12
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 80,
+        "potential": 35,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lil_empress_knuckle",
+    "name": "Lil Empress Knuckle",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 85
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1,
+          "GuardBreak%": 30
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 85
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 85,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sacred_ice_claws",
+    "name": "Sacred Ice Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "CriticalRate%": 40,
+          "%strongeragainstLight": -25,
+          "%strongeragainstDark": 10,
+          "AilmentResistance%": 3,
+          "WaterElement": 1,
+          "ATKUP(STR%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 161,
+        "stability": 95
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles_viii",
+    "name": "4th Anniv Knuckles VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxHP": 2400,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 6,
+          "AbsoluteDodge%": 6
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 90,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_knuckles_iv",
+    "name": "5th Anniv Knuckles IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxHP": 3000,
+          "Dodge%": 21,
+          "ShortRangeDamage%": 6,
+          "AbsoluteDodge%": 8
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 90,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "vise_claws",
+    "name": "Vise Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 15,
+          "FireElement": 1,
+          "ShortRangeDamage%": 6,
+          "NeutralResistance%": 10
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "PhysicalResistance%": 20,
+          "FireElement": 1,
+          "ShortRangeDamage%": 6,
+          "NeutralResistance%": 20
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 90,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "twin_eagles",
+    "name": "Twin Eagles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 100,
+          "AttackMPRecovery": 3,
+          "Anticipate%": 5,
+          "GuardBreak%": 5
+        },
+        "special_effects": {},
+        "base_atk": 170,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "beer_mugs",
+    "name": "Beer Mugs",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge%": 20,
+          "ASPD%": -100,
+          "CriticalDamage%": 10,
+          "ShortRangeDamage%": 5,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 174,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "crystal_knuckles",
+    "name": "Crystal Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "PhysicalResistance%": -5,
+          "MagicResistance%": 10,
+          "Accuracy%": 30,
+          "AttackMPRecovery": 5,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 185,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "PhysicalResistance%": -10,
+          "MagicResistance%": 15,
+          "Accuracy%": 20,
+          "AttackMPRecovery": 4,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 185,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 185,
+        "stability": 80,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lethal_silver_knuckles_iii",
+    "name": "Lethal Silver Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 75,
+          "AilmentResistance%": 9,
+          "EarthElement": 1,
+          "Anticipate%": 25,
+          "ReduceDmg(PlayerEpicenter)%": 15,
+          "ReduceDmg(FoeEpicenter)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 185,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 185,
+        "stability": 90,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "wind_slayer_chakram",
+    "name": "Wind Slayer Chakram",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "ASPD%": 40,
+          "WindElement": 1,
+          "AdditionalMelee%": 30
+        },
+        "special_effects": {},
+        "base_atk": 185,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "ASPD%": 50,
+          "WindElement": 1,
+          "AdditionalMelee%": 40
+        },
+        "special_effects": {},
+        "base_atk": 185,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 185,
+        "stability": 90,
+        "potential": 42,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_knuckles_ix",
+    "name": "4th Anniv Knuckles IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxHP": 2700,
+          "Dodge%": 18,
+          "ShortRangeDamage%": 7,
+          "AbsoluteDodge%": 8
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_knuckles_v",
+    "name": "5th Anniv Knuckles V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxHP": 3000,
+          "Dodge%": 24,
+          "ShortRangeDamage%": 7,
+          "ReduceDmg(Floor)%": 2,
+          "AbsoluteDodge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_knuckles_iv",
+    "name": "6th Anniv Knuckles IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 7,
+          "CriticalRate": 15,
+          "EvasionRecharge%": 30,
+          "ReduceDmg(Floor)%": 4,
+          "AbsoluteDodge%": 13
+        },
+        "special_effects": {
+          "Shield only:Dodge %": "Dodge %"
+        },
+        "base_atk": 193,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_knuckles_iii",
+    "name": "7th Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "PhysicalResistance%": 30,
+          "ASPD%": 56,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 7,
+          "AbsoluteDodge%": 12,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_knuckles_ii",
+    "name": "8th Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxMP": 300,
+          "ATK%": 7,
+          "PhysicalResistance%": 35,
+          "CriticalRate": 35,
+          "GuardBreak%": 17,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_knuckles",
+    "name": "9th Anniv Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 7,
+          "PhysicalResistance%": 40,
+          "CriticalRate": 40,
+          "GuardBreak%": 15
+        },
+        "special_effects": {
+          "MaxMP": "MaxMP",
+          "Shield only:Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 193,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 90,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "chocolate_gifts_ii",
+    "name": "Chocolate Gifts II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 1000,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "holy_katar",
+    "name": "Holy Katar",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "PhysicalResistance%": 15,
+          "MagicResistance%": 15,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 202,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 202,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 202,
+        "stability": 90,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "tonfa_of_cold_serenity",
+    "name": "Tonfa of Cold Serenity",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalPierce%": 15,
+          "Accuracy": 100,
+          "%strongeragainstWater": 25,
+          "Lightresistance%": -30,
+          "WaterElement": 1,
+          "AdditionalMelee%": 90,
+          "ATKUP(STR%)": 50
+        },
+        "special_effects": {},
+        "base_atk": 202,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "duplex_knuckles",
+    "name": "Duplex Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 10,
+          "Stability%": -15,
+          "PhysicalPierce%": 5,
+          "Windresistance%": 25,
+          "EarthElement": 1,
+          "ReduceDmg(FoeEpicenter)%": 25,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 512,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_knuckles_vi",
+    "name": "5th Anniv Knuckles VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxHP": 3000,
+          "Dodge%": 27,
+          "ShortRangeDamage%": 7,
+          "ReduceDmg(Floor)%": 4,
+          "AbsoluteDodge%": 12
+        },
+        "special_effects": {},
+        "base_atk": 210,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 210,
+        "stability": 90,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "quasar_arm",
+    "name": "Quasar Arm",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 5,
+          "MaxMP": 500,
+          "ATK%": 7,
+          "ASPD": 750,
+          "CriticalRate": 10,
+          "ShortRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 210,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "MaxMP": 500,
+          "ATK%": 7,
+          "ASPD": 250,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 210,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 210,
+        "stability": 90,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "piton_wristband",
+    "name": "Piton Wristband",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 10,
+          "ATK%": 6,
+          "MagicResistance%": 10,
+          "Fireresistance%": 10,
+          "WaterElement": 1,
+          "ATKUP(STR%)": 100
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        },
+        "base_atk": 215,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": 5,
+          "ATK%": 6,
+          "MagicResistance%": 10,
+          "Fireresistance%": 15,
+          "WaterElement": 1,
+          "ATKUP(STR%)": 75
+        },
+        "special_effects": {
+          "Magic Barrier": 1500
+        },
+        "base_atk": 215,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 215,
+        "stability": 80,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "douse_knuckles",
+    "name": "Douse Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 12,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 7
+        },
+        "special_effects": {
+          "Physical Barrier": 1500
+        },
+        "base_atk": 219,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "Accuracy%": 14,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 7
+        },
+        "special_effects": {
+          "Physical Barrier": 2100
+        },
+        "base_atk": 219,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 219,
+        "stability": 90,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mortal_katar",
+    "name": "Mortal Katar",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 75,
+          "CriticalDamage": 25,
+          "%strongeragainstDark": -50,
+          "NeutralResistance%": 15,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 222,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_knuckles_vii",
+    "name": "5th Anniv Knuckles VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxHP": 3000,
+          "Dodge%": 30,
+          "ShortRangeDamage%": 7,
+          "ReduceDmg(Floor)%": 6,
+          "AbsoluteDodge%": 14
+        },
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_knuckles_v",
+    "name": "6th Anniv Knuckles V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 7,
+          "CriticalRate": 20,
+          "EvasionRecharge%": 30,
+          "ReduceDmg(Floor)%": 6,
+          "AbsoluteDodge%": 14
+        },
+        "special_effects": {
+          "Shield only:Dodge %": "Dodge %"
+        },
+        "base_atk": 228,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_knuckles_iv",
+    "name": "7th Anniv Knuckles IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "PhysicalResistance%": 30,
+          "ASPD%": 64,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 7,
+          "AbsoluteDodge%": 13,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_knuckles_iii",
+    "name": "8th Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxMP": 350,
+          "ATK%": 7,
+          "PhysicalResistance%": 35,
+          "CriticalRate": 35,
+          "GuardBreak%": 19,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_knuckles_ii",
+    "name": "9th Anniv Knuckles II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 7,
+          "PhysicalResistance%": 40,
+          "CriticalRate": 40,
+          "GuardBreak%": 18
+        },
+        "special_effects": {
+          "MaxMP": "MaxMP",
+          "Shield only:Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 228,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "demon_empress_knuckles",
+    "name": "Demon Empress Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 25,
+          "EvasionRecharge%": 10,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Shield only:Aggro %": "Aggro %"
+        },
+        "base_atk": 228,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 20,
+          "EvasionRecharge%": 15,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 10
+        },
+        "special_effects": {
+          "Shield only:Aggro %": "Aggro %"
+        },
+        "base_atk": 228,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 228,
+        "stability": 90,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "arachnid_claws",
+    "name": "Arachnid Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalDamage%": 16,
+          "Aggro%": -45,
+          "DarkElement": 1,
+          "AttackMPRecovery": 12,
+          "GuardBreak%": 25,
+          "ReduceDmg(Bullet)%": -15,
+          "ReduceDmg(Meteor)%": -30
+        },
+        "special_effects": {},
+        "base_atk": 238,
+        "stability": 85
+      },
+      "npc": {
+        "stats": {
+          "CriticalDamage%": 8,
+          "Aggro%": -15,
+          "DarkElement": 1,
+          "AttackMPRecovery": 12,
+          "GuardBreak%": 30,
+          "ReduceDmg(Bullet)%": -5,
+          "ReduceDmg(Meteor)%": -10
+        },
+        "special_effects": {},
+        "base_atk": 238,
+        "stability": 85
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 238,
+        "stability": 85,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "combat_tonfa",
+    "name": "Combat Tonfa",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 16,
+          "ASPD": 500,
+          "CriticalRate%": 90,
+          "EvasionRecharge%": 20,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 238,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 16,
+          "ASPD": 600,
+          "CriticalRate%": 100,
+          "EvasionRecharge%": 10,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 238,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 238,
+        "stability": 90,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ski_gloves",
+    "name": "Ski Gloves",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 1000,
+          "Accuracy%": 300,
+          "CriticalRate%": 300,
+          "AttackMPRecovery": 20,
+          "ReduceDmg(Floor)%": 30,
+          "InvincibleAid(sec)": 3
+        },
+        "special_effects": {},
+        "base_atk": 238,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "yozakura_knuckles",
+    "name": "Yozakura Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "Accuracy": 300,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 6,
+          "ShortRangeDamage%": 6,
+          "ReduceDmg(Bowling)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 238,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "toy_gun",
+    "name": "Toy Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 50,
+          "CriticalRate%": 75,
+          "%strongeragainstNeutral": 25,
+          "AdditionalMelee%": 5,
+          "AdditionalMagic%": 5,
+          "StunUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "black_wing_knuckles",
+    "name": "Black Wing Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "ASPD%": -15,
+          "CSPD%": -15,
+          "CriticalRate": 60,
+          "%strongeragainstNeutral": 35
+        },
+        "special_effects": {},
+        "base_atk": 247,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_knuckles_vi",
+    "name": "6th Anniv Knuckles VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "ATK%": 8,
+          "CriticalRate": 20,
+          "EvasionRecharge%": 30,
+          "ReduceDmg(Floor)%": 8,
+          "AbsoluteDodge%": 15
+        },
+        "special_effects": {
+          "Shield only:Dodge %": "Dodge %"
+        },
+        "base_atk": 256,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_knuckles_v",
+    "name": "7th Anniv Knuckles V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "PhysicalResistance%": 30,
+          "ASPD%": 72,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 8,
+          "AbsoluteDodge%": 14,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_knuckles_iv",
+    "name": "8th Anniv Knuckles IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "MaxMP": 400,
+          "ATK%": 8,
+          "PhysicalResistance%": 35,
+          "CriticalRate": 35,
+          "GuardBreak%": 21,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_knuckles_iii",
+    "name": "9th Anniv Knuckles III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "ATK%": 8,
+          "PhysicalResistance%": 40,
+          "CriticalRate": 40,
+          "GuardBreak%": 21
+        },
+        "special_effects": {
+          "MaxMP": "MaxMP",
+          "Shield only:Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 256,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "beastlord_knuckles",
+    "name": "Beastlord Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "rock_dragon_bracers",
+    "name": "Rock Dragon Bracers",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 6000,
+          "ATK%": 8,
+          "MagicResistance%": 30,
+          "Accuracy": 80,
+          "%strongeragainstWind": 10,
+          "EarthElement": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        },
+        "base_atk": 256,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 4000,
+          "ATK%": 8,
+          "MagicResistance%": 20,
+          "Accuracy": 160,
+          "%strongeragainstWind": 10,
+          "EarthElement": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 256,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "thermal_fists",
+    "name": "Thermal Fists",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 8,
+          "Fireresistance%": 30,
+          "FireElement": 1,
+          "AdditionalMelee%": 60,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "ATK%": 8,
+          "Fireresistance%": 30,
+          "FireElement": 1,
+          "AdditionalMelee%": 80,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 90,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_gloves",
+    "name": "Pearl Sakura Gloves",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "FireElement": 1,
+          "Anticipate%": 10
+        },
+        "special_effects": {},
+        "base_atk": 270,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "queen_bee-races",
+    "name": "Queen Bee-races",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 35,
+          "Accuracy": 175,
+          "CSPD": 750,
+          "Aggro%": -30,
+          "WindElement": 1,
+          "ShortRangeDamage%": 8,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 276,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "sharp_baghnakhs",
+    "name": "Sharp Baghnakhs",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "ASPD%": 80,
+          "CriticalRate%": 90,
+          "%strongeragainstWind": 5,
+          "EarthElement": 1,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 276,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "visphalanx_(knuckle)",
+    "name": "Visphalanx (Knuckle)",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 30,
+          "ASPD%": 50,
+          "CriticalRate%": 100,
+          "Aggro%": -30,
+          "LightElement": 1,
+          "ShortRangeDamage%": 10,
+          "AdditionalMelee%": 150,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 276,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "oculasignio_knuckles",
+    "name": "Oculasignio Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 9,
+          "Dodge%": 30,
+          "CriticalRate": 20,
+          "%strongeragainstLight": 10,
+          "AilmentResistance%": 10,
+          "DarkElement": 1,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 286,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 9,
+          "Dodge%": 40,
+          "CriticalRate": 25,
+          "%strongeragainstLight": 10,
+          "AilmentResistance%": 5,
+          "DarkElement": 1,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 286,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 286,
+        "stability": 90,
+        "potential": 51,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "rescue_gloves",
+    "name": "Rescue Gloves",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 5,
+          "LightElement": 1,
+          "MotionSpeed%": 3,
+          "NeutralResistance%": 15,
+          "Anticipate%": 9
+        },
+        "special_effects": {},
+        "base_atk": 292,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "dignidad",
+    "name": "Dignidad",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 90,
+          "Aggro%": 30,
+          "Anticipate%": 30,
+          "GuardBreak%": 30
+        },
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_knuckles_vi",
+    "name": "7th Anniv Knuckles VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 9,
+          "PhysicalResistance%": 30,
+          "ASPD%": 80,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 9,
+          "AbsoluteDodge%": 15,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 296,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 296,
+        "stability": 90,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_knuckles_v",
+    "name": "8th Anniv Knuckles V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 9,
+          "MaxMP": 450,
+          "ATK%": 9,
+          "PhysicalResistance%": 35,
+          "CriticalRate": 35,
+          "GuardBreak%": 23,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 296,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 296,
+        "stability": 90,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_knuckles_iv",
+    "name": "9th Anniv Knuckles IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 9,
+          "ATK%": 9,
+          "PhysicalResistance%": 40,
+          "CriticalRate": 40,
+          "GuardBreak%": 24
+        },
+        "special_effects": {
+          "MaxMP": "MaxMP",
+          "Shield only:Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 296,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 296,
+        "stability": 90,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "camaron_arms",
+    "name": "Camaron Arms",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicResistance%": 25,
+          "CriticalRate": 30,
+          "EvasionRecharge%": 20,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 296
+      }
+    }
+  },
+  {
+    "id": "edgy_nova_(combat)",
+    "name": "Edgy Nova (Combat)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Aggro%": -75,
+          "LightElement": 1,
+          "AttackMPRecovery": 20,
+          "%strongeragainstNeutral": 35,
+          "AdditionalMelee%": 200,
+          "ReduceDmg(FoeEpicenter)%": 25
+        },
+        "special_effects": {
+          "Dagger only:ASPD %": "ASPD %"
+        },
+        "base_atk": 300,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "exorcist_fist",
+    "name": "Exorcist Fist",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Darkresistance%": 15,
+          "LightElement": 1,
+          "LongRangeDamage%": 9,
+          "AdditionalMagic%": 150
+        },
+        "special_effects": {},
+        "base_atk": 317
+      }
+    }
+  },
+  {
+    "id": "filrocas_arms",
+    "name": "Filrocas Arms",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Accuracy%": 30,
+          "%strongeragainstFire": 10,
+          "AilmentResistance%": 10,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 9,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {
+          "Arrow only:Long Range Damage %": "Long Range Damage %"
+        },
+        "base_atk": 317,
+        "stability": 90
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "Accuracy%": 20,
+          "%strongeragainstFire": 10,
+          "AilmentResistance%": 15,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 9,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 317,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 317,
+        "stability": 90,
+        "potential": 54,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "master's_tonfa",
+    "name": "Master's Tonfa",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "CriticalRate%": -100,
+          "CriticalDamage": 24,
+          "AdditionalMelee%": 100
+        },
+        "special_effects": {},
+        "base_atk": 320,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_knuckles_vi",
+    "name": "8th Anniv Knuckles VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 10,
+          "MaxMP": 500,
+          "ATK%": 10,
+          "PhysicalResistance%": 35,
+          "CriticalRate": 35,
+          "GuardBreak%": 25,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 90
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 90,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_knuckles_v",
+    "name": "9th Anniv Knuckles V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 10,
+          "ATK%": 10,
+          "PhysicalResistance%": 40,
+          "CriticalRate": 40,
+          "GuardBreak%": 27
+        },
+        "special_effects": {
+          "MaxMP": "MaxMP",
+          "Shield only:Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 339,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 90,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "grudom_knuckles",
+    "name": "Grudom Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "PhysicalPierce%": 12,
+          "MagicPierce%": -25,
+          "MagicResistance%": 30,
+          "CriticalRate": 75,
+          "%strongeragainstFire": 15,
+          "Waterresistance%": -50,
+          "FireElement": 1,
+          "AdditionalMelee%": 150
+        },
+        "special_effects": {},
+        "base_atk": 361,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "red_steel_tonfa",
+    "name": "Red Steel Tonfa",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 50,
+          "ASPD": -750,
+          "%strongeragainstNeutral": 25,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 370,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_knuckles_vi",
+    "name": "9th Anniv Knuckles VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 10,
+          "ATK%": 11,
+          "PhysicalResistance%": 40,
+          "CriticalRate": 40,
+          "GuardBreak%": 30
+        },
+        "special_effects": {
+          "MaxMP": "MaxMP",
+          "Shield only:Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 385,
+        "stability": 90
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 385,
+        "stability": 90,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "blue_rose_gloves",
+    "name": "Blue Rose Gloves",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CriticalRate%": 200,
+          "Aggro%": 40,
+          "WaterElement": 1,
+          "Anticipate%": 15
+        },
+        "special_effects": {
+          "Knuckle only:Anticipate %": "Anticipate %"
+        },
+        "base_atk": 400,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "anguish_knuckles",
+    "name": "Anguish Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 11,
+          "PhysicalPierce%": 20,
+          "ASPD": 900,
+          "%strongeragainstLight": 10,
+          "DarkElement": 1,
+          "Anticipate%": 30
+        },
+        "special_effects": {},
+        "base_atk": 408,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "dx_bomber_blockers",
+    "name": "DX Bomber Blockers",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 30,
+          "ASPD%": 100,
+          "CriticalRate": 75,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        },
+        "base_atk": 435,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_tonfa_vi",
+    "name": "10th Anniv Tonfa VI",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "AGI%": 11,
+          "MaxMP": 500,
+          "ATK%": 11,
+          "PhysicalResistance%": 40,
+          "ASPD%": 70,
+          "CriticalRate": 45,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {
+          "Shield only:Ailment Resistance %": "Ailment Resistance %"
+        },
+        "base_atk": 445,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "raden_pearl_knuckles",
+    "name": "Raden Pearl Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "ATK%": 11,
+          "MATK%": 11,
+          "Accuracy%": 50,
+          "ASPD%": 25,
+          "CSPD": 1250,
+          "Aggro%": 60,
+          "EarthElement": 1,
+          "AttackMPRecovery": 75
+        },
+        "special_effects": {},
+        "base_atk": 445,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "chestnut_knuckles",
+    "name": "Chestnut Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "EarthElement": 1,
+          "ShortRangeDamage%": 10,
+          "MotionSpeed%": 5,
+          "ReduceDmg(Floor)%": 30
+        },
+        "special_effects": {
+          "Heavy Armor only:Stability %": "Stability %",
+          "Ailment Resistance %": "Ailment Resistance %",
+          "ATK UP (STR %)": "ATK UP (STR %)"
+        },
+        "base_atk": 500,
+        "stability": 0
+      }
+    }
+  },
+  {
+    "id": "salmon_jerky_knuckles",
+    "name": "Salmon Jerky Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 18,
+          "ASPD%": 72,
+          "Fireresistance%": -30,
+          "GuardPower%": -60,
+          "AttackMPRecovery": 36,
+          "ShortRangeDamage%": 9,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {},
+        "base_atk": 508,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "ferocious_beast_claws",
+    "name": "Ferocious Beast Claws",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 9,
+          "ATK%": 9,
+          "PhysicalPierce%": 9,
+          "Aggro%": -36,
+          "AttackMPRecovery": 9,
+          "AttackRange(m)": 1.5
+        },
+        "special_effects": {
+          "Shield only:Stun Unavailable": "Stun Unavailable"
+        },
+        "base_atk": 512,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "crimson_onyx_knuckles",
+    "name": "Crimson Onyx Knuckles",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "ATK%": 12,
+          "MATK%": 12,
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "CriticalRate": 75,
+          "EvasionRecharge%": 30,
+          "Aggro%": -90,
+          "AttackMPRecovery": 25
+        },
+        "special_effects": {},
+        "base_atk": 675,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "clavier_fist",
+    "name": "Clavier Fist",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "AGI%": 12,
+          "ATK%": 12,
+          "PhysicalPierce%": 30,
+          "Accuracy": 200,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "ATKUP(STR%)": 1
+        },
+        "special_effects": {},
+        "base_atk": 687,
+        "stability": 70
+      }
+    }
+  }
+]

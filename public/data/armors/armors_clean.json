@@ -1,0 +1,7420 @@
+[
+  {
+    "id": "†dark_syndicate†_vilment",
+    "name": "†Dark Syndicate† Vilment",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 222,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 4000,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "shield only"
+          },
+          {
+            "key": "Stability%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "dual swords only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "adventurers_garb",
+    "name": "Adventurer's Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 9,
+        "stats": [],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 9,
+        "stats": [],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 9,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 15,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anniversary_dress",
+    "name": "Anniversary Dress",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 75,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 900,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 6,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 75,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 31,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anniversary_festive_garb",
+    "name": "Anniversary Festive Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 150,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1500,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 150,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 38,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anniversary_festive_garb_ii",
+    "name": "Anniversary Festive Garb II",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 200,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 2100,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 700,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 14,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 14,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 200,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 45,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anniversary_festive_garb_iii",
+    "name": "Anniversary Festive Garb III",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 250,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 2700,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 900,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 18,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 18,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 250,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 49,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anniversary_festive_garb_iv",
+    "name": "Anniversary Festive Garb IV",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 300,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 3300,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 1100,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 22,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 22,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 300,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 54,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anniversary_festive_garb_v",
+    "name": "Anniversary Festive Garb V",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 350,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 3900,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 1300,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 26,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 26,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 350,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 57,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anniversary_festive_garb_vi",
+    "name": "Anniversary Festive Garb VI",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 400,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 60,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "antique_mail",
+    "name": "Antique Mail",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 300,
+        "stats": [
+          {
+            "key": "PhysicalResistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "ReduceDmg(Bullet)%",
+            "value": 40,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "aqua_garb",
+    "name": "Aqua Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 32,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 32,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 2,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 32,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 22,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "armigma",
+    "name": "Armigma",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 63,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 200,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "WeaponATK%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "FlinchUnavailable",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 63,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "WeaponATK%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "FlinchUnavailable",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 63,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 29,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "assassin_garb",
+    "name": "Assassin Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 38,
+        "stats": [
+          {
+            "key": "PhysicalPierce%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -15,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 15,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 38,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 31,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "aubergine_armor",
+    "name": "Aubergine Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 74,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 60,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "b.b._garb",
+    "name": "B.B. Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 11,
+        "stats": [
+          {
+            "key": "PhysicalResistance%",
+            "value": -20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": -15,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": -10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bark_mail",
+    "name": "Bark Mail",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 166,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 2000,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 8,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -40,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 4,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 166,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "AdditionalMagic%",
+            "value": 25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 166,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 44,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "blancanine_armor",
+    "name": "Blancanine Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 150,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 750,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstNeutral",
+            "value": -10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "brigand_coat",
+    "name": "Brigand Coat",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 175,
+        "stats": [
+          {
+            "key": "ASPD%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "AdditionalMelee%",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 900,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "bowgun only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "brigandine",
+    "name": "Brigandine",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 60,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1400,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": -5,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": -20,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -75,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": -75,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 60,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -75,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": -75,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 60,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 28,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "brutal_dragon_armor",
+    "name": "Brutal Dragon Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 27,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalDamage%",
+            "value": 4,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 27,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalDamage%",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 27,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "clyde_luxen",
+    "name": "Clyde Luxen",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 130,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalDamage",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "TumbleUnavailable",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "comfy_pom_knit_sweater",
+    "name": "Comfy Pom Knit Sweater",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cool_summer_yukata",
+    "name": "Cool Summer Yukata",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1500,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 150,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstFire",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": 9,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cool_summer_yukata_ii",
+    "name": "Cool Summer Yukata II",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 130,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 2000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 200,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstFire",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": 9,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "crow_robe",
+    "name": "Crow Robe",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 70,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": -15,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "ReduceDmg(Bowling)%",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "curious_dress",
+    "name": "Curious Dress",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 166,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalDamage%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "demon_empress_garb",
+    "name": "Demon Empress Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 187,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 10000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 187,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 2500,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 250,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 187,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 46,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "diomedea_suit",
+    "name": "Diomedea Suit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 48,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "UnsheatheAttack%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 48,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 33,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dragoon_mail",
+    "name": "Dragoon Mail",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 200,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 2000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": -100,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 4,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 280,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 3000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": -100,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 15,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dress_of_wish",
+    "name": "Dress of Wish",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 150,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -40,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "elfin_armor",
+    "name": "Elfin Armor",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 130,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "MagicBarrier",
+            "value": 1000,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 130,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 39,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "empress_mail",
+    "name": "Empress Mail",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "Stability%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MDEF%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": -40,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "erudite_uniform",
+    "name": "Erudite Uniform",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 75,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 8,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 8,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Earthresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "GemDustDropAmount%",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "evil_garb_of_death",
+    "name": "Evil Garb of Death",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 120,
+        "stats": [
+          {
+            "key": "MDEF%",
+            "value": -5,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fighter_uniform",
+    "name": "Fighter Uniform",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 0,
+        "stats": [
+          {
+            "key": "PhysicalPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MDEF%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalDamage",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fightwear",
+    "name": "Fightwear",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 25,
+        "stats": [
+          {
+            "key": "ASPD",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "knuckle only"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 25,
+        "stats": [
+          {
+            "key": "ASPD",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "knuckle only"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 25,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 19,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "finpen_wet_suit",
+    "name": "Finpen Wet Suit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -60,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fluffy_kinaco_onesie",
+    "name": "Fluffy Kinaco Onesie",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 125,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 7500,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fluffy_rabbit_garb",
+    "name": "Fluffy Rabbit Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 324,
+        "stats": [
+          {
+            "key": "STR%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 1100,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "UnsheatheAttack%",
+            "value": 11,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "heavy armor only"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": "Magic Resistance %",
+            "type": "special_effect"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "forest_wolf_garb",
+    "name": "Forest Wolf Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 21,
+        "stats": [
+          {
+            "key": "Dodge",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 200,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 4,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 21,
+        "stats": [
+          {
+            "key": "Dodge",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 21,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 19,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fortistra",
+    "name": "Fortistra",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 80,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstLight",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "GuardBreak%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 80,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstLight",
+            "value": -36,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "GuardBreak%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 80,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Potential",
+            "value": 32,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fortuita_vestibus",
+    "name": "Fortuita Vestibus",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 5000,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 2000,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 15,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 34,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "gladiator_armor",
+    "name": "Gladiator Armor",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 16,
+        "stats": [
+          {
+            "key": "GuardRecharge%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "WeaponATK%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 16,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "GuardRecharge%",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "WeaponATK%",
+            "value": 12,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "green_dragon_garb",
+    "name": "Green Dragon Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "MATK%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "MATK%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": -5,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 21,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "halloween_garb",
+    "name": "Halloween Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 20,
+        "stats": [
+          {
+            "key": "Stability%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "halloween_garb_ii",
+    "name": "Halloween Garb II",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 90,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalBarrier",
+            "value": 3000,
+            "type": "stat"
+          },
+          {
+            "key": "MagicBarrier",
+            "value": 3000,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "halloween_garb_iii",
+    "name": "Halloween Garb III",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 194,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 250,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 8,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 8,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 750,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "dagger only"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "arrow only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "heaven_feather_garb",
+    "name": "Heaven Feather Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 141,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 4000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ReviveTime%",
+            "value": -30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 141,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 4000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "ReviveTime%",
+            "value": -3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 141,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 41,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "holy_robe",
+    "name": "Holy Robe",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 86,
+        "stats": [
+          {
+            "key": "PhysicalResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 750,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "MATKUP(VIT%)",
+            "value": 4,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 86,
+        "stats": [
+          {
+            "key": "PhysicalResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "MATKUP(VIT%)",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 86,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 34,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hunters_garb",
+    "name": "Hunter's Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 18,
+        "stats": [
+          {
+            "key": "AGI",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "DEX",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 18,
+        "stats": [
+          {
+            "key": "AGI",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "DEX",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 18,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 18,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iris_armor",
+    "name": "Iris Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "WeaponATK%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "jeremiah_mail",
+    "name": "Jeremiah Mail",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 110,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 110,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 36,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "jumpsuit",
+    "name": "Jumpsuit",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 97,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "InvincibleAid(sec)",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "ItemCooldown",
+            "value": -1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "khalyps_mail",
+    "name": "Khalyps Mail",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 180,
+        "stats": [
+          {
+            "key": "PhysicalPierce%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 14,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalDamage%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 14,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 180,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 45,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "killer_coat",
+    "name": "Killer Coat",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 43,
+        "stats": [
+          {
+            "key": "PhysicalResistance%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -100,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 43,
+        "stats": [
+          {
+            "key": "MATK%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 4,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 43,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 24,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "knight_armor",
+    "name": "Knight Armor",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 50,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 50,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 24,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 52,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 7,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "laureate_outfit",
+    "name": "Laureate Outfit",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 280,
+        "stats": [
+          {
+            "key": "AGI%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -40,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "dagger only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "leather_armor",
+    "name": "Leather Armor",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 11,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 50,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 11,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 16,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "legendary_raven_garb",
+    "name": "Legendary Raven Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 271,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "ninjutsu scroll only"
+          },
+          {
+            "key": "TumbleUnavailable",
+            "value": "Tumble Unavailable",
+            "type": "special_effect"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lil_devil_garb",
+    "name": "Lil Devil Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 66,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -666,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 15,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lil_empress_garb",
+    "name": "Lil Empress Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 120,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": -75,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -15,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 120,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 8,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 120,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 38,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lovely_bunny_hoodie",
+    "name": "Lovely Bunny Hoodie",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 158,
+        "stats": [
+          {
+            "key": "Accuracy%",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "knuckle only"
+          },
+          {
+            "key": "Aggro%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "1-handed sword only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mad_doctor_garb",
+    "name": "Mad Doctor Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 50,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalBarrier",
+            "value": 666,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mage_robe",
+    "name": "Mage Robe",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 15,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 70,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 15,
+        "stats": [
+          {
+            "key": "INT",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 15,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 17,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "magic_crystal_armor",
+    "name": "Magic Crystal Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 24,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 750,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": -25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 24,
+        "stats": [
+          {
+            "key": "MagicResistance%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 24,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 19,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "magic_swordsmans_garb",
+    "name": "Magic Swordsman's Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 40,
+        "stats": [
+          {
+            "key": "STR%",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "INT%",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 200,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": -10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 40,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 24,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "magical_crimson_moon_garb",
+    "name": "Magical Crimson Moon Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 135,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -60,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "GuardBreak%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "2-handed sword only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "maiden",
+    "name": "Maiden",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 208,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": -20,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalPierce%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 700,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -70,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 208,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 7,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalPierce%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 750,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -20,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 208,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 49,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "maple_coat",
+    "name": "Maple Coat",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 231,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -15,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "ReduceDmg(Charge)%",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "medic_coat",
+    "name": "Medic Coat",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 43,
+        "stats": [
+          {
+            "key": "NaturalMPRegen%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 43,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 24,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 43,
+        "stats": [
+          {
+            "key": "NaturalHPRegen%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mozt_armor",
+    "name": "Mozt Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 102,
+        "stats": [
+          {
+            "key": "NaturalMPRegen%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP",
+            "value": 2000,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": -40,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 102,
+        "stats": [
+          {
+            "key": "NaturalMPRegen%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": -40,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 102,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 35,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mulgoon_robe",
+    "name": "Mulgoon Robe",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 150,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 15000,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 11,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 11,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 80,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "GuardBreak%",
+            "value": 40,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mummy_bandage_outfit",
+    "name": "Mummy Bandage Outfit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 111,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": -100,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "heavy armor only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ninja_costume",
+    "name": "Ninja Costume",
+    "type": "armor",
+    "variants": {
+      "player": {
+        "base_def": 83,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 44,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ocean_dancer",
+    "name": "Ocean Dancer",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 94,
+        "stats": [
+          {
+            "key": "Dodge%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -70,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "AbsoluteDodge%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ocean_explorer",
+    "name": "Ocean Explorer",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 279,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 4500,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -45,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "oni_garb",
+    "name": "Oni Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 117,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": -5,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "ATKUP(VIT%)",
+            "value": 100,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ooze_armor",
+    "name": "Ooze Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 36,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 75,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": -25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 36,
+        "stats": [
+          {
+            "key": "DEX%",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalDamage%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 36,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 23,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "oracle_robe",
+    "name": "Oracle Robe",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 39,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 200,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 39,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 23,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 39,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 14,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "oriental_robe",
+    "name": "Oriental Robe",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 75,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "PetEXP%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "otsukimi_garb",
+    "name": "Otsukimi Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 700,
+            "type": "stat"
+          },
+          {
+            "key": "MDEF",
+            "value": 150,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "outerworld_armor",
+    "name": "Outerworld Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 47,
+        "stats": [
+          {
+            "key": "STR",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "INT",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "MDEF%",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 47,
+        "stats": [
+          {
+            "key": "STR",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "INT",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "MDEF%",
+            "value": 24,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 47,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "palanquin_carrier_garment",
+    "name": "Palanquin Carrier Garment",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "NaturalHPRegen%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP",
+            "value": 10000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "DEF%",
+            "value": -99,
+            "type": "stat"
+          },
+          {
+            "key": "MDEF%",
+            "value": -99,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 750,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 250,
+            "type": "stat"
+          },
+          {
+            "key": "ReviveTime%",
+            "value": -25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "panda_costume",
+    "name": "Panda Costume",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 345,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 5000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "EXPGain%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "party_costume",
+    "name": "Party Costume",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 215,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 800,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 8,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 24,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 16,
+            "type": "stat"
+          },
+          {
+            "key": "TumbleUnavailable",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "GuardBreak%",
+            "value": 4,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "phalanx_(armor)",
+    "name": "Phalanx (Armor)",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 90,
+        "stats": [
+          {
+            "key": "NaturalHPRegen%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Earthresistance%",
+            "value": -75,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalBarrier",
+            "value": 3000,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicBarrier",
+            "value": 3000,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "phantom_mail",
+    "name": "Phantom Mail",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 180,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "AbsoluteDodge%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "heavy armor only"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "light armor only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "plate_armor",
+    "name": "Plate Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "ATKUP(VIT%)",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "heavy armor only"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": -10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pom_loungewear",
+    "name": "Pom Loungewear",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 1,
+        "stats": [
+          {
+            "key": "ASPD%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 60,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "ReviveTime%",
+            "value": 60,
+            "type": "stat"
+          },
+          {
+            "key": "PetEXP%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "potum_academy_tracksuit",
+    "name": "Potum Academy Tracksuit",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 0,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "heavy armor only"
+          },
+          {
+            "key": "ASPD",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "light armor only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "praetor_suit",
+    "name": "Praetor Suit",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 67,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "TumbleUnavailable",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 67,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "TumbleUnavailable",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 67,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 29,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "reindeer_suit",
+    "name": "Reindeer Suit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 46,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 250,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 250,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": -150,
+            "type": "stat"
+          },
+          {
+            "key": "UnsheatheAttack",
+            "value": 25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "resort_swimsuit",
+    "name": "Resort Swimsuit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 76,
+        "stats": [
+          {
+            "key": "PhysicalPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -15,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ritual_dress",
+    "name": "Ritual Dress",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 75,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 5000,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sacred_ice_armor",
+    "name": "Sacred Ice Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 135,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstWater",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstLight",
+            "value": -5,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "AdditionalMelee%",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "ATKUP(INT%)",
+            "value": 100,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_kimono",
+    "name": "Sakura Kimono",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 0,
+        "stats": [],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 20,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 700,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Earthresistance%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 20,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 23,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_kimono_ii",
+    "name": "Sakura Kimono II",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 40,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "DEF%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": -75,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalBarrier",
+            "value": 500,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 40,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_kimono_iii",
+    "name": "Sakura Kimono III",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 60,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "MDEF%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": -75,
+            "type": "stat"
+          },
+          {
+            "key": "MagicBarrier",
+            "value": 500,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 60,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 35,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_kimono_iv",
+    "name": "Sakura Kimono IV",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 80,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 3000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "ReviveTime%",
+            "value": -30,
+            "type": "stat"
+          },
+          {
+            "key": "InvincibleAid(sec)",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 80,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 41,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_kimono_v",
+    "name": "Sakura Kimono V",
+    "type": "armor",
+    "variants": {
+      "player": {
+        "base_def": 160,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ReviveTime%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_kimono_vi",
+    "name": "Sakura Kimono VI",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 240,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 5000,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "TumbleUnavailable",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "santa_suit",
+    "name": "Santa Suit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 10,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 200,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstDark",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 4,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "santa_suit_ii",
+    "name": "Santa Suit II",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 20,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstDark",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "santa_suit_iii",
+    "name": "Santa Suit III",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstDark",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 2,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "santa_suit_iv",
+    "name": "Santa Suit IV",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 40,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstDark",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "santa_suit_v",
+    "name": "Santa Suit V",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 50,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstWater",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstDark",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "santa_suit_vi",
+    "name": "Santa Suit VI",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 60,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 700,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstWater",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstDark",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "satan_armor",
+    "name": "Satan Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 150,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 3000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": -400,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 2,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalDamage",
+            "value": 8,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "savage_mail",
+    "name": "Savage Mail",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 114,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalBarrier",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "AdditionalMelee%",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "scale_armor",
+    "name": "Scale Armor",
+    "type": "armor",
+    "variants": {
+      "player": {
+        "base_def": 34,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 23,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 43,
+        "stats": [
+          {
+            "key": "DEF%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "GuardPower%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 43,
+        "stats": [
+          {
+            "key": "DEF%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "scuba_ranger_suit",
+    "name": "Scuba Ranger Suit",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 250,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 4000,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": -40,
+            "type": "stat"
+          },
+          {
+            "key": "GuardPower%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "GuardRecharge%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 7,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "seashell",
+    "name": "Seashell",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 130,
+        "stats": [
+          {
+            "key": "ATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": -200,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": -100,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -300,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "shadow_suit",
+    "name": "Shadow Suit",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 0,
+        "stats": [
+          {
+            "key": "AGI%",
+            "value": 11,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 120,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 11,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "arrow only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "shiny_viridian_garb",
+    "name": "Shiny Viridian Garb",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 256,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 1200,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 60,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "shiny_viridian_garb_(power)",
+    "name": "Shiny Viridian Garb (Power)",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 171,
+        "stats": [
+          {
+            "key": "AGI%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "shiny_viridian_garb_(robust)",
+    "name": "Shiny Viridian Garb (Robust)",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 342,
+        "stats": [
+          {
+            "key": "VIT%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 40,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "shiny_viridian_garb_(smart)",
+    "name": "Shiny Viridian Garb (Smart)",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 171,
+        "stats": [
+          {
+            "key": "DEX%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 12,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "MotionSpeed%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "snowman_garb",
+    "name": "Snowman Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 92,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 7000,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstFire",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": -70,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "snowwear",
+    "name": "Snowwear",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 160,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 3000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 15,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "soda_swimsuit",
+    "name": "Soda Swimsuit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 1,
+        "stats": [
+          {
+            "key": "NaturalHPRegen%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "NaturalMPRegen%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -15,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 1,
+        "stats": [
+          {
+            "key": "NaturalHPRegen%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "NaturalMPRegen%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -10,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "soldier_armor",
+    "name": "Soldier Armor",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 123,
+        "stats": [
+          {
+            "key": "Stability%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "AbsoluteDodge%",
+            "value": 2,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 123,
+        "stats": [
+          {
+            "key": "Stability%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "EvasionRecharge%",
+            "value": 3,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "AbsoluteDodge%",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 123,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 37,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sorcery_dress",
+    "name": "Sorcery Dress",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 75,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -75,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalBarrier",
+            "value": 3000,
+            "type": "stat"
+          },
+          {
+            "key": "TumbleUnavailable",
+            "value": 1,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "spa_wear",
+    "name": "Spa Wear",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 30,
+        "stats": [
+          {
+            "key": "NaturalMPRegen%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 60,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Earthresistance%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "WeaponATK%",
+            "value": 20,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "steel_mail_m",
+    "name": "Steel Mail M",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 128,
+        "stats": [
+          {
+            "key": "INT%",
+            "value": 11,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "ReduceDmg(Bowling)%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "AbsoluteDodge%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "heavy armor only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "steel_mail_p",
+    "name": "Steel Mail P",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 128,
+        "stats": [
+          {
+            "key": "STR%",
+            "value": 11,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Windresistance%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "ReduceDmg(Floor)%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "AbsoluteAccuracy%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "heavy armor only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "stellar_fighter",
+    "name": "Stellar Fighter",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 306,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 15000,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "AilmentResistance%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "stellar_fighter_(lra)",
+    "name": "Stellar Fighter (LRA)",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 256,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 7500,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalPierce%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "GuardBreak%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "arrow only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "stellar_fighter_(sra)",
+    "name": "Stellar Fighter (SRA)",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 256,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 7500,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalPierce%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 5,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "ShortRangeDamage%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "Anticipate%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "2-handed sword only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "stoodies_robe",
+    "name": "Stoodie's Robe",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 80,
+        "stats": [
+          {
+            "key": "INT%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": -20,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": -20,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstNeutral",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "PetEXP%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "GemDustDropAmount%",
+            "value": 50,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 80,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 43,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "straye_garb",
+    "name": "Straye Garb",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 18,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 100,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 18,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 18,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "base_def": 18,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 5000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 1000,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "summer_outfit",
+    "name": "Summer Outfit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 100,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "ATK",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "MATK",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 100,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": 5,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "trickster_costume",
+    "name": "Trickster Costume",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 255,
+        "stats": [
+          {
+            "key": "NaturalMPRegen%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP%",
+            "value": -9,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -18,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -75,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 3,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 255,
+        "stats": [
+          {
+            "key": "NaturalMPRegen%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP%",
+            "value": -9,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 300,
+            "type": "stat"
+          },
+          {
+            "key": "ATK%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "MATK%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "Stability%",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -4,
+            "type": "stat"
+          },
+          {
+            "key": "Aggro%",
+            "value": -25,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 6,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 255,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 54,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "tuxedo",
+    "name": "Tuxedo",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 200,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 10000,
+            "type": "stat"
+          },
+          {
+            "key": "Accuracy",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": -25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "twilight_dress",
+    "name": "Twilight Dress",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 70,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": -500,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicBarrier",
+            "value": 1000,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 70,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD",
+            "value": -250,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "Fireresistance%",
+            "value": -50,
+            "type": "stat"
+          },
+          {
+            "key": "Lightresistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": 15,
+            "type": "stat"
+          },
+          {
+            "key": "MagicBarrier",
+            "value": 500,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 70,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "valentines_day_apron",
+    "name": "Valentine's Day Apron",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 263,
+        "stats": [
+          {
+            "key": "AGI%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 200,
+            "type": "stat"
+          },
+          {
+            "key": "ASPD%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 8,
+            "type": "stat"
+          },
+          {
+            "key": "%strongeragainstNeutral",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "magic device only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "valentines_day_costume",
+    "name": "Valentine's Day Costume",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 90,
+        "stats": [
+          {
+            "key": "DEX%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Earthresistance%",
+            "value": -40,
+            "type": "stat"
+          },
+          {
+            "key": "UnsheatheAttack%",
+            "value": 6,
+            "type": "stat"
+          },
+          {
+            "key": "GuardBreak%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "LongRangeDamage%",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "heavy armor only"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "warrior_mail",
+    "name": "Warrior Mail",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 15,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 70,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 15,
+        "stats": [
+          {
+            "key": "STR",
+            "value": 1,
+            "type": "stat"
+          },
+          {
+            "key": "MaxHP",
+            "value": 100,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 15,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 17,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "water_priest_robe",
+    "name": "Water Priest Robe",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 140,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "katana only"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "base_def": 140,
+        "stats": [
+          {
+            "key": "MaxHP%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD",
+            "value": 600,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 0,
+            "type": "conditional_stat",
+            "condition": "katana only"
+          }
+        ],
+        "allow_custom_stats": true
+      },
+      "player": {
+        "base_def": 140,
+        "stats": [
+          {
+            "key": "Potential",
+            "value": 56,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "wedding_dress",
+    "name": "Wedding Dress",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 200,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 1000,
+            "type": "stat"
+          },
+          {
+            "key": "Dodge",
+            "value": 50,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "Darkresistance%",
+            "value": -25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "winter_outfit",
+    "name": "Winter Outfit",
+    "type": "armor",
+    "variants": {
+      "npc": {
+        "base_def": 231,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 500,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "MagicResistance%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "CSPD%",
+            "value": 25,
+            "type": "stat"
+          },
+          {
+            "key": "ReduceDmg(Meteor)%",
+            "value": 25,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "winter_outfit_ii",
+    "name": "Winter Outfit II",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 270,
+        "stats": [
+          {
+            "key": "MaxHP",
+            "value": 9000,
+            "type": "stat"
+          },
+          {
+            "key": "MaxMP",
+            "value": 900,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "CriticalRate%",
+            "value": 40,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 9,
+            "type": "stat"
+          },
+          {
+            "key": "WeaponATK%",
+            "value": 10,
+            "type": "stat"
+          },
+          {
+            "key": "NeutralResistance%",
+            "value": -30,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "zega_onesie",
+    "name": "Zega Onesie",
+    "type": "armor",
+    "variants": {
+      "drop": {
+        "base_def": 200,
+        "stats": [
+          {
+            "key": "MaxMP",
+            "value": 400,
+            "type": "stat"
+          },
+          {
+            "key": "PhysicalPierce%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "MagicPierce%",
+            "value": 20,
+            "type": "stat"
+          },
+          {
+            "key": "Waterresistance%",
+            "value": 30,
+            "type": "stat"
+          },
+          {
+            "key": "AttackMPRecovery",
+            "value": 4,
+            "type": "stat"
+          },
+          {
+            "key": "FractionalBarrier%",
+            "value": 10,
+            "type": "stat"
+          }
+        ],
+        "allow_custom_stats": true
+      }
+    }
+  }
+]

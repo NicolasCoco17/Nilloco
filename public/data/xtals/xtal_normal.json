@@ -1,0 +1,2140 @@
+[
+  {
+    "id": "xtal_accuracy10",
+    "name": "Accuracy+10",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy": "10"
+    }
+  },
+  {
+    "id": "xtal_accuracy12",
+    "name": "Accuracy+12",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy": "12"
+    }
+  },
+  {
+    "id": "xtal_accuracy14",
+    "name": "Accuracy+14",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy": "14"
+    }
+  },
+  {
+    "id": "xtal_accuracy16",
+    "name": "Accuracy+16",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy": "16"
+    }
+  },
+  {
+    "id": "xtal_accuracy2",
+    "name": "Accuracy+2",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy": "2"
+    }
+  },
+  {
+    "id": "xtal_accuracy4",
+    "name": "Accuracy+4",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy": "4"
+    }
+  },
+  {
+    "id": "xtal_accuracy8",
+    "name": "Accuracy+8",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy": "8"
+    }
+  },
+  {
+    "id": "xtal_ageladanios",
+    "name": "Ageladanios",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "6",
+      "Magic Resistance %": "-15",
+      "Critical Damage": "8",
+      "Motion Speed %": "-1"
+    }
+  },
+  {
+    "id": "xtal_agi1",
+    "name": "AGI+1",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "1"
+    }
+  },
+  {
+    "id": "xtal_agi2",
+    "name": "AGI+2",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "2"
+    }
+  },
+  {
+    "id": "xtal_agi3",
+    "name": "AGI+3",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "3"
+    }
+  },
+  {
+    "id": "xtal_agi4",
+    "name": "AGI+4",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "4"
+    }
+  },
+  {
+    "id": "xtal_agi5",
+    "name": "AGI+5",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "5"
+    }
+  },
+  {
+    "id": "xtal_agi6",
+    "name": "AGI+6",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "6"
+    }
+  },
+  {
+    "id": "xtal_agi7",
+    "name": "AGI+7",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "7"
+    }
+  },
+  {
+    "id": "xtal_amoeba_machina",
+    "name": "Amoeba Machina",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "6",
+      "Dodge": "5",
+      "Critical Rate": "-6",
+      "Evasion Recharge %": "4"
+    }
+  },
+  {
+    "id": "xtal_aranea",
+    "name": "Aranea",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "400",
+      "MaxMP": "200",
+      "Aggro %": "1"
+    }
+  },
+  {
+    "id": "xtal_aspd100",
+    "name": "ASPD+100",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "100"
+    }
+  },
+  {
+    "id": "xtal_aspd120",
+    "name": "ASPD+120",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "120"
+    }
+  },
+  {
+    "id": "xtal_aspd140",
+    "name": "ASPD+140",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "140"
+    }
+  },
+  {
+    "id": "xtal_aspd160",
+    "name": "ASPD+160",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "160"
+    }
+  },
+  {
+    "id": "xtal_aspd20",
+    "name": "ASPD+20",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "20"
+    }
+  },
+  {
+    "id": "xtal_aspd40",
+    "name": "ASPD+40",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "40"
+    }
+  },
+  {
+    "id": "xtal_aspd60",
+    "name": "ASPD+60",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "60"
+    }
+  },
+  {
+    "id": "xtal_aspd80",
+    "name": "ASPD+80",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "80"
+    }
+  },
+  {
+    "id": "xtal_astol",
+    "name": "Astol",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEF %": "-10",
+      "Magic Resistance %": "1",
+      "Evasion Recharge %": "3"
+    }
+  },
+  {
+    "id": "xtal_bb_goblin",
+    "name": "B.B. Goblin",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "2",
+      "Critical Rate": "-1",
+      "Aggro %": "5"
+    }
+  },
+  {
+    "id": "xtal_big_coryn",
+    "name": "Big Coryn",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Physical Resistance %": "1",
+      "Magic Resistance %": "1",
+      "Ailment Resistance %": "1"
+    }
+  },
+  {
+    "id": "xtal_black_shadow",
+    "name": "Black Shadow",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-150",
+      "ATK %": "8",
+      "MATK %": "8",
+      "Attack MP Recovery": "3"
+    }
+  },
+  {
+    "id": "xtal_blazingur",
+    "name": "Blazingur",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "600",
+      "MaxMP": "300",
+      "Aggro %": "2"
+    }
+  },
+  {
+    "id": "xtal_boss_colon",
+    "name": "Boss Colon",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "70",
+      "MaxMP": "30"
+    }
+  },
+  {
+    "id": "xtal_boss_goblin",
+    "name": "Boss Goblin",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "1",
+      "Accuracy": "-4",
+      "Critical Rate %": "2"
+    }
+  },
+  {
+    "id": "xtal_brassozard",
+    "name": "Brassozard",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR %": "3",
+      "ATK %": "3",
+      "Accuracy %": "-10",
+      "Critical Rate %": "-10",
+      "Critical Damage": "3"
+    }
+  },
+  {
+    "id": "xtal_brutal_dragon_decel",
+    "name": "Brutal Dragon Decel",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-50",
+      "ATK %": "1",
+      "MATK %": "1"
+    }
+  },
+  {
+    "id": "xtal_bullamius",
+    "name": "Bullamius",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "250",
+      "ATK %": "3",
+      "MATK %": "3"
+    }
+  },
+  {
+    "id": "xtal_cake_potum",
+    "name": "Cake Potum",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "30",
+      "Physical Resistance %": "-15",
+      "Magic Resistance %": "-15"
+    }
+  },
+  {
+    "id": "xtal_carbuncle",
+    "name": "Carbuncle",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "1000",
+      "Dodge %": "-10",
+      "Reflect %": "10"
+    }
+  },
+  {
+    "id": "xtal_caspy",
+    "name": "Caspy",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Ailment Resistance %": "-6",
+      "Guard Power %": "2",
+      "Guard Recharge %": "2",
+      "Evasion Recharge %": "2"
+    }
+  },
+  {
+    "id": "xtal_charugon",
+    "name": "Charugon",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "6",
+      "Magic Resistance %": "-12",
+      "Short Range Damage %": "3",
+      "Long Range Damage %": "6"
+    }
+  },
+  {
+    "id": "xtal_colon_boss",
+    "name": "Colon Boss",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MATK %": "10",
+      "Accuracy": "-40",
+      "Critical Rate %": "20"
+    }
+  },
+  {
+    "id": "xtal_crimsosch",
+    "name": "Crimsosch",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "AGI": "3",
+      "Dodge": "3",
+      "Critical Rate": "-9",
+      "Evasion Recharge %": "3"
+    }
+  },
+  {
+    "id": "xtal_critical_rate_4",
+    "name": "Critical Rate +4",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Critical Rate": "4"
+    }
+  },
+  {
+    "id": "xtal_critical_rate_5",
+    "name": "Critical Rate +5",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Critical Rate": "5"
+    }
+  },
+  {
+    "id": "xtal_critical_rate1",
+    "name": "Critical Rate+1",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Critical Rate": "1"
+    }
+  },
+  {
+    "id": "xtal_critical_rate2",
+    "name": "Critical Rate+2",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Critical Rate": "2"
+    }
+  },
+  {
+    "id": "xtal_critical_rate3",
+    "name": "Critical Rate+3",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Critical Rate": "3"
+    }
+  },
+  {
+    "id": "xtal_cspd100",
+    "name": "CSPD+100",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD": "100"
+    }
+  },
+  {
+    "id": "xtal_cspd120",
+    "name": "CSPD+120",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD": "120"
+    }
+  },
+  {
+    "id": "xtal_cspd140",
+    "name": "CSPD+140",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD": "140"
+    }
+  },
+  {
+    "id": "xtal_cspd160",
+    "name": "CSPD+160",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD": "160"
+    }
+  },
+  {
+    "id": "xtal_cspd20",
+    "name": "CSPD+20",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD": "20"
+    }
+  },
+  {
+    "id": "xtal_cspd40",
+    "name": "CSPD+40",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD": "40"
+    }
+  },
+  {
+    "id": "xtal_cspd60",
+    "name": "CSPD+60",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD": "60"
+    }
+  },
+  {
+    "id": "xtal_cspd80",
+    "name": "CSPD+80",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD": "80"
+    }
+  },
+  {
+    "id": "xtal_dex1",
+    "name": "DEX+1",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEX": "1"
+    }
+  },
+  {
+    "id": "xtal_dex2",
+    "name": "DEX+2",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEX": "2"
+    }
+  },
+  {
+    "id": "xtal_dex3",
+    "name": "DEX+3",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEX": "3"
+    }
+  },
+  {
+    "id": "xtal_dex4",
+    "name": "DEX+4",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEX": "4"
+    }
+  },
+  {
+    "id": "xtal_dex5",
+    "name": "DEX+5",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEX": "5"
+    }
+  },
+  {
+    "id": "xtal_dex6",
+    "name": "Dex+6",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEX": "6"
+    }
+  },
+  {
+    "id": "xtal_dex7",
+    "name": "DEX+7",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEX": "7"
+    }
+  },
+  {
+    "id": "xtal_dex8",
+    "name": "DEX+8",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "DEX": "8"
+    }
+  },
+  {
+    "id": "xtal_dodge10",
+    "name": "Dodge+10",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "10"
+    }
+  },
+  {
+    "id": "xtal_dodge12",
+    "name": "Dodge+12",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "12"
+    }
+  },
+  {
+    "id": "xtal_dodge14",
+    "name": "Dodge+14",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "14"
+    }
+  },
+  {
+    "id": "xtal_dodge16",
+    "name": "Dodge+16",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "16"
+    }
+  },
+  {
+    "id": "xtal_dodge2",
+    "name": "Dodge+2",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "2"
+    }
+  },
+  {
+    "id": "xtal_dodge4",
+    "name": "Dodge+4",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "4"
+    }
+  },
+  {
+    "id": "xtal_dodge6",
+    "name": "Dodge+6",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "6"
+    }
+  },
+  {
+    "id": "xtal_dodge8",
+    "name": "Dodge+8",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "8"
+    }
+  },
+  {
+    "id": "xtal_dutannen",
+    "name": "Dutannen",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy %": "30",
+      "Aggro %": "10",
+      "Anticipate %": "6",
+      "Guard Break %": "6"
+    }
+  },
+  {
+    "id": "xtal_fanadon",
+    "name": "Fanadon",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Critical Damage": "3",
+      "Reduce Dmg (Player Epicenter) %": "-3",
+      "Reduce Dmg (Foe Epicenter) %": "-3"
+    }
+  },
+  {
+    "id": "xtal_flare_volg",
+    "name": "Flare Volg",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "3",
+      "Magic Resistance %": "-4",
+      "Long Range Damage %": "2"
+    }
+  },
+  {
+    "id": "xtal_forest_wolf",
+    "name": "Forest Wolf",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge": "6",
+      "Evasion Recharge %": "2"
+    }
+  },
+  {
+    "id": "xtal_gerumi",
+    "name": "Gerumi",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "200",
+      "MaxMP": "100"
+    }
+  },
+  {
+    "id": "xtal_gespenst",
+    "name": "Gespenst",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "150",
+      "ATK %": "-1",
+      "MATK %": "-1"
+    }
+  },
+  {
+    "id": "xtal_gigant_knight",
+    "name": "Gigant Knight",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR %": "1",
+      "ATK %": "1",
+      "Accuracy %": "-10",
+      "Critical Rate %": "-10",
+      "Critical Damage": "1"
+    }
+  },
+  {
+    "id": "xtal_gigantic_octopus",
+    "name": "Gigantic Octopus",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "150",
+      "CSPD": "200",
+      "Critical Rate": "10",
+      "Fire resistance %": "-4",
+      "Ailment Resistance %": "-2",
+      "Attack MP Recovery": "5",
+      "Reduce Dmg (Bowling) %": "-1"
+    }
+  },
+  {
+    "id": "xtal_gravicep",
+    "name": "Gravicep",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "-100",
+      "MaxMP": "200",
+      "Accuracy %": "3",
+      "Critical Rate": "-5",
+      "Short Range Damage %": "7"
+    }
+  },
+  {
+    "id": "xtal_guard_golem",
+    "name": "Guard Golem",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "9",
+      "MATK %": "9",
+      "ASPD": "-225",
+      "CSPD": "-225"
+    }
+  },
+  {
+    "id": "xtal_guignol",
+    "name": "Guignol",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "5",
+      "MATK %": "5",
+      "ASPD": "-175",
+      "CSPD": "-175"
+    }
+  },
+  {
+    "id": "xtal_hp100",
+    "name": "HP+100",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "100"
+    }
+  },
+  {
+    "id": "xtal_hp200",
+    "name": "HP+200",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "200"
+    }
+  },
+  {
+    "id": "xtal_hp300",
+    "name": "HP+300",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "300"
+    }
+  },
+  {
+    "id": "xtal_hp400",
+    "name": "HP+400",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "400"
+    }
+  },
+  {
+    "id": "xtal_hp500",
+    "name": "HP+500",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "500"
+    }
+  },
+  {
+    "id": "xtal_hp600",
+    "name": "HP+600",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "600"
+    }
+  },
+  {
+    "id": "xtal_hp700",
+    "name": "HP+700",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "700"
+    }
+  },
+  {
+    "id": "xtal_hp800",
+    "name": "HP+800",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "800"
+    }
+  },
+  {
+    "id": "xtal_illuminitor",
+    "name": "Illuminitor",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ASPD": "-25",
+      "Critical Rate %": "25",
+      "Additional Melee %": "25",
+      "Additional Magic %": "25"
+    }
+  },
+  {
+    "id": "xtal_int_6",
+    "name": "INT +6",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT": "6"
+    }
+  },
+  {
+    "id": "xtal_int1",
+    "name": "INT+1",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT": "1"
+    }
+  },
+  {
+    "id": "xtal_int2",
+    "name": "INT+2",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT": "2"
+    }
+  },
+  {
+    "id": "xtal_int3",
+    "name": "INT+3",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT": "3"
+    }
+  },
+  {
+    "id": "xtal_int4",
+    "name": "INT+4",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT": "4"
+    }
+  },
+  {
+    "id": "xtal_int5",
+    "name": "INT+5",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT": "5"
+    }
+  },
+  {
+    "id": "xtal_int7",
+    "name": "INT+7",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT": "7"
+    }
+  },
+  {
+    "id": "xtal_inzanio",
+    "name": "Inzanio",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Guard Recharge %": "1",
+      "Attack MP Recovery": "-1",
+      "Weapon ATK": "10",
+      "Fractional Barrier %": "3"
+    }
+  },
+  {
+    "id": "xtal_king_potum",
+    "name": "King Potum",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "10",
+      "Physical Resistance %": "-5",
+      "Magic Resistance %": "-5"
+    }
+  },
+  {
+    "id": "xtal_kuffania",
+    "name": "Kuffania",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Stability %": "4",
+      "Evasion Recharge %": "4",
+      "Short Range Damage %": "4",
+      "Long Range Damage %": "-12"
+    }
+  },
+  {
+    "id": "xtal_lilicarolla",
+    "name": "Lilicarolla",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-100",
+      "Dodge %": "-5",
+      "Unsheathe Attack %": "11",
+      "Katana only:Unsheathe Attack %": "Unsheathe Attack %"
+    }
+  },
+  {
+    "id": "xtal_limacina",
+    "name": "Limacina",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Physical Resistance %": "5",
+      "Magic Resistance %": "5",
+      "Ailment Resistance %": "5"
+    }
+  },
+  {
+    "id": "xtal_lyark_master_specialist",
+    "name": "Lyark Master Specialist",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "3",
+      "Magic Resistance %": "-15",
+      "Critical Damage": "4",
+      "Motion Speed %": "-2"
+    }
+  },
+  {
+    "id": "xtal_masked_warrior",
+    "name": "Masked Warrior",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "-3",
+      "ATK %": "1",
+      "MATK %": "1",
+      "Accuracy": "-3",
+      "Attack MP Recovery": "2"
+    }
+  },
+  {
+    "id": "xtal_mauez",
+    "name": "Mauez",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "150",
+      "Accuracy %": "-4",
+      "Critical Rate": "2"
+    }
+  },
+  {
+    "id": "xtal_megiston",
+    "name": "Megiston",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "1",
+      "INT": "1",
+      "VIT": "1",
+      "AGI": "1",
+      "DEX": "1",
+      "MaxHP": "100",
+      "MaxMP": "50"
+    }
+  },
+  {
+    "id": "xtal_melancia",
+    "name": "Melancia",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Stability %": "5",
+      "Accuracy %": "5",
+      "Critical Rate %": "5"
+    }
+  },
+  {
+    "id": "xtal_metal_stinger",
+    "name": "Metal Stinger",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "2",
+      "Magic Resistance %": "-10",
+      "Critical Damage": "3",
+      "Motion Speed %": "-1"
+    }
+  },
+  {
+    "id": "xtal_minotaur",
+    "name": "Minotaur",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "5",
+      "ASPD %": "10"
+    }
+  },
+  {
+    "id": "xtal_mithurna_lynx",
+    "name": "Mithurna Lynx",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Stability %": "3",
+      "Evasion Recharge %": "3",
+      "Short Range Damage %": "3",
+      "Long Range Damage %": "-9"
+    }
+  },
+  {
+    "id": "xtal_mochelo",
+    "name": "Mochelo",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "5",
+      "CSPD %": "10"
+    }
+  },
+  {
+    "id": "xtal_mp100",
+    "name": "MP+100",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "100"
+    }
+  },
+  {
+    "id": "xtal_mp150",
+    "name": "MP+150",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "150"
+    }
+  },
+  {
+    "id": "xtal_mp200",
+    "name": "MP+200",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "200"
+    }
+  },
+  {
+    "id": "xtal_mp250",
+    "name": "MP+250",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "250"
+    }
+  },
+  {
+    "id": "xtal_mp300",
+    "name": "MP+300",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "300"
+    }
+  },
+  {
+    "id": "xtal_mp350",
+    "name": "MP+350",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "350"
+    }
+  },
+  {
+    "id": "xtal_mp400",
+    "name": "MP+400",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "400"
+    }
+  },
+  {
+    "id": "xtal_mp50",
+    "name": "MP+50",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "50"
+    }
+  },
+  {
+    "id": "xtal_nurethoth",
+    "name": "Nurethoth",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "3",
+      "MATK %": "3",
+      "ASPD": "-150",
+      "CSPD": "-150"
+    }
+  },
+  {
+    "id": "xtal_nuthoreth",
+    "name": "Nuthoreth",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "2",
+      "MATK %": "2",
+      "ASPD": "150",
+      "CSPD": "150"
+    }
+  },
+  {
+    "id": "xtal_odelon_machina",
+    "name": "Odelon Machina",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Dodge %": "-5",
+      "Evasion Recharge %": "-5",
+      "Unsheathe Attack %": "10"
+    }
+  },
+  {
+    "id": "xtal_orictoceras",
+    "name": "Orictoceras",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Critical Damage": "9",
+      "Reduce Dmg (Player Epicenter) %": "-3",
+      "Reduce Dmg (Foe Epicenter) %": "-3"
+    }
+  },
+  {
+    "id": "xtal_p_avatar",
+    "name": "P. Avatar",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Fire resistance %": "1",
+      "Water resistance %": "1",
+      "Wind resistance %": "1",
+      "Earth resistance %": "1",
+      "Light resistance %": "1",
+      "Dark resistance %": "1",
+      "EXP Gain %": "1"
+    }
+  },
+  {
+    "id": "xtal_panchos_kita_makura",
+    "name": "Panchos Kita Makura",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy": "3",
+      "Critical Rate": "5",
+      "EXP Gain %": "1"
+    }
+  },
+  {
+    "id": "xtal_piscruva",
+    "name": "Piscruva",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "11",
+      "MATK %": "11",
+      "ASPD": "-300",
+      "CSPD": "-300"
+    }
+  },
+  {
+    "id": "xtal_platinum_potum",
+    "name": "Platinum Potum",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "20",
+      "Physical Resistance %": "-10",
+      "Magic Resistance %": "-10"
+    }
+  },
+  {
+    "id": "xtal_radibat",
+    "name": "Radibat",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Stability %": "4",
+      "Accuracy %": "4",
+      "Critical Rate %": "4"
+    }
+  },
+  {
+    "id": "xtal_rampion",
+    "name": "Rampion",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Stability %": "2",
+      "Critical Rate %": "10",
+      "Short Range Damage %": "-1"
+    }
+  },
+  {
+    "id": "xtal_red_ash_dragon_rudis",
+    "name": "Red Ash Dragon Rudis",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "-300",
+      "MaxMP": "200",
+      "Accuracy %": "5",
+      "Critical Rate": "-7",
+      "Short Range Damage %": "9"
+    }
+  },
+  {
+    "id": "xtal_remnant_of_beyond",
+    "name": "Remnant of Beyond",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Physical Pierce %": "5",
+      "ASPD": "-250",
+      "Short Range Damage %": "10"
+    }
+  },
+  {
+    "id": "xtal_rhinosaur",
+    "name": "Rhinosaur",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "10",
+      "ATK %": "5",
+      "ASPD %": "15"
+    }
+  },
+  {
+    "id": "xtal_ruin_golem",
+    "name": "Ruin Golem",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "200",
+      "MDEF %": "5",
+      "Magic Resistance %": "1"
+    }
+  },
+  {
+    "id": "xtal_salamander",
+    "name": "Salamander",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "200",
+      "ATK %": "1",
+      "MATK %": "1"
+    }
+  },
+  {
+    "id": "xtal_scrader",
+    "name": "Scrader",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Natural MP Regen %": "-10",
+      "MaxHP": "300",
+      "MATK %": "3",
+      "Physical Resistance %": "-20",
+      "Long Range Damage %": "2"
+    }
+  },
+  {
+    "id": "xtal_seraph_machina",
+    "name": "Seraph Machina",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Physical Resistance %": "3",
+      "Magic Resistance %": "3",
+      "Ailment Resistance %": "3"
+    }
+  },
+  {
+    "id": "xtal_shawle",
+    "name": "Shawle",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy %": "20",
+      "Aggro %": "10",
+      "Anticipate %": "5",
+      "Guard Break %": "5"
+    }
+  },
+  {
+    "id": "xtal_silver_roar",
+    "name": "Silver Roar",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "-8",
+      "Attack MP Recovery": "4"
+    }
+  },
+  {
+    "id": "xtal_str1",
+    "name": "STR+1",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "1"
+    }
+  },
+  {
+    "id": "xtal_str2",
+    "name": "STR+2",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "2"
+    }
+  },
+  {
+    "id": "xtal_str3",
+    "name": "STR+3",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "3"
+    }
+  },
+  {
+    "id": "xtal_str4",
+    "name": "STR+4",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "4"
+    }
+  },
+  {
+    "id": "xtal_str5",
+    "name": "STR+5",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "5"
+    }
+  },
+  {
+    "id": "xtal_str6",
+    "name": "STR+6",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "6"
+    }
+  },
+  {
+    "id": "xtal_str7",
+    "name": "STR+7",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR": "7"
+    }
+  },
+  {
+    "id": "xtal_super_night_mushroom",
+    "name": "Super Night Mushroom",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "500",
+      "Short Range Damage %": "1",
+      "Long Range Damage %": "1"
+    }
+  },
+  {
+    "id": "xtal_tappler",
+    "name": "Tappler",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-50",
+      "Dodge %": "-5",
+      "Evasion Recharge %": "-3",
+      "Unsheathe Attack %": "12"
+    }
+  },
+  {
+    "id": "xtal_torexesa",
+    "name": "Torexesa",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-200",
+      "ATK %": "10",
+      "MATK %": "10",
+      "Attack MP Recovery": "4"
+    }
+  },
+  {
+    "id": "xtal_tuscog",
+    "name": "Tuscog",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-100",
+      "ATK %": "6",
+      "MATK %": "6",
+      "Attack MP Recovery": "2"
+    }
+  },
+  {
+    "id": "xtal_vevela",
+    "name": "Vevela",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Ailment Resistance %": "-15",
+      "Guard Power %": "5",
+      "Guard Recharge %": "5",
+      "Evasion Recharge %": "5",
+      "Motion Speed %": "3"
+    }
+  },
+  {
+    "id": "xtal_vit2",
+    "name": "VIT+2",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "VIT": "2"
+    }
+  },
+  {
+    "id": "xtal_vit3",
+    "name": "VIT+3",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "VIT": "3"
+    }
+  },
+  {
+    "id": "xtal_vit4",
+    "name": "VIT+4",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "VIT": "4"
+    }
+  },
+  {
+    "id": "xtal_vit5",
+    "name": "VIT+5",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "VIT": "5"
+    }
+  },
+  {
+    "id": "xtal_vit6",
+    "name": "VIT+6",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "VIT": "6"
+    }
+  },
+  {
+    "id": "xtal_vit7",
+    "name": "VIT+7",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "VIT": "7"
+    }
+  },
+  {
+    "id": "xtal_vit8",
+    "name": "VIT+8",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {}
+  },
+  {
+    "id": "xtal_volotur",
+    "name": "Volotur",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR %": "2",
+      "ATK %": "2",
+      "Accuracy %": "-10",
+      "Critical Rate %": "-10",
+      "Critical Damage": "2"
+    }
+  },
+  {
+    "id": "xtal_wild_beast_lixi",
+    "name": "Wild Beast Lixi",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "15",
+      "MaxMP": "-100",
+      "ATK %": "10",
+      "ASPD %": "20"
+    }
+  },
+  {
+    "id": "xtal_wiltileaf",
+    "name": "Wiltileaf",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "9",
+      "Magic Resistance %": "-15",
+      "Critical Damage": "12",
+      "Motion Speed %": "0"
+    }
+  },
+  {
+    "id": "xtal_yashiro_azuki",
+    "name": "Yashiro Azuki",
+    "type": [
+      "normal"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "200",
+      "MaxMP": "100",
+      "EXP Gain %": "1"
+    }
+  },
+  {
+    "id": "xtal_york",
+    "name": "York",
+    "type": [
+      "enhancer"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-75",
+      "ATK %": "4",
+      "MATK %": "4",
+      "Attack MP Recovery": "1"
+    }
+  }
+]

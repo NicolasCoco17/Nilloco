@@ -1,0 +1,3608 @@
+[
+  {
+    "id": "abyssal_katana",
+    "name": "Abyssal Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "assassin_blade",
+    "name": "Assassin Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 750,
+          "CriticalRate": 75,
+          "Lightresistance%": -25,
+          "DarkElement": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "fake_sakura_storm",
+    "name": "Fake Sakura Storm",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "WeaponATK": 1
+        },
+        "special_effects": {},
+        "base_atk": 1
+      }
+    }
+  },
+  {
+    "id": "shirasaya",
+    "name": "Shirasaya",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 4,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 4,
+        "stability": 70,
+        "potential": 15,
+        "allow_custom_stats": true
+      },
+      "unknown": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 4,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "nameless_uchigatana",
+    "name": "Nameless Uchigatana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 10
+        },
+        "special_effects": {},
+        "base_atk": 6,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 6,
+        "stability": 70,
+        "potential": 16,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "CriticalRate": 5
+        },
+        "special_effects": {},
+        "base_atk": 6,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "aobato",
+    "name": "Aobato",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 100,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 70,
+        "potential": 18,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ASPD": 75,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_katana",
+    "name": "3rd Anniv Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "CriticalRate": 2,
+          "ShortRangeDamage%": 1,
+          "UnsheatheAttack%": 2
+        },
+        "special_effects": {},
+        "base_atk": 11,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 11,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana",
+    "name": "4th Anniv Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "CriticalRate": 2,
+          "ShortRangeDamage%": 1,
+          "UnsheatheAttack%": 2
+        },
+        "special_effects": {},
+        "base_atk": 11,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 11,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "golden_katana",
+    "name": "Golden Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 3,
+          "MaxMP": 250,
+          "ASPD": 100,
+          "CriticalRate": 10,
+          "GuardRecharge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 12,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "kuwagumo",
+    "name": "Kuwagumo",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 50,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "minotaur's_katana",
+    "name": "Minotaur's Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 3,
+          "Fireresistance%": 5,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 70,
+        "potential": 20,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "DEF": 17,
+          "Accuracy": 5,
+          "Fireresistance%": 10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 15
+      }
+    }
+  },
+  {
+    "id": "kiraboshi",
+    "name": "Kiraboshi",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 5,
+          "LightElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 70,
+        "potential": 21,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "CriticalRate": 4,
+          "LightElement": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_katana_ii",
+    "name": "3rd Anniv Katana II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "CriticalRate": 4,
+          "ShortRangeDamage%": 2,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana_ii",
+    "name": "4th Anniv Katana II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "CriticalRate": 4,
+          "ShortRangeDamage%": 2,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "death_samurai_sword",
+    "name": "Death Samurai Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 1500,
+          "CriticalRate": 50,
+          "Earthresistance%": 5,
+          "AilmentResistance%": 3,
+          "FireElement": 1,
+          "ReduceDmg(Bullet)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "tatetsuba",
+    "name": "Tatetsuba",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "UnsheatheAttack%": 20
+        },
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "UnsheatheAttack%": 15
+        },
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "ooze_lamina",
+    "name": "Ooze Lamina",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalDamage%": 2,
+          "WaterElement": 1,
+          "AdditionalMagic%": 25
+        },
+        "special_effects": {},
+        "base_atk": 24,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 24,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "CriticalDamage%": 3,
+          "WaterElement": 1,
+          "AdditionalMagic%": 50
+        },
+        "special_effects": {},
+        "base_atk": 24,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "koga_koshirae",
+    "name": "Koga Koshirae",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 2,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 26,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 26,
+        "stability": 70,
+        "potential": 24,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 250,
+          "ATK%": 2,
+          "UnsheatheAttack%": 8
+        },
+        "special_effects": {},
+        "base_atk": 26,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sakura_katana",
+    "name": "Sakura Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "PhysicalResistance%": 10,
+          "CriticalDamage": 1,
+          "LightElement": 1,
+          "AttackMPRecovery": 1,
+          "UnsheatheAttack%": 1
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "PhysicalResistance%": 10,
+          "CriticalDamage": 2,
+          "LightElement": 1,
+          "AttackMPRecovery": 3,
+          "WeaponATK": 120,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "shura_koshirae",
+    "name": "Shura Koshirae",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "GuardPower%": 20,
+          "GuardRecharge%": 20,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 32,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 32,
+        "stability": 70,
+        "potential": 26,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "GuardPower%": 18,
+          "GuardRecharge%": 18,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 32,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_katana_iii",
+    "name": "3rd Anniv Katana III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "CriticalRate": 6,
+          "ShortRangeDamage%": 3,
+          "UnsheatheAttack%": 6
+        },
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana_iii",
+    "name": "4th Anniv Katana III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "CriticalRate": 6,
+          "ShortRangeDamage%": 3,
+          "UnsheatheAttack%": 6
+        },
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_katana",
+    "name": "5th Anniv Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "PhysicalPierce%": 15,
+          "CriticalRate": 12,
+          "ShortRangeDamage%": 4,
+          "UnsheatheAttack%": 8
+        },
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "faldios",
+    "name": "Faldios",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Stability%": 2,
+          "ShortRangeDamage%": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        },
+        "base_atk": 34,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Stability%": 4,
+          "ShortRangeDamage%": 2,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Magic Barrier": 500
+        },
+        "base_atk": 34,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sumire_renkyoku",
+    "name": "Sumire Renkyoku",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 10,
+          "CriticalDamage": 10,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 37,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 37,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "CriticalRate": 5,
+          "CriticalDamage": 10,
+          "GuardBreak%": 15
+        },
+        "special_effects": {},
+        "base_atk": 37,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_katana",
+    "name": "6th Anniv Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 4,
+          "UnsheatheAttack%": 8,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ice_katana_ace",
+    "name": "Ice Katana Ace",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "WaterElement": 1,
+          "UnsheatheAttack%": 2,
+          "AdditionalMagic%": 100,
+          "ATKUP(INT%)": 100,
+          "ATKDOWN(STR%)": 150
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "kuro_momiji",
+    "name": "Kuro Momiji",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Stability%": 5,
+          "ASPD": 400,
+          "FireElement": 1,
+          "UnsheatheAttack%": 5
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 29,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Stability%": 3,
+          "ASPD": 300,
+          "FireElement": 1,
+          "UnsheatheAttack%": 5
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_katana_iv",
+    "name": "3rd Anniv Katana IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "CriticalRate": 8,
+          "ShortRangeDamage%": 4,
+          "UnsheatheAttack%": 8
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana_iv",
+    "name": "4th Anniv Katana IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "CriticalRate": 8,
+          "ShortRangeDamage%": 4,
+          "UnsheatheAttack%": 8
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mafu_swordstick",
+    "name": "Mafu Swordstick",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge": 30,
+          "EvasionRecharge%": 10,
+          "WindElement": 1,
+          "Anticipate%": 20
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Dodge": 40,
+          "EvasionRecharge%": 20,
+          "WindElement": 1,
+          "Anticipate%": 5
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "kuro_tsurubami",
+    "name": "Kuro Tsurubami",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 1200,
+          "AttackMPRecovery": 6,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70,
+        "potential": 31,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ASPD": 1000,
+          "AttackMPRecovery": 5,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_katana_v",
+    "name": "3rd Anniv Katana V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "CriticalRate": 10,
+          "ShortRangeDamage%": 5,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana_v",
+    "name": "4th Anniv Katana V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "CriticalRate": 10,
+          "ShortRangeDamage%": 5,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_katana_ii",
+    "name": "5th Anniv Katana II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "PhysicalPierce%": 15,
+          "CriticalRate": 15,
+          "ShortRangeDamage%": 5,
+          "UnsheatheAttack%": 9
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "death_samurai_sword_ii",
+    "name": "Death Samurai Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "CriticalRate": 75,
+          "Earthresistance%": 10,
+          "AilmentResistance%": 6,
+          "FireElement": 1,
+          "ReduceDmg(Bullet)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iron_fang",
+    "name": "Iron Fang",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 8,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 4,
+          "GuardBreak%": 16
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 8,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 4,
+          "GuardBreak%": 12
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "mukuro_koshirae",
+    "name": "Mukuro Koshirae",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "CriticalDamage": 4,
+          "DarkElement": 1,
+          "UnsheatheAttack%": 3
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_katana_ii",
+    "name": "6th Anniv Katana II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 5,
+          "UnsheatheAttack%": 10,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 70,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_katana",
+    "name": "7th Anniv Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "PhysicalPierce%": 10,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 4,
+          "GuardBreak%": 15,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 70,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_lamina",
+    "name": "Dia Lamina",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 5,
+          "ShortRangeDamage%": 4,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "kasakiri",
+    "name": "Kasakiri",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 30,
+          "Aggro%": -15,
+          "LightElement": 1,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "CriticalRate": 40,
+          "Aggro%": -20,
+          "LightElement": 1,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 70,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "chocolate_katana",
+    "name": "Chocolate Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 8,
+          "Aggro%": -30,
+          "%strongeragainstNeutral": 25,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "bokuto",
+    "name": "Bokuto",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 1000,
+          "Fireresistance%": -20,
+          "ShortRangeDamage%": 5,
+          "NeutralResistance%": 25,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "caro_tesla",
+    "name": "Caro Tesla",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 5,
+          "Dodge%": -40,
+          "EvasionRecharge%": -20,
+          "Aggro%": 50,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 5,
+          "Dodge%": -40,
+          "EvasionRecharge%": -20,
+          "Aggro%": 40,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "korakiri",
+    "name": "Korakiri",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 3,
+          "MaxMP": 100,
+          "ATK%": 6,
+          "CriticalDamage": 1,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "MaxMP": 200,
+          "ATK%": 6,
+          "CriticalDamage": 1,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_katana_vi",
+    "name": "3rd Anniv Katana VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 4,
+          "CriticalRate": 12,
+          "ShortRangeDamage%": 6,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana_vi",
+    "name": "4th Anniv Katana VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 4,
+          "CriticalRate": 12,
+          "ShortRangeDamage%": 6,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iradium",
+    "name": "Iradium",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -30,
+          "ATK%": 6,
+          "PhysicalPierce%": 1,
+          "MagicResistance%": 15,
+          "Aggro%": -45,
+          "%strongeragainstNeutral": 25,
+          "UnsheatheAttack%": 6
+        },
+        "special_effects": {},
+        "base_atk": 76,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": -15,
+          "ATK%": 5,
+          "PhysicalPierce%": 3,
+          "MagicResistance%": 30,
+          "Aggro%": -5,
+          "DarkElement": 1,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 76,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 76,
+        "stability": 70,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "seiun",
+    "name": "Seiun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 9,
+          "CriticalRate": 13,
+          "WaterElement": 1,
+          "UnsheatheAttack%": 5
+        },
+        "special_effects": {},
+        "base_atk": 79,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "Accuracy%": 10,
+          "CriticalRate": 15,
+          "WaterElement": 1,
+          "UnsheatheAttack%": 5
+        },
+        "special_effects": {},
+        "base_atk": 79,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 79,
+        "stability": 70,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_katana_vii",
+    "name": "3rd Anniv Katana VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 8,
+          "CriticalRate": 14,
+          "ShortRangeDamage%": 6,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 83,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 83,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana_vii",
+    "name": "4th Anniv Katana VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 8,
+          "CriticalRate": 14,
+          "ShortRangeDamage%": 6,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 83,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 83,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_katana_iii",
+    "name": "5th Anniv Katana III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 15,
+          "CriticalRate": 18,
+          "ShortRangeDamage%": 6,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 83,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 83,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_katana_iii",
+    "name": "6th Anniv Katana III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 6,
+          "UnsheatheAttack%": 12,
+          "GuardBreak%": 15,
+          "ReduceDmg(Bowling)%": 2
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_katana_ii",
+    "name": "7th Anniv Katana II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 12,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 6,
+          "GuardBreak%": 17,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_katana",
+    "name": "8th Anniv Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "MaxMP": 150,
+          "ATK%": 6,
+          "CriticalRate": 35,
+          "UnsheatheAttack%": 5,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "kanpuu",
+    "name": "Kanpuu",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "PhysicalPierce%": 10,
+          "MDEF%": -30,
+          "Aggro%": -20,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "PhysicalPierce%": 10,
+          "MDEF%": -50,
+          "Aggro%": -30,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_katana",
+    "name": "Sakura Lantern Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 40,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "EarthElement": 1,
+          "AttackMPRecovery": 10,
+          "UnsheatheAttack%": 3
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "snow_bear_candy",
+    "name": "Snow Bear Candy",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "CriticalRate": 20,
+          "%strongeragainstWind": 25,
+          "Fireresistance%": -10,
+          "WaterElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "lil_empress_katana",
+    "name": "Lil Empress Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "ASPD": 200,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 91,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "ASPD": 600,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 91,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 91,
+        "stability": 65,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sacred_ice_katana",
+    "name": "Sacred Ice Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "ASPD%": 80,
+          "%strongeragainstLight": -25,
+          "%strongeragainstDark": 10,
+          "AilmentResistance%": 3,
+          "WaterElement": 1,
+          "ATKUP(AGI%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana_viii",
+    "name": "4th Anniv Katana VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 12,
+          "CriticalRate": 16,
+          "ShortRangeDamage%": 6,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_katana_iv",
+    "name": "5th Anniv Katana IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 15,
+          "CriticalRate": 21,
+          "ShortRangeDamage%": 6,
+          "UnsheatheAttack%": 11
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "adamantine_katana",
+    "name": "Adamantine Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "VIT%": 10,
+          "CriticalDamage": 5,
+          "LightElement": 1,
+          "UnsheatheAttack%": 6
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "VIT%": 12,
+          "CriticalDamage": 6,
+          "LightElement": 1,
+          "UnsheatheAttack%": 6
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "orion's_sword",
+    "name": "Orion's Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge": -50,
+          "CriticalRate": 100,
+          "Lightresistance%": -30,
+          "%strongeragainstNeutral": 25,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 99,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "dragon_claw_katana",
+    "name": "Dragon Claw Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 15,
+          "Darkresistance%": 20,
+          "DarkElement": 1,
+          "ATKUP(AGI%)": 250,
+          "ReduceDmg(StraightLine)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ASPD": 500,
+          "CriticalDamage%": 3,
+          "DarkElement": 1,
+          "UnsheatheAttack%": 6,
+          "AbsoluteAccuracy%": 5,
+          "ReduceDmg(StraightLine)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "modestia_(old)",
+    "name": "Modestia (old)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 1000,
+          "CriticalRate": 120,
+          "AttackMPRecovery": 15
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "pacific_saury",
+    "name": "Pacific Saury",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "Accuracy": 111,
+          "CriticalRate": 11,
+          "WaterElement": 1,
+          "AttackMPRecovery": 7,
+          "UnsheatheAttack%": 7
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "crystal_lamina",
+    "name": "Crystal Lamina",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 250,
+          "PhysicalResistance%": -5,
+          "MagicResistance%": 10,
+          "Accuracy%": 30,
+          "%strongeragainstNeutral": 25,
+          "UnsheatheAttack%": 7
+        },
+        "special_effects": {},
+        "base_atk": 106,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "PhysicalResistance%": -10,
+          "MagicResistance%": 15,
+          "Accuracy%": 20,
+          "%strongeragainstNeutral": 25,
+          "UnsheatheAttack%": 6
+        },
+        "special_effects": {},
+        "base_atk": 106,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 106,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "death_samurai_sword_iii",
+    "name": "Death Samurai Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 4500,
+          "CriticalRate": 100,
+          "Earthresistance%": 15,
+          "AilmentResistance%": 9,
+          "FireElement": 1,
+          "ReduceDmg(Bullet)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 106,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 106,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "glacial_ice_katana",
+    "name": "Glacial Ice Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "MATK%": 6,
+          "ASPD": 750,
+          "WaterElement": 1,
+          "AttackMPRecovery": 20,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 106,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "red_spider_lily",
+    "name": "Red Spider Lily",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DarkElement": 1,
+          "UnsheatheAttack%": 12,
+          "Anticipate%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 8
+        },
+        "base_atk": 106,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 106,
+        "stability": 70,
+        "potential": 42,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "DarkElement": 1,
+          "UnsheatheAttack%": 12,
+          "Anticipate%": 12
+        },
+        "special_effects": {
+          "Fractional Barrier %": 12
+        },
+        "base_atk": 106,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "orion's_sword_(snowball_event_2021)",
+    "name": "Orion's Sword (Snowball Event 2021)",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge": -50,
+          "CriticalRate": 100,
+          "Lightresistance%": -30,
+          "%strongeragainstNeutral": 30,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 108,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_katana_ix",
+    "name": "4th Anniv Katana IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "PhysicalPierce%": 16,
+          "CriticalRate": 18,
+          "ShortRangeDamage%": 7,
+          "UnsheatheAttack%": 10
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_katana_v",
+    "name": "5th Anniv Katana V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "PhysicalPierce%": 15,
+          "CriticalRate": 24,
+          "ShortRangeDamage%": 7,
+          "UnsheatheAttack%": 12,
+          "ReduceDmg(Bowling)%": 2
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_katana_iv",
+    "name": "6th Anniv Katana IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 7,
+          "UnsheatheAttack%": 14,
+          "GuardBreak%": 15,
+          "ReduceDmg(Bowling)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_katana_iii",
+    "name": "7th Anniv Katana III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "PhysicalPierce%": 14,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 7,
+          "GuardBreak%": 19,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_katana_ii",
+    "name": "8th Anniv Katana II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "MaxMP": 170,
+          "ATK%": 7,
+          "CriticalRate": 35,
+          "UnsheatheAttack%": 6,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_katana",
+    "name": "9th Anniv Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 7,
+          "PhysicalPierce%": 10,
+          "CSPD": 600,
+          "CriticalRate": 40,
+          "ATKUP(AGI%)": 250,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "seadevil_katana",
+    "name": "Seadevil Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "ATK%": 8,
+          "Fireresistance%": 10,
+          "Aggro%": -75,
+          "WaterElement": 1,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "homura",
+    "name": "Homura",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Earthresistance%": 20,
+          "FireElement": 1,
+          "ShortRangeDamage%": 7,
+          "AdditionalMelee%": 50
+        },
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "Earthresistance%": 20,
+          "FireElement": 1,
+          "ShortRangeDamage%": 7,
+          "AdditionalMelee%": 100
+        },
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 80,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mortal_lamina",
+    "name": "Mortal Lamina",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 70,
+          "WindElement": 1,
+          "GuardBreak%": 30
+        },
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 50,
+          "WindElement": 1,
+          "GuardBreak%": 15
+        },
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 70,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_katana_vi",
+    "name": "5th Anniv Katana VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "PhysicalPierce%": 15,
+          "CriticalRate": 27,
+          "ShortRangeDamage%": 7,
+          "UnsheatheAttack%": 13,
+          "ReduceDmg(Bowling)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 70,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pseudopumpkin_katana",
+    "name": "Pseudopumpkin Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEF": 60,
+          "LightElement": 1,
+          "UnsheatheAttack%": 7,
+          "ATKUP(AGI%)": 250
+        },
+        "special_effects": {
+          "Physical Barrier": 2000
+        },
+        "base_atk": 120,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "milk_chocolate_churro",
+    "name": "Milk Chocolate Churro",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge%": 10,
+          "ASPD": 1000,
+          "ASPD%": 100,
+          "ATKUP(AGI%)": 250
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "patriot_edge",
+    "name": "Patriot Edge",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 10,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "Earthresistance%": 35,
+          "AilmentResistance%": 15,
+          "FireElement": 1,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "shirogane",
+    "name": "Shirogane",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "LightElement": 1,
+          "AttackMPRecovery": 7,
+          "UnsheatheAttack%": 7
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "LightElement": 1,
+          "AttackMPRecovery": 14,
+          "UnsheatheAttack%": 7
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 70,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_katana_vii",
+    "name": "5th Anniv Katana VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "PhysicalPierce%": 15,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 7,
+          "UnsheatheAttack%": 14,
+          "ReduceDmg(Bowling)%": 6
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_katana_v",
+    "name": "6th Anniv Katana V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 7,
+          "UnsheatheAttack%": 14,
+          "GuardBreak%": 20,
+          "ReduceDmg(Bowling)%": 6
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_katana_iv",
+    "name": "7th Anniv Katana IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "PhysicalPierce%": 16,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 7,
+          "GuardBreak%": 21,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_katana_iii",
+    "name": "8th Anniv Katana III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "MaxMP": 190,
+          "ATK%": 7,
+          "CriticalRate": 35,
+          "UnsheatheAttack%": 7,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_katana_ii",
+    "name": "9th Anniv Katana II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "PhysicalPierce%": 13,
+          "CSPD": 720,
+          "CriticalRate": 40,
+          "ATKUP(AGI%)": 250,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "demon_empress_katana",
+    "name": "Demon Empress Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 25,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 25,
+          "GuardBreak%": 15
+        },
+        "special_effects": {
+          "Heavy Armor only:Fractional Barrier %": null
+        },
+        "base_atk": 130,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 20,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 10,
+          "GuardBreak%": 20
+        },
+        "special_effects": {
+          "Heavy Armor only:Fractional Barrier %": null
+        },
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "murasame",
+    "name": "Murasame",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 160,
+          "WaterElement": 1,
+          "MotionSpeed%": 40,
+          "UnsheatheAttack%": 20,
+          "Anticipate%": 80,
+          "Recoil%": 3
+        },
+        "special_effects": {},
+        "base_atk": 136
+      }
+    }
+  },
+  {
+    "id": "purple_lightning_sword",
+    "name": "Purple Lightning Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "Accuracy": 75,
+          "CriticalRate": 30,
+          "WindElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 136,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 8,
+          "Accuracy": 80,
+          "CriticalRate": 40,
+          "WindElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 136,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 136,
+        "stability": 70,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "yozakura_katana",
+    "name": "Yozakura Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "Accuracy": 300,
+          "ASPD": 600,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "ShortRangeDamage%": 6,
+          "ReduceDmg(Floor)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 136,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "black_shadow_nodachi",
+    "name": "Black Shadow Nodachi",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 5000,
+          "ATK%": 8,
+          "Stability%": 5,
+          "PhysicalPierce%": 20,
+          "PhysicalResistance%": 30,
+          "AilmentResistance%": 15,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "ATK%": 8,
+          "PhysicalPierce%": 20,
+          "PhysicalResistance%": 20,
+          "AilmentResistance%": 10,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 60,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_katana_vi",
+    "name": "6th Anniv Katana VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 8,
+          "UnsheatheAttack%": 16,
+          "GuardBreak%": 20,
+          "ReduceDmg(Bowling)%": 8
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_katana_v",
+    "name": "7th Anniv Katana V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "PhysicalPierce%": 18,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 8,
+          "GuardBreak%": 23,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_katana_iv",
+    "name": "8th Anniv Katana IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "MaxMP": 210,
+          "ATK%": 8,
+          "CriticalRate": 35,
+          "UnsheatheAttack%": 8,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_katana_iii",
+    "name": "9th Anniv Katana III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "ATK%": 8,
+          "PhysicalPierce%": 16,
+          "CSPD": 840,
+          "CriticalRate": 40,
+          "ATKUP(AGI%)": 250,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "beastlord_katana",
+    "name": "Beastlord Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "blue_spinel_sword",
+    "name": "Blue Spinel Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 20,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "EarthElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        },
+        "base_atk": 146,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 25,
+          "EarthElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Heavy Armor only:Aggro %": "Aggro %"
+        },
+        "base_atk": 146,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 146,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "scarlet_sakura_fairy_sword",
+    "name": "Scarlet Sakura Fairy Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 10000,
+          "Accuracy": 75,
+          "CriticalRate": 25,
+          "DarkElement": 1,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 149,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "orion's_sword_(snowball_event_2022)",
+    "name": "Orion's Sword (Snowball Event 2022)",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge": -50,
+          "CriticalRate": 105,
+          "Lightresistance%": -25,
+          "%strongeragainstNeutral": 30,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_mystic_sword",
+    "name": "Pearl Sakura Mystic Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "CSPD%": 50,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "cruel_lamina",
+    "name": "Cruel Lamina",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 9,
+          "Stability%": 10,
+          "ASPD%": 70,
+          "Aggro%": -50,
+          "EarthElement": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 152,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "Stability%": 2,
+          "ASPD%": 50,
+          "%strongeragainstWind": 5,
+          "Aggro%": -30,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 8,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 152,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 152,
+        "stability": 70,
+        "potential": 50,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hakuro_katana",
+    "name": "Hakuro Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 6000,
+          "MaxMP": 200,
+          "CriticalRate": 40,
+          "%strongeragainstDark": 10,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 158,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sword_of_light_(katana)",
+    "name": "Sword of Light (Katana)",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxMP": 300,
+          "PhysicalPierce%": 10,
+          "CriticalRate": 100,
+          "LightElement": 1,
+          "UnsheatheAttack%": 10,
+          "TumbleUnavailable": 1,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 30
+        },
+        "base_atk": 158,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "white_viper",
+    "name": "White Viper",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "CriticalRate": 60,
+          "WaterElement": 1,
+          "UnsheatheAttack%": 7,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 158,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "combat_knife",
+    "name": "Combat Knife",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 30,
+          "CriticalRate": 30,
+          "CriticalRate%": 30,
+          "Lightresistance%": -30,
+          "ShortRangeDamage%": 9,
+          "ATKUP(AGI%)": 250
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "modestia",
+    "name": "Modestia",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 1000,
+          "CriticalRate": 120,
+          "AttackMPRecovery": 15
+        },
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_katana_vi",
+    "name": "7th Anniv Katana VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "PhysicalPierce%": 20,
+          "CriticalRate": 30,
+          "ShortRangeDamage%": 9,
+          "GuardBreak%": 25,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_katana_v",
+    "name": "8th Anniv Katana V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "MaxMP": 230,
+          "ATK%": 9,
+          "CriticalRate": 35,
+          "UnsheatheAttack%": 9,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_katana_iv",
+    "name": "9th Anniv Katana IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "ATK%": 9,
+          "PhysicalPierce%": 19,
+          "CSPD": 960,
+          "CriticalRate": 40,
+          "ATKUP(AGI%)": 250,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 169,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "burning_ember_sword",
+    "name": "Burning Ember Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "FireElement": 1,
+          "AttackMPRecovery": 20,
+          "UnsheatheAttack%": 9,
+          "GuardBreak%": 30,
+          "ReduceDmg(Floor)%": 25,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15,
+          "Ninjutsu Scroll only:Aggro %": "Aggro %",
+          "ATK UP (AGI %)": "ATK UP (AGI %)"
+        },
+        "base_atk": 175,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "FireElement": 1,
+          "AttackMPRecovery": 30,
+          "UnsheatheAttack%": 9,
+          "GuardBreak%": 15,
+          "ReduceDmg(Floor)%": 15,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15,
+          "Ninjutsu Scroll only:Aggro %": "Aggro %",
+          "ATK UP (AGI %)": "ATK UP (AGI %)"
+        },
+        "base_atk": 175,
+        "stability": 65
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 65,
+        "potential": 53,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "orion's_sword_(snowball_event_2023)",
+    "name": "Orion's Sword (Snowball Event 2023)",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge": -50,
+          "CriticalRate": 105,
+          "Lightresistance%": -25,
+          "%strongeragainstNeutral": 35,
+          "Anticipate%": 15
+        },
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_katana_vi",
+    "name": "8th Anniv Katana VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "MaxMP": 250,
+          "ATK%": 10,
+          "CriticalRate": 35,
+          "UnsheatheAttack%": 10,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_katana_v",
+    "name": "9th Anniv Katana V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "ATK%": 10,
+          "PhysicalPierce%": 22,
+          "CSPD": 1080,
+          "CriticalRate": 40,
+          "ATKUP(AGI%)": 250,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "brass_dragon_sword",
+    "name": "Brass Dragon Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 10,
+          "Accuracy": 100,
+          "ASPD": 1000,
+          "CriticalRate%": 200,
+          "LightElement": 1,
+          "AdditionalMelee%": 100,
+          "ReduceDmg(Charge)%": 40,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 10,
+          "Accuracy": 200,
+          "ASPD": 1000,
+          "CriticalRate%": 100,
+          "LightElement": 1,
+          "AdditionalMelee%": 100,
+          "ReduceDmg(Charge)%": 10,
+          "AttackRange(m)": 2
+        },
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 194,
+        "stability": 70,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "yatagarasu",
+    "name": "Yatagarasu",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -40,
+          "ATK%": 10,
+          "Accuracy%": 30,
+          "Aggro%": -50,
+          "WaterElement": 1,
+          "%strongeragainstNeutral": 35,
+          "AbsoluteDodge%": 20,
+          "AttackRange(m)": 2.5
+        },
+        "special_effects": {
+          "Ninjutsu Scroll only:CSPD %": "CSPD %",
+          "Critical Rate %": "Critical Rate %"
+        },
+        "base_atk": 194,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "raiden",
+    "name": "Raiden",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 1000,
+          "CSPD%": 75,
+          "Waterresistance%": -30,
+          "WindElement": 1,
+          "AttackMPRecovery": 25
+        },
+        "special_effects": {
+          "Light Armor only:Unsheathe Attack %": "Unsheathe Attack %"
+        },
+        "base_atk": 198,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "abyss_katana",
+    "name": "Abyss Katana",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 10,
+          "MaxHP": 7500,
+          "%strongeragainstFire": 10,
+          "Aggro%": -75,
+          "WaterElement": 1,
+          "UnsheatheAttack%": 10,
+          "InvincibleAid(sec)": 2,
+          "AbsoluteDodge%": 20
+        },
+        "special_effects": {},
+        "base_atk": 213
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "MaxHP": 10000,
+          "%strongeragainstFire": 10,
+          "Aggro%": -100,
+          "WaterElement": 1,
+          "UnsheatheAttack%": 10,
+          "InvincibleAid(sec)": 1,
+          "AbsoluteDodge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70,
+        "potential": 58,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_katana_vi",
+    "name": "9th Anniv Katana VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "ATK%": 11,
+          "PhysicalPierce%": 25,
+          "CSPD": 1200,
+          "CriticalRate": 40,
+          "ATKUP(AGI%)": 250,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 70,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "tsukikage-sakuya",
+    "name": "Tsukikage-Sakuya",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "%strongeragainstDark": 25,
+          "Lightresistance%": 30,
+          "Darkresistance%": 30,
+          "DarkElement": 1,
+          "ShortRangeDamage%": 10,
+          "MotionSpeed%": 10
+        },
+        "special_effects": {
+          "Heavy Armor only:ASPD": "ASPD",
+          "Guard Break %": "Guard Break %"
+        },
+        "base_atk": 226
+      }
+    }
+  },
+  {
+    "id": "margrave_blade",
+    "name": "Margrave Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "AGI%": 12,
+          "ATK%": 12,
+          "PhysicalPierce%": 30,
+          "Accuracy": 200,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "ATKUP(AGI%)": 250
+        },
+        "special_effects": {},
+        "base_atk": 262,
+        "stability": 70
+      }
+    }
+  }
+]

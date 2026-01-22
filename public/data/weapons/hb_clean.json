@@ -1,0 +1,3966 @@
+[
+  {
+    "id": "firefighter_flag",
+    "name": "Firefighter Flag",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {},
+        "special_effects": {}
+      },
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "Fireresistance%": 50,
+          "Darkresistance%": 25,
+          "LightElement": 1,
+          "InvincibleAid(sec)": 2,
+          "ItemCooldown": -1
+        },
+        "special_effects": {},
+        "base_atk": 544
+      }
+    }
+  },
+  {
+    "id": "pencil_halberd",
+    "name": "Pencil Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AilmentResistance%": 30,
+          "AttackMPRecovery": 30,
+          "FlinchUnavailable": 1,
+          "TumbleUnavailable": 1,
+          "StunUnavailable": 1,
+          "AbsoluteAccuracy%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "mop",
+    "name": "Mop",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 1000,
+          "Aggro%": -100,
+          "MotionSpeed%": 10,
+          "EXPGain%": 10,
+          "PetEXP%": 10
+        },
+        "special_effects": {},
+        "base_atk": 1,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "spear",
+    "name": "Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 16,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 16,
+        "stability": 60,
+        "potential": 15,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 16,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "glaive",
+    "name": "Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "Accuracy": 2
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 60,
+        "potential": 16,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 50,
+          "Accuracy": 1
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "heavy_spear",
+    "name": "Heavy Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": -3,
+          "CriticalRate": 6
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 60,
+        "potential": 18,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Accuracy": -1,
+          "CriticalRate": 1
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "golden_lance",
+    "name": "Golden Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 3,
+          "MaxHP": 100,
+          "MaxMP": 100,
+          "Accuracy": 10,
+          "CriticalRate": 5,
+          "GuardRecharge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 45,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_halberd",
+    "name": "2nd Anniv Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 1,
+          "ATK%": 1,
+          "Stability%": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_halberd",
+    "name": "3rd Anniv Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 1,
+          "ATK%": 1,
+          "Stability%": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd",
+    "name": "4th Anniv Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 1,
+          "ATK%": 1,
+          "Stability%": 1,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "magic_crystal_spear",
+    "name": "Magic Crystal Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 50,
+          "Dodge%": -5,
+          "DarkElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "Dodge%": -10,
+          "DarkElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 46,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "bardiche",
+    "name": "Bardiche",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 1,
+          "CriticalDamage": 2
+        },
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 150,
+          "ATK%": 1,
+          "CriticalDamage": 2
+        },
+        "special_effects": {},
+        "base_atk": 54,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "trident",
+    "name": "Trident",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Dodge%": 5,
+          "EvasionRecharge%": 5,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60,
+        "potential": 21,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Dodge%": 4,
+          "EvasionRecharge%": 4,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "mauez's_pole",
+    "name": "Mauez's Pole",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 1,
+          "Accuracy": -20,
+          "CriticalRate": 10,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 1,
+          "Accuracy": -2,
+          "CriticalRate": 10,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_halberd_ii",
+    "name": "2nd Anniv Halberd II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "ATK%": 2,
+          "Stability%": 2,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_halberd_ii",
+    "name": "3rd Anniv Halberd II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "ATK%": 2,
+          "Stability%": 2,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd_ii",
+    "name": "4th Anniv Halberd II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 2,
+          "ATK%": 2,
+          "Stability%": 2,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "blade_lance",
+    "name": "Blade Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "MaxMP": 200,
+          "CriticalRate": 3,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "AGI%": 2,
+          "MaxMP": 200,
+          "CriticalRate": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "windblast_cone_spear",
+    "name": "Windblast Cone Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Stability%": 6,
+          "CSPD": 300,
+          "Waterresistance%": 5,
+          "WindElement": 1,
+          "AttackMPRecovery": 14,
+          "ReduceDmg(Meteor)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 60,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bbq_spear",
+    "name": "BBQ Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 250,
+          "PhysicalPierce%": 20,
+          "CriticalDamage": 10,
+          "GuardBreak%": 15
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "mezraq",
+    "name": "Mezraq",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicResistance%": -6,
+          "CriticalDamage": 4,
+          "AdditionalMelee%": 25
+        },
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60,
+        "potential": 24,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MagicResistance%": -3,
+          "CriticalDamage": 4,
+          "AdditionalMelee%": 20
+        },
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "sakura_naginata",
+    "name": "Sakura Naginata",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": 1,
+          "Accuracy": 20,
+          "CriticalRate": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 4,
+          "Accuracy": 20,
+          "CriticalRate": 20,
+          "LightElement": 1,
+          "AttackMPRecovery": 3,
+          "WeaponATK": 480
+        },
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "knight_lance",
+    "name": "Knight Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 1,
+          "GuardPower%": 10,
+          "GuardRecharge%": 20,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 128,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 128,
+        "stability": 60,
+        "potential": 26,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 1,
+          "GuardPower%": 8,
+          "GuardRecharge%": 17,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 128,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "floral_lance",
+    "name": "Floral Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 100,
+          "ATK%": 2,
+          "MagicResistance%": 5,
+          "CriticalDamage%": 1,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 65,
+        "potential": 26,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "ATK%": 2,
+          "MagicResistance%": 5,
+          "CriticalDamage%": 1,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 65
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_halberd_iii",
+    "name": "2nd Anniv Halberd III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "ATK%": 3,
+          "Stability%": 3,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_halberd_iii",
+    "name": "3rd Anniv Halberd III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "ATK%": 3,
+          "Stability%": 3,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd_iii",
+    "name": "4th Anniv Halberd III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 3,
+          "ATK%": 3,
+          "Stability%": 3,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_halberd",
+    "name": "5th Anniv Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "ATK%": 4,
+          "Stability%": 15,
+          "Accuracy%": 9,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 139,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "thunder_spear",
+    "name": "Thunder Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge": 7,
+          "CriticalDamage": 3,
+          "EvasionRecharge%": 5,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "Dodge": 9,
+          "CriticalDamage": 3,
+          "EvasionRecharge%": 6,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lil_devil_lance",
+    "name": "Lil Devil Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 660,
+          "GuardRecharge%": -100,
+          "DarkElement": 1,
+          "AttackMPRecovery": 6,
+          "TumbleUnavailable": 1,
+          "ATKUP(INT%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 160,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_halberd",
+    "name": "6th Anniv Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "MaxMP": 100,
+          "ATK%": 4,
+          "Accuracy%": 5,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {
+          "Dagger only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 161,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 161,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ice_spear_glaso",
+    "name": "Ice Spear Glaso",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "GuardPower%": 25,
+          "GuardRecharge%": 25,
+          "WaterElement": 1,
+          "AdditionalMagic%": 125,
+          "ATKUP(INT%)": 100,
+          "ATKDOWN(AGI%)": 150
+        },
+        "special_effects": {},
+        "base_atk": 161,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 161,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pollaxe",
+    "name": "Pollaxe",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 400,
+          "CriticalRate": 9,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 174,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 500,
+          "CriticalRate": 12,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 174,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 174,
+        "stability": 60,
+        "potential": 29,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "azure_rose",
+    "name": "Azure Rose",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 30,
+          "DarkElement": 1,
+          "AttackMPRecovery": 2,
+          "AdditionalMelee%": 50
+        },
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_halberd_iv",
+    "name": "2nd Anniv Halberd IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "ATK%": 4,
+          "Stability%": 4,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_halberd_iv",
+    "name": "3rd Anniv Halberd IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "ATK%": 4,
+          "Stability%": 4,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd_iv",
+    "name": "4th Anniv Halberd IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "ATK%": 4,
+          "Stability%": 4,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "paladin_spear",
+    "name": "Paladin Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Stability%": 8,
+          "MagicResistance%": 16,
+          "AilmentResistance%": 32
+        },
+        "special_effects": {},
+        "base_atk": 198,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 198,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "Stability%": 7,
+          "MagicResistance%": 13,
+          "AilmentResistance%": 25
+        },
+        "special_effects": {},
+        "base_atk": 198,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "fisherman's_harpoon",
+    "name": "Fisherman's Harpoon",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 15,
+          "Waterresistance%": 20,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "intruder",
+    "name": "Intruder",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "Dodge%": 20,
+          "CSPD": 300,
+          "CriticalRate": 2,
+          "CriticalDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 200
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Dodge%": 20,
+          "CSPD": 150,
+          "CriticalRate": 1,
+          "CriticalDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "reverdie_halberd",
+    "name": "Reverdie Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 5000,
+          "ATK%": 10,
+          "DEF": 100,
+          "AilmentResistance%": 10
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 1
+      }
+    }
+  },
+  {
+    "id": "new_moon_naginata",
+    "name": "New Moon Naginata",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "Accuracy": -20,
+          "CriticalRate": 15,
+          "WaterElement": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 222,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 222,
+        "stability": 80,
+        "potential": 40,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_halberd_v",
+    "name": "2nd Anniv Halberd V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "ATK%": 5,
+          "Stability%": 5,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_halberd_v",
+    "name": "3rd Anniv Halberd V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "ATK%": 5,
+          "Stability%": 5,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd_v",
+    "name": "4th Anniv Halberd V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "ATK%": 5,
+          "Stability%": 5,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_halberd_ii",
+    "name": "5th Anniv Halberd II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "ATK%": 5,
+          "Stability%": 15,
+          "Accuracy%": 10,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "windblast_cone_spear_ii",
+    "name": "Windblast Cone Spear II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Stability%": 9,
+          "CSPD": 600,
+          "Waterresistance%": 10,
+          "WindElement": 1,
+          "AttackMPRecovery": 19,
+          "ReduceDmg(Meteor)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 227,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "battle_spear",
+    "name": "Battle Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Accuracy": 80,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "Accuracy": 60,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 229,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "einsamkeit",
+    "name": "Einsamkeit",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "CSPD": -300,
+          "%strongeragainstEarth": -40,
+          "WindElement": 1,
+          "AttackMPRecovery": 3,
+          "AdditionalMelee%": 100,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "CSPD": -300,
+          "%strongeragainstEarth": -40,
+          "WindElement": 1,
+          "AttackMPRecovery": 6,
+          "AdditionalMelee%": 50,
+          "GuardBreak%": 20
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_halberd_ii",
+    "name": "6th Anniv Halberd II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 5,
+          "MaxMP": 100,
+          "ATK%": 5,
+          "Accuracy%": 10,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {
+          "Dagger only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 256,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_halberd",
+    "name": "7th Anniv Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 4,
+          "MaxMP": 300,
+          "ATK%": 4,
+          "Accuracy": 120,
+          "CriticalRate": 30,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_spear",
+    "name": "Dia Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "CriticalRate%": 5,
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_atk": 256,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "noble_glaive",
+    "name": "Noble Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "CriticalRate": 30,
+          "GuardBreak%": 20
+        },
+        "special_effects": {},
+        "base_atk": 264,
+        "stability": 55
+      },
+      "unknown": {
+        "stats": {
+          "MaxMP": 300,
+          "CriticalRate": 30,
+          "GuardBreak%": 15
+        },
+        "special_effects": {},
+        "base_atk": 264,
+        "stability": 55
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 264,
+        "stability": 55,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "grilled_squid",
+    "name": "Grilled Squid",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 6000,
+          "DEF": 40,
+          "Accuracy": 10,
+          "Lightresistance%": -20,
+          "FireElement": 1,
+          "AttackMPRecovery": 20,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 270,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "spada_lance",
+    "name": "Spada Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "PhysicalPierce%": 12,
+          "ASPD": 1000,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 280,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 280,
+        "stability": 65,
+        "potential": 36,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "PhysicalPierce%": 10,
+          "ASPD": 750,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 280,
+        "stability": 65
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_halberd_vi",
+    "name": "3rd Anniv Halberd VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 6,
+          "Stability%": 5,
+          "Accuracy%": 3,
+          "AttackMPRecovery": 12
+        },
+        "special_effects": {},
+        "base_atk": 286,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 286,
+        "stability": 60,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd_vi",
+    "name": "4th Anniv Halberd VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 6,
+          "Stability%": 5,
+          "Accuracy%": 3,
+          "AttackMPRecovery": 13
+        },
+        "special_effects": {},
+        "base_atk": 286,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 286,
+        "stability": 60,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "amcrie",
+    "name": "Amcrie",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -30,
+          "ATK%": 6,
+          "PhysicalPierce%": 1,
+          "MagicResistance%": 15,
+          "CriticalDamage": 6,
+          "AttackMPRecovery": 15,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 300,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": -15,
+          "ATK%": 5,
+          "PhysicalPierce%": 3,
+          "MagicResistance%": 30,
+          "CriticalDamage": 4,
+          "DarkElement": 1,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_atk": 300,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 300,
+        "stability": 60,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "gwai_reaper",
+    "name": "Gwai Reaper",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Stability%": 1,
+          "PhysicalPierce%": 2,
+          "CriticalDamage%": 3,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 4,
+          "Recoil%": 0.01
+        },
+        "special_effects": {},
+        "base_atk": 304,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 304,
+        "stability": 60,
+        "potential": 37,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "Stability%": 4,
+          "PhysicalPierce%": 4,
+          "CriticalDamage%": 4,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 4,
+          "Recoil%": 0.02
+        },
+        "special_effects": {},
+        "base_atk": 306,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "lightning_bolt_spear",
+    "name": "Lightning Bolt Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 40,
+          "ASPD%": 30,
+          "CriticalDamage%": 5,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 318,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 318,
+        "stability": 60,
+        "potential": 37,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Accuracy": 30,
+          "ASPD%": 10,
+          "CriticalDamage%": 5,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 318,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "festival_spear",
+    "name": "Festival Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 30,
+          "CriticalRate": 1,
+          "FireElement": 1,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_atk": 320,
+        "stability": 1
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_halberd_vii",
+    "name": "3rd Anniv Halberd VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 6,
+          "Stability%": 5,
+          "Accuracy%": 6,
+          "AttackMPRecovery": 14
+        },
+        "special_effects": {},
+        "base_atk": 334,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 334,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd_vii",
+    "name": "4th Anniv Halberd VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 6,
+          "Stability%": 5,
+          "Accuracy%": 6,
+          "AttackMPRecovery": 14
+        },
+        "special_effects": {},
+        "base_atk": 334,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 334,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_halberd_iii",
+    "name": "5th Anniv Halberd III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 6,
+          "Stability%": 15,
+          "Accuracy%": 11,
+          "AttackMPRecovery": 12
+        },
+        "special_effects": {},
+        "base_atk": 334,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 334,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "raven_lance",
+    "name": "Raven Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 5,
+          "MATK%": 5,
+          "Accuracy": 20,
+          "ASPD": 800,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 334,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "warrior_angel_halberd",
+    "name": "Warrior Angel Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 6,
+          "CriticalDamage": 6,
+          "%strongeragainstNeutral": 25,
+          "Anticipate%": 20,
+          "GuardBreak%": 20
+        },
+        "special_effects": {},
+        "base_atk": 346,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 600,
+          "ATK%": 6,
+          "CriticalDamage": 6,
+          "%strongeragainstNeutral": 25,
+          "Anticipate%": 2,
+          "GuardBreak%": 2
+        },
+        "special_effects": {},
+        "base_atk": 346,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 346,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "crescent_blade",
+    "name": "Crescent Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 15,
+          "CriticalDamage": 5,
+          "EarthElement": 1,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {},
+        "base_atk": 350,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "Accuracy": 30,
+          "CriticalDamage": 6,
+          "EarthElement": 1,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {},
+        "base_atk": 350,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 350,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_halberd_iii",
+    "name": "6th Anniv Halberd III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxMP": 200,
+          "ATK%": 6,
+          "Accuracy%": 15,
+          "AttackMPRecovery": 20,
+          "ReduceDmg(Meteor)%": 2
+        },
+        "special_effects": {
+          "Dagger only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 352,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 352,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_halberd_ii",
+    "name": "7th Anniv Halberd II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxMP": 320,
+          "ATK%": 6,
+          "Accuracy": 150,
+          "CriticalRate": 30,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 352,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 352,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_halberd",
+    "name": "8th Anniv Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "MaxHP": 5000,
+          "ATK%": 6,
+          "Accuracy": 150,
+          "CriticalRate": 35,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 352,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 352,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_lance",
+    "name": "Sakura Lantern Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 6,
+          "Accuracy": 20,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 352,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "snow_bear_parasol",
+    "name": "Snow Bear Parasol",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 4000,
+          "Accuracy%": 20,
+          "%strongeragainstWind": 25,
+          "WaterElement": 1,
+          "GuardBreak%": 30,
+          "ReduceDmg(Meteor)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 355,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "lil_empress_halberd",
+    "name": "Lil Empress Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "Dodge": 50,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 55
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "Dodge": 150,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 55
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 367,
+        "stability": 55,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sacred_ice_spear",
+    "name": "Sacred Ice Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 2000,
+          "ATK%": 4,
+          "%strongeragainstLight": -25,
+          "%strongeragainstDark": 10,
+          "AilmentResistance%": 3,
+          "WaterElement": 1,
+          "ATKUP(INT%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 369,
+        "stability": 65
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd_viii",
+    "name": "4th Anniv Halberd VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 6,
+          "Stability%": 5,
+          "Accuracy%": 9,
+          "AttackMPRecovery": 16
+        },
+        "special_effects": {},
+        "base_atk": 387,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 387,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_halberd_iv",
+    "name": "5th Anniv Halberd IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 6,
+          "Stability%": 15,
+          "Accuracy%": 12,
+          "AttackMPRecovery": 14
+        },
+        "special_effects": {},
+        "base_atk": 387,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 387,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ignis_glaive",
+    "name": "Ignis Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "ATK%": 6,
+          "CriticalRate": 5,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 387,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 387,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxHP": 200,
+          "ATK%": 6,
+          "CriticalRate": 10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 387,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "parasol_choco_lance",
+    "name": "Parasol Choco Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "CriticalRate": 30,
+          "LightElement": 1,
+          "ReduceDmg(Bullet)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 387,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "tolerancia_(old)",
+    "name": "Tolerancia (old)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Stability%": 10,
+          "CSPD": 1500,
+          "CriticalDamage": 30
+        },
+        "special_effects": {},
+        "base_atk": 585,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "eroded_rebellion",
+    "name": "Eroded Rebellion",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 8,
+          "Accuracy%": 16,
+          "%strongeragainstDark": 5,
+          "LightElement": 1,
+          "ReduceDmg(Bowling)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 402,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 7,
+          "Accuracy%": 7,
+          "LightElement": 1,
+          "ReduceDmg(Bowling)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 402,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 402,
+        "stability": 65,
+        "potential": 42,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "jade_lance",
+    "name": "Jade Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "Accuracy": 120,
+          "WindElement": 1,
+          "LongRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60,
+        "potential": 42,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Accuracy": 100,
+          "WindElement": 1,
+          "LongRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "windblast_cone_spear_iii",
+    "name": "Windblast Cone Spear III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Stability%": 12,
+          "CSPD": 900,
+          "Waterresistance%": 15,
+          "WindElement": 1,
+          "AttackMPRecovery": 24,
+          "ReduceDmg(Meteor)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 424,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_halberd_ix",
+    "name": "4th Anniv Halberd IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 7,
+          "Stability%": 5,
+          "Accuracy%": 12,
+          "AttackMPRecovery": 18
+        },
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_halberd_v",
+    "name": "5th Anniv Halberd V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 7,
+          "Stability%": 15,
+          "Accuracy%": 13,
+          "AttackMPRecovery": 16,
+          "ReduceDmg(Meteor)%": 2
+        },
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_halberd_iv",
+    "name": "6th Anniv Halberd IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxMP": 200,
+          "ATK%": 7,
+          "Accuracy%": 20,
+          "AttackMPRecovery": 20,
+          "ReduceDmg(Meteor)%": 4
+        },
+        "special_effects": {
+          "Dagger only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 443,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_halberd_iii",
+    "name": "7th Anniv Halberd III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxMP": 340,
+          "ATK%": 7,
+          "Accuracy": 175,
+          "CriticalRate": 30,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_halberd_ii",
+    "name": "8th Anniv Halberd II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxHP": 6000,
+          "ATK%": 7,
+          "Accuracy": 175,
+          "CriticalRate": 35,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_halberd",
+    "name": "9th Anniv Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 6,
+          "ATK%": 7,
+          "Accuracy": 170,
+          "CriticalRate": 40,
+          "ATKUP(INT%)": 100,
+          "ReduceDmg(Floor)%": 40,
+          "AbsoluteDodge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 443,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "antler_glaive",
+    "name": "Antler Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalDamage": 6,
+          "DarkElement": 1,
+          "GuardBreak%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 462,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalDamage": 7,
+          "DarkElement": 1,
+          "GuardBreak%": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 14
+        },
+        "base_atk": 462,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 462,
+        "stability": 60,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_halberd_vi",
+    "name": "5th Anniv Halberd VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 7,
+          "Stability%": 15,
+          "Accuracy%": 14,
+          "AttackMPRecovery": 18,
+          "ReduceDmg(Meteor)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 481,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 481,
+        "stability": 60,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "graviton_glaive",
+    "name": "Graviton Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "PhysicalPierce%": 40,
+          "ASPD%": 30,
+          "Darkresistance%": 10,
+          "GuardRecharge%": 20,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 481,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "PhysicalPierce%": 10,
+          "ASPD%": 40,
+          "Darkresistance%": 20,
+          "GuardRecharge%": 30,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 481,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 481,
+        "stability": 60,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "infini_glaive",
+    "name": "Infini Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 10,
+          "Lightresistance%": 25,
+          "DarkElement": 1,
+          "ATKUP(INT%)": 150,
+          "ReduceDmg(Floor)%": 25,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {
+          "Physical Barrier": 3000
+        },
+        "base_atk": 776,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "drill_shaft",
+    "name": "Drill Shaft",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": -150,
+          "CriticalRate": 100,
+          "%strongeragainstNeutral": 30,
+          "TumbleUnavailable": 1,
+          "AdditionalMelee%": 90,
+          "ReduceDmg(Charge)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 500,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "macaron_tower_lance",
+    "name": "Macaron Tower Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 10,
+          "CSPD": 1000,
+          "Aggro%": -100,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 500,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "temple_spear",
+    "name": "Temple Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "PhysicalResistance%": 12,
+          "MagicResistance%": 18,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 502,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 700,
+          "PhysicalResistance%": 14,
+          "MagicResistance%": 21,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 502,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 502,
+        "stability": 60,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_halberd_vii",
+    "name": "5th Anniv Halberd VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 7,
+          "Stability%": 15,
+          "Accuracy%": 15,
+          "AttackMPRecovery": 20,
+          "ReduceDmg(Meteor)%": 6
+        },
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_halberd_v",
+    "name": "6th Anniv Halberd V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxMP": 300,
+          "ATK%": 7,
+          "Accuracy%": 25,
+          "AttackMPRecovery": 20,
+          "ReduceDmg(Meteor)%": 6
+        },
+        "special_effects": {
+          "Dagger only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 523,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_halberd_iv",
+    "name": "7th Anniv Halberd IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxMP": 360,
+          "ATK%": 7,
+          "Accuracy": 195,
+          "CriticalRate": 30,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_halberd_iii",
+    "name": "8th Anniv Halberd III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "MaxHP": 7000,
+          "ATK%": 7,
+          "Accuracy": 195,
+          "CriticalRate": 35,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_halberd_ii",
+    "name": "9th Anniv Halberd II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 7,
+          "ATK%": 7,
+          "Accuracy": 190,
+          "CriticalRate": 40,
+          "ATKUP(INT%)": 100,
+          "ReduceDmg(Floor)%": 40,
+          "AbsoluteDodge%": 12
+        },
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "demon_empress_spear",
+    "name": "Demon Empress Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "ASPD": 300,
+          "CriticalRate": 25,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Dagger only:Aggro %": "Aggro %"
+        },
+        "base_atk": 523,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "ASPD": 350,
+          "CriticalRate": 20,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 10
+        },
+        "special_effects": {
+          "Dagger only:Aggro %": "Aggro %"
+        },
+        "base_atk": 523,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 523,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "berg_spear",
+    "name": "Berg Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "CriticalRate": 8,
+          "%strongeragainstWind": 5,
+          "EarthElement": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 8
+        },
+        "base_atk": 544,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 8,
+          "CriticalRate": 16,
+          "%strongeragainstWind": 5,
+          "EarthElement": 1,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {
+          "Fractional Barrier %": 8
+        },
+        "base_atk": 544,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 544,
+        "stability": 60,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hell_reaper_(halberd)",
+    "name": "Hell Reaper (Halberd)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 66,
+          "CriticalDamage": 6,
+          "Lightresistance%": 10,
+          "Aggro%": -40,
+          "DarkElement": 1,
+          "ReduceDmg(StraightLine)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 544,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "shovel_lance",
+    "name": "Shovel Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "PhysicalPierce%": 15,
+          "ShortRangeDamage%": 8,
+          "%strongeragainstNeutral": 30,
+          "GuardBreak%": 15
+        },
+        "special_effects": {
+          "Dagger only:Dodge": "Dodge",
+          "Arrow only:Accuracy": "Accuracy"
+        },
+        "base_atk": 544,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "yozakura_naginata",
+    "name": "Yozakura Naginata",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "Accuracy": 300,
+          "ASPD": 600,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "ShortRangeDamage%": 6,
+          "ReduceDmg(Floor)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 544,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "cosmic_spear",
+    "name": "Cosmic Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "ASPD": 777,
+          "CriticalRate%": 100,
+          "Darkresistance%": 25,
+          "LightElement": 1,
+          "GuardBreak%": 30
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        },
+        "base_atk": 564,
+        "stability": 65
+      }
+    }
+  },
+  {
+    "id": "wanderer's_spear",
+    "name": "Wanderer's Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 8,
+          "PhysicalResistance%": 10,
+          "%strongeragainstFire": 5,
+          "Waterresistance%": -30,
+          "Aggro%": -20,
+          "WaterElement": 1,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 564,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 8,
+          "PhysicalResistance%": 15,
+          "%strongeragainstFire": 5,
+          "Waterresistance%": -15,
+          "Aggro%": -30,
+          "WaterElement": 1,
+          "AttackMPRecovery": 8
+        },
+        "special_effects": {},
+        "base_atk": 564,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 564,
+        "stability": 60,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_halberd_vi",
+    "name": "6th Anniv Halberd VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "MaxMP": 300,
+          "ATK%": 8,
+          "Accuracy%": 30,
+          "AttackMPRecovery": 20,
+          "ReduceDmg(Meteor)%": 8
+        },
+        "special_effects": {
+          "Dagger only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 587,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_halberd_v",
+    "name": "7th Anniv Halberd V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "MaxMP": 380,
+          "ATK%": 8,
+          "Accuracy": 210,
+          "CriticalRate": 30,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_halberd_iv",
+    "name": "8th Anniv Halberd IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "MaxHP": 8000,
+          "ATK%": 8,
+          "Accuracy": 210,
+          "CriticalRate": 35,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_halberd_iii",
+    "name": "9th Anniv Halberd III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 8,
+          "ATK%": 8,
+          "Accuracy": 210,
+          "CriticalRate": 40,
+          "ATKUP(INT%)": 100,
+          "ReduceDmg(Floor)%": 40,
+          "AbsoluteDodge%": 14
+        },
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "azure_spear",
+    "name": "Azure Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 75,
+          "%strongeragainstFire": 5,
+          "WaterElement": 1,
+          "Anticipate%": 25,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "CriticalRate": 70,
+          "%strongeragainstFire": 5,
+          "WaterElement": 1,
+          "Anticipate%": 20,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "beastlord_spear",
+    "name": "Beastlord Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 587,
+        "stability": 60,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_halberd",
+    "name": "Pearl Sakura Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "FireElement": 1,
+          "AdditionalMelee%": 50
+        },
+        "special_effects": {},
+        "base_atk": 620,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "aquila_glaive",
+    "name": "Aquila Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 8,
+          "Accuracy": 80,
+          "Waterresistance%": 40,
+          "EvasionRecharge%": 40,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 632,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 632,
+        "stability": 60,
+        "potential": 50,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "Accuracy": 75,
+          "Waterresistance%": 20,
+          "EvasionRecharge%": 30,
+          "WindElement": 1,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 632,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "poison_flame_dragon_halberd",
+    "name": "Poison Flame Dragon Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 4000,
+          "MaxHP%": 20,
+          "MagicResistance%": 20,
+          "Accuracy": 50,
+          "CriticalRate": 120,
+          "Aggro%": 30,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 632,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": 10,
+          "ATK%": 8,
+          "MagicResistance%": 15,
+          "Accuracy": 100,
+          "CriticalRate%": 45,
+          "%strongeragainstEarth": 30,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 632,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 632,
+        "stability": 60,
+        "potential": 50,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "queen_of_hearts",
+    "name": "Queen of Hearts",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "MaxMP": 400,
+          "ASPD": 1200,
+          "CSPD": 600,
+          "%strongeragainstLight": 10,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 632
+      }
+    }
+  },
+  {
+    "id": "ice_spirit_spear",
+    "name": "Ice Spirit Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 9,
+          "ASPD%": 100,
+          "Aggro%": -50,
+          "WaterElement": 1,
+          "AttackMPRecovery": 25,
+          "MATKUP(AGI%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 654,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "lolliodd_magic_halberd",
+    "name": "Lolliodd Magic Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalPierce%": 8,
+          "CSPD%": -100,
+          "CriticalRate": 75,
+          "EvasionRecharge%": -50,
+          "ShortRangeDamage%": 8,
+          "LongRangeDamage%": -10,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 654,
+        "stability": 55
+      }
+    }
+  },
+  {
+    "id": "tolerancia",
+    "name": "Tolerancia",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Stability%": 10,
+          "CSPD": 1500,
+          "CriticalDamage": 30
+        },
+        "special_effects": {},
+        "base_atk": 776,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_halberd_vi",
+    "name": "7th Anniv Halberd VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 9,
+          "MaxMP": 400,
+          "ATK%": 9,
+          "Accuracy": 230,
+          "CriticalRate": 30,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 678,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 678,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_halberd_v",
+    "name": "8th Anniv Halberd V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 9,
+          "MaxHP": 9000,
+          "ATK%": 9,
+          "Accuracy": 230,
+          "CriticalRate": 35,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 678,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 678,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_halberd_iv",
+    "name": "9th Anniv Halberd IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 9,
+          "ATK%": 9,
+          "Accuracy": 230,
+          "CriticalRate": 40,
+          "ATKUP(INT%)": 100,
+          "ReduceDmg(Floor)%": 40,
+          "AbsoluteDodge%": 16
+        },
+        "special_effects": {},
+        "base_atk": 678,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 678,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "guard_bone_lance",
+    "name": "Guard Bone Lance",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3000,
+          "ATK%": 9,
+          "MATK%": 9,
+          "PhysicalResistance%": 20,
+          "%strongeragainstNeutral": 25,
+          "ReduceDmg(Charge)%": 35
+        },
+        "special_effects": {},
+        "base_atk": 678,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 5000,
+          "PhysicalResistance%": 25,
+          "%strongeragainstWind": 10,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 9,
+          "ReduceDmg(Charge)%": 15
+        },
+        "special_effects": {
+          "Physical Barrier": 2000
+        },
+        "base_atk": 678,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 678,
+        "stability": 65,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "light_trident",
+    "name": "Light Trident",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 9,
+          "PhysicalPierce%": 25,
+          "MagicPierce%": 20,
+          "Dodge%": 40,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 678
+      }
+    }
+  },
+  {
+    "id": "holy_night_halberd",
+    "name": "Holy Night Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 5,
+          "ATK%": 10,
+          "PhysicalPierce%": 20,
+          "MagicPierce%": 30,
+          "MagicResistance%": 30,
+          "Lightresistance%": 30,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 720,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "sakura_warrior_halberd",
+    "name": "Sakura Warrior Halberd",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 9,
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "AilmentResistance%": 30,
+          "AttackMPRecovery": 30,
+          "%strongeragainstNeutral": 30,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 726,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_halberd_vi",
+    "name": "8th Anniv Halberd VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 10,
+          "MaxHP": 10000,
+          "ATK%": 10,
+          "Accuracy": 250,
+          "CriticalRate": 35,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 776,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 776,
+        "stability": 60,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_halberd_v",
+    "name": "9th Anniv Halberd V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 10,
+          "ATK%": 10,
+          "Accuracy": 250,
+          "CriticalRate": 40,
+          "ATKUP(INT%)": 100,
+          "ReduceDmg(Floor)%": 40,
+          "AbsoluteDodge%": 18
+        },
+        "special_effects": {},
+        "base_atk": 776,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 776,
+        "stability": 60,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dominant_scythespear",
+    "name": "Dominant Scythespear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 30,
+          "ATK%": 10,
+          "Stability%": 20,
+          "CriticalRate": 40,
+          "FireElement": 1,
+          "TumbleUnavailable": 1,
+          "ReduceDmg(Bowling)%": 40,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 776,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": 20,
+          "ATK%": 10,
+          "Stability%": 15,
+          "CriticalRate": 60,
+          "FireElement": 1,
+          "TumbleUnavailable": 1,
+          "ReduceDmg(Bowling)%": 50,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 776,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 776,
+        "stability": 60,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "leodom_glaive",
+    "name": "Leodom Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": 10,
+          "PhysicalResistance%": 40,
+          "ASPD%": 50,
+          "%strongeragainstNeutral": 35,
+          "GuardBreak%": 20,
+          "ReduceDmg(StraightLine)%": 30
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20
+        },
+        "base_atk": 827,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "mystic_star_spear",
+    "name": "Mystic Star Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 10000,
+          "ATK%": 10,
+          "MagicPierce%": 100,
+          "MagicResistance%": 50,
+          "CriticalRate%": 200,
+          "LightElement": 1,
+          "MATKUP(STR%)": 100,
+          "ReduceDmg(Meteor)%": 50
+        },
+        "special_effects": {},
+        "base_atk": 842,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "avid_glaive",
+    "name": "Avid Glaive",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 10,
+          "CriticalRate": 50,
+          "%strongeragainstWater": 10,
+          "EvasionRecharge%": 100,
+          "WindElement": 1,
+          "AttackMPRecovery": 20,
+          "Anticipate%": 40
+        },
+        "special_effects": {},
+        "base_atk": 852,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 10,
+          "CriticalRate": 5,
+          "%strongeragainstWater": 10,
+          "EvasionRecharge%": 10,
+          "WindElement": 1,
+          "AttackMPRecovery": 30,
+          "Anticipate%": 50
+        },
+        "special_effects": {},
+        "base_atk": 852,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 852,
+        "stability": 60,
+        "potential": 58,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "crimson_moon_mystic_spear",
+    "name": "Crimson Moon Mystic Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "FireElement": 1,
+          "AttackMPRecovery": 10,
+          "ShortRangeDamage%": 11,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20,
+          "Arrow only:Long Range Damage %": "Long Range Damage %"
+        },
+        "base_atk": 852,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_halberd_vi",
+    "name": "9th Anniv Halberd VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI%": 10,
+          "ATK%": 11,
+          "Accuracy": 270,
+          "CriticalRate": 40,
+          "ATKUP(INT%)": 100,
+          "ReduceDmg(Floor)%": 40,
+          "AbsoluteDodge%": 20
+        },
+        "special_effects": {},
+        "base_atk": 880,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 880,
+        "stability": 60,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "evil_crystal_beast_spear",
+    "name": "Evil Crystal Beast Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "ATK%": 11,
+          "PhysicalPierce%": 11,
+          "Dodge%": 40,
+          "ASPD%": 110,
+          "DarkElement": 1,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {
+          "Fractional Barrier %": 30
+        },
+        "base_atk": 990,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "crimson_onyx_spear",
+    "name": "Crimson Onyx Spear",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "ATK%": 12,
+          "MATK%": 12,
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "CriticalRate": 75,
+          "GuardPower%": 30,
+          "GuardRecharge%": 30,
+          "Aggro%": -90,
+          "AttackMPRecovery": 25
+        },
+        "special_effects": {},
+        "base_atk": 1040,
+        "stability": 60
+      }
+    }
+  }
+]

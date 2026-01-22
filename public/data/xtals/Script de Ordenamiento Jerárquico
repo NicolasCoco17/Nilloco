@@ -1,0 +1,81 @@
+import json
+import re
+import os
+
+def slugify(name):
+    """Genera un ID único a partir del nombre del xtal"""
+    name = name.lower()
+    name = re.sub(r'[^a-z0-9\s]', '', name)
+    return "xtal_" + name.replace(" ", "_")
+
+def process_crystals(input_name, output_name):
+    base_path = os.path.dirname(os.path.abspath(__file__))
+    input_path = os.path.join(base_path, input_name)
+    output_path = os.path.join(base_path, output_name)
+
+    if not os.path.exists(input_path):
+        print(f"Error: No se encuentra el archivo {input_name}")
+        return
+
+    with open(input_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # 1️⃣ Filtrar nombres inválidos
+    blacklist = ["Upgrade Into", "Crafting", "Furniture", "Unknown", ""]
+    xtals_dict = {item["name"]: item for item in data if item.get("name") not in blacklist}
+
+    # 2️⃣ Calcular niveles (nivel 0 = base, upgrades nivel 1+)
+    memo_levels = {}
+
+    def get_level(name):
+        if name in memo_levels:
+            return memo_levels[name]
+
+        item = xtals_dict.get(name)
+        if not item:
+            return 0
+
+        # Buscar si hay algún xtal que sea la base de este (Upgrade for)
+        base_name = None
+        for n, info in xtals_dict.items():
+            if info.get("stats", {}).get("Upgrade for") == name:
+                base_name = n
+                break
+
+        level = 1 + get_level(base_name) if base_name else 0
+        memo_levels[name] = level
+        return level
+
+    # 3️⃣ Transformar cada xtal
+    final_list = []
+    for name, item in xtals_dict.items():
+        stats = item.get("stats", {}).copy()
+        upgrade_target = stats.pop("Upgrade for", None)
+
+        final_list.append({
+            "id": slugify(name),
+            "name": name,
+            "type": item.get("type", []),  # lista
+            "upgradeFor": upgrade_target,
+            "level": get_level(name),
+            "stats": stats
+        })
+
+    # 4️⃣ Ordenar: primero por nivel, luego alfabéticamente dentro del mismo nivel
+    final_list.sort(key=lambda x: (x["level"], x["name"].lower()))
+
+    # 5️⃣ Guardar en JSON
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(final_list, f, indent=2, ensure_ascii=False)
+
+    print(f"--- Proceso Completado ---")
+    print(f"Archivo leído: {input_path}")
+    print(f"Archivo creado: {output_path}")
+    print(f"Total de registros: {len(final_list)}")
+
+# 🔹 Ejecución por tipo
+process_crystals('xtal_arma.json', 'xtal_arma_ordenado.json')
+process_crystals('xtal_armor.json', 'xtal_armor_ordenado.json')
+process_crystals('xtal_anillo.json', 'xtal_anillo_ordenado.json')
+process_crystals('xtal_add.json', 'xtal_add_ordenado.json')
+process_crystals('xtal_normal.json', 'xtal_normal_ordenado.json')

@@ -1,0 +1,1080 @@
+[
+  {
+    "id": "xtal_altadar",
+    "name": "Altadar",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR %": "6",
+      "VIT %": "6",
+      "Stability %": "11",
+      "Heavy Armor only:Long Range Damage %": "Long Range Damage %",
+      "Light Armor only:Short Range Damage %": "Short Range Damage %",
+      "Heavy Armor,Light Armor only:Stability %": "Stability %"
+    }
+  },
+  {
+    "id": "xtal_arachnidemon",
+    "name": "Arachnidemon",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "-400",
+      "MaxMP": "-400",
+      "ATK %": "8",
+      "Critical Rate": "8",
+      "Shield only:Short Range Damage %": "Short Range Damage %"
+    }
+  },
+  {
+    "id": "xtal_arcoiris",
+    "name": "Arcoiris",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Natural HP Regen %": "10",
+      "MaxHP %": "10",
+      "DEF %": "10"
+    }
+  },
+  {
+    "id": "xtal_aubermight",
+    "name": "Aubermight",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "15",
+      "DEF": "45",
+      "Aggro %": "30"
+    }
+  },
+  {
+    "id": "xtal_baavgai",
+    "name": "Baavgai",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "7000",
+      "Critical Damage": "7",
+      "Short Range Damage %": "5"
+    }
+  },
+  {
+    "id": "xtal_bangrudom",
+    "name": "Bangrudom",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "-20",
+      "ATK %": "10",
+      "MATK %": "10",
+      "ASPD %": "10",
+      "CSPD %": "10",
+      "Shield only:DEX %": "DEX %",
+      "Light Armor only:Magic Pierce %": "Magic Pierce %"
+    }
+  },
+  {
+    "id": "xtal_bemoz",
+    "name": "Bemoz",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-150",
+      "ATK %": "6",
+      "MATK %": "6",
+      "Physical Pierce %": "8",
+      "Magic Pierce %": "8",
+      "Critical Rate": "17"
+    }
+  },
+  {
+    "id": "xtal_biskyva",
+    "name": "Biskyva",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "900",
+      "Critical Rate": "7",
+      "Critical Damage %": "2",
+      "Fractional Barrier %": "19"
+    }
+  },
+  {
+    "id": "xtal_black_velly",
+    "name": "Black Velly",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "3000",
+      "MaxMP": "400",
+      "MATK %": "9",
+      "Evasion Recharge %": "-20"
+    }
+  },
+  {
+    "id": "xtal_boss_roga",
+    "name": "Boss Roga",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "1000",
+      "Weapon ATK %": "1"
+    }
+  },
+  {
+    "id": "xtal_canemofish",
+    "name": "Canemofish",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Water resistance %": "10",
+      "Attack MP Recovery": "10",
+      "Barrier Cooldown %": "10"
+    }
+  },
+  {
+    "id": "xtal_capo_profundo",
+    "name": "Capo Profundo",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "16",
+      "Physical Resistance %": "12",
+      "Guard Recharge %": "8"
+    }
+  },
+  {
+    "id": "xtal_cerabes",
+    "name": "Cerabes",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "1000",
+      "Critical Damage": "1"
+    }
+  },
+  {
+    "id": "xtal_cerberus",
+    "name": "Cerberus",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Physical Pierce %": "3",
+      "Critical Damage": "3",
+      "Unsheathe Attack %": "3"
+    }
+  },
+  {
+    "id": "xtal_colon_commander",
+    "name": "Colon Commander",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "150",
+      "MaxMP": "50"
+    }
+  },
+  {
+    "id": "xtal_daddy_finpen",
+    "name": "Daddy Finpen",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "6",
+      "Physical Resistance %": "6",
+      "Guard Recharge %": "6"
+    }
+  },
+  {
+    "id": "xtal_dandolion",
+    "name": "Dandolion",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "500",
+      "CSPD": "300",
+      "Attack MP Recovery": "4",
+      "Light Armor only:Stability %": "Stability %"
+    }
+  },
+  {
+    "id": "xtal_demonic_eye",
+    "name": "Demonic Eye",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "1000",
+      "ASPD": "300",
+      "Tumble Unavailable": "1"
+    }
+  },
+  {
+    "id": "xtal_demonic_quasar",
+    "name": "Demonic Quasar",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "1000",
+      "CSPD": "300",
+      "Motion Speed %": "1"
+    }
+  },
+  {
+    "id": "xtal_doctor_pom_pom",
+    "name": "Doctor Pom Pom",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Critical Rate %": "7",
+      "Ailment Resistance %": "7",
+      "Short Range Damage %": "7"
+    }
+  },
+  {
+    "id": "xtal_dr_leonardo",
+    "name": "Dr. Leonardo",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "5000",
+      "MATK %": "2",
+      "Critical Rate %": "10",
+      "Ailment Resistance %": "5",
+      "Long Range Damage %": "6"
+    }
+  },
+  {
+    "id": "xtal_dr_leonardo_ii",
+    "name": "Dr. Leonardo II",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "6000",
+      "MATK %": "3",
+      "Critical Rate %": "20",
+      "Ailment Resistance %": "5",
+      "Long Range Damage %": "6"
+    }
+  },
+  {
+    "id": "xtal_dreamy_scarlet_sakura",
+    "name": "Dreamy Scarlet Sakura",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "4000",
+      "Critical Damage": "4",
+      "Short Range Damage %": "2"
+    }
+  },
+  {
+    "id": "xtal_dx_fighter",
+    "name": "DX Fighter",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "5000",
+      "ATK %": "2",
+      "Accuracy %": "10",
+      "Short Range Damage %": "6",
+      "Fractional Barrier %": "5"
+    }
+  },
+  {
+    "id": "xtal_dx_fighter_ii",
+    "name": "DX Fighter II",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "6000",
+      "ATK %": "3",
+      "Accuracy %": "15",
+      "Short Range Damage %": "6",
+      "Fractional Barrier %": "5"
+    }
+  },
+  {
+    "id": "xtal_eroded_pilz",
+    "name": "Eroded Pilz",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "30",
+      "Physical Resistance %": "-10",
+      "Magic Resistance %": "-10"
+    }
+  },
+  {
+    "id": "xtal_evil_shadow",
+    "name": "Evil Shadow",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "1500",
+      "MaxMP": "300",
+      "MATK %": "6",
+      "Evasion Recharge %": "-10"
+    }
+  },
+  {
+    "id": "xtal_ferzen_the_rock_dragon",
+    "name": "Ferzen the Rock Dragon",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "5000",
+      "Weapon ATK %": "5"
+    }
+  },
+  {
+    "id": "xtal_filrocas",
+    "name": "Filrocas",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "60",
+      "Physical Resistance %": "-7",
+      "Magic Resistance %": "-7",
+      "Knuckle only:Aggro %": "Aggro %",
+      "1-Handed Sword only:Aggro %": "Aggro %"
+    }
+  },
+  {
+    "id": "xtal_forestia",
+    "name": "Forestia",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MATK %": "1",
+      "Magic Resistance %": "3",
+      "Evasion Recharge %": "5"
+    }
+  },
+  {
+    "id": "xtal_galegon",
+    "name": "Galegon",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD %": "20",
+      "Aggro %": "-30",
+      "Fractional Barrier %": "10"
+    }
+  },
+  {
+    "id": "xtal_gegner",
+    "name": "Gegner",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT %": "6",
+      "MATK %": "10",
+      "CSPD %": "40",
+      "Attack MP Recovery %": "10"
+    }
+  },
+  {
+    "id": "xtal_gemma",
+    "name": "Gemma",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Physical Pierce %": "5",
+      "Critical Damage": "6",
+      "Unsheathe Attack %": "7"
+    }
+  },
+  {
+    "id": "xtal_glaucius",
+    "name": "Glaucius",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MATK %": "6",
+      "Magic Resistance %": "6",
+      "Evasion Recharge %": "15",
+      "Light Armor only:MATK UP (AGI %)": "MATK UP (AGI %)"
+    }
+  },
+  {
+    "id": "xtal_glocke",
+    "name": "Glocke",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "4500",
+      "MaxMP": "500",
+      "MATK %": "12",
+      "Evasion Recharge %": "-30"
+    }
+  },
+  {
+    "id": "xtal_goldoon",
+    "name": "Goldoon",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "ATK %": "3",
+      "MATK %": "3",
+      "Accuracy %": "3",
+      "Aggro %": "-3"
+    }
+  },
+  {
+    "id": "xtal_goleps",
+    "name": "Goleps",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "750",
+      "MaxMP": "250"
+    }
+  },
+  {
+    "id": "xtal_gopherga",
+    "name": "Gopherga",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "3000",
+      "Physical Resistance %": "3",
+      "Magic Resistance %": "3",
+      "Aggro %": "15",
+      "Short Range Damage %": "6"
+    }
+  },
+  {
+    "id": "xtal_gordel",
+    "name": "Gordel",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "800",
+      "Critical Rate": "3",
+      "Fractional Barrier %": "17"
+    }
+  },
+  {
+    "id": "xtal_grim_reaper_scarecrow",
+    "name": "Grim Reaper Scarecrow",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "-30",
+      "Aggro %": "-15",
+      "Long Range Damage %": "6"
+    }
+  },
+  {
+    "id": "xtal_iconos",
+    "name": "Iconos",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "2000",
+      "Weapon ATK %": "2"
+    }
+  },
+  {
+    "id": "xtal_ifrid",
+    "name": "Ifrid",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "600",
+      "Fractional Barrier %": "12"
+    }
+  },
+  {
+    "id": "xtal_iron_empress",
+    "name": "Iron Empress",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "20",
+      "MaxMP": "-300",
+      "MATK %": "5",
+      "Magic Pierce %": "10",
+      "Physical Resistance %": "10",
+      "CSPD %": "20"
+    }
+  },
+  {
+    "id": "xtal_jade_raptor",
+    "name": "Jade Raptor",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "300",
+      "CSPD": "100",
+      "Attack MP Recovery": "1"
+    }
+  },
+  {
+    "id": "xtal_kruztor",
+    "name": "Kruztor",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "5",
+      "Physical Resistance %": "5",
+      "Magic Resistance %": "5",
+      "Dodge %": "5",
+      "Neutral Resistance %": "5"
+    }
+  },
+  {
+    "id": "xtal_kruztor_ii",
+    "name": "Kruztor II",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "7",
+      "Physical Resistance %": "7",
+      "Magic Resistance %": "7",
+      "Dodge %": "7",
+      "Neutral Resistance %": "7"
+    }
+  },
+  {
+    "id": "xtal_maton_sword",
+    "name": "Maton Sword",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "STR %": "3",
+      "MaxHP": "-1000",
+      "Accuracy %": "5",
+      "Long Range Damage %": "4"
+    }
+  },
+  {
+    "id": "xtal_meteora",
+    "name": "Meteora",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Physical Pierce %": "5",
+      "Critical Damage": "7",
+      "Unsheathe Attack %": "9"
+    }
+  },
+  {
+    "id": "xtal_mimesia",
+    "name": "Mimesia",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "2000",
+      "Critical Damage": "2"
+    }
+  },
+  {
+    "id": "xtal_mom_fluck",
+    "name": "Mom Fluck",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "700",
+      "Fractional Barrier %": "15"
+    }
+  },
+  {
+    "id": "xtal_mulgoons_hand",
+    "name": "Mulgoon's Hand",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "10000",
+      "MaxMP": "-100",
+      "Accuracy %": "5",
+      "Short Range Damage %": "6",
+      "Long Range Damage %": "4"
+    }
+  },
+  {
+    "id": "xtal_noeliel",
+    "name": "Noeliel",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MATK %": "5",
+      "CSPD %": "3",
+      "Attack MP Recovery %": "1"
+    }
+  },
+  {
+    "id": "xtal_noeliel_the_ice_statue",
+    "name": "Noeliel the Ice Statue",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MATK %": "5",
+      "CSPD %": "30",
+      "Attack MP Recovery %": "10"
+    }
+  },
+  {
+    "id": "xtal_ornlarf",
+    "name": "Ornlarf",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "3000",
+      "Weapon ATK %": "3"
+    }
+  },
+  {
+    "id": "xtal_phantom_wisp",
+    "name": "Phantom Wisp",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Accuracy %": "20",
+      "Critical Rate": "10",
+      "Evasion Recharge %": "10",
+      "Absolute Dodge %": "5"
+    }
+  },
+  {
+    "id": "xtal_pyxtica",
+    "name": "Pyxtica",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Physical Pierce %": "4",
+      "Critical Damage": "4",
+      "Unsheathe Attack %": "4"
+    }
+  },
+  {
+    "id": "xtal_sapphire_roga",
+    "name": "Sapphire Roga",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "4000",
+      "Weapon ATK %": "4"
+    }
+  },
+  {
+    "id": "xtal_sibylares",
+    "name": "Sibylares",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "-100",
+      "ATK %": "5",
+      "MATK %": "5",
+      "Physical Pierce %": "5",
+      "Magic Pierce %": "5",
+      "Critical Rate": "15"
+    }
+  },
+  {
+    "id": "xtal_skelerow",
+    "name": "Skelerow",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Water resistance %": "10",
+      "Dark resistance %": "10",
+      "Attack MP Recovery": "15",
+      "Barrier Cooldown %": "20"
+    }
+  },
+  {
+    "id": "xtal_squirinja",
+    "name": "Squirinja",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "10000",
+      "Critical Damage": "9",
+      "Short Range Damage %": "6",
+      "Ninjutsu Scroll only:Evasion Recharge %": "Evasion Recharge %"
+    }
+  },
+  {
+    "id": "xtal_super_death_mushroom",
+    "name": "Super Death Mushroom",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "400",
+      "CSPD": "200",
+      "Attack MP Recovery": "3"
+    }
+  },
+  {
+    "id": "xtal_the_great_witch_of_crow",
+    "name": "The Great Witch of Crow",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "Stability %": "4",
+      "Ailment Resistance %": "-14",
+      "Motion Speed %": "2",
+      "Absolute Accuracy %": "1"
+    }
+  },
+  {
+    "id": "xtal_thug_golem",
+    "name": "Thug Golem",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "CSPD %": "15",
+      "Aggro %": "-20",
+      "Fractional Barrier %": "10"
+    }
+  },
+  {
+    "id": "xtal_tortuga",
+    "name": "Tortuga",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "1",
+      "Physical Resistance %": "3",
+      "Guard Recharge %": "5"
+    }
+  },
+  {
+    "id": "xtal_usakichi",
+    "name": "Usakichi",
+    "type": [
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "100",
+      "ATK %": "1",
+      "Neutral Resistance %": "-1",
+      "Unsheathe Attack %": "1"
+    }
+  },
+  {
+    "id": "xtal_usami",
+    "name": "Usami",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "300",
+      "ATK %": "3",
+      "Neutral Resistance %": "-10",
+      "Unsheathe Attack %": "3"
+    }
+  },
+  {
+    "id": "xtal_usamochi",
+    "name": "Usamochi",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "300",
+      "ATK %": "6",
+      "Neutral Resistance %": "-10",
+      "Unsheathe Attack %": "6"
+    }
+  },
+  {
+    "id": "xtal_walican",
+    "name": "Walican",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "6000",
+      "Weapon ATK %": "6"
+    }
+  },
+  {
+    "id": "xtal_yule_cat",
+    "name": "Yule Cat",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "INT %": "3",
+      "MATK %": "7",
+      "CSPD %": "35",
+      "Attack MP Recovery %": "10"
+    }
+  },
+  {
+    "id": "xtal_yuveria",
+    "name": "Yuveria",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxMP": "300",
+      "Physical Resistance %": "3",
+      "Magic Resistance %": "3",
+      "Aggro %": "-15",
+      "Short Range Damage %": "6"
+    }
+  },
+  {
+    "id": "xtal_zapo",
+    "name": "Zapo",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP": "-400",
+      "MaxMP": "-400",
+      "ATK %": "10",
+      "Critical Rate": "10",
+      "Shield only:STR %": "STR %",
+      "Short Range Damage %": "Short Range Damage %"
+    }
+  }
+]
