@@ -1,0 +1,564 @@
+{
+  "registlets": [
+    {
+      "id": "physical_attack_boost",
+      "name": "Physical Attack Boost",
+      "stat": "ATK",
+      "perLevel": 1,
+      "maxLevel": 30
+    },
+    {
+      "id": "magic_attack_boost",
+      "name": "Magic Attack Boost",
+      "stat": "MATK",
+      "perLevel": 1,
+      "maxLevel": 30
+    },
+    {
+      "id": "max_hp_boost",
+      "name": "Max HP Boost",
+      "stat": "HP",
+      "perLevel": 10,
+      "maxLevel": 100
+    },
+    {
+      "id": "max_mp_boost",
+      "name": "Max MP Boost",
+      "stat": "MP",
+      "perLevel": 1,
+      "maxLevel": 100
+    },
+    {
+      "id": "physical_defense_boost",
+      "name": "Physical Defense Boost",
+      "stat": "DEF",
+      "perLevel": 1,
+      "maxLevel": 50
+    },
+    {
+      "id": "magic_defense_boost",
+      "name": "Magic Defense Boost",
+      "stat": "MDEF",
+      "perLevel": 1,
+      "maxLevel": 50
+    },
+    {
+      "id": "accuracy_boost",
+      "name": "Accuracy Boost",
+      "stat": "ACC",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "dodge_boost",
+      "name": "Dodge Boost",
+      "stat": "Dodge",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "attack_speed_boost",
+      "name": "Attack Speed Boost",
+      "stat": "ASPD",
+      "perLevel": 1,
+      "maxLevel": 100
+    },
+    {
+      "id": "magic_speed_boost",
+      "name": "Magic Speed Boost",
+      "stat": "CSPD",
+      "perLevel": 1,
+      "maxLevel": 100
+    },
+    {
+      "id": "wayfarer",
+      "name": "Wayfarer",
+      "stat": "Dmg Penalty Red.",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "sunbath",
+      "name": "Sunbath",
+      "stat": "MP Regen %",
+      "perLevel": 25,
+      "maxLevel": 4
+    },
+    {
+      "id": "hard_hit_enhancer",
+      "name": "Hard Hit Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "sonic_blade_extender",
+      "name": "Sonic Blade Extender",
+      "stat": "sec",
+      "perLevel": 1,
+      "maxLevel": 20
+    },
+    {
+      "id": "power_shot_boost",
+      "name": "Power Shot Boost",
+      "stat": "Dmg %",
+      "perLevel": 15,
+      "maxLevel": 20
+    },
+    {
+      "id": "bullseye_enhancer",
+      "name": "Bullseye Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "magic_arrows_enhancer",
+      "name": "Magic: Arrows Enhancer",
+      "stat": "Shots",
+      "perLevel": 1,
+      "maxLevel": 4
+    },
+    {
+      "id": "magic_wall_enhancer",
+      "name": "Magic: Wall Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "smash_enhancer",
+      "name": "Smash Enhancer",
+      "stat": "Dmg % (Knu)",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "sonic_wave_enhancer",
+      "name": "Sonic Wave Enhancer",
+      "stat": "Dmg % (Knu)",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "twin_slash_enhancer",
+      "name": "Twin Slash Enhancer",
+      "stat": "Crit Dmg %",
+      "perLevel": 1,
+      "maxLevel": 20
+    },
+    {
+      "id": "cross_parry_enhancer",
+      "name": "Cross Parry Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "flash_stab_enhancer",
+      "name": "Flash Stab Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "cannon_spear_enhancer",
+      "name": "Cannon Spear Enhancer",
+      "stat": "Flinch %",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "issen_enhancer",
+      "name": "Issen Enhancer",
+      "stat": "2nd Hit %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "pommel_strike_enhancer",
+      "name": "Pommel Strike Enhancer",
+      "stat": "Paralysis sec",
+      "perLevel": 1,
+      "maxLevel": 5
+    },
+    {
+      "id": "poison_heal",
+      "name": "Poison Heal",
+      "stat": "Remove %",
+      "perLevel": 1,
+      "maxLevel": 30
+    },
+    {
+      "id": "emergency_hp_heal",
+      "name": "Emergency HP Heal",
+      "stat": "Heal %",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "emergency_mp_heal",
+      "name": "Emergency MP Heal",
+      "stat": "MP",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "neural_control",
+      "name": "Neural Control",
+      "stat": "ASPD Red. Prev %",
+      "perLevel": 2,
+      "maxLevel": 30
+    },
+    {
+      "id": "final_resistance",
+      "name": "Final Resistance",
+      "stat": "Revive sec",
+      "perLevel": 1,
+      "maxLevel": 5
+    },
+    {
+      "id": "spiral_air_enhancer",
+      "name": "Spiral Air Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 2,
+      "maxLevel": 20
+    },
+    {
+      "id": "arrow_rain_enhancer",
+      "name": "Arrow Rain Enhancer",
+      "stat": "Extra Hits",
+      "perLevel": 1,
+      "maxLevel": 2
+    },
+    {
+      "id": "paralysis_shot_extender",
+      "name": "Paralysis Shot Extender",
+      "stat": "Buff sec",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "magic_lances_catalyst",
+      "name": "Magic: Lances Catalyst",
+      "stat": "Interval red (s)",
+      "perLevel": 0.1,
+      "maxLevel": 5
+    },
+    {
+      "id": "magic_blast_catalyst",
+      "name": "Magic: Blast Catalyst",
+      "stat": "Cast red (s)",
+      "perLevel": 0.2,
+      "maxLevel": 5
+    },
+    {
+      "id": "shell_break_enhancer",
+      "name": "Shell Break Enhancer",
+      "stat": "Armor Break %",
+      "perLevel": 5,
+      "maxLevel": 5
+    },
+    {
+      "id": "earthbind_enhancer",
+      "name": "Earthbind Enhancer",
+      "stat": "Dmg % (Knu)",
+      "perLevel": 5,
+      "maxLevel": 10
+    },
+    {
+      "id": "spinning_slash_compress",
+      "name": "Spinning Slash Compress",
+      "stat": "Dmg %",
+      "perLevel": 5,
+      "maxLevel": 10
+    },
+    {
+      "id": "critical_charging_slash",
+      "name": "Critical Charging Slash",
+      "stat": "Dmg Pwr Boost %",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "dragon_tail_enhancer",
+      "name": "Dragon Tail Enhancer",
+      "stat": "2nd Hit %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "mega_war_cry_of_struggle",
+      "name": "Mega War Cry of Struggle",
+      "stat": "Aggro",
+      "perLevel": 300,
+      "maxLevel": 10
+    },
+    {
+      "id": "magadachi_amulet",
+      "name": "Magadachi Amulet",
+      "stat": "Magic Red %",
+      "perLevel": 5,
+      "maxLevel": 6
+    },
+    {
+      "id": "steady_stance",
+      "name": "Steady Stance",
+      "stat": "Dmg Red %",
+      "perLevel": 3,
+      "maxLevel": 10
+    },
+    {
+      "id": "shared_destiny",
+      "name": "Shared Destiny",
+      "stat": "HP Loss Red %",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "tanker_pet",
+      "name": "Tanker's Pet",
+      "stat": "Pet Dmg Red %",
+      "perLevel": 3,
+      "maxLevel": 10
+    },
+    {
+      "id": "last_hero",
+      "name": "Last Hero",
+      "stat": "HP/MP Rec %",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "monophobia",
+      "name": "Monophobia",
+      "stat": "Range (m)",
+      "perLevel": 1,
+      "maxLevel": 5
+    },
+    {
+      "id": "pyrexia",
+      "name": "Pyrexia",
+      "stat": "Freeze Rem %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "impetus",
+      "name": "Impetus",
+      "stat": "Slow Resist %",
+      "perLevel": 5,
+      "maxLevel": 10
+    },
+    {
+      "id": "silent_recharge",
+      "name": "Silent Recharge",
+      "stat": "MP Rec %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "attacker_pet",
+      "name": "Attacker's Pet",
+      "stat": "Pet Dmg %",
+      "perLevel": 3,
+      "maxLevel": 10
+    },
+    {
+      "id": "parsimony",
+      "name": "Parsimony",
+      "stat": "CD Red (s)",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "emergency_repair",
+      "name": "Emergency Repair",
+      "stat": "Break Rem %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "coffee_break",
+      "name": "Coffee Break",
+      "stat": "CD Red (s)",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "eagle_eye",
+      "name": "Eagle Eye",
+      "stat": "Back Dmg Red %",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "remedial_rampage",
+      "name": "Remedial Rampage",
+      "stat": "Heal HP",
+      "perLevel": 50,
+      "maxLevel": 10
+    },
+    {
+      "id": "smoke_dust_extender",
+      "name": "Smoke Dust Extender",
+      "stat": "Buff sec",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "piercing_heavy_smash",
+      "name": "Piercing Heavy Smash",
+      "stat": "Pierce %",
+      "perLevel": 5,
+      "maxLevel": 10
+    },
+    {
+      "id": "phantom_slash_enhancer",
+      "name": "Phantom Slash Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "focus_dive_impact",
+      "name": "Focus Dive Impact",
+      "stat": "Dazzle CD Red",
+      "perLevel": 2,
+      "maxLevel": 5
+    },
+    {
+      "id": "pursuit_relief",
+      "name": "Pursuit Relief",
+      "stat": "Dmg Red %",
+      "perLevel": 1,
+      "maxLevel": 20
+    },
+    {
+      "id": "burning_spirit",
+      "name": "Burning Spirit",
+      "stat": "MP Rec (AMPR%)",
+      "perLevel": 5,
+      "maxLevel": 10
+    },
+    {
+      "id": "bloody_warrior",
+      "name": "Bloody Warrior",
+      "stat": "Atk/AMPR %",
+      "perLevel": 5,
+      "maxLevel": 20
+    },
+    {
+      "id": "monster_hunter",
+      "name": "Monster Hunter",
+      "stat": "CD Red (s)",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "panic",
+      "name": "Panic",
+      "stat": "MP Rec",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "transfer",
+      "name": "Transfer",
+      "stat": "MP Penalty Red",
+      "perLevel": 100,
+      "maxLevel": 10
+    },
+    {
+      "id": "decoy_shot_compress",
+      "name": "Decoy Shot Compress",
+      "stat": "Dmg %",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "frugal_shield_bash",
+      "name": "Frugal Shield Bash",
+      "stat": "MP Rec",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "extra_recovery",
+      "name": "Extra Recovery",
+      "stat": "Heal %",
+      "perLevel": 10,
+      "maxLevel": 5
+    },
+    {
+      "id": "extreme_whack",
+      "name": "Extreme Whack",
+      "stat": "Proc %",
+      "perLevel": 1,
+      "maxLevel": 5
+    },
+    {
+      "id": "extreme_concentrate",
+      "name": "Extreme Concentrate",
+      "stat": "Proc %",
+      "perLevel": 1,
+      "maxLevel": 5
+    },
+    {
+      "id": "power_resonance",
+      "name": "Power Resonance",
+      "stat": "Efficiency %",
+      "perLevel": 5,
+      "maxLevel": 9
+    },
+    {
+      "id": "bloody_bite_enhancer",
+      "name": "Bloody Bite Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "full_power_qi_charge",
+      "name": "Full Power Qi Charge",
+      "stat": "Qi %",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "start_dash",
+      "name": "Start Dash",
+      "stat": "sec",
+      "perLevel": 1,
+      "maxLevel": 5
+    },
+    {
+      "id": "secret_combo",
+      "name": "Secret Combo",
+      "stat": "Aggro Red %",
+      "perLevel": 1,
+      "maxLevel": 10
+    },
+    {
+      "id": "zero_stance",
+      "name": "Zero Stance",
+      "stat": "Dmg Mult %",
+      "perLevel": 0.01,
+      "maxLevel": 10
+    },
+    {
+      "id": "express_assault_attack",
+      "name": "Express Assault Attack",
+      "stat": "Dmg %",
+      "perLevel": 10,
+      "maxLevel": 10
+    },
+    {
+      "id": "rage_sword_enhancer",
+      "name": "Rage Sword Enhancer",
+      "stat": "Dmg %",
+      "perLevel": 10,
+      "maxLevel": 10
+    }
+  ]
+}

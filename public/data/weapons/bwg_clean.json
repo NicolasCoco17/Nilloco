@@ -1,0 +1,4176 @@
+[
+  {
+    "id": "humida_barrel",
+    "name": "Humida Barrel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 700,
+          "ATK%": 9,
+          "Accuracy%": 99,
+          "DarkElement": 1,
+          "ShortRangeDamage%": -9,
+          "LongRangeDamage%": 9
+        },
+        "special_effects": {
+          "Dagger only:Short Range Damage %": "Short Range Damage %"
+        }
+      }
+    }
+  },
+  {
+    "id": "bowgun",
+    "name": "Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 8,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 8,
+        "stability": 50,
+        "potential": 15,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sword_bowgun",
+    "name": "Sword Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI": 3,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "AGI": 3,
+          "ShortRangeDamage%": 2,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 50,
+        "potential": 16,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "short_musket",
+    "name": "Short Musket",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": -50,
+          "ASPD%": 25,
+          "CriticalRate": 25,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 18,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 18,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iron_barrel",
+    "name": "Iron Barrel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 70,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 50,
+        "potential": 18,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_bowgun",
+    "name": "1st Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "ATK%": 1,
+          "PhysicalPierce%": 3,
+          "ASPD": 100,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 50,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bowgun",
+    "name": "2nd Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "ATK%": 1,
+          "PhysicalPierce%": 3,
+          "ASPD": 100,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 50,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bowgun",
+    "name": "3rd Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "ATK%": 1,
+          "PhysicalPierce%": 3,
+          "ASPD": 100,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 50,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun",
+    "name": "4th Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "ATK%": 1,
+          "PhysicalPierce%": 3,
+          "ASPD": 100,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 50,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hunter_bowgun",
+    "name": "Hunter Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": -10,
+          "CriticalRate": 6,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ASPD%": -20,
+          "CriticalRate": 12,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 27,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cone_horn",
+    "name": "Cone Horn",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "MaxMP": 100,
+          "CriticalRate": 25,
+          "Aggro%": 5,
+          "%strongeragainstNeutral": 25,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 50,
+        "potential": 17,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "delight_gun",
+    "name": "Delight Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "Accuracy": 3,
+          "WaterElement": 1,
+          "AttackRange(m)": 7
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "axe_bowgun",
+    "name": "Axe Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 1,
+          "PhysicalPierce%": 1,
+          "ShortRangeDamage%": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 35,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "PhysicalPierce%": 3,
+          "ShortRangeDamage%": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 35,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 35,
+        "stability": 50,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "goblin_rifle",
+    "name": "Goblin Rifle",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": -1000,
+          "ASPD": 1000,
+          "MotionSpeed%": 25
+        },
+        "special_effects": {
+          "Arrow only:Motion Speed %": "Motion Speed %"
+        },
+        "base_atk": 36,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "magic_bowgun",
+    "name": "Magic Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 2,
+          "CSPD": 250,
+          "AilmentResistance%": 10,
+          "WaterElement": 1,
+          "AttackMPRecovery": 3,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 55
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "CSPD": 150,
+          "WaterElement": 1,
+          "AttackMPRecovery": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 55
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 55,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_bowgun_ii",
+    "name": "1st Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "ATK%": 2,
+          "PhysicalPierce%": 6,
+          "ASPD": 200,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bowgun_ii",
+    "name": "2nd Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "ATK%": 2,
+          "PhysicalPierce%": 6,
+          "ASPD": 200,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bowgun_ii",
+    "name": "3rd Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "ATK%": 2,
+          "PhysicalPierce%": 6,
+          "ASPD": 200,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun_ii",
+    "name": "4th Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "ATK%": 2,
+          "PhysicalPierce%": 6,
+          "ASPD": 200,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "arched_bowgun",
+    "name": "Arched Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "Accuracy%": -20,
+          "Aggro%": -5,
+          "LongRangeDamage%": 2,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 2,
+          "Accuracy%": -10,
+          "Aggro%": -5,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "death_gun",
+    "name": "Death Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "ASPD%": 50,
+          "DarkElement": 1,
+          "AttackMPRecovery": 6,
+          "AdditionalMelee%": 100,
+          "AdditionalMagic%": 1
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "war_bowgun",
+    "name": "War Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 12,
+          "CriticalDamage": 5,
+          "AilmentResistance%": -14,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "CriticalRate": 6,
+          "CriticalDamage": 3,
+          "AilmentResistance%": -7,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 44,
+        "stability": 50,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_matchlock",
+    "name": "Sakura Matchlock",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": 1,
+          "MagicResistance%": 10,
+          "CriticalDamage": 1,
+          "LightElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 53,
+        "stability": 50
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 4,
+          "MagicResistance%": 10,
+          "CriticalDamage": 2,
+          "LightElement": 1,
+          "AttackMPRecovery": 3,
+          "WeaponATK": 240
+        },
+        "special_effects": {},
+        "base_atk": 53,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "edged_bowgun",
+    "name": "Edged Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate%": 8,
+          "CriticalDamage%": 4,
+          "GuardRecharge%": 6,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 50,
+        "potential": 24,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "CriticalRate%": 7,
+          "CriticalDamage%": 4,
+          "GuardRecharge%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 55,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "empress_bowgun",
+    "name": "Empress Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": 3,
+          "MagicResistance%": 4,
+          "LightElement": 1,
+          "ShortRangeDamage%": 1,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 150,
+          "ATK%": 2,
+          "MagicResistance%": 2,
+          "LightElement": 1,
+          "ShortRangeDamage%": 1,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 58,
+        "stability": 50,
+        "potential": 25,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "assault_barrel",
+    "name": "Assault Barrel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 2,
+          "PhysicalPierce%": 1,
+          "CriticalRate": 6,
+          "ShortRangeDamage%": 1,
+          "AttackRange(m)": 7
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 55
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 7
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 55,
+        "potential": 26,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "PhysicalPierce%": 2,
+          "CriticalRate": 6,
+          "ShortRangeDamage%": 2,
+          "AttackRange(m)": 7
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 55
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_bowgun_iii",
+    "name": "1st Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "ATK%": 3,
+          "PhysicalPierce%": 9,
+          "ASPD": 300,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bowgun_iii",
+    "name": "2nd Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "ATK%": 3,
+          "PhysicalPierce%": 9,
+          "ASPD": 300,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bowgun_iii",
+    "name": "3rd Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "ATK%": 3,
+          "PhysicalPierce%": 9,
+          "ASPD": 300,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun_iii",
+    "name": "4th Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "ATK%": 3,
+          "PhysicalPierce%": 9,
+          "ASPD": 300,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bowgun",
+    "name": "5th Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 4,
+          "PhysicalPierce%": 8,
+          "ASPD": 1000,
+          "AbsoluteAccuracy%": 2,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 69,
+        "stability": 50,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "scrader_barrel",
+    "name": "Scrader Barrel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "CriticalDamage": 7,
+          "Lightresistance%": -10,
+          "DarkElement": 1,
+          "ShortRangeDamage%": -2,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 40
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "CriticalDamage": 5,
+          "Lightresistance%": -5,
+          "DarkElement": 1,
+          "ShortRangeDamage%": -1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 40
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 40,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bowgun",
+    "name": "6th Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "PhysicalPierce%": 10,
+          "ASPD": 1000,
+          "LongRangeDamage%": 4,
+          "AbsoluteAccuracy%": 8,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Magic Device only:Stability %": "Stability %"
+        },
+        "base_atk": 80,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 50,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ice_gun_hail",
+    "name": "Ice Gun Hail",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 3,
+          "MATK%": 1,
+          "WaterElement": 1,
+          "AdditionalMagic%": 75,
+          "ATKUP(INT%)": 50,
+          "ATKDOWN(DEX%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 50,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "plasma_gun",
+    "name": "Plasma Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "WindElement": 1,
+          "LongRangeDamage%": 3,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Magic Barrier": 250
+        },
+        "base_atk": 82,
+        "stability": 45
+      },
+      "npc": {
+        "stats": {
+          "WindElement": 1,
+          "LongRangeDamage%": 3,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Magic Barrier": 500
+        },
+        "base_atk": 82,
+        "stability": 45
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 45,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "double_strings",
+    "name": "Double Strings",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 3,
+          "FireElement": 1,
+          "AttackMPRecovery": 4,
+          "AdditionalMelee%": 50,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 3,
+          "FireElement": 1,
+          "AttackMPRecovery": 4,
+          "AdditionalMelee%": 100,
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 6
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60,
+        "potential": 29,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cone_horn_ii",
+    "name": "Cone Horn II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "MaxMP": 200,
+          "CriticalRate": 50,
+          "Aggro%": 10,
+          "%strongeragainstNeutral": 25,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 50,
+        "potential": 26,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bowgun_iv",
+    "name": "2nd Anniv Bowgun IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 4,
+          "PhysicalPierce%": 12,
+          "ASPD": 400,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 93,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 93,
+        "stability": 50,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bowgun_iv",
+    "name": "3rd Anniv Bowgun IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 4,
+          "PhysicalPierce%": 12,
+          "ASPD": 400,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 93,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 93,
+        "stability": 50,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun_iv",
+    "name": "4th Anniv Bowgun IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 4,
+          "PhysicalPierce%": 12,
+          "ASPD": 400,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 93,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 93,
+        "stability": 50,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bayonet",
+    "name": "Bayonet",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 10,
+          "FireElement": 1,
+          "ShortRangeDamage%": 4,
+          "AdditionalMelee%": 40,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 98,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "CriticalRate": 12,
+          "FireElement": 1,
+          "ShortRangeDamage%": 4,
+          "AdditionalMelee%": 50,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 98,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 98,
+        "stability": 50,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bexiz_bowgun",
+    "name": "Bexiz Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 5,
+          "Accuracy%": -15,
+          "CriticalDamage": 10,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Accuracy%": -30,
+          "CriticalDamage": 8,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 50,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "diver's_bowgun",
+    "name": "Diver's Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 100,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bowgun_v",
+    "name": "2nd Anniv Bowgun V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "ATK%": 5,
+          "PhysicalPierce%": 15,
+          "ASPD": 500,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bowgun_v",
+    "name": "3rd Anniv Bowgun V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "ATK%": 5,
+          "PhysicalPierce%": 15,
+          "ASPD": 500,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun_v",
+    "name": "4th Anniv Bowgun V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "ATK%": 5,
+          "PhysicalPierce%": 15,
+          "ASPD": 500,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bowgun_ii",
+    "name": "5th Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "ATK%": 5,
+          "PhysicalPierce%": 10,
+          "ASPD": 1000,
+          "AbsoluteAccuracy%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "death_gun_ii",
+    "name": "Death Gun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "ASPD%": 75,
+          "DarkElement": 1,
+          "AttackMPRecovery": 9,
+          "AdditionalMelee%": 100,
+          "AdditionalMagic%": 10
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "metal_bowgun",
+    "name": "Metal Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 500,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10,
+          "Barrier Cooldown %": 15
+        },
+        "base_atk": 113,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 1500,
+          "PhysicalResistance%": 5,
+          "MagicResistance%": 5,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10,
+          "Barrier Cooldown %": 10
+        },
+        "base_atk": 113,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 113,
+        "stability": 50,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "revolver",
+    "name": "Revolver",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": -100,
+          "CriticalRate": 25,
+          "FireElement": 1,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 25
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bowgun_ii",
+    "name": "6th Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "PhysicalPierce%": 10,
+          "ASPD": 1000,
+          "LongRangeDamage%": 5,
+          "AbsoluteAccuracy%": 10,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Magic Device only:Stability %": "Stability %"
+        },
+        "base_atk": 128,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 128,
+        "stability": 50,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bowgun",
+    "name": "7th Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 4,
+          "Stability%": 10,
+          "PhysicalPierce%": 10,
+          "CriticalRate": 30,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 128,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 128,
+        "stability": 50,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_bowgun",
+    "name": "Dia Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "MaxMP": 300,
+          "CriticalDamage": 4,
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "LongRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 128,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "cute_bowgun",
+    "name": "Cute Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Aggro%": -30,
+          "LightElement": 1,
+          "AttackMPRecovery": 10,
+          "LongRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "fusee_trahison",
+    "name": "Fusee Trahison",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "MDEF%": -20,
+          "CriticalRate%": 8,
+          "CriticalDamage%": 4,
+          "%strongeragainstEarth": -40,
+          "WindElement": 1,
+          "AttackMPRecovery": 3,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "MDEF%": -20,
+          "CriticalRate%": 8,
+          "CriticalDamage%": 4,
+          "%strongeragainstEarth": -40,
+          "WindElement": 1,
+          "AttackMPRecovery": 5,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 50,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "rifled_musket",
+    "name": "Rifled Musket",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "CriticalDamage%": 4,
+          "%strongeragainstNeutral": 25,
+          "AbsoluteAccuracy%": 4,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 50,
+        "potential": 34,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "DEX%": 3,
+          "CriticalDamage%": 4,
+          "%strongeragainstNeutral": 25,
+          "AbsoluteAccuracy%": 2,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "aqua_shooter",
+    "name": "Aqua Shooter",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MATK%": 5,
+          "Accuracy%": -100,
+          "CriticalRate": 100,
+          "WaterElement": 1,
+          "ShortRangeDamage%": 5,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 135,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bowgun_vi",
+    "name": "3rd Anniv Bowgun VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "PhysicalPierce%": 15,
+          "ASPD": 600,
+          "AbsoluteAccuracy%": 2,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 143,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 143,
+        "stability": 50,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun_vi",
+    "name": "4th Anniv Bowgun VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "PhysicalPierce%": 15,
+          "ASPD": 600,
+          "AbsoluteAccuracy%": 2,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 143,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 143,
+        "stability": 50,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "rostrum_bowgun",
+    "name": "Rostrum Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 750,
+          "CriticalDamage%": 3,
+          "WindElement": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 143,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 143,
+        "stability": 50,
+        "potential": 36,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ASPD": 500,
+          "CriticalDamage%": 3,
+          "WindElement": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 143,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "mad_sniper",
+    "name": "Mad Sniper",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 1,
+          "ASPD": -750,
+          "CriticalDamage%": 6,
+          "Aggro%": -20,
+          "WindElement": 1,
+          "ShortRangeDamage%": -15,
+          "LongRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 157,
+        "stability": 40
+      },
+      "npc": {
+        "stats": {
+          "Accuracy": 10,
+          "ASPD": -500,
+          "CriticalDamage%": 5,
+          "Aggro%": -10,
+          "WaterElement": 1,
+          "ShortRangeDamage%": -5,
+          "LongRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 157,
+        "stability": 40
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 157,
+        "stability": 40,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "achti_bowgun",
+    "name": "Achti Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": 5,
+          "CriticalRate": 25,
+          "Lightresistance%": 10,
+          "DarkElement": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 50,
+        "potential": 37,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ATK%": 5,
+          "CriticalRate": 20,
+          "Lightresistance%": 5,
+          "DarkElement": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "maton_railgun",
+    "name": "Maton Railgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 10,
+          "ATK%": 5,
+          "Accuracy%": 10,
+          "CSPD": 500,
+          "AbsoluteAccuracy%": 5
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "STR%": 10,
+          "ATK%": 5,
+          "Accuracy%": 20,
+          "CSPD": 250,
+          "AbsoluteAccuracy%": 3
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 50,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "golden_barrel",
+    "name": "Golden Barrel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "ATK%": 6,
+          "MDEF%": 20,
+          "AdditionalMelee%": 100
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        },
+        "base_atk": 165,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bowgun_vii",
+    "name": "3rd Anniv Bowgun VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "PhysicalPierce%": 15,
+          "ASPD": 700,
+          "AbsoluteAccuracy%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 167,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 167,
+        "stability": 50,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun_vii",
+    "name": "4th Anniv Bowgun VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "PhysicalPierce%": 15,
+          "ASPD": 700,
+          "AbsoluteAccuracy%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 167,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 167,
+        "stability": 50,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bowgun_iii",
+    "name": "5th Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "PhysicalPierce%": 12,
+          "ASPD": 1000,
+          "AbsoluteAccuracy%": 6,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 167,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 167,
+        "stability": 50,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bowgun_iii",
+    "name": "6th Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "PhysicalPierce%": 15,
+          "ASPD": 1000,
+          "LongRangeDamage%": 6,
+          "AbsoluteAccuracy%": 12,
+          "ReduceDmg(Bowling)%": 2,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Magic Device only:Stability %": "Stability %"
+        },
+        "base_atk": 176,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bowgun_ii",
+    "name": "7th Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "Stability%": 11,
+          "PhysicalPierce%": 12,
+          "CriticalRate": 30,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bowgun",
+    "name": "8th Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "PhysicalPierce%": 15,
+          "Dodge": 150,
+          "CriticalRate": 35,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fluck_bowgun",
+    "name": "Fluck Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 3,
+          "CriticalDamage": 9,
+          "Aggro%": -75,
+          "ReduceDmg(Bullet)%": 15,
+          "ReduceDmg(Bowling)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 6,
+          "CriticalDamage": 12,
+          "Aggro%": -25,
+          "ReduceDmg(Bullet)%": 15,
+          "ReduceDmg(Bowling)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "natra_bowgun",
+    "name": "Natra Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 3,
+          "ASPD%": -15,
+          "EarthElement": 1,
+          "LongRangeDamage%": 6,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ASPD%": -20,
+          "EarthElement": 1,
+          "LongRangeDamage%": 6,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_rifle",
+    "name": "Sakura Lantern Rifle",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "CriticalDamage": 6,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "EarthElement": 1,
+          "AdditionalMelee%": 100
+        },
+        "special_effects": {},
+        "base_atk": 176,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "snow_bear_toy_gun",
+    "name": "Snow Bear Toy Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 5,
+          "%strongeragainstFire": 5,
+          "%strongeragainstWind": 5,
+          "MotionSpeed%": 5
+        },
+        "special_effects": {
+          "Magic Device only:MATK %": "MATK %"
+        },
+        "base_atk": 177,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "cone_horn_iii",
+    "name": "Cone Horn III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "MaxMP": 300,
+          "CriticalRate": 75,
+          "Aggro%": 15,
+          "%strongeragainstNeutral": 25,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 50,
+        "potential": 35,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lil_empress_bowgun",
+    "name": "Lil Empress Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "Accuracy": 100,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 45
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "Accuracy": 300,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 45
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 183,
+        "stability": 45,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun_viii",
+    "name": "4th Anniv Bowgun VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "PhysicalPierce%": 15,
+          "ASPD": 800,
+          "AbsoluteAccuracy%": 6,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 50,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bowgun_iv",
+    "name": "5th Anniv Bowgun IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "PhysicalPierce%": 14,
+          "ASPD": 1000,
+          "AbsoluteAccuracy%": 8,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 50,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "triangulum_bowgun",
+    "name": "Triangulum Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CSPD": 400,
+          "CriticalDamage": 6,
+          "LightElement": 1,
+          "AttackMPRecovery": 8,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "CSPD": 500,
+          "CriticalDamage": 6,
+          "LightElement": 1,
+          "AttackMPRecovery": 10,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 193,
+        "stability": 50,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "death_gun_iii",
+    "name": "Death Gun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 600,
+          "ASPD%": 100,
+          "DarkElement": 1,
+          "AttackMPRecovery": 12,
+          "AdditionalMelee%": 100,
+          "AdditionalMagic%": 100
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 50,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "porcupine_crossbow",
+    "name": "Porcupine Crossbow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 6,
+          "Fireresistance%": -25,
+          "EarthElement": 1,
+          "AttackMPRecovery": 2,
+          "Reflect%": 30,
+          "AdditionalMelee%": 40,
+          "ReduceDmg(Floor)%": 50,
+          "AttackRange(m)": 7
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 6,
+          "Fireresistance%": -25,
+          "EarthElement": 1,
+          "AttackMPRecovery": 2,
+          "Reflect%": 50,
+          "AdditionalMelee%": 40,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 7
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 7
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 60,
+        "potential": 42,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "riverine_barrel",
+    "name": "Riverine Barrel",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "Fireresistance%": 10,
+          "WaterElement": 1,
+          "TumbleUnavailable": 1,
+          "Anticipate%": 20,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 50,
+        "potential": 42,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "Fireresistance%": 10,
+          "WaterElement": 1,
+          "TumbleUnavailable": 1,
+          "Anticipate%": 10,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 212,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "pepo_magnum",
+    "name": "Pepo Magnum",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "Accuracy%": -20,
+          "ShortRangeDamage%": 7
+        },
+        "special_effects": {
+          "Shield only:MaxHP": "MaxHP"
+        },
+        "base_atk": 220,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bowgun_ix",
+    "name": "4th Anniv Bowgun IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "PhysicalPierce%": 15,
+          "ASPD": 900,
+          "AbsoluteAccuracy%": 8,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bowgun_v",
+    "name": "5th Anniv Bowgun V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "PhysicalPierce%": 16,
+          "ASPD": 1000,
+          "AbsoluteAccuracy%": 10,
+          "ReduceDmg(Bowling)%": 2,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bowgun_iv",
+    "name": "6th Anniv Bowgun IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "PhysicalPierce%": 15,
+          "ASPD": 1000,
+          "LongRangeDamage%": 7,
+          "AbsoluteAccuracy%": 14,
+          "ReduceDmg(Bowling)%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Magic Device only:Stability %": "Stability %"
+        },
+        "base_atk": 221,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bowgun_iii",
+    "name": "7th Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "Stability%": 12,
+          "PhysicalPierce%": 14,
+          "CriticalRate": 30,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bowgun_ii",
+    "name": "8th Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "PhysicalPierce%": 15,
+          "Dodge": 175,
+          "CriticalRate": 35,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bowgun",
+    "name": "9th Anniv Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 7,
+          "CriticalRate": 40,
+          "AdditionalMelee%": 100,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {
+          "ASPD %": "ASPD %",
+          "Magic Device only:CSPD %": "CSPD %"
+        },
+        "base_atk": 221,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 221,
+        "stability": 50,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "double_barrel",
+    "name": "Double Barrel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": -100,
+          "CriticalDamage": 10,
+          "ShortRangeDamage%": 10,
+          "AdditionalMelee%": 100,
+          "AttackRange(m)": 4
+        },
+        "special_effects": {},
+        "base_atk": 222,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "heat_crossbow",
+    "name": "Heat Crossbow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 100,
+          "%strongeragainstEarth": 5,
+          "LongRangeDamage%": 7,
+          "ATKUP(AGI%)": 90,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 231,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "ASPD%": 110,
+          "%strongeragainstEarth": 5,
+          "LongRangeDamage%": 7,
+          "ATKUP(AGI%)": 100,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 231,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 231,
+        "stability": 50,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bowgun_vi",
+    "name": "5th Anniv Bowgun VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "PhysicalPierce%": 18,
+          "ASPD": 1000,
+          "AbsoluteAccuracy%": 12,
+          "ReduceDmg(Bowling)%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 50,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "quasar_barrel",
+    "name": "Quasar Barrel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 5,
+          "MaxMP": 500,
+          "ATK%": 7,
+          "ASPD": 750,
+          "CriticalRate": 10,
+          "LongRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "MaxMP": 500,
+          "ATK%": 7,
+          "ASPD": 250,
+          "CriticalRate": 30,
+          "LongRangeDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 50,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "black_shadow_crossbow",
+    "name": "Black Shadow Crossbow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 20,
+          "Accuracy%": 40,
+          "DarkElement": 1,
+          "AttackMPRecovery": 30,
+          "AdditionalMelee%": 100,
+          "AdditionalMagic%": 50,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 244,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 20,
+          "Accuracy%": 20,
+          "DarkElement": 1,
+          "AttackMPRecovery": 20,
+          "AdditionalMelee%": 150,
+          "AdditionalMagic%": 100,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 244,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 244,
+        "stability": 50,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sonic_megaphone",
+    "name": "Sonic Megaphone",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "MaxHP": 5000,
+          "MaxMP": 200,
+          "ATK%": 10,
+          "Darkresistance%": 15,
+          "LightElement": 1,
+          "ReduceDmg(Bullet)%": 15,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 388,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "delight_gun_ii",
+    "name": "Delight Gun II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 1000,
+          "Accuracy": 15,
+          "WaterElement": 1,
+          "AttackRange(m)": 7
+        },
+        "special_effects": {},
+        "base_atk": 250,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "repeating_crossbow",
+    "name": "Repeating Crossbow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": 40,
+          "%strongeragainstNeutral": 25,
+          "AdditionalMelee%": 90,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Arrow only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 250,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "ASPD%": 50,
+          "%strongeragainstNeutral": 25,
+          "AdditionalMelee%": 100,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Arrow only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 250,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 250,
+        "stability": 50,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bowgun_vii",
+    "name": "5th Anniv Bowgun VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "PhysicalPierce%": 20,
+          "ASPD": 1000,
+          "AbsoluteAccuracy%": 14,
+          "ReduceDmg(Bowling)%": 6,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 50,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bowgun_v",
+    "name": "6th Anniv Bowgun V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "PhysicalPierce%": 20,
+          "ASPD": 1000,
+          "LongRangeDamage%": 7,
+          "AbsoluteAccuracy%": 14,
+          "ReduceDmg(Bowling)%": 6,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Magic Device only:Stability %": "Stability %"
+        },
+        "base_atk": 261,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 50,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bowgun_iv",
+    "name": "7th Anniv Bowgun IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "Stability%": 13,
+          "PhysicalPierce%": 16,
+          "CriticalRate": 30,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 50,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bowgun_iii",
+    "name": "8th Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "PhysicalPierce%": 20,
+          "Dodge": 195,
+          "CriticalRate": 35,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 50,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bowgun_ii",
+    "name": "9th Anniv Bowgun II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "CriticalRate": 40,
+          "AdditionalMelee%": 120,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {
+          "ASPD %": "ASPD %",
+          "Magic Device only:CSPD %": "CSPD %"
+        },
+        "base_atk": 261,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 50,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "demon_empress_bowgun",
+    "name": "Demon Empress Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 25,
+          "Aggro%": -30,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 25,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Magic Device only:MATK %": "MATK %"
+        },
+        "base_atk": 261,
+        "stability": 45
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 20,
+          "Aggro%": -40,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 10,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Magic Device only:MATK %": "MATK %"
+        },
+        "base_atk": 261,
+        "stability": 45
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 261,
+        "stability": 45,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bayonette",
+    "name": "Bayonette",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 30,
+          "Accuracy%": 25,
+          "CriticalRate%": 40,
+          "%strongeragainstNeutral": 25,
+          "AdditionalMelee%": 50,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Barrier Cooldown %": 25
+        },
+        "base_atk": 272,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "klug_bowgun",
+    "name": "Klug Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 8,
+          "CSPD%": 60,
+          "%strongeragainstDark": 5,
+          "LightElement": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 272,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 8,
+          "CSPD%": 70,
+          "%strongeragainstDark": 5,
+          "LightElement": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 272,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 272,
+        "stability": 50,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "mimic_axe",
+    "name": "Mimic Axe",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 30,
+          "ShortRangeDamage%": 20,
+          "LongRangeDamage%": -90,
+          "%strongeragainstNeutral": 40
+        },
+        "special_effects": {},
+        "base_atk": 272
+      }
+    }
+  },
+  {
+    "id": "yozakura_handgun",
+    "name": "Yozakura Handgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "MaxHP": 4000,
+          "Accuracy": 300,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "LongRangeDamage%": 6,
+          "ReduceDmg(Meteor)%": 30
+        },
+        "special_effects": {
+          "Dagger only:Stability %": "Stability %"
+        },
+        "base_atk": 272,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "dr._leonardo's_gun",
+    "name": "Dr. Leonardo's Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxMP": 200,
+          "ASPD": 1000,
+          "CriticalRate": 75,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 277,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bowgun_vi",
+    "name": "6th Anniv Bowgun VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "PhysicalPierce%": 20,
+          "ASPD": 1000,
+          "LongRangeDamage%": 8,
+          "AbsoluteAccuracy%": 16,
+          "ReduceDmg(Bowling)%": 8,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {
+          "Magic Device only:Stability %": "Stability %"
+        },
+        "base_atk": 293,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bowgun_v",
+    "name": "7th Anniv Bowgun V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "ATK%": 8,
+          "Stability%": 14,
+          "PhysicalPierce%": 18,
+          "CriticalRate": 30,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bowgun_iv",
+    "name": "8th Anniv Bowgun IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "ATK%": 8,
+          "PhysicalPierce%": 20,
+          "Dodge": 210,
+          "CriticalRate": 35,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bowgun_iii",
+    "name": "9th Anniv Bowgun III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "ATK%": 8,
+          "CriticalRate": 40,
+          "AdditionalMelee%": 140,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {
+          "ASPD %": "ASPD %",
+          "Magic Device only:CSPD %": "CSPD %"
+        },
+        "base_atk": 293,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anchor_bowgun",
+    "name": "Anchor Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "VIT%": 8,
+          "MaxHP%": 25,
+          "PhysicalResistance%": 15,
+          "Aggro%": 15,
+          "WindElement": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "VIT%": 8,
+          "MaxHP%": 20,
+          "PhysicalResistance%": 20,
+          "Aggro%": 20,
+          "WindElement": 1,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "beastlord_gun",
+    "name": "Beastlord Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "zyvio_bowgun",
+    "name": "Zyvio Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 2000,
+          "PhysicalPierce%": 24,
+          "PhysicalResistance%": 10,
+          "Accuracy": 40,
+          "Fireresistance%": -30,
+          "WaterElement": 1,
+          "Anticipate%": 4,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 4000,
+          "PhysicalPierce%": 16,
+          "PhysicalResistance%": 20,
+          "Accuracy": 80,
+          "Fireresistance%": -10,
+          "WaterElement": 1,
+          "Anticipate%": 8,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 293,
+        "stability": 50,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "acid_gun",
+    "name": "Acid Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 25,
+          "CriticalRate": 25,
+          "%strongeragainstWater": -25,
+          "AdditionalMagic%": 75,
+          "GuardBreak%": 25,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {
+          "Magic Device only:Stability %": "Stability %"
+        },
+        "base_atk": 300,
+        "stability": 40
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_gun",
+    "name": "Pearl Sakura Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "FireElement": 1,
+          "AdditionalMelee%": 50
+        },
+        "special_effects": {},
+        "base_atk": 310,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "vegitos_bowgun",
+    "name": "Vegitos Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 8,
+          "CriticalRate": 40,
+          "EarthElement": 1,
+          "ReduceDmg(Charge)%": 40,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 316,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 316,
+        "stability": 50,
+        "potential": 50,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "CriticalRate": 35,
+          "EarthElement": 1,
+          "ReduceDmg(Charge)%": 30,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 316,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "ice_spirit_gun",
+    "name": "Ice Spirit Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 9,
+          "CSPD%": 50,
+          "Aggro%": -50,
+          "WaterElement": 1,
+          "MATKUP(DEX%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 327,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "generos",
+    "name": "Generos",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Stability%": 30,
+          "Aggro%": -100
+        },
+        "special_effects": {},
+        "base_atk": 388,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bowgun_v",
+    "name": "9th Anniv Bowgun V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 10,
+          "ATK%": 10,
+          "CriticalRate": 40,
+          "AdditionalMelee%": 180,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {
+          "ASPD %": "ASPD %",
+          "Magic Device only:CSPD %": "CSPD %"
+        },
+        "base_atk": 338,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 388,
+        "stability": 50,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bowgun_vi",
+    "name": "7th Anniv Bowgun VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "ATK%": 9,
+          "Stability%": 15,
+          "PhysicalPierce%": 20,
+          "CriticalRate": 30,
+          "ReduceDmg(Bowling)%": 30,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 50,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bowgun_v",
+    "name": "8th Anniv Bowgun V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "ATK%": 9,
+          "PhysicalPierce%": 25,
+          "Dodge": 230,
+          "CriticalRate": 35,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 50,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bowgun_iv",
+    "name": "9th Anniv Bowgun IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "ATK%": 9,
+          "CriticalRate": 40,
+          "AdditionalMelee%": 160,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {
+          "ASPD %": "ASPD %",
+          "Magic Device only:CSPD %": "CSPD %"
+        },
+        "base_atk": 339,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 339,
+        "stability": 50,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "holy_script_gun",
+    "name": "Holy Script gun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 15,
+          "MagicResistance%": 20,
+          "CriticalRate": 90,
+          "AilmentResistance%": 10,
+          "%strongeragainstNeutral": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Dagger only:Stability %": "Stability %"
+        },
+        "base_atk": 339,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "ocean_bowgun",
+    "name": "Ocean Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "WaterElement": 1,
+          "LongRangeDamage%": 9,
+          "GuardBreak%": 10,
+          "ReduceDmg(PlayerEpicenter)%": 25
+        },
+        "special_effects": {},
+        "base_atk": 339
+      }
+    }
+  },
+  {
+    "id": "burning_ember_gun",
+    "name": "Burning Ember Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "FireElement": 1,
+          "LongRangeDamage%": 9,
+          "GuardBreak%": 30,
+          "ReduceDmg(Bullet)%": 25,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15,
+          "Magic Device only:Stability %": "Stability %",
+          "Critical Rate": "Critical Rate"
+        },
+        "base_atk": 351,
+        "stability": 45
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 600,
+          "FireElement": 1,
+          "LongRangeDamage%": 9,
+          "GuardBreak%": 15,
+          "ReduceDmg(Bullet)%": 15,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15,
+          "Magic Device only:Stability %": "Stability %",
+          "Critical Rate": "Critical Rate"
+        },
+        "base_atk": 351,
+        "stability": 45
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 351,
+        "stability": 45,
+        "potential": 53,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "holy_night_rifle",
+    "name": "Holy Night Rifle",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 8,
+          "Dodge%": -100,
+          "CriticalDamage": 9,
+          "LongRangeDamage%": 10
+        },
+        "special_effects": {
+          "Dagger only:Stability %": "Stability %",
+          "Arrow only:Aggro %": "Aggro %"
+        },
+        "base_atk": 360,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "cursed_gun",
+    "name": "Cursed Gun",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 9,
+          "CriticalDamage%": 7,
+          "DarkElement": 1,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 363,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "potum_popper",
+    "name": "Potum Popper",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "PhysicalPierce%": 20,
+          "Accuracy%": 30,
+          "ShortRangeDamage%": 10,
+          "NeutralResistance%": 50
+        },
+        "special_effects": {
+          "Shield only:Aggro %": "Aggro %"
+        },
+        "base_atk": 363,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bowgun_vi",
+    "name": "8th Anniv Bowgun VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "ATK%": 10,
+          "PhysicalPierce%": 25,
+          "Dodge": 250,
+          "CriticalRate": 35,
+          "ReduceDmg(Bowling)%": 35,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 388,
+        "stability": 50
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 388,
+        "stability": 50,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "agradable",
+    "name": "Agradable",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 10,
+          "PhysicalPierce%": 15,
+          "CSPD%": 20,
+          "CriticalRate%": 200,
+          "LightElement": 1,
+          "AdditionalMelee%": 100,
+          "ReduceDmg(StraightLine)%": 40,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 388,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 10,
+          "PhysicalPierce%": 15,
+          "CSPD%": 30,
+          "CriticalRate%": 100,
+          "LightElement": 1,
+          "AdditionalMelee%": 100,
+          "ReduceDmg(StraightLine)%": 10,
+          "AttackRange(m)": 8
+        },
+        "special_effects": {},
+        "base_atk": 388,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 388,
+        "stability": 50,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "leo_bowgun",
+    "name": "Leo Bowgun",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "CriticalRate": 40,
+          "%strongeragainstFire": 15,
+          "FireElement": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20,
+          "Heavy Armor only:Aggro %": "Aggro %",
+          "Light Armor only:Motion Speed %": "Motion Speed %"
+        },
+        "base_atk": 413,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bowgun_vi",
+    "name": "9th Anniv Bowgun VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "ATK%": 11,
+          "CriticalRate": 40,
+          "AdditionalMelee%": 200,
+          "ReduceDmg(Bowling)%": 40
+        },
+        "special_effects": {
+          "ASPD %": "ASPD %",
+          "Magic Device only:CSPD %": "CSPD %"
+        },
+        "base_atk": 440,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 440,
+        "stability": 50,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  }
+]

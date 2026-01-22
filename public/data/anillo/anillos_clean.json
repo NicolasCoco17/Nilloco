@@ -1,0 +1,3138 @@
+[
+  {
+    "id": "adamantite_charmstone",
+    "name": "Adamantite Charmstone",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 5000,
+          "NeutralResistance%": 25
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "additional_magic_book",
+    "name": "Additional Magic Book",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "CSPD%": 3,
+          "AdditionalMagic%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "additional_melee_book",
+    "name": "Additional Melee Book",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "ASPD%": 3,
+          "AdditionalMelee%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "adroit_mages_bangle",
+    "name": "Adroit Mage's Bangle",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 3,
+          "DEX": 3,
+          "MATK%": 1,
+          "CSPD": 100
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "adroit_warriors_bangle",
+    "name": "Adroit Warrior's Bangle",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 3,
+          "DEX": 3,
+          "ATK%": 1,
+          "ASPD": 100
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "ancient_shell_necklace",
+    "name": "Ancient Shell Necklace",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "AttackMPRecovery": 1,
+          "FlinchUnavailable": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "ankh_of_resurrection",
+    "name": "Ankh of Resurrection",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "AilmentResistance%": 3,
+          "InvincibleAid(sec)": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_bangle",
+    "name": "Anniv Festive Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_def": 1
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_bangle_ii",
+    "name": "Anniv Festive Bangle II",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "CriticalRate": 5
+        },
+        "special_effects": {},
+        "base_def": 2
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_bangle_iii",
+    "name": "Anniv Festive Bangle III",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "CriticalRate": 10
+        },
+        "special_effects": {},
+        "base_def": 3
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_ring",
+    "name": "Anniv Festive Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "LongRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_def": 1
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_ring_ii",
+    "name": "Anniv Festive Ring II",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "AilmentResistance%": 5
+        },
+        "special_effects": {},
+        "base_def": 2
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_ring_iii",
+    "name": "Anniv Festive Ring III",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "EXPGain%": 15
+        },
+        "special_effects": {},
+        "base_def": 3
+      }
+    }
+  },
+  {
+    "id": "anti_melee_system",
+    "name": "Anti Melee System",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicResistance%": -10,
+          "PhysicalBarrier": 2000
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "aristocrat_ring",
+    "name": "Aristocrat Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": -10,
+          "MATK%": -10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "aromatic_bangle",
+    "name": "Aromatic Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalHPRegen%": 10,
+          "NaturalMPRegen%": 10,
+          "Aggro%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "astral_lamp",
+    "name": "Astral Lamp",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalMPRegen%": 20,
+          "MaxMP": 300,
+          "MagicPierce%": 10
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "bear_warrior_obi",
+    "name": "Bear Warrior Obi",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 15,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {
+          "Knuckle only:Motion Speed %": "Motion Speed %",
+          "2-Handed Sword only:Critical Rate": "Critical Rate"
+        },
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "beast_fang_talisman",
+    "name": "Beast Fang Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "beast_talisman",
+    "name": "Beast Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 20,
+          "Lightresistance%": 4,
+          "ATKUP(VIT%)": 5
+        },
+        "special_effects": {},
+        "base_def": 10
+      }
+    }
+  },
+  {
+    "id": "beastlord_ring",
+    "name": "Beastlord Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Dodge": 50,
+          "CriticalRate%": -50,
+          "MotionSpeed%": 5
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "big_tree_talisman",
+    "name": "Big Tree Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 10,
+          "Earthresistance%": 15,
+          "AilmentResistance%": 5
+        },
+        "special_effects": {},
+        "base_def": 30
+      }
+    }
+  },
+  {
+    "id": "bitter_pumpkin_talisman",
+    "name": "Bitter Pumpkin Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "CriticalRate": 3,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {
+          "1-Handed Sword only:Unsheathe Attack %": "Unsheathe Attack %"
+        },
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "blue_pearl_talisman",
+    "name": "Blue Pearl Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 1,
+          "INT%": 1,
+          "AGI%": 1,
+          "DEX%": 1,
+          "MaxMP": 500,
+          "MagicPierce%": 5,
+          "CriticalRate": 10
+        },
+        "special_effects": {},
+        "base_def": 30
+      }
+    }
+  },
+  {
+    "id": "booster_cast",
+    "name": "Booster Cast",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "MotionSpeed%": -10
+        },
+        "special_effects": {
+          "EXP Gain %": "EXP Gain %",
+          "Heavy Armor only:Motion Speed %": "Motion Speed %"
+        },
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "bow_thimble",
+    "name": "Bow Thimble",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "Accuracy": 30
+        },
+        "special_effects": {
+          "Bow only:ATK %": "ATK %"
+        }
+      }
+    }
+  },
+  {
+    "id": "bow_thimble_zc",
+    "name": "Bow Thimble ZC",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Accuracy": 15
+        },
+        "special_effects": {
+          "Bow only:ATK %": "ATK %"
+        }
+      }
+    }
+  },
+  {
+    "id": "broken_watch",
+    "name": "Broken Watch",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": -6,
+          "MagicResistance%": -6,
+          "ASPD": 100
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "brokers_insignia",
+    "name": "Broker's Insignia",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "Stability%": -20,
+          "Dodge%": -20,
+          "Aggro%": 20,
+          "Anticipate%": 10,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_def": 100
+      }
+    }
+  },
+  {
+    "id": "buzz_ring",
+    "name": "Buzz Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AttackMPRecovery": 10,
+          "LongRangeDamage%": -5
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "caravan_cord",
+    "name": "Caravan Cord",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200
+        },
+        "special_effects": {
+          "Katana only:Weapon ATK": "Weapon ATK"
+        }
+      }
+    }
+  },
+  {
+    "id": "caravan_talisman",
+    "name": "Caravan Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200
+        },
+        "special_effects": {
+          "Knuckle only:Dodge": "Dodge"
+        }
+      }
+    }
+  },
+  {
+    "id": "chocolate_charm",
+    "name": "Chocolate Charm",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "chocolate_charm_ii",
+    "name": "Chocolate Charm II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 600
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "chocolate_charm_iii",
+    "name": "Chocolate Charm III",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 700
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "chocolate_leaf_talisman",
+    "name": "Chocolate Leaf Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1200,
+          "MaxMP": 400
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "chocolate_ring",
+    "name": "Chocolate Ring",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 350,
+          "ATK": 10,
+          "ASPD": 100
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "chocolate_ring_ii",
+    "name": "Chocolate Ring II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 450,
+          "ATK": 20,
+          "ASPD": 200
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "chocolate_ring_iii",
+    "name": "Chocolate Ring III",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 550,
+          "ATK": 40,
+          "ASPD": 400
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "cookie_ring",
+    "name": "Cookie Ring",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 350,
+          "MATK": 10,
+          "CSPD": 100
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "cookie_ring_ii",
+    "name": "Cookie Ring II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 450,
+          "MATK": 20,
+          "CSPD": 200
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "cookie_talisman",
+    "name": "Cookie Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 1000
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "cookie_talisman_ii",
+    "name": "Cookie Talisman II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 1800
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "coral_peach_talisman",
+    "name": "Coral Peach Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Darkresistance%": 30,
+          "NeutralResistance%": 15
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "cursed_gold_coin",
+    "name": "Cursed Gold Coin",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "DropRate%": -100
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "dark_fighter_bangle",
+    "name": "Dark Fighter Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "Accuracy": 3,
+          "Aggro%": 25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dark_knight_amulet",
+    "name": "Dark Knight Amulet",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "Dodge": 3,
+          "Aggro%": -25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dark_night_talisman",
+    "name": "Dark Night Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Darkresistance%": 25
+        },
+        "special_effects": {},
+        "base_def": 20
+      }
+    }
+  },
+  {
+    "id": "dark_shaman_talisman",
+    "name": "Dark Shaman Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 800,
+          "CSPD": 200,
+          "Aggro%": -50
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "dark_talisman_(flash)",
+    "name": "Dark Talisman (Flash)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 900,
+          "MaxMP": 300,
+          "CriticalRate": 5,
+          "MotionSpeed%": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dark_talisman_(magic)",
+    "name": "Dark Talisman (Magic)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 900,
+          "MaxMP": 300,
+          "MATK%": 3,
+          "Anticipate%": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dark_talisman_(power)",
+    "name": "Dark Talisman (Power)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 900,
+          "MaxMP": 300,
+          "ATK%": 3,
+          "GuardBreak%": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dark_talisman_(resist)",
+    "name": "Dark Talisman (Resist)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 900,
+          "MaxMP": 300,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dark_talisman_(unknown)",
+    "name": "Dark Talisman (Unknown)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 900,
+          "MaxMP": 300,
+          "ASPD": -1000,
+          "CSPD": -1000,
+          "ItemCooldown": -1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "day_sakura_charmstone",
+    "name": "Day Sakura Charmstone",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "ASPD": 750,
+          "CSPD": 250,
+          "AilmentResistance%": -4
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dexterity_talisman",
+    "name": "Dexterity Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 2,
+          "MaxMP": 200
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dexterity_talisman_ii",
+    "name": "Dexterity Talisman II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 4,
+          "MaxMP": 300
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dexterity_talisman_iii",
+    "name": "Dexterity Talisman III",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 6,
+          "MaxMP": 400
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dexterity_talisman_iv",
+    "name": "Dexterity Talisman IV",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 8,
+          "MaxMP": 500
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dexterity_talisman_v",
+    "name": "Dexterity Talisman V",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 10,
+          "MaxMP": 600
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dexterity_talisman_vi",
+    "name": "Dexterity Talisman VI",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 12,
+          "MaxMP": 700
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "dragon_ring",
+    "name": "Dragon Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3000,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_def": 20
+      }
+    }
+  },
+  {
+    "id": "dragonfly_ring",
+    "name": "Dragonfly Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AGI": 10,
+          "EvasionRecharge%": 30,
+          "AdditionalMelee%": 50
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "duo_additional_book",
+    "name": "Duo Additional Book",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "AdditionalMelee%": 15,
+          "AdditionalMagic%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "enlightened_bangle",
+    "name": "Enlightened Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 3,
+          "INT%": 3,
+          "VIT%": 3,
+          "AGI%": 3,
+          "DEX%": 3
+        },
+        "special_effects": {},
+        "base_def": 30
+      }
+    }
+  },
+  {
+    "id": "falling_star_talisman",
+    "name": "Falling Star Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Windresistance%": 30,
+          "NeutralResistance%": 15
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "fragrant_fox_furnace",
+    "name": "Fragrant Fox Furnace",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "%strongeragainstWind": 5,
+          "Aggro%": -25
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "full_blossom_charmstone",
+    "name": "Full Blossom Charmstone",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "ASPD": 750,
+          "CSPD": 750,
+          "AilmentResistance%": -8
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "gapapa!",
+    "name": "Gapapa!",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 588,
+          "MaxMP": 588,
+          "PhysicalBarrier": 588,
+          "MagicBarrier": 588
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "ghilly_sheet",
+    "name": "Ghilly Sheet",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge": 8,
+          "ASPD%": -20,
+          "CSPD": -20,
+          "Aggro%": -40
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "ghost_telescope",
+    "name": "Ghost Telescope",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Stability%": 5,
+          "Accuracy%": 5,
+          "Lightresistance%": -15
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "gleeful_vine_bangle",
+    "name": "Gleeful Vine Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": -20,
+          "MATK%": -20,
+          "Stability%": 10,
+          "PetEXP%": 15
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "glory_ring_(indirect)",
+    "name": "Glory Ring (Indirect)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Aggro%": -10,
+          "LongRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "glory_ring_(magic_sword)",
+    "name": "Glory Ring (Magic Sword)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 3,
+          "MATK%": 3
+        },
+        "special_effects": {
+          "Magic Device only:ASPD %": "ASPD %",
+          "CSPD %": "CSPD %"
+        },
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "glory_ring_(melee)",
+    "name": "Glory Ring (Melee)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Aggro%": -10,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "glory_ring_(memory)",
+    "name": "Glory Ring (Memory)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Aggro%": 10,
+          "EXPGain%": 10,
+          "PetEXP%": 10
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "glory_ring_(restore)",
+    "name": "Glory Ring (Restore)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "CriticalRate%": 10,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "glowing_sea_talisman",
+    "name": "Glowing Sea Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Stability%": 10,
+          "AilmentResistance%": 5,
+          "PetEXP%": 15
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "gorilla_talisman",
+    "name": "Gorilla Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3500,
+          "MaxMP": 300,
+          "Stability%": -2,
+          "CriticalRate": 25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "great_nature_talisman",
+    "name": "Great Nature Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 2000,
+          "Aggro%": -10,
+          "ReviveTime%": -10
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "green_pearl_talisman",
+    "name": "Green Pearl Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 1,
+          "INT%": 1,
+          "AGI%": 1,
+          "DEX%": 1,
+          "MaxMP": 500,
+          "CriticalRate": 10,
+          "WeaponATK%": 5
+        },
+        "special_effects": {},
+        "base_def": 30
+      }
+    }
+  },
+  {
+    "id": "guidance_lantern",
+    "name": "Guidance Lantern",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "ASPD%": -10,
+          "Aggro%": 25
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "hallucination_spore",
+    "name": "Hallucination Spore",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Aggro%": -25,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "handless_watch",
+    "name": "Handless Watch",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": -3,
+          "MagicResistance%": -3,
+          "ASPD": 10
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "happiness_talisman",
+    "name": "Happiness Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "PetEXP%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "hard_arm_guard",
+    "name": "Hard Arm Guard",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 400,
+          "ASPD%": -10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "hard_shell_talisman",
+    "name": "Hard Shell Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": -30,
+          "PhysicalResistance%": 10,
+          "Aggro%": 10,
+          "PhysicalBarrier": 1000
+        },
+        "special_effects": {},
+        "base_def": 21
+      }
+    }
+  },
+  {
+    "id": "ice_bird_talisman",
+    "name": "Ice Bird Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Waterresistance%": 30,
+          "NeutralResistance%": 15
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "ice_crystal_ring",
+    "name": "Ice Crystal Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "%strongeragainstFire": 5,
+          "Waterresistance%": 5,
+          "Windresistance%": -5
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "inverted_tree_crest",
+    "name": "Inverted Tree Crest",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -25,
+          "MaxMP": 400,
+          "Darkresistance%": 20,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {
+          "Shield only:Aggro %": "Aggro %"
+        },
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "knights_talisman",
+    "name": "Knight's Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 250,
+          "Aggro%": 25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "lost_ring",
+    "name": "Lost Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MDEF%": -15,
+          "GuardPower%": 5,
+          "GuardRecharge%": 5,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "lovely_ocean_talisman",
+    "name": "Lovely Ocean Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Fireresistance%": 30,
+          "NeutralResistance%": 15
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "machina_ring",
+    "name": "Machina Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "AilmentResistance%": -10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magic_swordsmans_ring",
+    "name": "Magic Swordsman's Ring",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": -25,
+          "MATK%": -25,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magic_talisman",
+    "name": "Magic Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 2,
+          "MaxMP": 200
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magic_talisman_ii",
+    "name": "Magic Talisman II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 4,
+          "MaxMP": 300
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magic_talisman_iii",
+    "name": "Magic Talisman III",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 6,
+          "MaxMP": 400
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magic_talisman_iv",
+    "name": "Magic Talisman IV",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 8,
+          "MaxMP": 500
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magic_talisman_v",
+    "name": "Magic Talisman V",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 10,
+          "MaxMP": 600
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magic_talisman_vi",
+    "name": "Magic Talisman VI",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 12,
+          "MaxMP": 700
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magicians_bangle",
+    "name": "Magician's Bangle",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 300
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "magicians_ring",
+    "name": "Magician's Ring",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 1000,
+          "ATK%": -25,
+          "MATK%": -25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "misanga",
+    "name": "Misanga",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "CriticalRate%": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "mischievous_pocket_watch",
+    "name": "Mischievous Pocket Watch",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "PhysicalResistance%": -90,
+          "MagicResistance%": -90,
+          "ASPD": 1000
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "mistletoe_talisman",
+    "name": "Mistletoe Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 6,
+          "PhysicalResistance%": 4,
+          "MagicResistance%": 4,
+          "NeutralResistance%": 2
+        },
+        "special_effects": {},
+        "base_def": 6
+      }
+    }
+  },
+  {
+    "id": "moxiz_strap",
+    "name": "Moxiz Strap",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 1,
+          "MATK%": 1,
+          "Fireresistance%": -3,
+          "Waterresistance%": -3,
+          "Windresistance%": -3,
+          "Earthresistance%": -3
+        },
+        "special_effects": {},
+        "base_def": 30
+      }
+    }
+  },
+  {
+    "id": "muscle_talisman",
+    "name": "Muscle Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 2,
+          "MaxMP": 200
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "muscle_talisman_ii",
+    "name": "Muscle Talisman II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 4,
+          "MaxMP": 300
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "muscle_talisman_iii",
+    "name": "Muscle Talisman III",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 6,
+          "MaxMP": 400
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "muscle_talisman_iv",
+    "name": "Muscle Talisman IV",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 8,
+          "MaxMP": 500
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "muscle_talisman_v",
+    "name": "Muscle Talisman V",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 10,
+          "MaxMP": 600
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "muscle_talisman_vi",
+    "name": "Muscle Talisman VI",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 12,
+          "MaxMP": 700
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "navida_talisman",
+    "name": "Navida Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR": 2,
+          "INT": 2,
+          "AGI": 2,
+          "DEX": 2,
+          "MaxHP%": -2,
+          "MaxMP": 500
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "night_sakura_charmstone",
+    "name": "Night Sakura Charmstone",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "ASPD": 250,
+          "CSPD": 750,
+          "AilmentResistance%": -4
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "noeliel_talisman",
+    "name": "Noeliel Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 1000,
+          "MotionSpeed%": -1
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "nymons_presence",
+    "name": "Nymon's Presence",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "%strongeragainstEarth": 5,
+          "Aggro%": -25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "painless_left_arm",
+    "name": "Painless Left Arm",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "pearl_talisman",
+    "name": "Pearl Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 1,
+          "INT%": 1,
+          "AGI%": 1,
+          "DEX%": 1,
+          "MaxMP": 500,
+          "CriticalRate": 10
+        },
+        "special_effects": {},
+        "base_def": 30
+      }
+    }
+  },
+  {
+    "id": "pendulum",
+    "name": "Pendulum",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 5
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "philosophers_ring",
+    "name": "Philosopher's Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "INT%": 3,
+          "MaxMP": 300,
+          "CSPD%": 30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "pico_cream_ring",
+    "name": "Pico Cream Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "EvasionRecharge%": 10
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "potum_talisman",
+    "name": "Potum Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Dodge%": 12,
+          "Lightresistance%": -6
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "powered_gear",
+    "name": "Powered Gear",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 1,
+          "DEF%": -3,
+          "MDEF%": -3,
+          "Dodge%": -3,
+          "CriticalDamage%": 1,
+          "UnsheatheAttack%": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "prajna_charmstone",
+    "name": "Prajna Charmstone",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT%": 3,
+          "MATK%": 4,
+          "CSPD%": 20
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "proof_of_resistance",
+    "name": "Proof of Resistance",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "proof_of_victory",
+    "name": "Proof of Victory",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "pumpkin_ring",
+    "name": "Pumpkin Ring",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CSPD": 300,
+          "CriticalRate": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "purple_pearl_talisman",
+    "name": "Purple Pearl Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 1,
+          "INT%": 1,
+          "DEX%": 1,
+          "MaxMP": 500,
+          "Stability%": 5,
+          "CriticalRate": 10,
+          "AGI%": 1
+        },
+        "special_effects": {},
+        "base_def": 30
+      }
+    }
+  },
+  {
+    "id": "pyroxene_nugget",
+    "name": "Pyroxene Nugget",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "%strongeragainstDark": 5,
+          "Aggro%": -25
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "red_pearl_talisman",
+    "name": "Red Pearl Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 1,
+          "INT%": 1,
+          "AGI%": 1,
+          "DEX%": 1,
+          "MaxMP": 500,
+          "PhysicalPierce%": 5,
+          "CriticalRate": 10
+        },
+        "special_effects": {},
+        "base_def": 30
+      }
+    }
+  },
+  {
+    "id": "ring_of_greed",
+    "name": "Ring of Greed",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": -25,
+          "MATK%": -25,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "ring_of_universe",
+    "name": "Ring of Universe",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR": 1,
+          "INT": 1,
+          "VIT": 1,
+          "AGI": 1,
+          "DEX": 1,
+          "MaxMP": 300
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "road_sheep_talisman",
+    "name": "Road Sheep Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalMPRegen%": 5,
+          "MaxMP": 300,
+          "Stability%": 5,
+          "CSPD%": 5
+        },
+        "special_effects": {},
+        "base_def": 10
+      }
+    }
+  },
+  {
+    "id": "robust_charmstone",
+    "name": "Robust Charmstone",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Stability%": 3,
+          "CriticalRate%": 20
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "rock_horn_beast_bangle",
+    "name": "Rock Horn Beast Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 20,
+          "Anticipate%": 5
+        },
+        "special_effects": {
+          "Heavy Armor only:Fractional Barrier %": "Fractional Barrier %"
+        },
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "rosetta_shard",
+    "name": "Rosetta Shard",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": -2,
+          "MagicResistance%": -2,
+          "CSPD": 100
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "rosetta_stone",
+    "name": "Rosetta Stone",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": -10,
+          "MagicResistance%": -10,
+          "CSPD": 1000
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "sable_bracelet",
+    "name": "Sable Bracelet",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Stability%": 5,
+          "DEF%": 5,
+          "Aggro%": -5
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "sacred_bell_talisman",
+    "name": "Sacred Bell Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 500,
+          "Darkresistance%": 5
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "sailors_talisman",
+    "name": "Sailor's Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 500,
+          "MaxMP": 250,
+          "%strongeragainstWater": 2,
+          "Fireresistance%": 4
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "sakura_bear_charmstone",
+    "name": "Sakura Bear Charmstone",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 10,
+          "MDEF%": 10,
+          "AilmentResistance%": 10
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "sakura_charmstone",
+    "name": "Sakura Charmstone",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "ASPD": 250,
+          "CSPD": 250,
+          "AilmentResistance%": -2
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "salmon_jerky_talisman",
+    "name": "Salmon Jerky Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "Stability%": 10,
+          "MagicPierce%": 5
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "sand_veil_ring",
+    "name": "Sand Veil Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Earthresistance%": 5,
+          "EvasionRecharge%": 1,
+          "Aggro%": -30
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "scarecrow_marker",
+    "name": "Scarecrow Marker",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Aggro%": 15
+        },
+        "special_effects": {
+          "Shield only:Critical Rate": "Critical Rate"
+        }
+      }
+    }
+  },
+  {
+    "id": "scary_face_talisman",
+    "name": "Scary Face Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Lightresistance%": 30,
+          "NeutralResistance%": 15
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "scorching_talisman",
+    "name": "Scorching Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Fireresistance%": 25
+        },
+        "special_effects": {},
+        "base_def": 20
+      }
+    }
+  },
+  {
+    "id": "sea_fog_compass",
+    "name": "Sea Fog Compass",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 10000,
+          "CSPD": 1000,
+          "AilmentResistance%": -50,
+          "Aggro%": -25
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "seahorse_bangle",
+    "name": "Seahorse Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "CriticalRate": 20
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "sealing_bandage",
+    "name": "Sealing Bandage",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": -50,
+          "INT%": -50,
+          "VIT%": -50,
+          "AGI%": -50,
+          "DEX%": -50
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "seashell_choco_talisman",
+    "name": "Seashell Choco Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "CSPD": 300,
+          "FlinchUnavailable": 1,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "shield_plus",
+    "name": "Shield Plus",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "GuardPower%": 10,
+          "GuardRecharge%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "smart_puppy_talisman",
+    "name": "Smart Puppy Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "CSPD%": 30,
+          "NeutralResistance%": 20,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {},
+        "base_def": 11
+      }
+    }
+  },
+  {
+    "id": "snow_potum_doll",
+    "name": "Snow Potum Doll",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 300,
+          "Accuracy%": 12,
+          "Darkresistance%": -6
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "snowland_talisman",
+    "name": "Snowland Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Waterresistance%": 25
+        },
+        "special_effects": {},
+        "base_def": 20
+      }
+    }
+  },
+  {
+    "id": "sofys_talisman",
+    "name": "Sofys Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "sofys_talisman_ii",
+    "name": "Sofys Talisman II",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "MaxMP": 500
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "solar_ring",
+    "name": "Solar Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "Lightresistance%": 5,
+          "Darkresistance%": -10,
+          "AdditionalMagic%": 30
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "specistida",
+    "name": "Specistida",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 5,
+          "PhysicalPierce%": 5,
+          "Aggro%": -5
+        },
+        "special_effects": {},
+        "base_def": 15
+      }
+    }
+  },
+  {
+    "id": "speed_talisman",
+    "name": "Speed Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI": 2,
+          "MaxMP": 200
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "speed_talisman_ii",
+    "name": "Speed Talisman II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI": 4,
+          "MaxMP": 300
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "speed_talisman_iii",
+    "name": "Speed Talisman III",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI": 6,
+          "MaxMP": 400
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "speed_talisman_iv",
+    "name": "Speed Talisman IV",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI": 8,
+          "MaxMP": 500
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "speed_talisman_v",
+    "name": "Speed Talisman V",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI": 10,
+          "MaxMP": 600
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "speed_talisman_vi",
+    "name": "Speed Talisman VI",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI": 12,
+          "MaxMP": 700
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "spirit_tree_bangle",
+    "name": "Spirit Tree Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AttackMPRecovery": 5,
+          "AdditionalMagic%": 25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "spring_breeze_talisman",
+    "name": "Spring Breeze Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Windresistance%": 25
+        },
+        "special_effects": {},
+        "base_def": 20
+      }
+    }
+  },
+  {
+    "id": "spys_talisman",
+    "name": "Spy's Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "Aggro%": -20
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 250,
+          "Aggro%": -25
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "stamina_talisman",
+    "name": "Stamina Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "VIT": 2,
+          "MaxMP": 200
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "stamina_talisman_ii",
+    "name": "Stamina Talisman II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "VIT": 4,
+          "MaxMP": 300
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "stamina_talisman_iii",
+    "name": "Stamina Talisman III",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "VIT": 6,
+          "MaxMP": 400
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "stamina_talisman_iv",
+    "name": "Stamina Talisman IV",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "VIT": 8,
+          "MaxMP": 500
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "stamina_talisman_v",
+    "name": "Stamina Talisman V",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "VIT": 10,
+          "MaxMP": 600
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "stamina_talisman_vi",
+    "name": "Stamina Talisman VI",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "VIT": 12,
+          "MaxMP": 700
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "starfish_shuriken",
+    "name": "Starfish Shuriken",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Stability%": -10,
+          "CriticalRate": 20
+        },
+        "special_effects": {
+          "Ninjutsu Scroll only:Physical Pierce %": "Physical Pierce %",
+          "Unsheathe Attack %": "Unsheathe Attack %"
+        },
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "steel_ring_(flash)",
+    "name": "Steel Ring (Flash)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1500,
+          "CriticalRate%": 60,
+          "MaxMP": 300
+        },
+        "special_effects": {},
+        "base_def": 100
+      }
+    }
+  },
+  {
+    "id": "steel_ring_(magic)",
+    "name": "Steel Ring (Magic)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1500,
+          "MaxMP": 300,
+          "MATK%": 5,
+          "Aggro%": -10
+        },
+        "special_effects": {},
+        "base_def": 100
+      }
+    }
+  },
+  {
+    "id": "steel_ring_(power)",
+    "name": "Steel Ring (Power)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1500,
+          "MaxMP": 300,
+          "ATK%": 5,
+          "Aggro%": -10
+        },
+        "special_effects": {},
+        "base_def": 100
+      }
+    }
+  },
+  {
+    "id": "steel_ring_(resist)",
+    "name": "Steel Ring (Resist)",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1500,
+          "MaxMP": 300,
+          "PhysicalResistance%": 15,
+          "MagicResistance%": 15
+        },
+        "special_effects": {},
+        "base_def": 100
+      }
+    }
+  },
+  {
+    "id": "steeplejack_talisman",
+    "name": "Steeplejack Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "VIT": 1,
+          "AGI": 1,
+          "MaxMP": 300,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "stoodies_ring_i",
+    "name": "Stoodie's Ring I",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "GemDustDropAmount%": 10
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "stoodies_ring_ii",
+    "name": "Stoodie's Ring II",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": -10,
+          "MATK%": -10,
+          "GemDustDropAmount%": 30
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "stoodies_ring_iii",
+    "name": "Stoodie's Ring III",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "ATK%": -20,
+          "MATK%": -20,
+          "GemDustDropAmount%": 50
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "stump_drum",
+    "name": "Stump Drum",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 25,
+          "CriticalRate": 25,
+          "Aggro%": 25
+        },
+        "special_effects": {},
+        "base_def": 10
+      }
+    }
+  },
+  {
+    "id": "sunshine_talisman",
+    "name": "Sunshine Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Lightresistance%": 25
+        },
+        "special_effects": {},
+        "base_def": 20
+      }
+    }
+  },
+  {
+    "id": "supple_ring",
+    "name": "Supple Ring",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Aggro%": 5,
+          "FractionalBarrier%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "talisman",
+    "name": "Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "talisman_of_deep_silence",
+    "name": "Talisman of Deep Silence",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Earthresistance%": 30,
+          "NeutralResistance%": 15
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "terrestrial_talisman",
+    "name": "Terrestrial Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxHP%": 20,
+          "AilmentResistance%": 10,
+          "InvincibleAid(sec)": 1
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "time_warp_watch",
+    "name": "Time Warp Watch",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": -9,
+          "MagicResistance%": -9,
+          "ASPD": 1000
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "toe_beans_talisman",
+    "name": "Toe Beans Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "PhysicalResistance%": 10,
+          "MagicResistance%": 10,
+          "PetEXP%": 10
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "toughness_bangle",
+    "name": "Toughness Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 20,
+          "CriticalDamage%": -5,
+          "Aggro%": 10
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "tree_talisman",
+    "name": "Tree Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "Earthresistance%": 25
+        },
+        "special_effects": {},
+        "base_def": 20
+      }
+    }
+  },
+  {
+    "id": "twin-head_dragon_talisman",
+    "name": "Twin-Head Dragon Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": -3,
+          "MATK%": -3,
+          "FlinchUnavailable": 1,
+          "TumbleUnavailable": 1,
+          "StunUnavailable": 1
+        },
+        "special_effects": {},
+        "base_def": 10
+      }
+    }
+  },
+  {
+    "id": "unsheathe_bangle",
+    "name": "Unsheathe Bangle",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "AGI": 3,
+          "Accuracy": 3,
+          "UnsheatheAttack": 30,
+          "UnsheatheAttack%": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "valley_guardian_stone",
+    "name": "Valley Guardian Stone",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 7,
+          "MagicResistance%": 6,
+          "AilmentResistance%": 5
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "warm_talisman",
+    "name": "Warm Talisman",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 15,
+          "MagicResistance%": 10,
+          "CriticalRate": 20,
+          "FractionalBarrier%": 5
+        },
+        "special_effects": {},
+        "base_def": 0
+      }
+    }
+  },
+  {
+    "id": "warriors_bangle",
+    "name": "Warrior's Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 100,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {}
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 200,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "weaken_talisman",
+    "name": "Weaken Talisman",
+    "type": "special",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": -100,
+          "INT%": -100,
+          "VIT%": -100,
+          "AGI%": -100,
+          "DEX%": -100
+        },
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "yozakura_bangle",
+    "name": "Yozakura Bangle",
+    "type": "special",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalBarrier": 1000,
+          "MagicBarrier": 1000,
+          "BarrierCooldown%": -150
+        },
+        "special_effects": {}
+      }
+    }
+  }
+]

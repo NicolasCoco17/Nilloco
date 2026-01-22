@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "caravan_arrow",
+    "name": "Caravan Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "Accuracy": 2
+        },
+        "special_effects": {},
+        "base_atk": 2,
+        "stability": 15
+      }
+    }
+  },
+  {
+    "id": "flash_volt",
+    "name": "Flash Volt",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "Accuracy": 10,
+          "%strongeragainstLight": -50,
+          "LightElement": 1
+        },
+        "special_effects": {
+          "Bowgun only:Critical Rate": "Critical Rate"
+        },
+        "base_atk": 3,
+        "stability": 15
+      }
+    }
+  },
+  {
+    "id": "magic_arrow",
+    "name": "Magic Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {
+          "Bow only:Accuracy": "Accuracy",
+          "Critical Damage": "Critical Damage",
+          "% stronger against Neutral": "% stronger against Neutral"
+        },
+        "base_atk": 3,
+        "stability": 30
+      }
+    }
+  },
+  {
+    "id": "wooden_arrow",
+    "name": "Wooden Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 4,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "fire_arrow",
+    "name": "Fire Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 5,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "hardwood_arrow",
+    "name": "Hardwood Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 6,
+        "stability": 20
+      },
+      "npc": {
+        "stats": {
+          "CriticalRate": 1
+        },
+        "special_effects": {},
+        "base_atk": 6,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "wind_slash_arrow",
+    "name": "Wind Slash Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX": 1,
+          "PhysicalPierce%": 1
+        },
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "thin_sharp_arrow",
+    "name": "Thin Sharp Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 30,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 12,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "hunter's_arrow",
+    "name": "Hunter's Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "LongRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 20
+      },
+      "npc": {
+        "stats": {
+          "Accuracy%": 1,
+          "LongRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "tempest_arrow",
+    "name": "Tempest Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 10,
+          "CriticalDamage%": 1,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 20
+      },
+      "npc": {
+        "stats": {
+          "CriticalDamage%": 1,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "ice_arrow",
+    "name": "Ice Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 2,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "high-quality_wood_arrow",
+    "name": "High-Quality Wood Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX": 2,
+          "MaxMP": 50,
+          "Accuracy%": 4
+        },
+        "special_effects": {},
+        "base_atk": 18,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "mushroom_arrow",
+    "name": "Mushroom Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": -10,
+          "Aggro%": 5,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 1
+      }
+    }
+  },
+  {
+    "id": "blade_arrow",
+    "name": "Blade Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 3,
+          "CriticalDamage": 1
+        },
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 15
+      }
+    }
+  },
+  {
+    "id": "ceramic_arrow",
+    "name": "Ceramic Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 22,
+        "stability": 10
+      }
+    }
+  },
+  {
+    "id": "iron_arrow",
+    "name": "Iron Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "WeaponATK%": 1
+        },
+        "special_effects": {},
+        "base_atk": 24,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "artisan_arrow",
+    "name": "Artisan Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "MotionSpeed%": 1
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 24
+      }
+    }
+  },
+  {
+    "id": "heavy_bolt",
+    "name": "Heavy Bolt",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 3,
+          "Accuracy%": -25
+        },
+        "special_effects": {
+          "Bowgun only:Weapon ATK": "Weapon ATK"
+        },
+        "base_atk": 32,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "mithril_arrow",
+    "name": "Mithril Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate%": 1,
+          "LongRangeDamage%": 1
+        },
+        "special_effects": {
+          "Bow only:Critical Damage": "Critical Damage"
+        },
+        "base_atk": 32,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "flame_arrow",
+    "name": "Flame Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 34,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "aquamirror_arrow",
+    "name": "Aquamirror Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "CSPD": 100,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 37,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "sharp_wood_arrow",
+    "name": "Sharp Wood Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 6,
+          "CriticalDamage": 3
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "split_arrow",
+    "name": "Split Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {
+          "Bow only:Additional Melee %": "Additional Melee %"
+        },
+        "base_atk": 40,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "twilight_arrow",
+    "name": "Twilight Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -10,
+          "AilmentResistance%": 5,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "pointed_ore_arrow",
+    "name": "Pointed Ore Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF": 50,
+          "PhysicalResistance%": 3,
+          "Accuracy%": -1,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_arrow",
+    "name": "Anniv Festive Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 100,
+          "Aggro%": -10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 50,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "cacao_arrow",
+    "name": "Cacao Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 3,
+          "Aggro%": -6,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "candy_arrow",
+    "name": "Candy Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MDEF%": 10,
+          "MagicResistance%": 10,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 56,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "shooting_star_arrow",
+    "name": "Shooting Star Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Stability%": -50,
+          "CriticalRate": 25
+        },
+        "special_effects": {
+          "Bowgun only:ASPD": "ASPD"
+        },
+        "base_atk": 58,
+        "stability": 1
+      }
+    }
+  },
+  {
+    "id": "arrow_of_penetration",
+    "name": "Arrow of Penetration",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 5,
+          "CriticalDamage": 1
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "chimera_arrow",
+    "name": "Chimera Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -9,
+          "MaxMP": 300,
+          "CriticalRate": 6
+        },
+        "special_effects": {},
+        "base_atk": 67,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "crystal_arrow",
+    "name": "Crystal Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Aggro%": -20,
+          "WeaponATK": 10
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "love_arrow",
+    "name": "Love Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 5,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 71,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "treat_arrow",
+    "name": "Treat Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 1,
+          "CriticalRate%": 1,
+          "Aggro%": -1
+        },
+        "special_effects": {},
+        "base_atk": 77,
+        "stability": 30
+      }
+    }
+  },
+  {
+    "id": "spiky_arrow",
+    "name": "Spiky Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicResistance%": 5,
+          "DarkElement": 1,
+          "ReduceDmg(Floor)%": 5
+        },
+        "special_effects": {},
+        "base_atk": 79,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "lil_empress_arrow",
+    "name": "Lil Empress Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "DEF%": -30,
+          "ASPD%": 10,
+          "Aggro%": -10
+        },
+        "special_effects": {},
+        "base_atk": 83,
+        "stability": 15
+      }
+    }
+  },
+  {
+    "id": "serein_arrow",
+    "name": "Serein Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "TumbleUnavailable": 1,
+          "AbsoluteAccuracy%": 1
+        },
+        "special_effects": {
+          "Bowgun,Bow only:Water Element": "Water Element"
+        },
+        "base_atk": 84,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "sakura_princess_arrow",
+    "name": "Sakura Princess Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000
+        },
+        "special_effects": {},
+        "base_atk": 88,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "apple_arrow",
+    "name": "Apple Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Aggro%": -10,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 15
+      }
+    }
+  },
+  {
+    "id": "elven_arrow",
+    "name": "Elven Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 20,
+          "Anticipate%": 10
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "evil_beast_arrow",
+    "name": "Evil Beast Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {
+          "Bow only:Attack MP Recovery": "Attack MP Recovery",
+          "Short Range Damage %": "Short Range Damage %"
+        },
+        "base_atk": 100,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "holy_tree_arrow",
+    "name": "Holy Tree Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "joyful_arrow",
+    "name": "Joyful Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "twilight_sakura_arrow",
+    "name": "Twilight Sakura Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Lightresistance%": 5,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_arrow_ii",
+    "name": "Anniv Festive Arrow II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 200,
+          "Aggro%": -12
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 101,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "kijimu's_arrow",
+    "name": "Kijimu's Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MagicPierce%": 10
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        },
+        "base_atk": 106
+      }
+    }
+  },
+  {
+    "id": "poison_needle",
+    "name": "Poison Needle",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AilmentResistance%": -3,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {
+          "1-Handed Sword only:Critical Rate": "Critical Rate"
+        },
+        "base_atk": 106
+      }
+    }
+  },
+  {
+    "id": "ocean_arrow",
+    "name": "Ocean Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "Windresistance%": -3,
+          "WaterElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 10
+      }
+    }
+  },
+  {
+    "id": "spiny_leaf_arrow",
+    "name": "Spiny Leaf Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 10,
+          "Aggro%": 10,
+          "EarthElement": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 110,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "quartz_arrow",
+    "name": "Quartz Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 10
+        },
+        "special_effects": {},
+        "base_atk": 115,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "demon_empress_arrow",
+    "name": "Demon Empress Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 15,
+          "Aggro%": -15,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 10
+      }
+    }
+  },
+  {
+    "id": "drill_bolt",
+    "name": "Drill Bolt",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "CriticalDamage": 2,
+          "Aggro%": 20
+        },
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 10
+      }
+    }
+  },
+  {
+    "id": "specter_arrow",
+    "name": "Specter Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DarkElement": 1,
+          "AdditionalMagic%": 50,
+          "InvincibleAid(sec)": 1
+        },
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "herb_arrow",
+    "name": "Herb Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "Dodge": 40,
+          "Darkresistance%": 10,
+          "WindElement": 1,
+          "EvasionRecharge%": 20
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "devil's_arrow",
+    "name": "Devil's Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 8,
+          "ShortRangeDamage%": 2,
+          "Anticipate%": 4
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "bat_fang_arrow",
+    "name": "Bat Fang Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "Accuracy": -20,
+          "CriticalRate": 10,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 136,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "dreamy_arrow",
+    "name": "Dreamy Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "NaturalHPRegen%": 10,
+          "Aggro%": -20,
+          "%strongeragainstNeutral": 5
+        },
+        "special_effects": {},
+        "base_atk": 136,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "lovely_autumn_arrow",
+    "name": "Lovely Autumn Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "WeaponATK%": 10,
+          "GuardBreak%": 15
+        },
+        "special_effects": {},
+        "base_atk": 142,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_arrow_iii",
+    "name": "Anniv Festive Arrow III",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 300,
+          "Aggro%": -14
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 146,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "queen_bee_arrow",
+    "name": "Queen Bee Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Waterresistance%": 5,
+          "WindElement": 1,
+          "TumbleUnavailable": 1,
+          "AdditionalMelee%": 10
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "blazing_tail_arrow",
+    "name": "Blazing Tail Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Fireresistance%": 10,
+          "FireElement": 1,
+          "ReduceDmg(Bowling)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 152,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "maple_arrow",
+    "name": "Maple Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 1,
+          "AilmentResistance%": 5,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 158,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_arrow",
+    "name": "Pearl Sakura Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 200,
+          "CriticalRate": 10
+        },
+        "special_effects": {
+          "Bow only:Long Range Damage %": "Long Range Damage %"
+        },
+        "base_atk": 160,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "guardian_forest_arrow",
+    "name": "Guardian Forest Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 50,
+          "%strongeragainstFire": -10,
+          "%strongeragainstLight": -20,
+          "Aggro%": -25,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "spiral_shell_arrow",
+    "name": "Spiral Shell Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "Anticipate%": 10
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "moonlight_arrow",
+    "name": "Moonlight Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MATK%": 1,
+          "MagicPierce%": 10,
+          "AttackMPRecovery": 1,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 181
+      }
+    }
+  },
+  {
+    "id": "sunny_spring_arrow",
+    "name": "Sunny Spring Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 5,
+          "MagicPierce%": 5,
+          "LightElement": 1,
+          "GuardBreak%": 5
+        },
+        "special_effects": {},
+        "base_atk": 181,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "dragon_guard_arrow",
+    "name": "Dragon Guard Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 10,
+          "Earthresistance%": -5,
+          "FireElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "starhammer_arrow",
+    "name": "Starhammer Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": -10,
+          "CriticalRate": 20,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 10
+      }
+    }
+  },
+  {
+    "id": "evil_gaze_arrow",
+    "name": "Evil Gaze Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 30,
+          "Windresistance%": 10,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 190,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "anniv_festive_arrow_iv",
+    "name": "Anniv Festive Arrow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 400,
+          "Aggro%": -16
+        },
+        "special_effects": {
+          "Fractional Barrier %": 10
+        },
+        "base_atk": 194,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "dragon_palace_arrow",
+    "name": "Dragon Palace Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 25,
+          "CriticalRate%": 25,
+          "WaterElement": 1,
+          "%strongeragainstNeutral": -25,
+          "StunUnavailable": 1
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "driver_bolt",
+    "name": "Driver Bolt",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": -25,
+          "AttackMPRecovery": 3,
+          "NeutralResistance%": 15
+        },
+        "special_effects": {},
+        "base_atk": 200,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "dry_water_arrow",
+    "name": "Dry Water Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 15,
+          "Aggro%": 30,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 206,
+        "stability": 10
+      }
+    }
+  },
+  {
+    "id": "reefy_coast_arrow",
+    "name": "Reefy Coast Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MagicResistance%": 5,
+          "Accuracy%": 10,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "eumano_arrow",
+    "name": "Eumano Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 5,
+          "EarthElement": 1,
+          "LongRangeDamage%": 1,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {},
+        "base_atk": 226,
+        "stability": 25
+      }
+    }
+  },
+  {
+    "id": "candle_arrow_(blue_flame)",
+    "name": "Candle Arrow (Blue Flame)",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "INT%": 1,
+          "Stability%": 5,
+          "Waterresistance%": -10,
+          "FireElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 247,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "eerie_bird_piercing_arrow",
+    "name": "Eerie Bird Piercing Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "CSPD%": 10,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 20
+      }
+    }
+  },
+  {
+    "id": "phantom_melody_arrow",
+    "name": "Phantom Melody Arrow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "DEX%": 2,
+          "MaxMP": 100,
+          "LightElement": 1,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_atk": 292,
+        "stability": 20
+      }
+    }
+  }
+]

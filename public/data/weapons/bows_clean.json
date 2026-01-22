@@ -1,0 +1,4018 @@
+[
+  {
+    "id": "9th_anniv_bow_v",
+    "name": "9th Anniv Bow V",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "ATK%": 10,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 13,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "ASPD": "ASPD",
+          "Katana only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 291,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "bow",
+    "name": "Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 6,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 6,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 6,
+        "stability": 60,
+        "potential": 15,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hard_wood_bow",
+    "name": "Hard Wood Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "STR": 2,
+          "Accuracy": -1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 10,
+        "stability": 60,
+        "potential": 16,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "gear_bow",
+    "name": "Gear Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate%": -50,
+          "CriticalDamage%": 25,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 13,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "long_bow",
+    "name": "Long Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge": -6,
+          "Aggro%": -2,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "Dodge": -4,
+          "Aggro%": -5,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 60,
+        "potential": 18,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_bow",
+    "name": "1st Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "Accuracy%": 3,
+          "CriticalDamage": 2,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bow",
+    "name": "2nd Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "Accuracy%": 3,
+          "CriticalRate": 2,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bow",
+    "name": "3rd Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "Accuracy%": 3,
+          "CriticalDamage": 2,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow",
+    "name": "4th Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 1,
+          "Accuracy%": 3,
+          "CriticalDamage": 2,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 17,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iron_bow",
+    "name": "Iron Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "VIT": 2,
+          "ATK%": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "VIT": 2,
+          "ATK%": 1,
+          "PhysicalPierce%": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 20,
+        "stability": 60,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "alto_ruin_bow",
+    "name": "Alto Ruin Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 25,
+          "CriticalDamage%": -50,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 21,
+        "stability": 30
+      }
+    }
+  },
+  {
+    "id": "forest_wolf_bow",
+    "name": "Forest Wolf Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD%": 12,
+          "EvasionRecharge%": 6,
+          "WindElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ASPD%": 10,
+          "EvasionRecharge%": 3,
+          "WindElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 23,
+        "stability": 70,
+        "potential": 20,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "zono's_short_bow",
+    "name": "Zono's Short Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "AttackMPRecovery": 1,
+          "%strongeragainstNeutral": 15
+        },
+        "special_effects": {},
+        "base_atk": 24,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "metal_horn_bow",
+    "name": "Metal Horn Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR": 2,
+          "ATK%": 1,
+          "CriticalRate": 10,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 26,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "STR": 4,
+          "ATK%": 2,
+          "CriticalRate": 10,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 26,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 26,
+        "stability": 60,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "stone_bow",
+    "name": "Stone Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 150,
+          "ASPD%": -20,
+          "CriticalRate": 5,
+          "EarthElement": 1,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 30,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_bow_ii",
+    "name": "1st Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "Accuracy%": 6,
+          "CriticalDamage": 4,
+          "LongRangeDamage%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bow_ii",
+    "name": "2nd Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "Accuracy%": 6,
+          "CriticalRate": 4,
+          "LongRangeDamage%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bow_ii",
+    "name": "3rd Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "Accuracy%": 6,
+          "CriticalDamage": 4,
+          "LongRangeDamage%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow_ii",
+    "name": "4th Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "Accuracy%": 6,
+          "CriticalDamage": 4,
+          "LongRangeDamage%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cone_bow",
+    "name": "Cone Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 16,
+          "CriticalRate": 26,
+          "CriticalDamage": 6,
+          "Aggro%": -30,
+          "NeutralResistance%": 5,
+          "ReduceDmg(Bowling)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "steel_leaf_bow",
+    "name": "Steel Leaf Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "ATK%": 2,
+          "Dodge%": 3,
+          "CriticalDamage%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60,
+        "potential": 23,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "DEX%": 1,
+          "ATK%": 2,
+          "Dodge%": 1,
+          "CriticalDamage": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 33,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "sakura_shooter",
+    "name": "Sakura Shooter",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "PhysicalPierce%": 10,
+          "CriticalDamage": 1,
+          "LightElement": 1,
+          "AttackMPRecovery": 1,
+          "LongRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 60
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "PhysicalPierce%": 10,
+          "CriticalDamage": 2,
+          "LightElement": 1,
+          "AttackMPRecovery": 3,
+          "LongRangeDamage%": 4,
+          "WeaponATK": 180
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "blaster_bow",
+    "name": "Blaster Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 5,
+          "PhysicalResistance%": 7,
+          "Accuracy%": -6,
+          "GuardRecharge%": 5,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 1,
+          "PhysicalResistance%": 5,
+          "Accuracy%": -6,
+          "GuardRecharge%": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 60,
+        "potential": 26,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ring_bow",
+    "name": "Ring Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 150,
+          "PhysicalPierce%": 10,
+          "LongRangeDamage%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 60,
+        "potential": 26,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 100,
+          "PhysicalPierce%": 8,
+          "LongRangeDamage%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 48,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_bow_iii",
+    "name": "1st Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "Accuracy%": 9,
+          "CriticalDamage": 6,
+          "LongRangeDamage%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bow_iii",
+    "name": "2nd Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "Accuracy%": 9,
+          "CriticalRate": 6,
+          "LongRangeDamage%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bow_iii",
+    "name": "3rd Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "Accuracy%": 9,
+          "CriticalDamage": 6,
+          "LongRangeDamage%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow_iii",
+    "name": "4th Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "Accuracy%": 9,
+          "CriticalDamage": 6,
+          "LongRangeDamage%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bow",
+    "name": "5th Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "Accuracy%": 30,
+          "CriticalDamage": 8,
+          "LongRangeDamage%": 4,
+          "Anticipate%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 52,
+        "stability": 60,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "grand_horn_bow",
+    "name": "Grand Horn Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 3,
+          "Accuracy": -20,
+          "CriticalDamage": 10,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 57,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 57,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 3,
+          "Accuracy%": -10,
+          "CriticalDamage": 8,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 57,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bow",
+    "name": "6th Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 4,
+          "CriticalRate": 10,
+          "CriticalDamage": 8,
+          "Anticipate%": 20,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Katana only:Stability %": "Stability %"
+        },
+        "base_atk": 60,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "desert_mentum",
+    "name": "Desert Mentum",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 3,
+          "CriticalRate": 6,
+          "Aggro%": -20,
+          "AttackMPRecovery": 3,
+          "UnsheatheAttack": 100,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 55
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 55,
+        "potential": 27,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 3,
+          "CriticalRate": 12,
+          "Aggro%": -20,
+          "AttackMPRecovery": 1,
+          "UnsheatheAttack": 10,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 55
+      }
+    }
+  },
+  {
+    "id": "icebow_verglas",
+    "name": "Icebow Verglas",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "WaterElement": 1,
+          "LongRangeDamage%": 1,
+          "AdditionalMagic%": 75,
+          "ATKUP(INT%)": 50,
+          "ATKDOWN(STR%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 60,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iron_exoskeleton_bow",
+    "name": "Iron Exoskeleton Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": 30,
+          "MagicResistance%": 5,
+          "GuardRecharge%": 10,
+          "EarthElement": 1,
+          "LongRangeDamage%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 40
+      },
+      "npc": {
+        "stats": {
+          "DEF": 10,
+          "MagicResistance%": 3,
+          "GuardRecharge%": 5,
+          "EarthElement": 1,
+          "LongRangeDamage%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 40
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 60,
+        "stability": 40,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cupid_bow",
+    "name": "Cupid Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 30,
+          "Aggro%": -30,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 64,
+        "stability": 65
+      }
+    }
+  },
+  {
+    "id": "panzer_bow",
+    "name": "Panzer Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "VIT": 4,
+          "MaxHP%": 7,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Physical Barrier": 1000
+        },
+        "base_atk": 65,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "VIT": 5,
+          "MaxHP%": 10,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Physical Barrier": 1000
+        },
+        "base_atk": 65,
+        "stability": 65
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 60,
+        "potential": 29,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bow_iv",
+    "name": "2nd Anniv Bow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "Accuracy%": 12,
+          "CriticalRate": 8,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bow_iv",
+    "name": "3rd Anniv Bow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "Accuracy%": 12,
+          "CriticalDamage": 8,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow_iv",
+    "name": "4th Anniv Bow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "Accuracy%": 12,
+          "CriticalDamage": 8,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 70,
+        "stability": 60,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "death_eater",
+    "name": "Death Eater",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "Dodge": 14,
+          "CriticalRate": 4,
+          "CriticalDamage": 4,
+          "EvasionRecharge%": 7,
+          "FireElement": 1,
+          "AttackMPRecovery": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "Dodge": 28,
+          "CriticalRate": 3,
+          "CriticalDamage": 2,
+          "EvasionRecharge%": 14,
+          "FireElement": 1,
+          "AttackMPRecovery": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "skeleton_bow",
+    "name": "Skeleton Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": 250,
+          "CriticalDamage%": 4,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ASPD": 350,
+          "CriticalDamage%": 4,
+          "LongRangeDamage%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 75,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lilac_bow",
+    "name": "Lilac Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy%": 50,
+          "CriticalRate": 25,
+          "WindElement": 1,
+          "AdditionalMelee%": 75
+        },
+        "special_effects": {},
+        "base_atk": 77,
+        "stability": 7
+      }
+    }
+  },
+  {
+    "id": "huge_steel_bow",
+    "name": "Huge Steel Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "Dodge": -32,
+          "GuardRecharge%": 10,
+          "LongRangeDamage%": 2,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 40
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 40,
+        "potential": 24,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 2,
+          "Dodge": -24,
+          "GuardRecharge%": 8,
+          "LongRangeDamage%": 1,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 40
+      }
+    }
+  },
+  {
+    "id": "sefeed_bow",
+    "name": "Sefeed Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "MDEF%": 30,
+          "MagicResistance%": 15,
+          "LightElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 4,
+          "MDEF%": 40,
+          "MagicResistance%": 20,
+          "LightElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 65
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 80,
+        "stability": 65,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_bow_v",
+    "name": "2nd Anniv Bow V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "Accuracy%": 15,
+          "CriticalRate": 10,
+          "LongRangeDamage%": 5,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bow_v",
+    "name": "3rd Anniv Bow V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "Accuracy%": 15,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 5,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow_v",
+    "name": "4th Anniv Bow V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "Accuracy%": 15,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 5,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bow_ii",
+    "name": "5th Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "Accuracy%": 30,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 5,
+          "Anticipate%": 5,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cone_bow_ii",
+    "name": "Cone Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 20,
+          "CriticalRate": 31,
+          "CriticalDamage": 9,
+          "Aggro%": -35,
+          "NeutralResistance%": 10,
+          "ReduceDmg(Bowling)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 85,
+        "stability": 60,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "red_steel_arcus",
+    "name": "Red Steel Arcus",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 30,
+          "ASPD": 1000,
+          "Aggro%": -90
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "thunderbolt_bow",
+    "name": "Thunderbolt Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD": 1000,
+          "CriticalRate%": 8,
+          "CriticalDamage%": 4,
+          "WindElement": 1,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ASPD": 750,
+          "CriticalRate%": 8,
+          "CriticalDamage%": 4,
+          "WindElement": 1,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "leve_bow",
+    "name": "Leve Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": -30,
+          "Dodge%": 30,
+          "CriticalRate": 8,
+          "CriticalDamage%": 4,
+          "AttackMPRecovery": 16,
+          "LongRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "DEF%": -15,
+          "CriticalRate": 4,
+          "CriticalDamage%": 4,
+          "AttackMPRecovery": 8,
+          "LongRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 92,
+        "stability": 50,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bow_ii",
+    "name": "6th Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 5,
+          "ATK%": 5,
+          "CriticalRate": 10,
+          "CriticalDamage": 10,
+          "Anticipate%": 20,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Katana only:Stability %": "Stability %"
+        },
+        "base_atk": 96,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bow",
+    "name": "7th Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ASPD": 500,
+          "CriticalRate": 30,
+          "LongRangeDamage%": 4,
+          "Anticipate%": 15,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 60,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_shooter",
+    "name": "Dia Shooter",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "MaxMP": 300,
+          "ASPD": 500,
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "LongRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 96,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "iris_ark_bow",
+    "name": "Iris Ark Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 12,
+          "DEF%": -25,
+          "MDEF%": -25,
+          "Aggro%": -30,
+          "LightElement": 1,
+          "LongRangeDamage%": 6,
+          "AdditionalMagic%": 50,
+          "InvincibleAid(sec)": 3
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "slingshot",
+    "name": "Slingshot",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 5,
+          "PhysicalResistance%": -15,
+          "Dodge%": 15,
+          "EarthElement": 1,
+          "MotionSpeed%": 3,
+          "ATKUP(AGI%)": 200
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bow_vi",
+    "name": "3rd Anniv Bow VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "Accuracy%": 18,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 6,
+          "Anticipate%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow_vi",
+    "name": "4th Anniv Bow VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "Accuracy%": 18,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 6,
+          "Anticipate%": 3,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 107,
+        "stability": 60,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "berserk_wind",
+    "name": "Berserk Wind",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 5,
+          "ATK%": 5,
+          "Accuracy%": 10,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 5,
+          "GuardBreak%": 10,
+          "Recoil%": 0.01
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "ATK%": 5,
+          "Accuracy%": 15,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 4,
+          "GuardBreak%": 5,
+          "Recoil%": 0.01
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 60,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "water_guardian_bow",
+    "name": "Water Guardian Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 5,
+          "Accuracy%": 15,
+          "Waterresistance%": 10,
+          "Aggro%": -45,
+          "WaterElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 65
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 65,
+        "potential": 36,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 5,
+          "Accuracy%": 10,
+          "Waterresistance%": 10,
+          "Aggro%": -30,
+          "WaterElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 110,
+        "stability": 65
+      }
+    }
+  },
+  {
+    "id": "tenebrosity_bow",
+    "name": "Tenebrosity Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 250,
+          "Aggro%": -15,
+          "DarkElement": 1,
+          "LongRangeDamage%": 5,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 119,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "Aggro%": -20,
+          "DarkElement": 1,
+          "LongRangeDamage%": 5,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 119,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 119,
+        "stability": 60,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_bow_vii",
+    "name": "3rd Anniv Bow VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "Accuracy%": 21,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 6,
+          "Anticipate%": 6,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow_vii",
+    "name": "4th Anniv Bow VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "Accuracy%": 21,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 6,
+          "Anticipate%": 6,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bow_iii",
+    "name": "5th Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "Accuracy%": 30,
+          "CriticalDamage": 12,
+          "LongRangeDamage%": 6,
+          "Anticipate%": 7,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "elfin_bow",
+    "name": "Elfin Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 45,
+          "CriticalRate": 15,
+          "LightElement": 1,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "Accuracy": 30,
+          "CriticalRate": 10,
+          "LightElement": 1,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 125,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bow_iii",
+    "name": "6th Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 6,
+          "CriticalRate": 15,
+          "CriticalDamage": 12,
+          "Anticipate%": 20,
+          "ReduceDmg(Bullet)%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Katana only:Stability %": "Stability %"
+        },
+        "base_atk": 132,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bow_ii",
+    "name": "7th Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ASPD": 650,
+          "CriticalRate": 30,
+          "LongRangeDamage%": 6,
+          "Anticipate%": 17,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bow",
+    "name": "8th Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "MaxHP": 2500,
+          "ATK%": 6,
+          "Accuracy%": 15,
+          "CriticalRate": 35,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_bow",
+    "name": "Sakura Lantern Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "Aggro%": -40,
+          "EarthElement": 1,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "zel_shooter",
+    "name": "Zel Shooter",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 3,
+          "ATK%": 5,
+          "MDEF": 150,
+          "MagicResistance%": 25,
+          "CriticalDamage": 1
+        },
+        "special_effects": {
+          "Magic Barrier": 4000
+        },
+        "base_atk": 132,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 4,
+          "ATK%": 6,
+          "MDEF": 100,
+          "MagicResistance%": 10,
+          "CriticalDamage%": 2
+        },
+        "special_effects": {
+          "Magic Barrier": 1000
+        },
+        "base_atk": 132,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 132,
+        "stability": 60,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lil_empress_bow",
+    "name": "Lil Empress Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1,
+          "Anticipate%": 10,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 137,
+        "stability": 55
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1,
+          "Anticipate%": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 137,
+        "stability": 55
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 137,
+        "stability": 55,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow_viii",
+    "name": "4th Anniv Bow VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "Accuracy%": 24,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 6,
+          "Anticipate%": 9,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bow_iv",
+    "name": "5th Anniv Bow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "Accuracy%": 30,
+          "CriticalDamage": 12,
+          "LongRangeDamage%": 6,
+          "Anticipate%": 9,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "punisher_bow",
+    "name": "Punisher Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 6,
+          "MDEF%": 20,
+          "FireElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 6,
+          "MDEF%": 10,
+          "FireElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "rose_choco_bow",
+    "name": "Rose Choco Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "ATK%": 6,
+          "%strongeragainstNeutral": 25,
+          "ReduceDmg(Bullet)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 145,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "eroded_strahl",
+    "name": "Eroded Strahl",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "PhysicalPierce%": 16,
+          "LongRangeDamage%": 8,
+          "%strongeragainstNeutral": 30,
+          "ReduceDmg(Bowling)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 151,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "PhysicalPierce%": 7,
+          "LongRangeDamage%": 7,
+          "%strongeragainstNeutral": 25,
+          "ReduceDmg(Bowling)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 151,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 151,
+        "stability": 65,
+        "potential": 42,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cone_bow_iii",
+    "name": "Cone Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 24,
+          "CriticalRate": 36,
+          "CriticalDamage": 12,
+          "Aggro%": -40,
+          "NeutralResistance%": 15,
+          "ReduceDmg(Bowling)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 60,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "glacial_ice_bow",
+    "name": "Glacial Ice Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 6,
+          "MATK%": 6,
+          "CSPD": 1000,
+          "Aggro%": -15,
+          "WaterElement": 1,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "ryba_bow",
+    "name": "Ryba Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "DarkElement": 1,
+          "LongRangeDamage%": 6,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "DarkElement": 1,
+          "LongRangeDamage%": 6,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 159,
+        "stability": 60,
+        "potential": 42,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_bow_ix",
+    "name": "4th Anniv Bow IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "Accuracy%": 27,
+          "CriticalDamage": 10,
+          "LongRangeDamage%": 7,
+          "Anticipate%": 12,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bow_v",
+    "name": "5th Anniv Bow V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "Accuracy%": 30,
+          "CriticalDamage": 14,
+          "LongRangeDamage%": 7,
+          "Anticipate%": 11,
+          "ReduceDmg(Bullet)%": 2,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bow_iv",
+    "name": "6th Anniv Bow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "CriticalRate": 15,
+          "CriticalDamage": 14,
+          "Anticipate%": 20,
+          "ReduceDmg(Bullet)%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Katana only:Stability %": "Stability %"
+        },
+        "base_atk": 166,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bow_iii",
+    "name": "7th Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ASPD": 800,
+          "CriticalRate": 30,
+          "LongRangeDamage%": 7,
+          "Anticipate%": 19,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bow_ii",
+    "name": "8th Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "MaxHP": 3000,
+          "ATK%": 7,
+          "Accuracy%": 20,
+          "CriticalRate": 35,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bow",
+    "name": "9th Anniv Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 6,
+          "ATK%": 7,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 5,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "ASPD": "ASPD",
+          "Katana only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 166,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 166,
+        "stability": 60,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "forest_bow",
+    "name": "Forest Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "MATK%": 3,
+          "CriticalRate": 15,
+          "WindElement": 1,
+          "AttackMPRecovery": 10,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 173,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 173,
+        "stability": 60,
+        "potential": 44,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "MATK%": 3,
+          "CriticalRate": 14,
+          "WindElement": 1,
+          "AttackMPRecovery": 7,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 173,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bow_vi",
+    "name": "5th Anniv Bow VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "Accuracy%": 30,
+          "CriticalDamage": 14,
+          "LongRangeDamage%": 7,
+          "Anticipate%": 13,
+          "ReduceDmg(Bullet)%": 4,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 180,
+        "stability": 60,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "latria_bow",
+    "name": "Latria Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 10,
+          "Windresistance%": 10,
+          "Aggro%": -20,
+          "EarthElement": 1,
+          "AttackMPRecovery": 10,
+          "LongRangeDamage%": 3,
+          "ReduceDmg(Bullet)%": 10,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 291,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "lluvia_bow",
+    "name": "Lluvia Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "WaterElement": 1,
+          "AttackMPRecovery": 5,
+          "AdditionalMagic%": 100,
+          "MATKUP(DEX%)": 100,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 188,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 188,
+        "stability": 60,
+        "potential": 45,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "WaterElement": 1,
+          "AttackMPRecovery": 5,
+          "AdditionalMagic%": 90,
+          "MATKUP(DEX%)": 90
+        },
+        "special_effects": {},
+        "base_atk": 188,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_bow_vii",
+    "name": "5th Anniv Bow VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "Accuracy%": 30,
+          "CriticalDamage": 14,
+          "LongRangeDamage%": 7,
+          "Anticipate%": 15,
+          "ReduceDmg(Bullet)%": 6,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bow_v",
+    "name": "6th Anniv Bow V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "CriticalRate": 20,
+          "CriticalDamage": 14,
+          "Anticipate%": 20,
+          "ReduceDmg(Bullet)%": 6,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Katana only:Stability %": "Stability %"
+        },
+        "base_atk": 196,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bow_iv",
+    "name": "7th Anniv Bow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ASPD": 950,
+          "CriticalRate": 30,
+          "LongRangeDamage%": 7,
+          "Anticipate%": 21,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bow_iii",
+    "name": "8th Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "MaxHP": 3500,
+          "ATK%": 7,
+          "Accuracy%": 25,
+          "CriticalRate": 35,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bow_ii",
+    "name": "9th Anniv Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 7,
+          "ATK%": 7,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 7,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "ASPD": "ASPD",
+          "Katana only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 196,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "cupid_bow_ii",
+    "name": "Cupid Bow II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "CriticalRate": 35,
+          "Aggro%": -30,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "demon_empress_bow",
+    "name": "Demon Empress Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 250,
+          "ATK%": 7,
+          "CriticalRate": 25,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 25,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {
+          "Katana only:ASPD": "ASPD"
+        },
+        "base_atk": 196,
+        "stability": 55
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 7,
+          "CriticalRate": 20,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 10,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {
+          "Katana only:ASPD": "ASPD"
+        },
+        "base_atk": 196,
+        "stability": 55
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 12
+        },
+        "special_effects": {},
+        "base_atk": 196,
+        "stability": 55,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bamboo_bow",
+    "name": "Bamboo Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 200,
+          "Accuracy%": 300,
+          "ShortRangeDamage%": -32,
+          "LongRangeDamage%": 16,
+          "AbsoluteAccuracy%": 10
+        },
+        "special_effects": {},
+        "base_atk": 204
+      }
+    }
+  },
+  {
+    "id": "sanctus_bow",
+    "name": "Sanctus Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "PhysicalPierce%": 16,
+          "%strongeragainstDark": 5,
+          "Aggro%": -20,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 204,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "PhysicalPierce%": 16,
+          "%strongeragainstDark": 5,
+          "Aggro%": -30,
+          "LightElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 204,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 204,
+        "stability": 60,
+        "potential": 47,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "yozakura_crescent_bow",
+    "name": "Yozakura Crescent Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 2,
+          "MaxHP": 4000,
+          "Accuracy": 300,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "LongRangeDamage%": 6,
+          "ReduceDmg(Meteor)%": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Katana only:Short Range Damage %": "Short Range Damage %"
+        },
+        "base_atk": 204,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "vulture_shooter",
+    "name": "Vulture Shooter",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 14,
+          "Accuracy": 100,
+          "Aggro%": -30,
+          "WindElement": 1,
+          "LongRangeDamage%": 7,
+          "GuardBreak%": 28
+        },
+        "special_effects": {},
+        "base_atk": 206,
+        "stability": 50
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 14,
+          "Accuracy": 10,
+          "Aggro%": -60,
+          "WindElement": 1,
+          "LongRangeDamage%": 7,
+          "GuardBreak%": 21
+        },
+        "special_effects": {},
+        "base_atk": 206,
+        "stability": 50
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 206,
+        "stability": 50,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "nychterida",
+    "name": "Nychterida",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalPierce%": 20,
+          "ASPD%": -30,
+          "%strongeragainstLight": 10,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 210,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "inferno_curse_bow",
+    "name": "Inferno Curse Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 5000,
+          "ATK%": 8,
+          "Stability%": 6,
+          "CriticalDamage%": 7,
+          "EarthElement": 1,
+          "ReduceDmg(PlayerEpicenter)%": 20
+        },
+        "special_effects": {
+          "Magic Barrier": 2500
+        },
+        "base_atk": 211,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 6000,
+          "ATK%": 8,
+          "Stability%": 10,
+          "CriticalDamage%": 3,
+          "EarthElement": 1,
+          "ReduceDmg(PlayerEpicenter)%": 10
+        },
+        "special_effects": {
+          "Magic Barrier": 250
+        },
+        "base_atk": 211,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 211,
+        "stability": 60,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_bow_vi",
+    "name": "6th Anniv Bow VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "ATK%": 8,
+          "CriticalRate": 20,
+          "CriticalDamage": 16,
+          "Anticipate%": 20,
+          "ReduceDmg(Bullet)%": 8,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {
+          "Katana only:Stability %": "Stability %"
+        },
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bow_v",
+    "name": "7th Anniv Bow V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "ASPD": 1100,
+          "CriticalRate": 30,
+          "LongRangeDamage%": 8,
+          "Anticipate%": 23,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bow_iv",
+    "name": "8th Anniv Bow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "MaxHP": 4000,
+          "ATK%": 8,
+          "Accuracy%": 30,
+          "CriticalRate": 35,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bow_iii",
+    "name": "9th Anniv Bow III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 8,
+          "ATK%": 8,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 9,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "ASPD": "ASPD",
+          "Katana only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "beastlord_bow",
+    "name": "Beastlord Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "reaper_bow",
+    "name": "Reaper Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "CriticalDamage": 8,
+          "%strongeragainstLight": 5,
+          "DarkElement": 1,
+          "AdditionalMelee%": 100
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60,
+        "potential": 49,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxHP": 1500,
+          "CriticalDamage": 8,
+          "%strongeragainstLight": 5,
+          "DarkElement": 1,
+          "AdditionalMelee%": 75,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 220,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_long_bow",
+    "name": "Pearl Sakura Long Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "Aggro%": -40,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 230,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "poison_flame_dragon_bow",
+    "name": "Poison Flame Dragon Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 4000,
+          "MaxHP%": 20,
+          "PhysicalResistance%": 20,
+          "CriticalRate": 120,
+          "Aggro%": 30,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": 10,
+          "ATK%": 8,
+          "PhysicalResistance%": 15,
+          "CriticalRate%": 45,
+          "%strongeragainstEarth": 5,
+          "%strongeragainstLight": 5,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 60,
+        "potential": 50,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "vermio_bow",
+    "name": "Vermio Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "CSPD": 30,
+          "%strongeragainstEarth": 5,
+          "FireElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 8,
+          "CSPD%": 40,
+          "%strongeragainstEarth": 5,
+          "FireElement": 1,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 60,
+        "potential": 50,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "metriofron",
+    "name": "Metriofron",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy%": 50,
+          "Aggro%": -50,
+          "Anticipate%": 50
+        },
+        "special_effects": {},
+        "base_atk": 291,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_bow_vi",
+    "name": "7th Anniv Bow VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "ASPD": 1250,
+          "CriticalRate": 30,
+          "LongRangeDamage%": 9,
+          "Anticipate%": 25,
+          "ReduceDmg(Bullet)%": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bow_v",
+    "name": "8th Anniv Bow V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "MaxHP": 4500,
+          "ATK%": 9,
+          "Accuracy%": 35,
+          "CriticalRate": 35,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bow_iv",
+    "name": "9th Anniv Bow IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 9,
+          "ATK%": 9,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 11,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "ASPD": "ASPD",
+          "Katana only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 254,
+        "stability": 60,
+        "potential": 52
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 254,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "guard_bone_bow",
+    "name": "Guard Bone Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 9,
+          "MagicResistance%": 20,
+          "%strongeragainstNeutral": 25,
+          "UnsheatheAttack%": 9,
+          "ReduceDmg(StraightLine)%": 35
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "MagicResistance%": 25,
+          "%strongeragainstWind": 10,
+          "EarthElement": 1,
+          "LongRangeDamage%": 9,
+          "ReduceDmg(StraightLine)%": 15
+        },
+        "special_effects": {
+          "Magic Barrier": 2000
+        },
+        "base_atk": 254,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 65,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "seapent_bow",
+    "name": "Seapent Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge": 10,
+          "WaterElement": 1,
+          "LongRangeDamage%": 9,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "Dodge": 30,
+          "WaterElement": 1,
+          "LongRangeDamage%": 9,
+          "MotionSpeed%": 6
+        },
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 254,
+        "stability": 60,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "red-winged_dragon_bow",
+    "name": "Red-Winged Dragon Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 50,
+          "Accuracy%": 100,
+          "CriticalRate%": 150,
+          "FireElement": 1,
+          "AttackRange(m)": 12
+        },
+        "special_effects": {
+          "Katana only:Short Range Damage %": "Short Range Damage %"
+        },
+        "base_atk": 272,
+        "stability": 50
+      }
+    }
+  },
+  {
+    "id": "savon_bow",
+    "name": "Savon Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 9,
+          "NaturalMPRegen": 25,
+          "ATK%": 9,
+          "PhysicalResistance%": 40,
+          "EvasionRecharge%": 50,
+          "LightElement": 1,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {
+          "Barrier Cooldown %": 20
+        },
+        "base_atk": 281,
+        "stability": 60
+      },
+      "npc": {
+        "stats": {
+          "STR%": 9,
+          "NaturalMPRegen": 30,
+          "ATK%": 9,
+          "PhysicalResistance%": 30,
+          "EvasionRecharge%": 25,
+          "LightElement": 1,
+          "AttackMPRecovery": 6
+        },
+        "special_effects": {
+          "Barrier Cooldown %": 10
+        },
+        "base_atk": 281,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 281,
+        "stability": 60,
+        "potential": 54,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hell_stellar_bow",
+    "name": "Hell Stellar Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 600,
+          "ATK%": 10,
+          "PhysicalPierce%": 20,
+          "CriticalRate": 20,
+          "Aggro%": -50,
+          "AttackMPRecovery": 4,
+          "NeutralResistance%": -50,
+          "%strongeragainstNeutral": 30,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_bow_vi",
+    "name": "8th Anniv Bow VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "MaxHP": 5000,
+          "ATK%": 10,
+          "Accuracy%": 40,
+          "CriticalRate": 35,
+          "ReduceDmg(Bullet)%": 35,
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 291,
+        "stability": 60
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 10
+        },
+        "special_effects": {},
+        "base_atk": 291,
+        "stability": 60,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "abyss_bow",
+    "name": "Abyss Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 7500,
+          "%strongeragainstFire": 5,
+          "Aggro%": -75,
+          "WaterElement": 1,
+          "LongRangeDamage%": 10,
+          "InvincibleAid(sec)": 2,
+          "AbsoluteDodge%": 20
+        },
+        "special_effects": {},
+        "base_atk": 319
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "MaxHP": 1000,
+          "%strongeragainstFire": 5,
+          "Aggro%": -100,
+          "WaterElement": 1,
+          "LongRangeDamage%": 10,
+          "InvincibleAid(sec)": 1,
+          "AbsoluteDodge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 319,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 319,
+        "stability": 60,
+        "potential": 58,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "crimson_moon_mystic_bow",
+    "name": "Crimson Moon Mystic Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 400,
+          "FireElement": 1,
+          "AttackMPRecovery": 10,
+          "LongRangeDamage%": 11,
+          "TumbleUnavailable": 1
+        },
+        "special_effects": {
+          "Fractional Barrier %": 20,
+          "Katana only:Short Range Damage %": "Short Range Damage %"
+        },
+        "base_atk": 319,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_bow_vi",
+    "name": "9th Anniv Bow VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "ATK%": 11,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 15,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "ASPD": "ASPD",
+          "Katana only:Physical Pierce %": "Physical Pierce %"
+        },
+        "base_atk": 330,
+        "stability": 60
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 60,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lyre_bow",
+    "name": "Lyre Bow",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "Fireresistance%": -30,
+          "AilmentResistance%": 15,
+          "EarthElement": 1,
+          "AttackMPRecovery": 15,
+          "LongRangeDamage%": 11,
+          "MotionSpeed%": 10,
+          "ATKUP(INT%)": 100,
+          "AttackRange(m)": 9
+        },
+        "special_effects": {},
+        "base_atk": 340,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "mysticotelum",
+    "name": "Mysticotelum",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "STR%": 10,
+          "Accuracy%": -25,
+          "ASPD%": -25,
+          "CriticalRate": 75,
+          "LightElement": 1,
+          "ShortRangeDamage%": 12,
+          "GuardBreak%": 25
+        },
+        "special_effects": {
+          "Arrow only:Long Range Damage %": "Long Range Damage %"
+        },
+        "base_atk": 340,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_bow_vi",
+    "name": "10th Anniv Bow VI",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "DEX%": 11,
+          "ATK%": 11,
+          "PhysicalPierce%": 15,
+          "ASPD": 1200,
+          "CriticalRate": 45,
+          "ReduceDmg(Bullet)%": 40
+        },
+        "special_effects": {
+          "Katana only:Unsheathe Attack %": "Unsheathe Attack %"
+        },
+        "base_atk": 382,
+        "stability": 60
+      }
+    }
+  }
+]

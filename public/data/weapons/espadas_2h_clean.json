@@ -1,0 +1,4101 @@
+[
+  {
+    "id": "abyssal_greatsword",
+    "name": "Abyssal Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {},
+        "special_effects": {}
+      }
+    }
+  },
+  {
+    "id": "pestle",
+    "name": "Pestle",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalDamage": 99
+        },
+        "special_effects": {},
+        "base_atk": 1,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "iron_blade",
+    "name": "Iron Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 5
+        },
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 15,
+        "stability": 70,
+        "potential": 15,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "heavy_blade",
+    "name": "Heavy Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": -6,
+          "CriticalDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "Accuracy%": -5,
+          "CriticalDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 25,
+        "stability": 70,
+        "potential": 16,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "great_sword",
+    "name": "Great Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 200,
+          "DEF%": 30
+        },
+        "special_effects": {},
+        "base_atk": 37,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 500,
+          "DEF": 30
+        },
+        "special_effects": {},
+        "base_atk": 37,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 37,
+        "stability": 70,
+        "potential": 18,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "golden_greatsword",
+    "name": "Golden Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "INT": 3,
+          "MaxHP": 250,
+          "Accuracy": 5,
+          "ASPD": 250,
+          "GuardRecharge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 40,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_greatsword",
+    "name": "1st Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 1,
+          "CriticalRate": 3,
+          "GuardRecharge%": 2,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_greatsword",
+    "name": "2nd Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 1,
+          "CriticalRate": 3,
+          "GuardRecharge%": 2,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_greatsword",
+    "name": "3rd Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 1,
+          "CriticalRate": 3,
+          "GuardRecharge%": 2,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword",
+    "name": "4th Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 1,
+          "CriticalRate": 3,
+          "GuardRecharge%": 2,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 43,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "longblade",
+    "name": "Longblade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 1,
+          "Accuracy": -3,
+          "CriticalRate": 4
+        },
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 1,
+          "Accuracy": -9,
+          "CriticalRate": 8
+        },
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 50,
+        "stability": 70,
+        "potential": 19,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "boss_gob_sword",
+    "name": "Boss Gob Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 8,
+          "CriticalDamage%": 8,
+          "GuardRecharge%": 8
+        },
+        "special_effects": {},
+        "base_atk": 51,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "volcanic_sword",
+    "name": "Volcanic Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate%": -5,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "CriticalRate": -50,
+          "FireElement": 1,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 65,
+        "stability": 70,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "bone_blade",
+    "name": "Bone Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MDEF%": 6,
+          "CriticalDamage": 1,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 66,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MDEF%": 9,
+          "CriticalDamage": 2,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 66,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 66,
+        "stability": 70,
+        "potential": 21,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_greatsword_ii",
+    "name": "1st Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "CriticalRate": 6,
+          "GuardRecharge%": 4,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_greatsword_ii",
+    "name": "2nd Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "CriticalRate": 6,
+          "GuardRecharge%": 4,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_greatsword_ii",
+    "name": "3rd Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "CriticalRate": 6,
+          "GuardRecharge%": 4,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword_ii",
+    "name": "4th Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "CriticalRate": 6,
+          "GuardRecharge%": 4,
+          "ShortRangeDamage%": 2
+        },
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "fortis_blade",
+    "name": "Fortis Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 2,
+          "PhysicalPierce%": 10,
+          "DEF": 20,
+          "GuardRecharge%": 15
+        },
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "PhysicalPierce%": 15,
+          "DEF": 20,
+          "GuardRecharge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "super_niello_sword",
+    "name": "Super Niello Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2500,
+          "CriticalRate": 15,
+          "Darkresistance%": 5,
+          "Aggro%": -20,
+          "LightElement": 1,
+          "ReduceDmg(Floor)%": 10
+        },
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 82,
+        "stability": 70,
+        "potential": 22,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "iron_exoskeleton_sword",
+    "name": "Iron Exoskeleton Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 500,
+          "PhysicalResistance%": 3,
+          "CriticalDamage": 3,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 750,
+          "PhysicalResistance%": 1,
+          "CriticalDamage": 1,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 90,
+        "stability": 70,
+        "potential": 23,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "flamberge",
+    "name": "Flamberge",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "CriticalDamage": 2,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 10,
+          "CriticalDamage": 3,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70,
+        "potential": 24,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "oni_iron_club",
+    "name": "Oni Iron Club",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR": 10,
+          "MaxHP": 100,
+          "ASPD%": -20
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 45
+      }
+    }
+  },
+  {
+    "id": "sakura_edge",
+    "name": "Sakura Edge",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 100,
+          "CriticalRate": 10,
+          "CriticalDamage": 1,
+          "LightElement": 1,
+          "AttackMPRecovery": 1,
+          "ShortRangeDamage%": 1
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "CriticalRate": 10,
+          "CriticalDamage": 2,
+          "LightElement": 1,
+          "AttackMPRecovery": 3,
+          "ShortRangeDamage%": 4,
+          "WeaponATK": 450
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "stubborn_hammer",
+    "name": "Stubborn Hammer",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ASPD%": -50,
+          "CriticalRate": 30,
+          "Aggro%": 50
+        },
+        "special_effects": {},
+        "base_atk": 100,
+        "stability": 10
+      }
+    }
+  },
+  {
+    "id": "berserker_blade",
+    "name": "Berserker Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": -24,
+          "ATK%": 2,
+          "Accuracy": 10,
+          "ASPD": 500,
+          "MotionSpeed%": 2
+        },
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": -12,
+          "ATK%": 2,
+          "Accuracy": 10,
+          "ASPD": 250
+        },
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 109,
+        "stability": 70,
+        "potential": 25,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "hammerfall",
+    "name": "Hammerfall",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 2,
+          "Accuracy": 15,
+          "AttackMPRecovery": 2
+        },
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 70,
+        "potential": 26,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 2,
+          "Accuracy": 20,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 120,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "desert_anfel",
+    "name": "Desert Anfel",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 50,
+          "ATK%": 3,
+          "MagicResistance%": 6,
+          "CriticalDamage": 1,
+          "UnsheatheAttack": 200
+        },
+        "special_effects": {},
+        "base_atk": 124,
+        "stability": 75
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 124,
+        "stability": 75,
+        "potential": 27,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 150,
+          "ATK%": 3,
+          "MagicResistance%": 12,
+          "CriticalDamage": 1,
+          "UnsheatheAttack": 20
+        },
+        "special_effects": {},
+        "base_atk": 124,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "1st_anniv_greatsword_iii",
+    "name": "1st Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "CriticalRate": 9,
+          "GuardRecharge%": 6,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_greatsword_iii",
+    "name": "2nd Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "CriticalRate": 9,
+          "GuardRecharge%": 6,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_greatsword_iii",
+    "name": "3rd Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "CriticalRate": 9,
+          "GuardRecharge%": 6,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword_iii",
+    "name": "4th Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 3,
+          "CriticalRate": 9,
+          "GuardRecharge%": 6,
+          "ShortRangeDamage%": 3
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_greatsword",
+    "name": "5th Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "CriticalRate": 25,
+          "GuardPower%": 3,
+          "ShortRangeDamage%": 4,
+          "GuardBreak%": 9
+        },
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 130,
+        "stability": 70,
+        "potential": 27,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "flame_blade",
+    "name": "Flame Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 10,
+          "Waterresistance%": -5,
+          "FireElement": 1,
+          "AttackMPRecovery": 1
+        },
+        "special_effects": {},
+        "base_atk": 140,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "CriticalRate": 10,
+          "Waterresistance%": -10,
+          "FireElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 140,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 140,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "heated_pumpkin_axe",
+    "name": "Heated Pumpkin Axe",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": -666,
+          "CriticalRate": 100,
+          "FireElement": 1,
+          "GuardBreak%": 25
+        },
+        "special_effects": {},
+        "base_atk": 150,
+        "stability": 2
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_greatsword",
+    "name": "6th Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "MaxHP": 3000,
+          "ATK%": 4,
+          "Accuracy%": 5,
+          "GuardRecharge%": 30
+        },
+        "special_effects": {},
+        "base_atk": 151,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 151,
+        "stability": 70,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "frostbrand_rime",
+    "name": "Frostbrand Rime",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 300,
+          "PhysicalPierce%": 5,
+          "WaterElement": 1,
+          "AdditionalMagic%": 125,
+          "ATKUP(INT%)": 50,
+          "ATKDOWN(DEX%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 151,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 151,
+        "stability": 80,
+        "potential": 28,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "chocolate_eater",
+    "name": "Chocolate Eater",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 1000,
+          "CriticalRate": 30,
+          "Fireresistance%": -30,
+          "%strongeragainstNeutral": 15
+        },
+        "special_effects": {},
+        "base_atk": 163,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "deseperanza",
+    "name": "Deseperanza",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEF%": -25,
+          "Accuracy%": -4,
+          "CriticalDamage": 4,
+          "DarkElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 164
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 164,
+        "stability": 70,
+        "potential": 29,
+        "allow_custom_stats": true
+      },
+      "npc": {
+        "stats": {
+          "DEF%": -30,
+          "Accuracy%": -4,
+          "CriticalDamage": 4,
+          "DarkElement": 1,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 164,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "popsicle",
+    "name": "Popsicle",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 500,
+          "Fireresistance%": -20,
+          "WaterElement": 1,
+          "AttackMPRecovery": 25
+        },
+        "special_effects": {},
+        "base_atk": 170,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_greatsword_iv",
+    "name": "2nd Anniv Greatsword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "CriticalRate": 12,
+          "GuardRecharge%": 8,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_greatsword_iv",
+    "name": "3rd Anniv Greatsword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "CriticalRate": 12,
+          "GuardRecharge%": 8,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword_iv",
+    "name": "4th Anniv Greatsword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "CriticalRate": 12,
+          "GuardRecharge%": 8,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 175,
+        "stability": 70,
+        "potential": 30,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "wind_plunder",
+    "name": "Wind Plunder",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 10,
+          "ASPD": 600,
+          "CSPD": 300,
+          "WindElement": 1,
+          "AttackMPRecovery": 4
+        },
+        "special_effects": {},
+        "base_atk": 182,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 10,
+          "ASPD": 500,
+          "CSPD": 50,
+          "WindElement": 1,
+          "AttackMPRecovery": 3
+        },
+        "special_effects": {},
+        "base_atk": 182,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 182,
+        "stability": 70,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sealing_blade",
+    "name": "Sealing Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Physical Barrier": 1200,
+          "Magic Barrier": 1200
+        },
+        "base_atk": 187,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 187,
+        "stability": 70,
+        "potential": 31,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Physical Barrier": 800,
+          "Magic Barrier": 800
+        },
+        "base_atk": 187,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "choco_banana_blade",
+    "name": "Choco Banana Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 4000,
+          "Aggro%": 80,
+          "AttackMPRecovery": 20
+        },
+        "special_effects": {},
+        "base_atk": 190,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "2nd_anniv_greatsword_v",
+    "name": "2nd Anniv Greatsword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "CriticalRate": 15,
+          "GuardRecharge%": 10,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_greatsword_v",
+    "name": "3rd Anniv Greatsword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "CriticalRate": 15,
+          "GuardRecharge%": 10,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword_v",
+    "name": "4th Anniv Greatsword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "CriticalRate": 15,
+          "GuardRecharge%": 10,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_greatsword_ii",
+    "name": "5th Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "CriticalRate": 25,
+          "GuardPower%": 5,
+          "ShortRangeDamage%": 5,
+          "GuardBreak%": 10
+        },
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "super_niello_sword_ii",
+    "name": "Super Niello Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 5000,
+          "CriticalRate": 20,
+          "Darkresistance%": 10,
+          "Aggro%": -25,
+          "LightElement": 1,
+          "ReduceDmg(Floor)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 213,
+        "stability": 70,
+        "potential": 31,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "zweihander",
+    "name": "Zweihander",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 4,
+          "PhysicalPierce%": 4,
+          "DEF%": -20,
+          "PhysicalResistance%": -10,
+          "CriticalDamage": 4,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 215,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 215,
+        "stability": 70,
+        "potential": 31,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 4,
+          "PhysicalPierce%": 4,
+          "DEF%": -24,
+          "PhysicalResistance%": -12,
+          "CriticalDamage": 4,
+          "ShortRangeDamage%": 4
+        },
+        "special_effects": {},
+        "base_atk": 215,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sinergatis",
+    "name": "Sinergatis",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1500,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25,
+          "EarthElement": 1,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {},
+        "base_atk": 222,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "GuardPower%": 30,
+          "GuardRecharge%": 30,
+          "EarthElement": 1,
+          "AttackMPRecovery": 5
+        },
+        "special_effects": {},
+        "base_atk": 222,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 222,
+        "stability": 70,
+        "potential": 32,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "steel_machine_greatsword",
+    "name": "Steel Machine Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 4,
+          "CriticalRate": 15,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "ATK%": 4,
+          "CriticalRate": 20,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 237,
+        "stability": 70,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_greatsword_ii",
+    "name": "6th Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 5,
+          "MaxHP": 3000,
+          "ATK%": 5,
+          "Accuracy%": 10,
+          "GuardRecharge%": 30
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 70,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_greatsword",
+    "name": "7th Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "MaxHP": 3000,
+          "CriticalRate": 30,
+          "AttackMPRecovery": 10,
+          "ShortRangeDamage%": 4,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 70,
+        "potential": 34,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "dia_edge",
+    "name": "Dia Edge",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "AttackMPRecovery": 5,
+          "ShortRangeDamage%": 4,
+          "UnsheatheAttack%": 4
+        },
+        "special_effects": {},
+        "base_atk": 240,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_greatsword_vi",
+    "name": "3rd Anniv Greatsword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "CriticalRate": 15,
+          "GuardRecharge%": 12,
+          "ShortRangeDamage%": 6,
+          "GuardBreak%": 3
+        },
+        "special_effects": {},
+        "base_atk": 268,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 268,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword_vi",
+    "name": "4th Anniv Greatsword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "CriticalRate": 15,
+          "GuardRecharge%": 12,
+          "ShortRangeDamage%": 6,
+          "GuardBreak%": 3
+        },
+        "special_effects": {},
+        "base_atk": 268,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 268,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "curved_edge",
+    "name": "Curved Edge",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Dodge": 30,
+          "ASPD": 750,
+          "LightElement": 1,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 270,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "waldfee",
+    "name": "Waldfee",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy": 100,
+          "CriticalRate": 30,
+          "WaterElement": 1,
+          "ATKDOWN(DEX%)": 100,
+          "ATKUP(VIT%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 270,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "Accuracy": 50,
+          "CriticalRate": 15,
+          "WaterElement": 1,
+          "ATKDOWN(DEX%)": 100,
+          "ATKUP(VIT%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 270,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 270,
+        "stability": 70,
+        "potential": 36,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "order_espada",
+    "name": "Order Espada",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 2000,
+          "Accuracy%": 30,
+          "ASPD": 400,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "Accuracy%": 20,
+          "ASPD": 200,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 290,
+        "stability": 70,
+        "potential": 37,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "anemos_blade",
+    "name": "Anemos Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy%": 10,
+          "Windresistance%": 15,
+          "WindElement": 1,
+          "ATKUP(DEX%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 298,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 298,
+        "stability": 70,
+        "potential": 37,
+        "allow_custom_stats": true
+      },
+      "unknown": {
+        "stats": {
+          "Accuracy%": 10,
+          "Windresistance%": 15,
+          "WindElement": 1,
+          "ATKUP(DEX%)": 80
+        },
+        "special_effects": {},
+        "base_atk": 298,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "lezvie",
+    "name": "Lezvie",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ASPD": -1000,
+          "CriticalDamage%": 10,
+          "AttackMPRecovery": 20,
+          "ShortRangeDamage%": 5
+        },
+        "special_effects": {},
+        "base_atk": 300,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "cross_espada",
+    "name": "Cross Espada",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate": 30,
+          "CriticalDamage": 10,
+          "Darkresistance%": 15,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 310,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "3rd_anniv_greatsword_vii",
+    "name": "3rd Anniv Greatsword VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "CriticalRate": 15,
+          "GuardRecharge%": 14,
+          "ShortRangeDamage%": 6,
+          "GuardBreak%": 6
+        },
+        "special_effects": {},
+        "base_atk": 313,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 313,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword_vii",
+    "name": "4th Anniv Greatsword VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "CriticalRate": 15,
+          "GuardRecharge%": 6,
+          "ShortRangeDamage%": 6,
+          "GuardBreak%": 14
+        },
+        "special_effects": {},
+        "base_atk": 313,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 313,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_greatsword_iii",
+    "name": "5th Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "CriticalRate": 25,
+          "GuardPower%": 7,
+          "ShortRangeDamage%": 6,
+          "GuardBreak%": 11
+        },
+        "special_effects": {},
+        "base_atk": 313,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 313,
+        "stability": 70,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_greatsword_iii",
+    "name": "6th Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MaxHP": 4000,
+          "ATK%": 6,
+          "Accuracy%": 15,
+          "GuardRecharge%": 30,
+          "ReduceDmg(Meteor)%": 2
+        },
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_greatsword_ii",
+    "name": "7th Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "MaxHP": 4000,
+          "CriticalRate": 30,
+          "AttackMPRecovery": 12,
+          "ShortRangeDamage%": 6,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_greatsword",
+    "name": "8th Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "ATK%": 6,
+          "CriticalRate": 35,
+          "GuardPower%": 50,
+          "AttackMPRecovery": 15,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "rozerum",
+    "name": "Rozerum",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxMP": 150,
+          "ATK%": 6,
+          "Fireresistance%": 15,
+          "Aggro%": -30,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "MaxMP": 150,
+          "ATK%": 6,
+          "Fireresistance%": 10,
+          "Aggro%": -20,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sakura_lantern_greatsword",
+    "name": "Sakura Lantern Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 6,
+          "%strongeragainstEarth": 25,
+          "AilmentResistance%": 5,
+          "EarthElement": 1,
+          "AttackMPRecovery": 10
+        },
+        "special_effects": {
+          "Fractional Barrier %": 15
+        },
+        "base_atk": 330,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "zel_blade",
+    "name": "Zel Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 3,
+          "ATK%": 5,
+          "DEF": 150,
+          "PhysicalResistance%": 25,
+          "CriticalDamage%": 1
+        },
+        "special_effects": {
+          "Physical Barrier": 4000
+        },
+        "base_atk": 330,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "STR%": 4,
+          "ATK%": 6,
+          "DEF": 100,
+          "PhysicalResistance%": 10,
+          "CriticalDamage%": 2
+        },
+        "special_effects": {
+          "Physical Barrier": 1000
+        },
+        "base_atk": 330,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 330,
+        "stability": 70,
+        "potential": 39,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lil_empress_greatsword",
+    "name": "Lil Empress Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "ATK%": 6,
+          "CriticalRate": 25,
+          "Aggro%": -15,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 344,
+        "stability": 65
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "ATK%": 6,
+          "CriticalRate": 20,
+          "Aggro%": -10,
+          "FireElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 344,
+        "stability": 65
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 344,
+        "stability": 65,
+        "potential": 38,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "carbuncle_edge",
+    "name": "Carbuncle Edge",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MagicResistance%": 25,
+          "CriticalRate": 75
+        },
+        "special_effects": {
+          "Magic Barrier": 5000
+        },
+        "base_atk": 346,
+        "stability": 90
+      }
+    }
+  },
+  {
+    "id": "integridar",
+    "name": "Integridar",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 10000,
+          "Accuracy": 200
+        },
+        "special_effects": {
+          "Fractional Barrier %": 25
+        },
+        "base_atk": 540,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 10000,
+          "Accuracy": 200
+        },
+        "special_effects": {
+          "Fractional Barrier %": 25
+        },
+        "base_atk": 727,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "soleil_the_heat_sword",
+    "name": "Soleil The Heat Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "unknown": {
+        "stats": {
+          "MaxMP": 777,
+          "Accuracy": 100,
+          "%strongeragainstEarth": 25,
+          "Fireresistance%": 20,
+          "Waterresistance%": -100,
+          "LightElement": 1,
+          "Anticipate%": 20
+        },
+        "special_effects": {},
+        "base_atk": 360
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword_viii",
+    "name": "4th Anniv Greatsword VIII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "CriticalRate": 15,
+          "GuardRecharge%": 16,
+          "ShortRangeDamage%": 6,
+          "GuardBreak%": 9
+        },
+        "special_effects": {},
+        "base_atk": 363,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 363,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_greatsword_iv",
+    "name": "5th Anniv Greatsword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "CriticalRate": 25,
+          "GuardPower%": 9,
+          "ShortRangeDamage%": 6,
+          "GuardBreak%": 12
+        },
+        "special_effects": {},
+        "base_atk": 363,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 363,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "ghastly_edge",
+    "name": "Ghastly Edge",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 12,
+          "CriticalRate": 18,
+          "DarkElement": 1,
+          "ReduceDmg(Bowling)%": 15
+        },
+        "special_effects": {},
+        "base_atk": 363,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 12,
+          "CriticalRate": 24,
+          "DarkElement": 1,
+          "ReduceDmg(Bowling)%": 18
+        },
+        "special_effects": {},
+        "base_atk": 363,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 363,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "golden_candy_greatsword",
+    "name": "Golden Candy Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "Accuracy": 90,
+          "CriticalRate": 60,
+          "%strongeragainstWater": 10,
+          "Fireresistance%": -30,
+          "WindElement": 1,
+          "MotionSpeed%": 3
+        },
+        "special_effects": {},
+        "base_atk": 390,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "white_chocolate_eater",
+    "name": "White Chocolate Eater",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "CriticalRate%": 50,
+          "Aggro%": -100,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 395,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "escudo_blade",
+    "name": "Escudo Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalResistance%": 15,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25,
+          "LightElement": 1,
+          "Reflect%": 60
+        },
+        "special_effects": {
+          "Physical Barrier": 3000
+        },
+        "base_atk": 397,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 397,
+        "stability": 70,
+        "potential": 42,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "PhysicalResistance%": 15,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25,
+          "LightElement": 1,
+          "Reflect%": 50
+        },
+        "special_effects": {
+          "Physical Barrier": 2000
+        },
+        "base_atk": 397,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "super_niello_sword_iii",
+    "name": "Super Niello Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 7500,
+          "CriticalRate": 25,
+          "Darkresistance%": 15,
+          "Aggro%": -30,
+          "LightElement": 1,
+          "ReduceDmg(Floor)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 397,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 397,
+        "stability": 70,
+        "potential": 41,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "4th_anniv_greatsword_ix",
+    "name": "4th Anniv Greatsword IX",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "CriticalRate": 15,
+          "GuardRecharge%": 18,
+          "ShortRangeDamage%": 7,
+          "GuardBreak%": 12
+        },
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_greatsword_v",
+    "name": "5th Anniv Greatsword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "CriticalRate": 25,
+          "GuardPower%": 11,
+          "ShortRangeDamage%": 7,
+          "GuardBreak%": 13,
+          "ReduceDmg(Meteor)%": 2
+        },
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_greatsword_iv",
+    "name": "6th Anniv Greatsword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "MaxHP": 4000,
+          "ATK%": 7,
+          "Accuracy%": 20,
+          "GuardRecharge%": 30,
+          "ReduceDmg(Meteor)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_greatsword_iii",
+    "name": "7th Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "MaxHP": 5000,
+          "CriticalRate": 30,
+          "AttackMPRecovery": 14,
+          "ShortRangeDamage%": 7,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_greatsword_ii",
+    "name": "8th Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "CriticalRate": 35,
+          "GuardPower%": 55,
+          "AttackMPRecovery": 17,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_greatsword",
+    "name": "9th Anniv Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 6,
+          "ATK%": 7,
+          "Accuracy%": 15,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 15,
+          "ATKUP(VIT%)": 100,
+          "ReduceDmg(Floor)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 415,
+        "stability": 70,
+        "potential": 43,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "vulture_blade",
+    "name": "Vulture Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 14,
+          "Aggro%": 30,
+          "WindElement": 1,
+          "ShortRangeDamage%": 7,
+          "AdditionalMelee%": 100,
+          "GuardBreak%": 28
+        },
+        "special_effects": {},
+        "base_atk": 423,
+        "stability": 80
+      },
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 14,
+          "Aggro%": -60,
+          "WindElement": 1,
+          "ShortRangeDamage%": 7,
+          "AdditionalMelee%": 10,
+          "GuardBreak%": 21
+        },
+        "special_effects": {},
+        "base_atk": 423,
+        "stability": 80
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 423,
+        "stability": 80,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "indigo_jet_sword",
+    "name": "Indigo Jet Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 3,
+          "ATK%": 7,
+          "PhysicalPierce%": 10,
+          "Accuracy": 200,
+          "DarkElement": 1,
+          "FlinchUnavailable": 1,
+          "TumbleUnavailable": 1,
+          "AbsoluteAccuracy%": 5
+        },
+        "special_effects": {},
+        "base_atk": 432,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "DEX%": 3,
+          "ATK%": 7,
+          "PhysicalPierce%": 10,
+          "Accuracy": 20,
+          "DarkElement": 1,
+          "FlinchUnavailable": 1,
+          "TumbleUnavailable": 1,
+          "AbsoluteAccuracy%": 5
+        },
+        "special_effects": {},
+        "base_atk": 432,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 432,
+        "stability": 70,
+        "potential": 44,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "desert_blade",
+    "name": "Desert Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "Dodge": 100,
+          "CriticalRate": 75,
+          "EarthElement": 1,
+          "AbsoluteDodge%": 10
+        },
+        "special_effects": {},
+        "base_atk": 433,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 433,
+        "stability": 70,
+        "potential": 44,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "Dodge": 100,
+          "CriticalRate": 70,
+          "EarthElement": 1,
+          "AbsoluteDodge%": 5
+        },
+        "special_effects": {},
+        "base_atk": 433,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sword_of_cold_serenity",
+    "name": "Sword of Cold Serenity",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "ASPD%": 100,
+          "CriticalRate": 30,
+          "%strongeragainstWater": 25,
+          "Lightresistance%": -30,
+          "WaterElement": 1,
+          "AttackMPRecovery": 15,
+          "ATKUP(AGI%)": 100
+        },
+        "special_effects": {},
+        "base_atk": 433,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "tone_blade",
+    "name": "Tone Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 2000,
+          "MaxMP": 300,
+          "ATK%": 10,
+          "Darkresistance%": 10,
+          "LightElement": 1,
+          "ShortRangeDamage%": 3,
+          "ReduceDmg(Bowling)%": 10,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 727,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_greatsword_vi",
+    "name": "5th Anniv Greatsword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "CriticalRate": 25,
+          "GuardPower%": 13,
+          "ShortRangeDamage%": 7,
+          "GuardBreak%": 14,
+          "ReduceDmg(Meteor)%": 4
+        },
+        "special_effects": {},
+        "base_atk": 451,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 451,
+        "stability": 70,
+        "potential": 45,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "soleil_the_heat_sword_ii",
+    "name": "Soleil the Heat Sword II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 777,
+          "Accuracy": 120,
+          "%strongeragainstEarth": 25,
+          "Fireresistance%": 21,
+          "Waterresistance%": -90,
+          "LightElement": 1,
+          "Anticipate%": 21,
+          "AbsoluteDodge%": 2
+        },
+        "special_effects": {},
+        "base_atk": 470,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "aeras_blade",
+    "name": "Aeras Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "PhysicalPierce%": 14,
+          "Accuracy%": 28,
+          "EvasionRecharge%": 30,
+          "WindElement": 1,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 471,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 471,
+        "stability": 70,
+        "potential": 45,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "PhysicalPierce%": 14,
+          "Accuracy%": 21,
+          "EvasionRecharge%": 30,
+          "WindElement": 1,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 471,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "5th_anniv_greatsword_vii",
+    "name": "5th Anniv Greatsword VII",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "CriticalRate": 25,
+          "GuardPower%": 15,
+          "ShortRangeDamage%": 7,
+          "GuardBreak%": 15,
+          "ReduceDmg(Meteor)%": 6
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_greatsword_v",
+    "name": "6th Anniv Greatsword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "MaxHP": 5000,
+          "ATK%": 7,
+          "Accuracy%": 25,
+          "GuardRecharge%": 30,
+          "ReduceDmg(Meteor)%": 6
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_greatsword_iv",
+    "name": "7th Anniv Greatsword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "MaxHP": 6000,
+          "CriticalRate": 30,
+          "AttackMPRecovery": 16,
+          "ShortRangeDamage%": 7,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_greatsword_iii",
+    "name": "8th Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "CriticalRate": 35,
+          "GuardPower%": 60,
+          "AttackMPRecovery": 19,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_greatsword_ii",
+    "name": "9th Anniv Greatsword II",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 7,
+          "ATK%": 7,
+          "Accuracy%": 18,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 18,
+          "ATKUP(VIT%)": 100,
+          "ReduceDmg(Floor)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "chocolate_eater_ii",
+    "name": "Chocolate Eater II",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 1000,
+          "CriticalRate": 30,
+          "Fireresistance%": -15,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "demon_empress_greatsword",
+    "name": "Demon Empress Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 7,
+          "PhysicalPierce%": 10,
+          "CriticalRate": 25,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 25
+        },
+        "special_effects": {
+          "Heavy Armor only:Fractional Barrier %": null
+        },
+        "base_atk": 490,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 7,
+          "PhysicalPierce%": 15,
+          "CriticalRate": 20,
+          "FireElement": 1,
+          "%strongeragainstNeutral": 10
+        },
+        "special_effects": {
+          "Heavy Armor only:Fractional Barrier %": null
+        },
+        "base_atk": 490,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 70,
+        "potential": 46,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "sweet_potato_hammer",
+    "name": "Sweet Potato Hammer",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "NaturalMPRegen": -100,
+          "MaxHP": 10000,
+          "MaxMP": -1000,
+          "ASPD": 1000,
+          "CriticalRate": 100,
+          "AttackMPRecovery": -10,
+          "EXPGain%": 10
+        },
+        "special_effects": {},
+        "base_atk": 490,
+        "stability": 100
+      }
+    }
+  },
+  {
+    "id": "dragon_slayer",
+    "name": "Dragon Slayer",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "ShortRangeDamage%": 8,
+          "%strongeragainstNeutral": 30,
+          "GuardBreak%": 8,
+          "ReduceDmg(Charge)%": 16
+        },
+        "special_effects": {},
+        "base_atk": 510,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 510,
+        "stability": 70,
+        "potential": 47,
+        "allow_custom_stats": true
+      },
+      "drop": {
+        "stats": {
+          "ShortRangeDamage%": 8,
+          "%strongeragainstNeutral": 30,
+          "GuardBreak%": 8,
+          "ReduceDmg(Charge)%": 8,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 510,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "hell_reaper_(sword)",
+    "name": "Hell Reaper (Sword)",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 66,
+          "CriticalDamage": 6,
+          "Lightresistance%": 10,
+          "Aggro%": -40,
+          "DarkElement": 1,
+          "ReduceDmg(PlayerEpicenter)%": 20
+        },
+        "special_effects": {},
+        "base_atk": 510,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "shovel_blade",
+    "name": "Shovel Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 50,
+          "PhysicalResistance%": 40,
+          "MagicResistance%": 30,
+          "GuardPower%": 100,
+          "GuardRecharge%": 100,
+          "Aggro%": 100
+        },
+        "special_effects": {},
+        "base_atk": 510,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "wood_giant_sledgehammer",
+    "name": "Wood Giant Sledgehammer",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 20,
+          "PhysicalPierce%": 40,
+          "ASPD%": -80,
+          "Fireresistance%": -100,
+          "EarthElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 510
+      }
+    }
+  },
+  {
+    "id": "yozakura_great_machete",
+    "name": "Yozakura Great Machete",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 2,
+          "MaxMP": 400,
+          "Accuracy": 300,
+          "%strongeragainstDark": 10,
+          "LightElement": 1,
+          "ShortRangeDamage%": 6,
+          "ReduceDmg(Floor)%": 30
+        },
+        "special_effects": {},
+        "base_atk": 510,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "baldi_saber",
+    "name": "Baldi Saber",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 8000,
+          "%strongeragainstWind": 10,
+          "Fireresistance%": -30,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 8,
+          "MATKUP(STR%)": 300
+        },
+        "special_effects": {
+          "Heavy Armor only:Guard Power %": "Guard Power %",
+          "Guard Recharge %": "Guard Recharge %"
+        },
+        "base_atk": 529,
+        "stability": 60
+      }
+    }
+  },
+  {
+    "id": "cosmic_sword",
+    "name": "Cosmic Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalPierce%": 20,
+          "ASPD": 777,
+          "CriticalRate%": 100,
+          "Lightresistance%": 25,
+          "DarkElement": 1,
+          "Anticipate%": 30
+        },
+        "special_effects": {},
+        "base_atk": 529,
+        "stability": 75
+      }
+    }
+  },
+  {
+    "id": "inferno_curse_greatsword",
+    "name": "Inferno Curse Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 500,
+          "ATK%": 8,
+          "Stability%": 6,
+          "CriticalDamage%": 7,
+          "EarthElement": 1,
+          "ReduceDmg(FoeEpicenter)%": 20
+        },
+        "special_effects": {
+          "Physical Barrier": 2500
+        },
+        "base_atk": 529,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 600,
+          "ATK%": 8,
+          "Stability%": 10,
+          "CriticalDamage%": 3,
+          "EarthElement": 1,
+          "ReduceDmg(FoeEpicenter)%": 10
+        },
+        "special_effects": {
+          "Physical Barrier": 250
+        },
+        "base_atk": 529,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 529,
+        "stability": 70,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "6th_anniv_greatsword_vi",
+    "name": "6th Anniv Greatsword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "MaxHP": 5000,
+          "ATK%": 8,
+          "Accuracy%": 30,
+          "GuardRecharge%": 30,
+          "ReduceDmg(Meteor)%": 8
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_greatsword_v",
+    "name": "7th Anniv Greatsword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "MaxHP": 7000,
+          "CriticalRate": 30,
+          "AttackMPRecovery": 18,
+          "ShortRangeDamage%": 8,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_greatsword_iv",
+    "name": "8th Anniv Greatsword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "ATK%": 8,
+          "CriticalRate": 35,
+          "GuardPower%": 65,
+          "AttackMPRecovery": 21,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_greatsword_iii",
+    "name": "9th Anniv Greatsword III",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 8,
+          "ATK%": 8,
+          "Accuracy%": 21,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 21,
+          "ATKUP(VIT%)": 100,
+          "ReduceDmg(Floor)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "beastlord_greatsword",
+    "name": "Beastlord Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70,
+        "potential": 48,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "flamma_blade",
+    "name": "Flamma Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxHP%": 15,
+          "ATK%": 8,
+          "%strongeragainstEarth": 8,
+          "FireElement": 1,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP": 4000,
+          "MaxHP%": 20,
+          "ATK%": 8,
+          "%strongeragainstEarth": 5,
+          "FireElement": 1,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "zyvio_blade",
+    "name": "Zyvio Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 200,
+          "PhysicalPierce%": 30,
+          "Accuracy": 40,
+          "Fireresistance%": -30,
+          "WaterElement": 1,
+          "AttackMPRecovery": 4,
+          "GuardBreak%": 4,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxMP": 400,
+          "PhysicalPierce%": 20,
+          "Accuracy": 80,
+          "Fireresistance%": -10,
+          "WaterElement": 1,
+          "AttackMPRecovery": 8,
+          "GuardBreak%": 8
+        },
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 550,
+        "stability": 70,
+        "potential": 49,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "pearl_sakura_greatsword",
+    "name": "Pearl Sakura Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP%": 30,
+          "CriticalRate": 50,
+          "CriticalRate%": 25,
+          "%strongeragainstEarth": 10,
+          "FireElement": 1,
+          "AbsoluteAccuracy%": 5
+        },
+        "special_effects": {},
+        "base_atk": 590,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "bateria",
+    "name": "Bateria",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "EarthElement": 1,
+          "ShortRangeDamage%": 7,
+          "CriticalDamage%": 6
+        },
+        "special_effects": {},
+        "base_atk": 592,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "hakuro_greatsword",
+    "name": "Hakuro Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 6000,
+          "MaxMP": 200,
+          "CriticalRate": 40,
+          "%strongeragainstDark": 10,
+          "LightElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 592,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sword_of_light_(ths)",
+    "name": "Sword of Light (THS)",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "MaxHP": 3000,
+          "MaxMP": 300,
+          "ATK%": 10,
+          "PhysicalResistance%": 30,
+          "MagicResistance%": 30,
+          "CriticalRate": 100,
+          "LightElement": 1,
+          "%strongeragainstNeutral": 35,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 592,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "lolliodd_magic_sword",
+    "name": "Lolliodd Magic Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 8,
+          "PhysicalPierce%": 8,
+          "MagicResistance%": -15,
+          "CSPD%": -100,
+          "CriticalRate": 75,
+          "EvasionRecharge%": -50,
+          "ShortRangeDamage%": 8,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 613,
+        "stability": 65
+      }
+    }
+  },
+  {
+    "id": "7th_anniv_greatsword_vi",
+    "name": "7th Anniv Greatsword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 9,
+          "MaxHP": 8000,
+          "CriticalRate": 30,
+          "AttackMPRecovery": 20,
+          "ShortRangeDamage%": 9,
+          "ReduceDmg(Floor)%": 30,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_greatsword_v",
+    "name": "8th Anniv Greatsword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 9,
+          "ATK%": 9,
+          "CriticalRate": 35,
+          "GuardPower%": 70,
+          "AttackMPRecovery": 23,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_greatsword_iv",
+    "name": "9th Anniv Greatsword IV",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 9,
+          "ATK%": 9,
+          "Accuracy%": 24,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 24,
+          "ATKUP(VIT%)": 100,
+          "ReduceDmg(Floor)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "nero_saber",
+    "name": "Nero Saber",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "%strongeragainstFire": 9,
+          "AilmentResistance%": 15,
+          "WaterElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 636
+      }
+    }
+  },
+  {
+    "id": "pholidota_blade",
+    "name": "Pholidota Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 20,
+          "ATK%": 9,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CriticalRate": 30,
+          "GuardPower%": 25,
+          "GuardRecharge%": 25,
+          "Aggro%": -40,
+          "DarkElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "MaxHP%": 25,
+          "ATK%": 9,
+          "PhysicalResistance%": 20,
+          "MagicResistance%": 20,
+          "CriticalRate": 25,
+          "Aggro%": -50,
+          "DarkElement": 1,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70,
+        "potential": 52,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "squash_blade",
+    "name": "Squash Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 300,
+          "ATK%": 9,
+          "PhysicalPierce%": 9,
+          "CriticalRate": 50,
+          "AilmentResistance%": 15,
+          "FireElement": 1,
+          "TumbleUnavailable": 1,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 636,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "sacred_axe",
+    "name": "Sacred Axe",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "CriticalRate": 10,
+          "CriticalRate%": 100,
+          "LightElement": 1,
+          "ShortRangeDamage%": 10
+        },
+        "special_effects": {},
+        "base_atk": 681,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "savon_spada",
+    "name": "Savon Spada",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "STR%": 9,
+          "NaturalMPRegen": 25,
+          "MaxMP": 500,
+          "ATK%": 9,
+          "MagicResistance%": 40,
+          "GuardPower%": 100,
+          "LightElement": 1
+        },
+        "special_effects": {
+          "Barrier Cooldown %": 20
+        },
+        "base_atk": 703,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "soleil_the_heat_sword_iii",
+    "name": "Soleil The Heat Sword III",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxMP": 777,
+          "Accuracy": 140,
+          "%strongeragainstEarth": 25,
+          "Fireresistance%": 22,
+          "Waterresistance%": -80,
+          "LightElement": 1,
+          "Anticipate%": 22,
+          "AbsoluteDodge%": 4
+        },
+        "special_effects": {},
+        "base_atk": 703,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "8th_anniv_greatsword_vi",
+    "name": "8th Anniv Greatsword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 10,
+          "ATK%": 10,
+          "CriticalRate": 35,
+          "GuardPower%": 75,
+          "AttackMPRecovery": 25,
+          "ReduceDmg(Floor)%": 35,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 727,
+        "stability": 70
+      },
+      "player": {
+        "stats": {
+          "AttackRange(m)": 3
+        },
+        "special_effects": {},
+        "base_atk": 727,
+        "stability": 70,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_greatsword_v",
+    "name": "9th Anniv Greatsword V",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 10,
+          "ATK%": 10,
+          "Accuracy%": 27,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 27,
+          "ATKUP(VIT%)": 100,
+          "ReduceDmg(Floor)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 727,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 727,
+        "stability": 70,
+        "potential": 55,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "salmon_jerky_greatsword",
+    "name": "Salmon Jerky Greatsword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "MaxHP%": 40,
+          "ATK%": 9,
+          "ASPD": 1000,
+          "%strongeragainstFire": 10,
+          "WaterElement": 1,
+          "ATKUP(VIT%)": 100,
+          "AttackRange(m)": 3.5
+        },
+        "special_effects": {},
+        "base_atk": 727,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "dragon_slasher",
+    "name": "Dragon Slasher",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 10,
+          "CriticalRate": 100,
+          "GuardPower%": 75,
+          "GuardRecharge%": 25,
+          "DarkElement": 1,
+          "AttackMPRecovery": 25,
+          "%strongeragainstNeutral": 35,
+          "AttackRange(m)": 3
+        },
+        "special_effects": {
+          "Magic Barrier": 3000
+        },
+        "base_atk": 750,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "gegner's_mic_stand",
+    "name": "Gegner's Mic Stand",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "DEX%": 10,
+          "Accuracy%": 50,
+          "CSPD": 1000,
+          "Darkresistance%": 25,
+          "FireElement": 1,
+          "ShortRangeDamage%": 10,
+          "MotionSpeed%": 5,
+          "AttackRange(m)": 4,
+          "%strongeragainstNeutral": 30
+        },
+        "special_effects": {},
+        "base_atk": 789,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "blue_rose_umbrella_sword",
+    "name": "Blue Rose Umbrella Sword",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "Accuracy%": 40,
+          "CriticalRate%": 200,
+          "%strongeragainstDark": 10,
+          "Aggro%": -60,
+          "LightElement": 1,
+          "AttackMPRecovery": 40,
+          "ReduceDmg(Bullet)%": 20,
+          "ReduceDmg(Meteor)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 790,
+        "stability": 80
+      }
+    }
+  },
+  {
+    "id": "avid_blade",
+    "name": "Avid Blade",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 10,
+          "CriticalRate": 50,
+          "CriticalRate%": 100,
+          "%strongeragainstWater": 10,
+          "WindElement": 1,
+          "AttackMPRecovery": 20,
+          "GuardBreak%": 40
+        },
+        "special_effects": {},
+        "base_atk": 799,
+        "stability": 70
+      },
+      "npc": {
+        "stats": {
+          "ATK%": 10,
+          "CriticalRate": 5,
+          "CriticalRate%": 10,
+          "%strongeragainstWater": 10,
+          "WindElement": 1,
+          "AttackMPRecovery": 30,
+          "GuardBreak%": 50
+        },
+        "special_effects": {},
+        "base_atk": 799,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 799,
+        "stability": 70,
+        "potential": 58,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "9th_anniv_greatsword_vi",
+    "name": "9th Anniv Greatsword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "npc": {
+        "stats": {
+          "STR%": 10,
+          "ATK%": 11,
+          "Accuracy%": 30,
+          "CriticalRate": 40,
+          "AttackMPRecovery": 30,
+          "ATKUP(VIT%)": 100,
+          "ReduceDmg(Floor)%": 40
+        },
+        "special_effects": {},
+        "base_atk": 825,
+        "stability": 70
+      },
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 825,
+        "stability": 70,
+        "potential": 59,
+        "allow_custom_stats": true
+      }
+    }
+  },
+  {
+    "id": "lightning_machete",
+    "name": "Lightning Machete",
+    "weapon_type": "1h",
+    "variants": {
+      "drop": {
+        "stats": {
+          "ATK%": 11,
+          "PhysicalPierce%": 30,
+          "Accuracy%": -15,
+          "CriticalRate": 90,
+          "Waterresistance%": -45,
+          "WindElement": 1
+        },
+        "special_effects": {},
+        "base_atk": 850,
+        "stability": 70
+      }
+    }
+  },
+  {
+    "id": "10th_anniv_greatsword_vi",
+    "name": "10th Anniv Greatsword VI",
+    "weapon_type": "1h",
+    "variants": {
+      "player": {
+        "stats": {},
+        "special_effects": {},
+        "base_atk": 955,
+        "stability": 70,
+        "potential": 63,
+        "allow_custom_stats": true
+      },
+      "unknown": {
+        "stats": {
+          "STR%": 11,
+          "ATK%": 11,
+          "CriticalRate": 45,
+          "AttackMPRecovery": 30,
+          "GuardBreak%": 30,
+          "ReduceDmg(Floor)%": 40
+        },
+        "special_effects": {
+          "Light Armor only:Anticipate %": "Anticipate %"
+        },
+        "base_atk": 955,
+        "stability": 70
+      }
+    }
+  }
+]

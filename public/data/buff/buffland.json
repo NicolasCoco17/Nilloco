@@ -1,0 +1,49 @@
+{"buffland": [
+    { "id": "okaka_rice_ball", "nombre": "Okaka Rice Ball", "stat": "STR" },
+    { "id": "umeboshi_rice_ball", "nombre": "Umeboshi Rice Ball", "stat": "INT" },
+    { "id": "tuna_mayo_rice_ball", "nombre": "Tuna Mayo Rice Ball", "stat": "VIT" },
+    { "id": "mentaiko_rice_ball", "nombre": "Mentaiko Rice Ball", "stat": "AGI" },
+    { "id": "salmon_rice_ball", "nombre": "Salmon Rice Ball", "stat": "DEX" },
+
+    { "id": "shoyu_ramen", "nombre": "Shoyu Ramen", "stat": "Accuracy" },
+    { "id": "shio_ramen", "nombre": "Shio Ramen", "stat": "Dodge" },
+    { "id": "tonkotsu_ramen", "nombre": "Tonkotsu Ramen", "stat": "DEF" },
+    { "id": "miso_ramen", "nombre": "Miso Ramen", "stat": "MDEF" },
+
+    { "id": "seafood_pizza", "nombre": "Seafood Pizza", "stat": "MATK" },
+    { "id": "pizza_diavola", "nombre": "Pizza Diavola", "stat": "ATK" },
+    { "id": "pizza_margherita", "nombre": "Pizza Margherita", "stat": "Weapon ATK" },
+
+    { "id": "beef_burger", "nombre": "Beef Burger", "stat": "Physical Resistance %" },
+    { "id": "fish_burger", "nombre": "Fish Burger", "stat": "Magic Resistance %" },
+
+    { "id": "bolognese", "nombre": "Bolognese", "stat": "Stronger against Fire %" },
+    { "id": "genovese", "nombre": "Genovese", "stat": "Stronger against Earth %" },
+    { "id": "vongole", "nombre": "Vongole", "stat": "Stronger against Water %" },
+    { "id": "carbonara", "nombre": "Carbonara", "stat": "Stronger against Light %" },
+    { "id": "naporitan", "nombre": "Naporitan", "stat": "Stronger against Wind %" },
+    { "id": "squid_ink_pasta", "nombre": "Squid Ink Pasta", "stat": "Stronger against Dark %" },
+    { "id": "peperoncio", "nombre": "Peperoncio", "stat": "Stronger against Neutral %" },
+
+    { "id": "chocolate_parfait", "nombre": "Chocolate Parfait", "stat": "EXP Gain %" },
+    { "id": "fruit_parfait", "nombre": "Fruit Parfait", "stat": "Drop Rate %" },
+
+    { "id": "anchovy_toast", "nombre": "Anchovy Toast", "stat": "Water Resistance %" },
+    { "id": "cheese_toast", "nombre": "Cheese Toast", "stat": "Wind Resistance %" },
+    { "id": "pudding_toast", "nombre": "Pudding Toast", "stat": "Earth Resistance %" },
+    { "id": "sunny_side_toast", "nombre": "Sunny Side Up Toast", "stat": "Fire Resistance %" },
+    { "id": "honey_toast", "nombre": "Honey Toast", "stat": "Light Resistance %" },
+    { "id": "garlic_toast", "nombre": "Garlic Toast", "stat": "Dark Resistance %" },
+    { "id": "vanilla_toast", "nombre": "Vanilla Toast", "stat": "Neutral Resistance %" },
+
+    { "id": "chocolate_cake", "nombre": "Chocolate Cake", "stat": "Physical Barrier" },
+    { "id": "cheese_cake", "nombre": "Cheese Cake", "stat": "Magic Barrier" },
+    { "id": "pancake", "nombre": "Pancake", "stat": "Fractional Barrier %" },
+    { "id": "takoyaki", "nombre": "Takoyaki", "stat": "Critical Rate" },
+    { "id": "yakisoba", "nombre": "Yakisoba", "stat": "Attack MP Recovery" },
+    { "id": "beef_stew", "nombre": "Beef Stew", "stat": "Aggro %" },
+    { "id": "white_stew", "nombre": "White Stew", "stat": "-Aggro %" },
+    { "id": "ankake_fried_rice", "nombre": "Ankake Fried Rice", "stat": "MaxMP" },
+    { "id": "golden_stir_fry", "nombre": "Golden Stir Fry", "stat": "MaxHP" }
+  ]
+}
