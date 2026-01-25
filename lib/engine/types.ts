@@ -23,7 +23,7 @@ export type CharacterInput = {
   baseStats: { STR: number; INT: number; VIT: number; AGI: number; DEX: number };
   weaponType: string;
   subWeaponType?: string;   
-  armorType?: "light" | "heavy" | "normal"; 
+  armorType?: "light" | "heavy" | "normal" | "none"; 
   equipment: any[];
   activeBuffs?: any[];
   skills?: Record<string, number>;
@@ -49,6 +49,7 @@ export type Status = {
   flat: Record<StatKey, number>;
   percent: Record<StatKey, number>;
   final: DetailedStats; 
+  raw?: number[];
 };
 
 export type DetailedStats = {
@@ -59,7 +60,7 @@ export type DetailedStats = {
   PhysicalResistance: number; MagicResistance: number;
   AilmentResistance: number; Aggro: number;
   PhysicalBarrier: number; MagicBarrier: number; FractionalBarrier: number; BarrierCooldown: number;
-  Reflect: number; RefineReduction: number;
+  Reflect: number; RefineReduction: number; HIT:number;
 
   // Offensive Physical
   ATK: number; ATKcrit: number; Stability: number;

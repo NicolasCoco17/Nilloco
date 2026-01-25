@@ -103,7 +103,7 @@ export const PASSIVE_SKILLS_DATA = [
   { name: "Conversion", id: "Sword Conversion", img: "/icons/swordconversion.png" },
   { name: "Magic Skin", id: "Magic Skin", img: "/icons/magicskin.png" },
   { name: "L Boomerang II", id: "Ninja Spirit", img: "/icons/ninjaspirit.png" },
-  { name: "Frontliner II", id: "Frontliner II", img: "/icons/frontlinerii.png" }
+  { name: "Frontliner II", id: "Frontliner II", img: "/icons/frontliner2.png" }
 ];
 
 // avatar list

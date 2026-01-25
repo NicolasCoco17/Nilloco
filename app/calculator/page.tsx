@@ -1,3 +1,4 @@
+//app/calculator/page.tsx
 "use client";
 
 import { useState, useMemo } from "react";
@@ -8,6 +9,7 @@ import { EquipmentSlot } from "@/components/calculator/EquipmentSlot";
 import type { XtalSlotState } from "@/components/calculator/XtalSelect";
 import { PASSIVE_SKILLS_DATA, AVATAR_STAT_LIST, BUFFLAND_STAT_LIST } from "@/lib/constants";
 import { StatusDisplay } from "@/components/calculator/StatusDisplay";
+import { DebugPanel } from "@/components/calculator/DebugPanel";
 
 /* ======================
    TIPOS Y HELPERS
@@ -118,11 +120,11 @@ export default function CalculatorPage() {
     // Construcción de equipo
     const equipList = [
       { 
-        ...weapon, refine: weaponRefine, type: "main", stability: weapon?.base_stability,
+        ...weapon, refine: weaponRefine, type: "main", stability: weapon?.stability ?? weapon?.base_stability,
         xtals: { x1: findXtal(weaponXtals.x1, weaponXtalList), x2: findXtal(weaponXtals.x2, weaponXtalList) }
       },
       { 
-        ...subWeapon, refine: subRefine, type: "sub", stability: subWeapon?.base_stability
+        ...subWeapon, refine: subRefine, type: "sub", stability: weapon?.stability ?? weapon?.base_stability,
       },
       { 
         ...armor, refine: armorRefine, type: "armor",
@@ -166,11 +168,128 @@ export default function CalculatorPage() {
 
   const statKeys = Object.keys(baseStats) as Array<keyof typeof baseStats>;
 
+  // Guardar en el navegador
+  const saveBuildLocal = () => {
+    const buildData = {
+      level,
+      baseStats,
+      personalStatType,
+      personalStatValue,
+      mainType,
+      subType,
+      skills,
+      // Equipo
+      weapon, weaponRefine, weaponXtals,
+      subWeapon, subRefine,
+      armor, armorRefine, armorXtals, armorType,
+      additional, addRefine, addXtals,
+      special, specialRefine, specialXtals,
+      // Extras
+      avatars,
+      buffland,
+      foods,
+      activeRegistlets
+    };
+
+    try {
+      localStorage.setItem("toram_build_test", JSON.stringify(buildData));
+      alert("✅ Build guardada localmente.");
+    } catch (e) {
+      console.error(e);
+      alert("❌ Error al guardar (posiblemente límite de espacio).");
+    }
+  };
+
+  // Cargar desde el navegador
+  const loadBuildLocal = () => {
+    const saved = localStorage.getItem("toram_build_test");
+    if (!saved) {
+      alert("⚠️ No hay build guardada.");
+      return;
+    }
+
+    try {
+      const data = JSON.parse(saved);
+      
+      // Restaurar estados uno por uno (con validación básica)
+      if (data.level) setLevel(data.level);
+      if (data.baseStats) setBaseStats(data.baseStats);
+      if (data.personalStatType) setPersonalStatType(data.personalStatType);
+      if (data.personalStatValue !== undefined) setPersonalStatValue(data.personalStatValue);
+      
+      if (data.mainType) setMainType(data.mainType);
+      if (data.subType) setSubType(data.subType);
+      if (data.skills) setSkills(data.skills);
+
+      // Equipo (Es importante restaurar el objeto completo o null)
+      setWeapon(data.weapon || null);
+      if (data.weaponRefine) setWeaponRefine(data.weaponRefine);
+      if (data.weaponXtals) setWeaponXtals(data.weaponXtals);
+
+      setSubWeapon(data.subWeapon || null);
+      if (data.subRefine) setSubRefine(data.subRefine);
+
+      setArmor(data.armor || null);
+      if (data.armorRefine) setArmorRefine(data.armorRefine);
+      if (data.armorXtals) setArmorXtals(data.armorXtals);
+      if (data.armorType) setArmorType(data.armorType);
+
+      setAdditional(data.additional || null);
+      if (data.addRefine) setAddRefine(data.addRefine);
+      if (data.addXtals) setAddXtals(data.addXtals);
+
+      setSpecial(data.special || null);
+      if (data.specialRefine) setSpecialRefine(data.specialRefine);
+      if (data.specialXtals) setSpecialXtals(data.specialXtals);
+
+      // Extras
+      if (data.avatars) setAvatars(data.avatars);
+      if (data.buffland) setBuffland(data.buffland);
+      if (data.foods) setFoods(data.foods);
+      if (data.activeRegistlets) setActiveRegistlets(data.activeRegistlets);
+
+      alert("✅ Build cargada correctamente.");
+    } catch (e) {
+      console.error(e);
+      alert("❌ Error al leer los datos guardados.");
+    }
+  };
+
+  // Limpiar
+  const clearBuildLocal = () => {
+      if(confirm("¿Estás seguro de borrar los datos guardados?")) {
+          localStorage.removeItem("toram_build_test");
+          alert("🗑️ Datos borrados.");
+      }
+  }
+
   return (
     <div style={styles.container}>
       <h1 style={styles.title}>Toram Calculator <span style={{fontSize:'0.5em', color:'#666'}}>v3.1 Final</span></h1>
+        {/* --- TOOLBAR DE TEST --- */}
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', marginBottom: '20px' }}>
+          <button 
+            onClick={saveBuildLocal}
+            style={{ padding: '8px 16px', background: '#2ecc71', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}
+          >
+            💾 Guardar Build
+          </button>
+          
+          <button 
+            onClick={loadBuildLocal}
+            style={{ padding: '8px 16px', background: '#3498db', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}
+          >
+            📂 Cargar Build
+          </button>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '20px' }}>
+          <button 
+            onClick={clearBuildLocal}
+            style={{ padding: '8px 16px', background: '#e74c3c', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}
+          >
+            🗑️ Borrar
+          </button>
+        </div>
+      < div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '20px' }}>
         
         {/* COLUMNA 1 */}
         <div>
@@ -372,6 +491,11 @@ export default function CalculatorPage() {
           <div style={{ position:'sticky', top:'20px' }}>
             <StatusDisplay stats={finalStats.final} />
           </div>
+
+           {/* DEBUG PANEL FLOTANTE */}
+          {/* TypeScript se quejará de que 'raw' no existe en finalStats si no actualizaste types.ts, 
+              puedes usar (finalStats as any).raw para evitar el error rápido */}
+          <DebugPanel rawStats={(finalStats as any).raw} />
         </div>
       </div>
     </div>

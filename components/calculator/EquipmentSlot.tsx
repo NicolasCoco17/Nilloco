@@ -1,3 +1,4 @@
+//components/calculator/equipamentSlot.tsx
 "use client";
 
 import { FULL_STAT_LIST } from "@/lib/constants"; 

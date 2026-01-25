@@ -9,11 +9,15 @@ export const STAT_ID = {
   // Regen
   NATURAL_HP_REGEN: 13, NATURAL_HP_REGEN_P: 14,
   NATURAL_MP_REGEN: 15, NATURAL_MP_REGEN_P: 16,
-  ATTACK_MP_RECOVERY: 68,
+  
+  // AMPR (Aquí faltaba el porcentual)
+  ATTACK_MP_RECOVERY: 68, 
+  ATTACK_MP_RECOVERY_P: 165, // <--- AGREGADO
 
-  // Max
+  // Max HP / MP
   MAXHP: 17, MAXHP_P: 18,
-  MAXMP: 19, // (Ojo: En algunos contextos internos de Coryn es 101, pero mantenemos 19 para input)
+  MAXMP: 19, 
+  MAXMP_P: 101, // <--- AGREGADO
 
   // Atk/Matk
   ATK: 20, ATK_P: 21,
@@ -31,7 +35,7 @@ export const STAT_ID = {
   PHYSICAL_RESISTANCE: 31,
   MAGIC_RESISTANCE: 32,
   
-  // Resistance Elements (Faltaban estos)
+  // Resistance Elements
   RES_FIRE: 51, 
   RES_WATER: 52, 
   RES_WIND: 53, 
@@ -47,7 +51,7 @@ export const STAT_ID = {
   DODGE: 35, DODGE_P: 36,
   ASPD: 37, ASPD_P: 38,
   CSPD: 39, CSPD_P: 40,
-  MOTION_SPEED: 71, // (Faltaba este)
+  MOTION_SPEED: 71,
 
   // Crit
   CRITICAL_RATE: 41, CRITICAL_RATE_P: 42,
@@ -68,7 +72,7 @@ export const STAT_ID = {
   SHORT_RANGE_DMG: 69,
   LONG_RANGE_DMG: 70,
   
-  // Unsheathe (Faltaban estos)
+  // Unsheathe
   UNSHEATHE_ATTACK: 116, 
   UNSHEATHE_ATTACK_P: 117,
 
@@ -99,23 +103,32 @@ export const STAT_ID = {
   RED_DMG_STRAIGHT: 187,
   RED_VORTEX: 316,
   RED_EXPLOSION: 317,
+
+  // --- ASPD AVANZADO (CAPAS) ---
+  ASPD_EQUIP: 1001,   // Equipo + pasivas (multiplicable)
+  ASPD_FINAL: 1002,   // Consumibles, registlets (no multiplicable)
+
 };
 
 export function getStatIdFromName(name: string): number {
   if (!name) return 0;
   
-  // LIMPIEZA TOTAL:
-  // 1. A minúsculas
-  // 2. Reemplazar cualquier cosa que NO sea letra (a-z) o número (0-9) por nada.
-  // Ej: "Physical Resistance %" -> "physicalresistance"
-  // Ej: "Aggro%" -> "aggro"
-  // Ej: "STR %" -> "str"
-  const n = name.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const lower = name.toLowerCase();
+  // 1. Detectar si es porcentaje ANTES de borrar el símbolo
+  const isPercent = lower.includes("%");
+
+  // 2. Limpiar string (deja solo letras y números)
+  let n = lower.replace(/[^a-z0-9]/g, "");
+
+  // 3. Si era porcentaje, agregar "pct" si no lo tiene
+  if (isPercent && !n.endsWith("pct") && !n.endsWith("p")) {
+    n += "pct";
+  }
 
   switch (n) {
     // === BÁSICOS ===
     case "str": return 3; 
-    case "strpct": case "strp": return 4; // pct = %
+    case "strpct": case "strp": return 4;
     case "int": return 5; 
     case "intpct": case "intp": return 6;
     case "vit": return 7; 
@@ -126,19 +139,20 @@ export function getStatIdFromName(name: string): number {
     case "dexpct": case "dexp": return 12;
 
     // === HP / MP / REGEN ===
-    case "maxhp": return 17; 
-    case "maxhppct": case "maxhpp": return 18;
-    case "maxmp": return 19; 
-    // Nota: A veces maxmp% no tiene ID propio claro en inputs, 
-    // pero si usas "maxmp%" en el custom stat, lo mandamos al 19 y el motor lo procesa como plano
-    // OJO: Si quieres % real, usa un ID interno o manéjalo en aggregator
-    case "maxmppct": return 19; 
+    case "maxhp": case "hp": return 17; 
+    case "maxhppct": case "maxhpp": case "hppct": return 18;
+
+    case "maxmp": case "mp": return 19; 
+    case "maxmppct": case "mppct": return 101; // ID 101 para %
 
     case "naturalhpregen": return 13; 
     case "naturalhpregenpct": return 14;
     case "naturalmpregen": return 15; 
     case "naturalmpregenpct": return 16;
+    
+    // AMPR
     case "attackmprecovery": case "ampr": return 68;
+    case "attackmprecoverypct": case "amprpct": return 165; // ID 165 para %
 
     // === ATAQUE ===
     case "atk": return 20; 
@@ -146,7 +160,7 @@ export function getStatIdFromName(name: string): number {
     case "matk": return 22; 
     case "matkpct": case "matkp": return 23;
     case "weaponatk": case "watk": return 73;
-    case "weaponatkpct": return 74; 
+    case "weaponatkpct": case "watkpct": return 74; 
 
     // === CRÍTICOS & ESTABILIDAD ===
     case "criticalrate": case "critrate": case "flatcrit": return 41;
@@ -161,9 +175,9 @@ export function getStatIdFromName(name: string): number {
     case "cspd": return 39; 
     case "cspdpct": return 40;
     case "accuracy": case "hit": return 33; 
-    case "accuracypct": return 34;
+    case "accuracypct": case "hitpct": return 34;
     case "dodge": case "flee": return 35; 
-    case "dodgepct": return 36;
+    case "dodgepct": case "fleepct": return 36;
     case "motionspeed": case "motionspeedpct": return 71;
 
     // === DEFENSA ===
@@ -171,9 +185,17 @@ export function getStatIdFromName(name: string): number {
     case "defpct": return 28;
     case "mdef": return 29; 
     case "mdefpct": return 30;
-    case "physicalresistance": case "physres": case "physicalresistancepct": return 31;
-    case "magicresistance": case "magres": case "magicresistancepct": return 32;
-    case "ailmentresistance": case "ailmentresistancepct": return 57;
+    
+    // Resistencias (Normalizadas)
+    case "physicalresistance": case "physres": return 31;
+    case "physicalresistancepct": case "physrespct": return 31; // ID Unico
+    
+    case "magicresistance": case "magres": return 32;
+    case "magicresistancepct": case "magrespct": return 32;
+
+    case "ailmentresistance": case "ailment": return 57;
+    case "ailmentresistancepct": case "ailmentpct": return 57;
+
     case "neutralresistance": case "neutralresistancepct": return 75;
     case "fireresistance": case "fireresistancepct": return 51;
     case "waterresistance": case "waterresistancepct": return 52;
@@ -190,14 +212,6 @@ export function getStatIdFromName(name: string): number {
     case "strongeragainstlight": case "strongeragainstlightpct": return 49;
     case "strongeragainstdark": case "strongeragainstdarkpct": return 50;
     case "strongeragainstneutral": case "strongeragainstneutralpct": return 110;
-
-    // === ELEMENTOS (AWAKENING) ===
-    case "fireelement": return 62;
-    case "waterelement": return 63;
-    case "windelement": return 64;
-    case "earthelement": return 65;
-    case "lightelement": return 66;
-    case "darkelement": return 67;
 
     // === OTROS ===
     case "aggro": case "aggropct": return 61;
@@ -218,18 +232,9 @@ export function getStatIdFromName(name: string): number {
     case "reflect": case "reflectpct": return 126;
     case "anticipate": case "anticipatepct": return 139;
     case "guardbreak": case "guardbreakpct": return 140;
-
-       // === AGREGA ESTOS ALIAS PARA REGISTLETS ===
-    case "hp": return 17; // MaxHP
-    case "mp": return 19; // MaxMP
-    case "acc": return 33; // Accuracy
-    case "hit": return 33; // Accuracy
-    case "flee": return 35; // Dodge
-    case "aspd": return 37;
-    case "cspd": return 39;
-    case "def": return 27;
-    case "mdef": return 29;
-    case "dmg penalty red.": return 0; // Wayfarer (No tiene ID matemático simple, se ignora por ahora)
+    
+    case "additionalmelee": case "additionalmeleepct": return 129;
+    case "additionalmagic": case "additionalmagicpct": return 130;
   }
   return 0;
 }

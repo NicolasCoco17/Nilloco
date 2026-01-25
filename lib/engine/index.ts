@@ -2,13 +2,108 @@ import { CharacterInput, Status, DetailedStats } from "./types";
 import { aggregateStats } from "./aggregator";
 import { STAT_ID } from "./statIds";
 
+const trunc = Math.trunc;
+const floor = Math.floor;
+const ceil = Math.ceil;
+const max = Math.max;
+const min = Math.min;
+
+// --- HELPER: SOFT CAP FORMULA (Original de Coryn) ---
+function resSoftCap(resist: number): number {
+  let final_res = 0;
+  if (resist > 50) {
+    const iteration = resist / 50;
+    let temp_res = resist;
+    for (let i = 0; i < iteration; i++) {
+      if (temp_res <= 50) {
+        final_res += temp_res / Math.pow(2, i);
+      } else {
+        final_res += 50 / Math.pow(2, i);
+        temp_res -= 50;
+      }
+    }
+  } else if (resist < -50) {
+    const iteration = -resist / 50;
+    let temp_res = resist;
+    for (let i = 0; i < iteration; i++) {
+      if (temp_res >= -50) {
+        final_res += temp_res * Math.pow(2, i);
+      } else {
+        final_res -= 50 * Math.pow(2, i);
+        temp_res += 50;
+      }
+    }
+  } else {
+    final_res = resist;
+  }
+  return trunc(final_res);
+}
+
 export function calcCharacterStatus(input: CharacterInput): Status {
-  // 1. Obtener array de stats acumulados
+  // 1. Obtener stats acumulados
   const eq_stats = aggregateStats(input);
   const skills = input.skills || {};
   const getStat = (id: number) => eq_stats[id] || 0;
 
-  // Datos Básicos
+  // --- EXTRACCIÓN DE DATOS ---
+  const mainWeapon = input.equipment.find(e => e.type === "main");
+  const subWeapon = input.equipment.find(e => e.type === "sub");
+  
+  const mainType = input.weaponType;
+  const subType = input.subWeaponType || "none";
+  const armorType = input.armorType || "normal";
+  const isDual = mainType === "1h" && subType === "1h";
+  const isShield = subType === "shield";
+
+  // --- REFINAMIENTO ---
+  const normalizeRefine = (ref: any): number => {
+    if (typeof ref === "number") return ref;
+    if (typeof ref === "string") {
+      const map: Record<string, number> = { "E": 10, "D": 11, "C": 12, "B": 13, "A": 14, "S": 15 };
+      return map[ref.toUpperCase()] ?? (parseInt(ref) || 0);
+    }
+    return 0;
+  };
+
+  const mainRefine = normalizeRefine(mainWeapon?.refine);
+  const subRefine = normalizeRefine(subWeapon?.refine);
+  const armorRefine = normalizeRefine(input.equipment.find(e => e.type === "armor")?.refine);
+  const addRefine = normalizeRefine(input.equipment.find(e => e.type === "add")?.refine);
+
+  // --- SKILLS ---
+  const godSpeedLvl = skills["God Speed"] || skills["Godspeed"] || 0;
+  const bushidoLvl = skills["Bushido"] || 0;
+  const twoHandedLvl = skills["Two-Handed"] || skills["Two Handed"] || 0;
+  const ninjaSpiritLvl = skills["Ninja Spirit"] || 0;
+  const quickAuraLvl = skills["Quick Aura"] || 0;
+  const frontlinerLvl = skills["Frontliner II"] || 0;
+  
+  const martialMasteryLvl = skills["Martial Mastery"] || 0;
+  const shieldMasteryLvl = skills["Shield Mastery"] || 0;
+  const forceShieldLvl = skills["Force Shield"] || 0;
+  const magicalShieldLvl = skills["Magical Shield"] || 0;
+  const lightArmorMasteryLvl = skills["Light Armor Mastery"] || 0;
+  const hpBoostLvl = skills["HP Boost"] || 0;
+  const mpBoostLvl = skills["MP Boost"] || 0;
+  const attackUpLvl = skills["Attack Up"] || 0;
+  const magicUpLvl = skills["Magic Up"] || 0;
+  const defenseUpLvl = skills["Defense Up"] || 0;
+  const defenseMasteryLvl = skills["Defense Mastery"] || 0;
+
+  const isTwoHandedActive = twoHandedLvl > 0 && (
+    subType === "none" || 
+    (subType === "scroll" && ninjaSpiritLvl === 10)
+  );
+
+  // ==========================================
+  // 1. STAT BONUSES FROM SKILL (Pre-calc)
+  // ==========================================
+  let godSpeedBonus = godSpeedLvl;
+  if (godSpeedLvl >= 6) godSpeedBonus += (godSpeedLvl - 5);
+  
+  // ==========================================
+  // 2. BASIC STATS
+  // ==========================================
   const Lv = input.level;
   const baseSTR = input.baseStats.STR;
   const baseINT = input.baseStats.INT;
@@ -16,428 +111,421 @@ export function calcCharacterStatus(input: CharacterInput): Status {
   const baseAGI = input.baseStats.AGI;
   const baseDEX = input.baseStats.DEX;
 
-  // --- SKILLS QUE AFECTAN STATS BASE (Godspeed) ---
-  let skillAGI = 0;
-  if (skills["God Speed"] > 0) {
-      // Godspeed: +15 AGI (Lv10)
-      skillAGI += Math.floor(skills["God Speed"] * 1.5);
-  }
-
-  // --- FÓRMULAS DE STATS BASE ---
-  const STR = Math.floor(baseSTR * (1 + (getStat(4) + getStat(213)) / 100) + (getStat(3) + getStat(212)));
-  const INT = Math.floor(baseINT * (1 + (getStat(6) + getStat(215)) / 100) + (getStat(5) + getStat(214)));
-  const VIT = Math.floor(baseVIT * (1 + (getStat(8) + getStat(217)) / 100) + (getStat(7) + getStat(216)));
-  // Sumamos skillAGI aquí para que afecte ASPD, FLEE y CDMG
-  const AGI = Math.floor(baseAGI * (1 + (getStat(10) + getStat(219)) / 100) + (getStat(9) + getStat(218) + skillAGI));
-  const DEX = Math.floor(baseDEX * (1 + (getStat(12) + getStat(221)) / 100) + (getStat(11) + getStat(220)));
-
-  // Personal Stat
-  let CRT = 0, LUK = 0, MTL = 0, TEC = 0;
+  let CRT = 0, MTL = 0, TEC = 0;
   if (input.personal) {
     if (input.personal.type === "CRT") CRT = input.personal.value;
-    if (input.personal.type === "LUK") LUK = input.personal.value;
     if (input.personal.type === "MTL") MTL = input.personal.value;
     if (input.personal.type === "TEC") TEC = input.personal.value;
   }
 
-  // --- REFINAMIENTO Y ARMAS ---
-  const mainWeapon = input.equipment.find(e => e.type === "main");
-  const subWeapon = input.equipment.find(e => e.type === "sub");
-  const armorEquip = input.equipment.find(e => e.type === "armor");
-  const addEquip = input.equipment.find(e => e.type === "add");
-  const shieldEquip = (input.subWeaponType === "shield") ? subWeapon : null;
+  // Formula: floor(Base * (1 + %) + Flat)
+  const STR = floor(baseSTR * (1 + (getStat(STAT_ID.STR_P) + getStat(213)) / 100) + (getStat(STAT_ID.STR) + getStat(212)));
+  const INT = floor(baseINT * (1 + (getStat(STAT_ID.INT_P) + getStat(215)) / 100) + (getStat(STAT_ID.INT) + getStat(214)));
+  const VIT = floor(baseVIT * (1 + (getStat(STAT_ID.VIT_P) + getStat(217)) / 100) + (getStat(STAT_ID.VIT) + getStat(216)));
+  // God Speed modifies eq_stats[9] (AGI Flat)
+  const AGI = floor(baseAGI * (1 + (getStat(STAT_ID.AGI_P) + getStat(219)) / 100) + (getStat(STAT_ID.AGI) + getStat(218) + godSpeedBonus));
+  const DEX = floor(baseDEX * (1 + (getStat(STAT_ID.DEX_P) + getStat(221)) / 100) + (getStat(STAT_ID.DEX) + getStat(220)));
+
+  // ==========================================
+  // 3. WEAPON ATK & EQUIPMENT DEF
+  // ==========================================
+  const mainATK = Number(mainWeapon?.base_atk || 0);
+  const subATK = Number(subWeapon?.base_atk || 0); 
+
+  // WEAPON ATK MODIFIER
+  let weaponATKmodifier = 1;
+  weaponATKmodifier += (mainRefine * mainRefine) / 100;
+  weaponATKmodifier += (getStat(STAT_ID.WEAPON_ATK_P) + getStat(278)) / 100;
+
+  const masteryMap: Record<string, number> = {
+      "1h": skills["Sword Mastery"], "2h": skills["Sword Mastery"],
+      "bow": skills["Shot Mastery"], "bwg": skills["Shot Mastery"],
+      "staff": skills["Magic Mastery"], "md": skills["Magic Mastery"],
+      "knux": martialMasteryLvl,
+      "hb": skills["Halberd Mastery"],
+      "kat": bushidoLvl
+  };
+  if (isDual) {
+     weaponATKmodifier += 0.03 * (skills["Dual Sword Mastery"] || 0);
+  } else if (masteryMap[mainType]) {
+     weaponATKmodifier += 0.03 * (masteryMap[mainType] || 0);
+  }
+
+  if (isTwoHandedActive) {
+      weaponATKmodifier += twoHandedLvl / 100;
+  }
+
+  let weaponATK = trunc(mainATK * weaponATKmodifier);
   
-  function normalizeRefine(ref: any): number {
-    if (typeof ref === "number") return ref;
-    if (typeof ref === "string") {
-      const map: Record<string, number> = { "E": 10, "D": 11, "C": 12, "B": 13, "A": 14, "S": 15 };
-      return map[ref.toUpperCase()] ?? (parseInt(ref) || 0);
-    }
-    return 0;
-  }
+  weaponATK += getStat(STAT_ID.WEAPON_ATK) + getStat(277);
+  weaponATK += mainRefine;
 
-  const mainRefine = normalizeRefine(mainWeapon?.refine);
-  const subRefine = normalizeRefine(subWeapon?.refine);
-  const armorRefine = normalizeRefine(armorEquip?.refine);
-  const addRefine = normalizeRefine(addEquip?.refine);
-  const shieldRefine = normalizeRefine(shieldEquip?.refine);
+  if (mainType === "barehand") weaponATK += 0.1 * (skills["Unarmed Mastery"] || 0) * Lv;
 
-  // Weapon ATK Base (con fórmula de Refine^2)
-  const baseWATK = Number(mainWeapon?.base_atk || 0);
-  const refineBonusPct = (mainRefine * mainRefine) / 100; 
-  
-  let wAtkMod = 1 + refineBonusPct + getStat(STAT_ID.WEAPON_ATK_P)/100;
-  let wAtkFlat = mainRefine + getStat(STAT_ID.WEAPON_ATK);
-  
-  // Refine Resistance
-  const refineReduction = armorRefine + addRefine + (shieldRefine || 0);
+  // Sub Weapon additions
+  if (mainType === "bow" && subType === "arrow") weaponATK += subATK;
+  if (mainType === "bwg" && subType === "arrow") weaponATK += trunc(subATK / 2);
 
-  // --- MODIFICADORES DE WEAPON ATK (Mastery Skills) ---
-  const mainType = input.weaponType;
-  const subType = input.subWeaponType || "none";
+  // EQUIPMENT DEF (Armor + Add + Special + Shield Base DEF)
+  const itemBaseDEF = input.equipment.reduce((acc, item) => acc + (Number(item.def) || 0), 0);
+  let equipmentDEF = itemBaseDEF; 
+  // IMPORTANT FROM SNIPPET: if(sub=="Shield") equipmentDEF += subATK;
+  if (isShield) equipmentDEF += subATK;
 
-  const masteryBonus = (lvl: number) => lvl * 0.3; 
-  let atkPctSkill = 0;
-  let matkPctSkill = 0;
-
-  if(mainType === "1h" || mainType === "2h") {
-      const mastery = skills["Sword Mastery"] || 0;
-      atkPctSkill += mastery * 0.3; 
-      wAtkMod += mastery * 0.03; 
-  }
-  if(mainType === "bow" || mainType === "bwg") {
-      const mastery = skills["Shot Mastery"] || 0;
-      atkPctSkill += mastery * 0.3;
-      wAtkMod += mastery * 0.03;
-  }
-  if(mainType === "knux") {
-      const mastery = skills["Martial Mastery"] || 0;
-      atkPctSkill += mastery * 0.3;
-      wAtkMod += mastery * 0.03;
-  }
-  if(mainType === "hb") {
-      const mastery = skills["Halberd Mastery"] || 0;
-      atkPctSkill += mastery * 0.3;
-      wAtkMod += mastery * 0.03;
-  }
-  if(mainType === "kat") {
-      const mastery = skills["Bushido"] || 0;
-      atkPctSkill += mastery * 0.3;
-      wAtkMod += mastery * 0.03;
-  }
-  if(mainType === "staff" || mainType === "md") {
-      const mastery = skills["Magic Mastery"] || 0;
-      matkPctSkill += mastery * 0.3;
-      wAtkMod += mastery * 0.03;
-  }
-
-  // Two Handed
-  if (mainType !== "barehand" && (subType === "none" || (subType === "scroll" && (skills["Ninja Spirit"] || 0) === 10))) {
-      const th = skills["Two Handed"] || 0;
-      wAtkMod += th / 100;
-  }
-
-  // Samurai Archery
-  if (mainType === "bow" && subType === "kat") {
-      const samLvl = skills["Samurai Archery"] || 0;
-      if (samLvl > 0) {
-          const bonus = Math.min(100, baseWATK * 0.6);
-          wAtkFlat += bonus; 
-      }
-  }
-
-  // Unarmed Mastery
-  if (mainType === "barehand") {
-      const uaLvl = skills["Unarmed Mastery"] || 0;
-      wAtkFlat += (uaLvl * Lv) / 10; 
-  }
-
-  // CÁLCULO FINAL DE WEAPON ATK
-  let weaponATK = Math.floor(baseWATK * wAtkMod) + wAtkFlat;
-  let subATK = (subWeapon?.base_atk || 0) + subRefine;
-
-  // --- CÁLCULO STATS PRINCIPALES ---
-  let ATK = 0, MATK = 0, ASPD = 0;
+  // ==========================================
+  // 4. BASE SECONDARY STATS
+  // ==========================================
   let stability = (mainWeapon?.stability || 0);
+  if (subType === "arrow") stability += (subWeapon?.stability || 0);
+  stability += getStat(STAT_ID.STABILITY);
+  if (isTwoHandedActive) {
+      if (mainType === "kat") stability += twoHandedLvl;
+      else stability += floor(twoHandedLvl / 2);
+  }
+  stability = min(max(1, stability), 100);
+
+  const baseHit = Lv + DEX;
+  const baseCSPD = Lv + AGI * 1.16 + DEX * 2.94;
+  let hpBase = trunc((VIT + 22.4) * Lv / 3 + 93);
+  let mpBase = trunc(100 + Lv + INT / 10 + max(TEC - 1, 0));
+  const baseCR = trunc(25 + CRT / 3.4);
+
+  // ==========================================
+  // 5. DEF, MDEF, FLEE (BASE FORMULAS)
+  // ==========================================
+  let baseDef = 0, baseMdef = 0, baseFlee = 0;
   
-  if (mainType === "1h") {
-    ATK = Lv + STR * 2 + DEX * 2 + weaponATK;
-    MATK = Lv + INT * 3 + DEX;
-    ASPD = 100 + Lv + AGI * 4 + (AGI + STR - 1) * 0.2;
-    stability += (STR + DEX * 3) / 40;
-  } else if (mainType === "2h") {
-    ATK = Lv + STR * 3 + DEX + weaponATK;
-    MATK = Lv + INT * 3 + DEX + 1;
-    ASPD = 50 + Lv + AGI * 2 + (AGI + STR - 1) * 0.2;
-    stability += DEX * 0.1;
-  } else if (mainType === "bow") {
-    ATK = Lv + STR + DEX * 3 + weaponATK;
-    MATK = Lv + INT * 3 + DEX;
-    ASPD = 75 + Lv + AGI * 3.1 + (AGI + DEX * 2 - 1) * 0.1;
-    stability += (STR + DEX) / 20;
-  } else if (mainType === "bwg") {
-    ATK = Lv + DEX * 4 + weaponATK;
-    MATK = Lv + INT * 3 + DEX;
-    ASPD = 30 + Lv + AGI * 2.2 + DEX * 0.2;
-    stability += STR * 0.05;
-  } else if (mainType === "staff") {
-    ATK = Lv + STR * 3 + INT + weaponATK;
-    MATK = Lv + INT * 4 + DEX + weaponATK;
-    ASPD = 60.6 + Lv + INT * 0.2 + AGI * 1.8;
-    stability += STR * 0.05;
-  } else if (mainType === "md") {
-    ATK = Lv + INT * 2 + AGI * 2 + weaponATK;
-    MATK = Lv + INT * 4 + DEX + weaponATK;
-    ASPD = 90 + Lv + AGI * 4 + (INT - 1) * 0.2;
-    stability += DEX * 0.1;
-  } else if (mainType === "knux") {
-    ATK = Lv + AGI * 2 + DEX * 0.5 + weaponATK;
-    MATK = Lv + INT * 4 + DEX + weaponATK * 0.5;
-    ASPD = 120 + Lv + AGI * 4.6 + DEX * 0.1 + STR * 0.1;
-    stability += DEX * 0.025;
-  } else if (mainType === "hb") {
-    ATK = Lv + STR * 2.5 + AGI * 1.5 + weaponATK;
-    MATK = Lv + INT * 2 + DEX + AGI;
-    ASPD = 25 + Lv + AGI * 3.5 + STR * 0.2;
-    stability += (STR + DEX) / 20;
-  } else if (mainType === "kat") {
-    ATK = Lv + STR * 1.5 + DEX * 2.5 + weaponATK;
-    MATK = Lv + INT * 1.5 + DEX;
-    ASPD = 200 + Lv + AGI * 3.9 + STR * 0.3;
-    stability += (STR * 3 + DEX) / 40;
-  } else { 
-    ATK = Lv + STR + 1 + weaponATK;
-    MATK = Lv + INT * 3 + DEX + 1;
-    ASPD = 1000 + Lv + AGI * 9.6;
-    stability = 0;
-  }
-
-  // Modificadores Finales ATK/MATK
-  const atkUpVal = Math.floor((skills["Attack Up"] || 0) * 2.5 * Lv / 100);
-  const matkUpVal = Math.floor((skills["Magic Up"] || 0) * 2.5 * Lv / 100);
-  const intimVal = Math.floor((skills["Intimidating Power"] || 0) * 2.5 * Lv / 100);
-  const incEngVal = Math.floor((skills["Increased Energy"] || 0) * 2.5 * Lv / 100);
-
-  ATK = Math.floor((ATK + atkUpVal + intimVal + getStat(STAT_ID.ATK)) * (1 + (getStat(STAT_ID.ATK_P) + atkPctSkill)/100));
-  MATK = Math.floor((MATK + matkUpVal + incEngVal + getStat(STAT_ID.MATK)) * (1 + (getStat(STAT_ID.MATK_P) + matkPctSkill)/100));
-
-  // --- CÁLCULO HP/MP/DEF/MDEF/FLEE ---
-  const hpBoost = skills["HP Boost"] || 0;
-  let hpSkillFlat = hpBoost * 100; 
-  let hpSkillPct = hpBoost * 2;
-
-  const mpBoost = skills["MP Boost"] || 0;
-  let mpSkillFlat = mpBoost * 30;
-
-  let defSkillPct = 0;
-  let mdefSkillPct = 0;
-  let physResSkill = 0;
-  let magResSkill = 0;
-  let accSkillFlat = 0; // Para Bushido
-  let accSkillPct = 0;  // Para Dual Sword Control
-
-  // Force Shield (Shield only)
-  if (subType === "shield") {
-      const fs = skills["Force Shield"] || 0;
-      hpSkillFlat += fs * 50;
-      defSkillPct += fs * 1;
-      physResSkill += fs * 1;
-
-      const ms = skills["Magical Shield"] || 0;
-      hpSkillFlat += ms * 50;
-      mdefSkillPct += ms * 1;
-      magResSkill += ms * 1;
-  }
-
-  // Bushido (Katana only)
-  if (mainType === "kat") {
-      const bushido = skills["Bushido"] || 0;
-      hpSkillFlat += bushido * 10;
-      mpSkillFlat += bushido * 10;
-      accSkillFlat += bushido * 10; // Accuracy +10
-  }
-
-  // Frontliner II
-  if (skills["Frontliner II"] > 0) {
-      hpSkillFlat += 3000; 
-  }
-
-  // --- CÁLCULO HP/MP ---
-  let MaxHP = Math.floor((VIT + 22.4) * Lv / 3 + 93);
-  MaxHP = Math.floor((MaxHP + hpSkillFlat + getStat(STAT_ID.MAXHP)) * (1 + (getStat(STAT_ID.MAXHP_P) + hpSkillPct)/100));
-  
-  let MaxMP = Math.floor(100 + Lv + INT / 10 + Math.max(TEC-1, 0));
-  MaxMP = Math.floor((MaxMP + mpSkillFlat + getStat(STAT_ID.MAXMP)) * (1 + (getStat(101) + mpBoost)/100)); 
-
-  // --- CÁLCULO DEF/MDEF/FLEE ---
-  // Calculo inicial
-  const equipmentDEF = getStat(STAT_ID.DEF);
-  const equipmentMDEF = getStat(STAT_ID.MDEF);
-  const equipmentFLEE = getStat(STAT_ID.DODGE);
-
-  let DEF = 0, MDEF = 0, FLEE = 0;
-  
-  const armorType = input.armorType ?? "normal";
   if (armorType === "light") {
-    DEF = Math.floor(Lv * 0.8 + VIT * 0.25 + equipmentDEF);
-    MDEF = Math.floor(Lv * 0.8 + INT * 0.25 + equipmentMDEF);
-    FLEE = Math.floor(Lv * 1.25 + AGI * 1.75 + 30 + equipmentFLEE);
-    ASPD = Math.floor(ASPD * 1.5);
+    baseDef = trunc(Lv * 0.8 + VIT * 0.25 + equipmentDEF);
+    baseMdef = trunc(Lv * 0.8 + INT * 0.25 + equipmentDEF); 
+    baseFlee = trunc(Lv * 1.25 + AGI * 1.75 + 30);
   } else if (armorType === "heavy") {
-    DEF = Math.floor(Lv * 1.2 + VIT * 2 + equipmentDEF);
-    MDEF = Math.floor(Lv * 1.2 + INT * 2 + equipmentMDEF);
-    FLEE = Math.floor(Lv * 0.5 + AGI * 0.75 - 15 + equipmentFLEE);
-    ASPD = Math.floor(ASPD * 0.5);
-  } else { // Normal or None
-    DEF = Lv + VIT + equipmentDEF;
-    MDEF = Lv + INT + equipmentMDEF;
-    FLEE = Lv + AGI + equipmentFLEE;
-    if (armorType !== "normal") ASPD = Math.floor(ASPD * 1.5 + 1000); 
+    baseDef = trunc(Lv * 1.2 + VIT * 2 + equipmentDEF);
+    baseMdef = trunc(Lv * 1.2 + INT * 2 + equipmentDEF);
+    baseFlee = trunc(Lv * 0.5 + AGI * 0.75 - 15);
+  } else if (armorType === "none") { // Without Armor
+    baseDef = trunc(Lv * 0.4 + VIT * 0.1 + equipmentDEF);
+    baseMdef = trunc(Lv * 0.4 + INT * 0.1 + equipmentDEF);
+    baseFlee = trunc(Lv * 1.5 + AGI * 2 + 75);
+  } else { // Normal
+    baseDef = Lv + VIT + equipmentDEF;
+    baseMdef = Lv + INT + equipmentDEF; 
+    baseFlee = Lv + AGI;
   }
 
-  // Aplicar bonos % de skills a DEF/MDEF
-  DEF = Math.floor(DEF * (1 + (getStat(STAT_ID.DEF_P) + defSkillPct)/100));
-  MDEF = Math.floor(MDEF * (1 + (getStat(STAT_ID.MDEF_P) + mdefSkillPct)/100));
-
-  // --- SKILLS DE VELOCIDAD (ASPD) ---
-  let aspdSkillFlat = 0;
-  let aspdSkillPct = 0;
-
-  // Quick Aura
-  const qaLvl = skills["Quick Aura"] || 0;
-  if (qaLvl > 0) {
-      aspdSkillFlat += 250 + (25 * qaLvl);
-      aspdSkillPct += 2.5 * qaLvl;
-  }
-
-  // Quick Slash (1h/2h)
-  if (mainType === "1h" || mainType === "2h") {
-      const qsLvl = skills["Quick Slash"] || 0;
-      aspdSkillFlat += 10 * qsLvl;
-      aspdSkillPct += 1 * qsLvl;
-  }
-
-  // Martial Discipline (Knux)
-  if (mainType === "knux") {
-      const mdLvl = skills["Martial Discipline"] || 0;
-      aspdSkillFlat += 10 * mdLvl;
-      aspdSkillPct += 1 * mdLvl;
-  }
-
-  // Dual Sword Control (ASPD +500)
-  if (mainType === "1h" && subType === "1h") {
-      const dsc = skills["Dual Sword Control"] || 0;
-      aspdSkillFlat += 50 * dsc; 
-  }
-
-  // Fórmula Final ASPD: (Base + Flat) * (1 + %)
-  const aspdEquipFlat = getStat(STAT_ID.ASPD);
-  const aspdEquipPct = getStat(STAT_ID.ASPD_P);
-  ASPD = Math.floor((ASPD + aspdSkillFlat + aspdEquipFlat) * (1 + (aspdEquipPct + aspdSkillPct)/100));
+  // ==========================================
+  // 6. APPLY MODIFIERS (PERCENT)
+  // ==========================================
   
-  // --- CÁLCULO DE MOTION SPEED ---
-  let MotionSpeed = getStat(STAT_ID.MOTION_SPEED);
-  if (ASPD > 1000) {
-      MotionSpeed += Math.floor((ASPD - 1000) / 180);
+  // HIT %
+  let hitPct = 1 + (getStat(STAT_ID.ACCURACY_P) + getStat(243)) / 100;
+  if (isTwoHandedActive) hitPct += twoHandedLvl / 100;
+  // Strong Chase Attack omitted
+  const HIT = trunc(baseHit * hitPct);
+
+  // CSPD %
+  let cspdPct = 1 + (getStat(STAT_ID.CSPD_P) + getStat(249)) / 100;
+  if (subType === "md" && skills["Magic Warrior Mastery"] > 0) {
+     cspdPct += (skills["Magic Warrior Mastery"] + max(skills["Magic Warrior Mastery"] - 5, 0)) / 100;
   }
-  MotionSpeed = Math.min(MotionSpeed, 50);
+  const CSPD = trunc(baseCSPD * cspdPct) + getStat(STAT_ID.CSPD);
 
-  // --- CRITICAL ---
-  let CR = Math.floor(25 + CRT / 3.4);
-  const critUp = skills["Critical UP"] || 0;
-  const critFlatSkill = Math.ceil(critUp / 2); 
-  const critPctSkill = Math.ceil(critUp / 2); 
+  // HP %
+  let hpPct = 1 + (getStat(STAT_ID.MAXHP_P) + getStat(227)) / 100;
+  hpPct += hpBoostLvl * 0.02; // HP Boost Skill % adds here
+  let MaxHP = trunc(hpBase * hpPct);
 
-  let critSpearFlat = 0;
-  let critSpearPct = 0;
-  if (mainType === "hb") {
-      const cs = skills["Critical Spear"] || 0;
-      critSpearFlat += Math.ceil(cs / 2);
-      critSpearPct += Math.ceil(cs / 2);
+  // MP %
+  let mpPct = 1 + (getStat(STAT_ID.MAXMP_P) + getStat(101)) / 100;
+  let MaxMP = trunc(mpBase * mpPct);
+
+  // Crit Rate %
+  let crPct = (getStat(STAT_ID.CRITICAL_RATE_P) + getStat(251)) / 100;
+  let CRatemodifier = 1 + crPct;
+  const CR = trunc(baseCR * CRatemodifier);
+
+  // DEF / MDEF %
+  let defPct = (getStat(STAT_ID.DEF_P) + getStat(237)) / 100;
+  let mdefPct = (getStat(STAT_ID.MDEF_P) + getStat(239)) / 100;
+
+  // CORRECCIÓN 3: Penalización de Flecha
+  if (subType === "arrow") {
+      defPct -= 0.25;
+      mdefPct -= 0.25;
   }
 
-  let thCritFlat = 0;
-  if (mainType !== "barehand" && (subType === "none" || (subType === "scroll" && (skills["Ninja Spirit"] || 0) === 10))) {
-      const th = skills["Two Handed"] || 0;
-      thCritFlat += th; // +10 Crit
+   // CORRECCIÓN 4: Escudo Modificadores (Force/Magical Shield)
+  if (isShield) {
+      // Fórmula exacta: (2.5 + 0.5*Lv + floor(Lv/2)*0.5) / 100
+      const shieldDefMod = (2.5 + 0.5 * forceShieldLvl + floor(forceShieldLvl / 2) * 0.5) / 100;
+      const shieldMdefMod = (2.5 + 0.5 * magicalShieldLvl + floor(magicalShieldLvl / 2) * 0.5) / 100;
+      
+      // Solo se suman si tienes la skill
+      if (forceShieldLvl > 0) defPct += shieldDefMod;
+      if (magicalShieldLvl > 0) mdefPct += shieldMdefMod;
   }
 
-  let dsCritPct = 0;
-  if (mainType === "1h" && subType === "1h") {
-      const dsc = skills["Dual Sword Control"] || 0;
-      dsCritPct += 3.5 * dsc; // +35% Crit Rate
-      accSkillPct += 3.5 * dsc; // +35% Accuracy
-  }
+  // Light Armor Mastery DOES NOT ADD DEF% according to snippet.
 
-  CR = Math.floor((CR + critFlatSkill + critSpearFlat + thCritFlat + getStat(STAT_ID.CRITICAL_RATE)) * (1 + (getStat(STAT_ID.CRITICAL_RATE_P) + critPctSkill + critSpearPct + dsCritPct)/100));
+  const DEF = trunc(baseDef * (1 + defPct));
+  const MDEF = trunc(baseMdef * (1 + mdefPct));
+
+  // FLEE %
+  let fleePct = (getStat(STAT_ID.DODGE_P) + getStat(245)) / 100;
+  const FLEE = trunc(baseFlee * (1 + fleePct));
+
+  // ==========================================
+  // 7. APPLY FLAT MODIFIERS (FINAL ADDITION)
+  // ==========================================
   
-  let CD = 150; 
-  if (AGI > STR) CD = Math.floor(150 + (STR + AGI) / 10);
-  else CD = Math.floor(150 + STR / 5);
-  CD = Math.floor((CD + getStat(STAT_ID.CRITICAL_DAMAGE)) * (1 + getStat(STAT_ID.CRITICAL_DAMAGE_P)/100));
-
-  // --- ACCURACY ---
-  // Base Hit = Lv + DEX
-  let Accuracy = Math.floor((Lv + DEX + accSkillFlat + getStat(STAT_ID.ACCURACY)) * (1 + (getStat(STAT_ID.ACCURACY_P) + accSkillPct)/100));
-
-  // --- UNSHEATHE ---
-  // Godspeed: +25% Unsheathe (Lv10)
-  const godspeedUnsheathe = Math.floor((skills["God Speed"] || 0) * 2.5);
-  const Unsheathe = 100 + getStat(STAT_ID.UNSHEATHE_ATTACK_P) + godspeedUnsheathe;
-
-  // --- ELEMENTOS ---
-  let element = "Neutral";
-  if (getStat(STAT_ID.ELEMENT_FIRE)) element = "Fire";
-  if (getStat(STAT_ID.ELEMENT_WATER)) element = "Water";
-  if (getStat(STAT_ID.ELEMENT_WIND)) element = "Wind";
-  if (getStat(STAT_ID.ELEMENT_EARTH)) element = "Earth";
-  if (getStat(STAT_ID.ELEMENT_LIGHT)) element = "Light";
-  if (getStat(STAT_ID.ELEMENT_DARK)) element = "Dark";
-
-  // --- CÁLCULOS DE MAGIA ---
-  const spellBurstLevel = skills["Spell Burst"] || 0;
-  let mcRateConversion = spellBurstLevel * 0.025;
-  if (mainType === "staff" && element === "Neutral") {
-    mcRateConversion += 0.25;
+  // HP Flats
+  // From Snippet: MaxHP += eq_stats[17] + skill flats
+  let finalHP = MaxHP;
+  finalHP += getStat(STAT_ID.MAXHP) + getStat(226); 
+  finalHP += hpBoostLvl * 100;
+  finalHP += bushidoLvl * 10;
+  if (frontlinerLvl > 0) finalHP += frontlinerLvl * 100 + Lv * 10;
+  if (isShield) {
+      finalHP += forceShieldLvl * 50;
+      finalHP += magicalShieldLvl * 50;
   }
-  const magicCR = Math.floor(CR * mcRateConversion);
-  const magicCRWeaken = Math.floor(CR * (mcRateConversion + 0.5));
-  const mcDamageConversion = 0.5 + (spellBurstLevel * 0.025);
-  const magicCD = Math.floor(100 + ((CD - 100) * mcDamageConversion));
+  if (finalHP > 99999) finalHP = 99999;
 
-  // --- OBJETO DETALLADO FINAL ---
+  // MP Flats
+  let finalMP = MaxMP;
+  finalMP += getStat(STAT_ID.MAXMP) + getStat(228); 
+  finalMP += mpBoostLvl * 30;
+  finalMP += bushidoLvl * 10;
+
+  // HIT Flats
+  let finalHIT = HIT;
+  finalHIT += getStat(STAT_ID.ACCURACY) + getStat(242);
+  finalHIT += bushidoLvl; 
+
+  // Crit Rate Flats
+  let finalCR = CR;
+  finalCR += getStat(STAT_ID.CRITICAL_RATE) + getStat(250);
+  finalCR += ceil(skills["Critical Up"] / 2 || 0);
+  if (mainType === "hb") finalCR += ceil(skills["Critical Spear"] / 2 || 0);
+  if (isTwoHandedActive) {
+      if (mainType === "kat") finalCR += twoHandedLvl;
+      else finalCR += ceil(twoHandedLvl / 2);
+  }
+
+  // DEF / MDEF Flats
+  // Snippet: DEF += eq_stats[27] + 5 + floor(skill*1.5)
+  const flatDefStat = getStat(STAT_ID.DEF) - itemBaseDEF; // Solo los bonos
+  const flatMdefStat = getStat(STAT_ID.MDEF) - itemBaseDEF; // Solo los bonos (asumiendo que mdef base no existe en items como stat)
+
+  let finalDEF = DEF + flatDefStat + getStat(236); 
+  
+  if (isShield && forceShieldLvl > 0) {
+      finalDEF += 5 + floor(forceShieldLvl * 1.5);
+  }
+  
+  // Fórmula exacta Skill: Math.floor(skill * 2.5) / 100 * Lv
+  // Ojo: El floor se hace al coeficiente, no al resultado total.
+  finalDEF += (floor(defenseUpLvl * 2.5) / 100) * Lv;
+  finalDEF += (floor(defenseMasteryLvl * 2.5) / 100) * Lv;
+
+  // MDEF Flats
+  // Nota: getStat(STAT_ID.MDEF) generalmente no incluye la DEF base del equipo, así que no restamos itemBaseDEF
+  // a menos que tu sistema convierta DEF base en MDEF stat. Asumimos que getStat(MDEF) son puros bonos.
+  let finalMDEF = MDEF + getStat(STAT_ID.MDEF) + getStat(238);
+  
+  if (isShield && magicalShieldLvl > 0) {
+      finalMDEF += 5 + floor(magicalShieldLvl * 1.5);
+  }
+  
+  finalMDEF += (floor(defenseUpLvl * 2.5) / 100) * Lv;
+  finalMDEF += (floor(defenseMasteryLvl * 2.5) / 100) * Lv;
+  
+  // Truncado final para visualización (Coryn lo hace al mostrar en HTML)
+  finalDEF = trunc(finalDEF);
+  finalMDEF = trunc(finalMDEF);
+
+  // FLEE Flats
+  let finalFLEE = FLEE + getStat(STAT_ID.DODGE);
+  finalFLEE += skills["Dodge Up"] || 0;
+  finalFLEE += ninjaSpiritLvl;
+
+  // ==========================================
+  // 8. AMPR (FROM SNIPPET: BASE -> % -> FLAT)
+  // ==========================================
+  // Base AMPR
+  let baseAMPR = 10 + trunc(finalMP / 100);
+  
+  // AMPR % Modifier (eq_stats[165])
+  const amprMod = 1 + getStat(STAT_ID.ATTACK_MP_RECOVERY_P) / 100;
+  let AMPR = trunc(baseAMPR * amprMod);
+
+  // AMPR Flats (eq_stats[68])
+  // Skill Aggravate/Qi Charge are flats
+  if (mainType === "knux") AMPR += floor(skills["Aggravate"] / 2 || 0);
+  if (mainType === "barehand") AMPR += floor(skills["Ultima Qi Charge"] / 2 || 0);
+  
+  AMPR += getStat(STAT_ID.ATTACK_MP_RECOVERY) + getStat(273);
+  
+  if (isDual) AMPR *= 2;
+
+  // ==========================================
+  // 9. ATK / MATK / ASPD CALCULATIONS
+  // ==========================================
+  let calcATK = 0, calcMATK = 0, calcASPD = 0;
+
+  if (mainType === "1h") {
+      calcATK = Lv + STR * 2 + DEX * 2 + weaponATK;
+      calcMATK = Lv + INT * 3 + DEX;
+      calcASPD = 100 + Lv + AGI * 4 + (AGI + STR - 1) * 0.2;
+  } else if (mainType === "knux") {
+      calcATK = Lv + AGI * 2 + DEX * 0.5 + weaponATK;
+      calcMATK = Lv + INT * 4 + DEX + weaponATK * 0.5;
+      calcASPD = 120 + Lv + AGI * 4.6 + DEX * 0.1 + STR * 0.1;
+  } else if (mainType === "kat") {
+      calcATK = Lv + STR * 1.5 + DEX * 2.5 + weaponATK;
+      calcMATK = Lv + INT * 1.5 + DEX;
+      calcASPD = 200 + Lv + AGI * 3.9 + STR * 0.3;
+  } else if (mainType === "staff") {
+      calcATK = Lv + STR * 3 + INT + weaponATK;
+      calcMATK = Lv + INT * 4 + DEX + weaponATK;
+      calcASPD = 60.6 + Lv + INT * 0.2 + AGI * 1.8;
+  } else if (mainType === "md") {
+      calcATK = Lv + INT * 2 + AGI * 2 + weaponATK;
+      calcMATK = Lv + INT * 4 + DEX + weaponATK;
+      calcASPD = 90 + Lv + AGI * 4 + (INT - 1) * 0.2;
+  } else if (mainType === "bow") {
+      calcATK = Lv + STR + DEX * 3 + weaponATK;
+      calcMATK = Lv + INT * 3 + DEX;
+      calcASPD = 75 + Lv + AGI * 3.1 + (AGI + DEX * 2 - 1) * 0.1;
+  } else if (mainType === "bwg") {
+      calcATK = Lv + DEX * 4 + weaponATK;
+      calcMATK = Lv + INT * 3 + DEX;
+      calcASPD = 30 + Lv + AGI * 2.2 + DEX * 0.2;
+  } else if (mainType === "hb") {
+      calcATK = Lv + STR * 2.5 + AGI * 1.5 + weaponATK;
+      calcMATK = Lv + INT * 2 + DEX + AGI;
+      calcASPD = 25 + Lv + AGI * 3.5 + STR * 0.2;
+  } else if (mainType === "2h") {
+      calcATK = Lv + STR * 3 + DEX + weaponATK;
+      calcMATK = Lv + INT * 3 + DEX + 1;
+      calcASPD = 50 + Lv + AGI * 2 + (AGI + STR - 1) * 0.2;
+  } else { 
+      calcATK = Lv + STR + 1 + weaponATK;
+      calcMATK = Lv + INT * 3 + DEX + 1;
+      calcASPD = 1000 + Lv + AGI * 9.6;
+  }
+
+  // ATK Modifiers (Thresholds 1, 3, 8 = +1% each)
+  let atkMod = 1;
+  if (subType === "md") atkMod -= 0.15;
+  
+  const checkThreshold = (lvl: number) => (lvl >= 1 ? 0.01 : 0) + (lvl >= 3 ? 0.01 : 0) + (lvl >= 8 ? 0.01 : 0);
+  if (masteryMap[mainType]) atkMod += checkThreshold(masteryMap[mainType]);
+  if (isDual && skills["Sword Mastery"]) atkMod += checkThreshold(skills["Sword Mastery"]);
+
+  atkMod += (getStat(STAT_ID.ATK_P) + getStat(230)) / 100;
+  
+  let finalATK = trunc(calcATK * atkMod);
+  finalATK += getStat(STAT_ID.ATK) + getStat(229);
+  finalATK += floor(attackUpLvl * 2.5 / 100 * Lv);
+
+  // MATK Modifiers
+  let matkMod = 1;
+  if (subType === "knux") matkMod -= 0.15;
+  if (mainType === "staff" || mainType === "md") matkMod += checkThreshold(skills["Magic Mastery"]);
+  matkMod += (getStat(STAT_ID.MATK_P) + getStat(232)) / 100;
+
+  let finalMATK = trunc(calcMATK * matkMod);
+  finalMATK += getStat(STAT_ID.MATK) + getStat(231);
+  finalMATK += floor(magicUpLvl * 2.5 / 100 * Lv);
+
+  // ASPD Modifiers
+  let aspdMod = 1;
+  if (armorType === "light") aspdMod += 0.5;
+  if (armorType === "heavy") aspdMod -= 0.5;
+  if (subType === "shield") aspdMod -= (0.5 - shieldMasteryLvl * 0.05);
+  
+  aspdMod += (getStat(STAT_ID.ASPD_P) + getStat(247)) / 100;
+  if (mainType === "1h" || mainType === "2h") aspdMod += (skills["Quick Slash"] || 0) * 0.01;
+  if (mainType === "knux") aspdMod += (skills["Martial Discipline"] || 0) / 100;
+  if (quickAuraLvl > 0) aspdMod += (quickAuraLvl * 2.5) / 100;
+
+  let finalASPD = floor(calcASPD * aspdMod);
+  
+  // ASPD Flats
+  finalASPD += getStat(STAT_ID.ASPD) + getStat(246);
+  if (mainType === "knux") finalASPD += (skills["Martial Discipline"] || 0) * 10;
+  if (mainType === "1h" || mainType === "2h") finalASPD += (skills["Quick Slash"] || 0) * 10;
+  if (quickAuraLvl > 0) finalASPD += quickAuraLvl * 50;
+  const activeGSW = skills["Godspeed Wield"] || 0; 
+  if (activeGSW > 0) finalASPD += activeGSW * 90;
+
+
+  // --- MOTION SPEED ---
+  let MotionSpeed = getStat(STAT_ID.MOTION_SPEED) + getStat(276);
+  if (activeGSW > 0) MotionSpeed += activeGSW * 3;
+  if (finalASPD > 1000) MotionSpeed += trunc((finalASPD - 1000) / 180);
+  MotionSpeed = min(MotionSpeed, 50);
+
+  // --- RESISTANCES ---
+  const resFire = resSoftCap(getStat(51) + getStat(262));
+  const resWater = resSoftCap(getStat(52) + getStat(263));
+  const resWind = resSoftCap(getStat(53) + getStat(264));
+  const resEarth = resSoftCap(getStat(54) + getStat(265));
+  const resLight = resSoftCap(getStat(55) + getStat(266));
+  const resDark = resSoftCap(getStat(56) + getStat(267));
+  const resNeutral = resSoftCap(getStat(75) + getStat(261));
+
+  let skillPhysRes = 0;
+  let skillMagRes = 0;
+  if (isShield) {
+      skillPhysRes += forceShieldLvl;
+      skillMagRes += magicalShieldLvl;
+  }
+  const physRes = resSoftCap(getStat(STAT_ID.PHYSICAL_RESISTANCE) + getStat(240) + skillPhysRes);
+  const magRes = resSoftCap(getStat(STAT_ID.MAGIC_RESISTANCE) + getStat(241) + skillMagRes);
+
+  let godspeedUnsheatheBonus = 0;
+  if (isDual) {
+    godspeedUnsheatheBonus = Math.floor(godSpeedLvl * 2.5);
+  } else {
+    godspeedUnsheatheBonus = Math.floor(godSpeedLvl * 1.5);
+  }
+
+  let ATKcrit = finalATK;
+  if (mainType === "kat" && isTwoHandedActive) {
+      ATKcrit = Math.floor(finalATK * 1.5);
+  }
+
+  let refineResistance = armorRefine + addRefine;
+  if (isShield) refineResistance += subRefine;
+
+  let displaySubATK = 0;
+  let displaySubStability = 0;
+  if (isDual) {
+     let subMod = 1 + (getStat(STAT_ID.ATK_P) + getStat(230)) / 100;
+     let subWeaponATK_Disp = subATK + subRefine + getStat(STAT_ID.WEAPON_ATK) + getStat(277);
+     displaySubATK = floor((Lv + STR + (AGI * 3) + subWeaponATK_Disp) * subMod);
+     displaySubStability = floor((stability + (subWeapon?.stability || 0)) / 2);
+  }
+
   const final: DetailedStats = {
-    // Defensive
-    MaxHP, MaxMP, 
-    AMPR: Math.floor((10 + MaxMP/100) * (1 + getStat(STAT_ID.ATTACK_MP_RECOVERY)/100)),
-    DEF: Math.floor(DEF), MDEF: Math.floor(MDEF), FLEE: Math.floor(FLEE),
-    GuardRecharge: getStat(STAT_ID.GUARD_RECHARGE),
-    GuardPower: getStat(STAT_ID.GUARD_POWER),
-    EvasionRecharge: getStat(STAT_ID.EVASION_RECHARGE),
-    PhysicalResistance: getStat(STAT_ID.PHYSICAL_RESISTANCE) + physResSkill,
-    MagicResistance: getStat(STAT_ID.MAGIC_RESISTANCE) + magResSkill,
-    AilmentResistance: Math.floor(MTL/3.4) + getStat(STAT_ID.AILMENT_RESISTANCE),
-    Aggro: 100 + getStat(STAT_ID.AGGRO),
-    PhysicalBarrier: getStat(STAT_ID.PHYSICAL_BARRIER),
-    MagicBarrier: getStat(STAT_ID.MAGIC_BARRIER),
-    FractionalBarrier: getStat(STAT_ID.FRACTIONAL_BARRIER),
-    BarrierCooldown: getStat(STAT_ID.BARRIER_COOLDOWN),
-    Reflect: getStat(STAT_ID.REFLECT),
-    RefineReduction: refineReduction, 
-
-    // Offensive Physical
-    ATK, ATKcrit: ATK, 
-    Stability: Math.min(Math.floor(stability + getStat(STAT_ID.STABILITY)), 100),
-    SubATK: subATK, 
-    SubStability: 0, 
-    ASPD, MotionSpeed: MotionSpeed,
-    PhysicalPierce: getStat(STAT_ID.PHYSICAL_PIERCE),
-    Accuracy: Accuracy,
-    CriticalRate: CR,
-    CriticalDamage: CD,
-    Unsheathe: Unsheathe,
-    UnsheatheFlat: getStat(STAT_ID.UNSHEATHE_ATTACK),
-    AdditionalMelee: getStat(STAT_ID.ADDITIONAL_MELEE),
-
-    // Offensive Magic
-    MATK, 
-    MagicStability: Math.floor((stability + 100)/2), 
-    MagicPierce: getStat(STAT_ID.MAGIC_PIERCE),
-    CSPD: Math.floor((Lv + AGI*1.16 + DEX*2.94 + getStat(STAT_ID.CSPD)) * (1 + getStat(STAT_ID.CSPD_P)/100)),
-    
-    MagicCriticalRate: magicCR,
-    MagicCriticalRateWeaken: magicCRWeaken,
-    MagicCriticalDamage: magicCD,
-    AdditionalMagic: getStat(STAT_ID.ADDITIONAL_MAGIC),
-
-    // Offensive General
-    ShortRangeDmg: 100 + getStat(STAT_ID.SHORT_RANGE_DMG),
-    LongRangeDmg: 100 + getStat(STAT_ID.LONG_RANGE_DMG),
-    Anticipate: getStat(STAT_ID.ANTICIPATE),
-    GuardBreak: getStat(STAT_ID.GUARD_BREAK),
-
-    // Elements
-    Element: element, SubElement: "Neutral",
+    MaxHP: finalHP, 
+    MaxMP: finalMP, 
+    AMPR,
+    DEF: finalDEF, 
+    MDEF: finalMDEF, 
+    FLEE: finalFLEE, 
+    HIT: finalHIT,
+    ASPD: finalASPD, 
+    CSPD, 
+    MotionSpeed,
+    ATK: finalATK, 
+    MATK: finalMATK,
+    CriticalRate: finalCR,
+    CriticalDamage: trunc((150 + getStat(STAT_ID.CRITICAL_DAMAGE) + getStat(252)) * (1 + (getStat(STAT_ID.CRITICAL_DAMAGE_P) + getStat(253))/100)),
+    PhysicalResistance: physRes,
+    MagicResistance: magRes,
     DTE_Neutral: 100 + getStat(STAT_ID.DTE_NEUTRAL),
     DTE_Fire: 100 + getStat(STAT_ID.DTE_FIRE),
     DTE_Water: 100 + getStat(STAT_ID.DTE_WATER),
@@ -445,20 +533,39 @@ export function calcCharacterStatus(input: CharacterInput): Status {
     DTE_Earth: 100 + getStat(STAT_ID.DTE_EARTH),
     DTE_Light: 100 + getStat(STAT_ID.DTE_LIGHT),
     DTE_Dark: 100 + getStat(STAT_ID.DTE_DARK),
-    RES_Neutral: getStat(STAT_ID.RES_NEUTRAL),
-    RES_Fire: getStat(STAT_ID.RES_FIRE),
-    RES_Water: getStat(STAT_ID.RES_WATER),
-    RES_Wind: getStat(STAT_ID.RES_WIND),
-    RES_Earth: getStat(STAT_ID.RES_EARTH),
-    RES_Light: getStat(STAT_ID.RES_LIGHT),
-    RES_Dark: getStat(STAT_ID.RES_DARK),
-
-    // Interrupt
-    NoFlinch: false, NoTumble: false, NoStun: false, 
+    Unsheathe: 100 + getStat(STAT_ID.UNSHEATHE_ATTACK_P) + getStat(280) + godspeedUnsheatheBonus,
+    UnsheatheFlat: getStat(STAT_ID.UNSHEATHE_ATTACK) + getStat(279),
+    GuardRecharge: getStat(STAT_ID.GUARD_RECHARGE), 
+    GuardPower: getStat(STAT_ID.GUARD_POWER), 
+    EvasionRecharge: getStat(STAT_ID.EVASION_RECHARGE),
+    AilmentResistance: Math.floor(MTL/3.4) + getStat(STAT_ID.AILMENT_RESISTANCE), 
+    Aggro: 100 + getStat(STAT_ID.AGGRO),
+    PhysicalBarrier: getStat(STAT_ID.PHYSICAL_BARRIER), 
+    MagicBarrier: getStat(STAT_ID.MAGIC_BARRIER), 
+    FractionalBarrier: getStat(STAT_ID.FRACTIONAL_BARRIER), 
+    BarrierCooldown: getStat(STAT_ID.BARRIER_COOLDOWN),
+    Reflect: getStat(STAT_ID.REFLECT), 
+    RefineReduction: refineResistance,
+    ATKcrit: ATKcrit, 
+    Stability: stability, 
+    SubATK: displaySubATK, 
+    SubStability: displaySubStability,
+    PhysicalPierce: getStat(STAT_ID.PHYSICAL_PIERCE), Accuracy: finalHIT,
+    MagicStability: trunc((stability + 100)/2), 
+    MagicPierce: getStat(STAT_ID.MAGIC_PIERCE), 
+    MagicCriticalRate: 0, MagicCriticalDamage: 0, AdditionalMagic: 0, MagicCriticalRateWeaken: 0,
+    ShortRangeDmg: 100 + getStat(STAT_ID.SHORT_RANGE_DMG), LongRangeDmg: 100 + getStat(STAT_ID.LONG_RANGE_DMG), 
+    Anticipate: getStat(STAT_ID.ANTICIPATE), GuardBreak: getStat(STAT_ID.GUARD_BREAK),
+    Element: "Neutral", SubElement: "Neutral",
+    RES_Neutral: resNeutral, RES_Fire: resFire, RES_Water: resWater, 
+    RES_Wind: resWind, RES_Earth: resEarth, RES_Light: resLight, RES_Dark: resDark,
+    NoFlinch: false, NoTumble: false, NoStun: false,
+    AdditionalMelee: 0
   };
 
   return {
-    base: {} as any, flat: {} as any, percent: {} as any, 
-    final: final
+    base: {} as any, flat: {} as any, percent: {} as any,
+    final: final,
+    raw: eq_stats
   };
 }

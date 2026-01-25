@@ -1,3 +1,5 @@
+//lib/engine/applyEquipment
+
 import { Status } from "./types";
 
 // Helper para limpiar nombres de stats (ej: "STR %" -> "STR", type: percent)
