@@ -1,3 +1,5 @@
+//lib/engine/initStatus.ts
+
 import { Status, StatKey, DetailedStats } from "./types";
 
 // Stats básicos para input (base, flat, percent)
@@ -21,7 +23,7 @@ const emptyDetailedStats: DetailedStats = {
   PhysicalResistance: 0, MagicResistance: 0,
   AilmentResistance: 0, Aggro: 0,
   PhysicalBarrier: 0, MagicBarrier: 0, FractionalBarrier: 0, BarrierCooldown: 0,
-  Reflect: 0, RefineReduction: 0,
+  Reflect: 0, RefineReduction: 0, HIT: 0,
 
   // Offensive Physical
   ATK: 0, ATKcrit: 0, Stability: 0,
