@@ -10,14 +10,15 @@ export const STAT_ID = {
   NATURAL_HP_REGEN: 13, NATURAL_HP_REGEN_P: 14,
   NATURAL_MP_REGEN: 15, NATURAL_MP_REGEN_P: 16,
   
-  // AMPR (Aquí faltaba el porcentual)
+  // AMPR
   ATTACK_MP_RECOVERY: 68, 
-  ATTACK_MP_RECOVERY_P: 165, // <--- AGREGADO
+  ATTACK_MP_RECOVERY_P: 165,
 
   // Max HP / MP
-  MAXHP: 17, MAXHP_P: 18,
+  MAXHP: 17, 
+  MAXHP_P: 18,
   MAXMP: 19, 
-  MAXMP_P: 101, // <--- AGREGADO
+  MAXMP_P: 101,
 
   // Atk/Matk
   ATK: 20, ATK_P: 21,
@@ -103,11 +104,6 @@ export const STAT_ID = {
   RED_DMG_STRAIGHT: 187,
   RED_VORTEX: 316,
   RED_EXPLOSION: 317,
-
-  // --- ASPD AVANZADO (CAPAS) ---
-  ASPD_EQUIP: 1001,   // Equipo + pasivas (multiplicable)
-  ASPD_FINAL: 1002,   // Consumibles, registlets (no multiplicable)
-
 };
 
 export function getStatIdFromName(name: string): number {
@@ -120,7 +116,7 @@ export function getStatIdFromName(name: string): number {
   // 2. Limpiar string (deja solo letras y números)
   let n = lower.replace(/[^a-z0-9]/g, "");
 
-  // 3. Si era porcentaje, agregar "pct" si no lo tiene
+  // 3. Si era porcentaje, agregar "pct" si no lo tiene (para normalizar)
   if (isPercent && !n.endsWith("pct") && !n.endsWith("p")) {
     n += "pct";
   }
@@ -143,7 +139,7 @@ export function getStatIdFromName(name: string): number {
     case "maxhppct": case "maxhpp": case "hppct": return 18;
 
     case "maxmp": case "mp": return 19; 
-    case "maxmppct": case "mppct": return 101; // ID 101 para %
+    case "maxmppct": case "mppct": return 101; 
 
     case "naturalhpregen": return 13; 
     case "naturalhpregenpct": return 14;
@@ -152,7 +148,7 @@ export function getStatIdFromName(name: string): number {
     
     // AMPR
     case "attackmprecovery": case "ampr": return 68;
-    case "attackmprecoverypct": case "amprpct": return 165; // ID 165 para %
+    case "attackmprecoverypct": case "amprpct": return 165;
 
     // === ATAQUE ===
     case "atk": return 20; 
@@ -164,9 +160,9 @@ export function getStatIdFromName(name: string): number {
 
     // === CRÍTICOS & ESTABILIDAD ===
     case "criticalrate": case "critrate": case "flatcrit": return 41;
-    case "criticalratepct": case "critratepct": case "criticalratep": return 42; 
+    case "criticalratepct": case "critratepct": case "criticalratep": case "critratep": return 42; 
     case "criticaldamage": case "critdamage": case "cdmg": return 43;
-    case "criticaldamagepct": case "critdamagepct": return 44; 
+    case "criticaldamagepct": case "critdamagepct": case "cdmgpct": return 44; 
     case "stability": case "stabilitypct": return 24; 
 
     // === SPEED / HIT / FLEE ===
@@ -188,7 +184,7 @@ export function getStatIdFromName(name: string): number {
     
     // Resistencias (Normalizadas)
     case "physicalresistance": case "physres": return 31;
-    case "physicalresistancepct": case "physrespct": return 31; // ID Unico
+    case "physicalresistancepct": case "physrespct": return 31; 
     
     case "magicresistance": case "magres": return 32;
     case "magicresistancepct": case "magrespct": return 32;
@@ -205,25 +201,25 @@ export function getStatIdFromName(name: string): number {
     case "darkresistance": case "darkresistancepct": return 56;
 
     // === ELEMENTOS (DTE) ===
-    case "strongeragainstfire": case "strongeragainstfirepct": return 45;
-    case "strongeragainstwater": case "strongeragainstwaterpct": return 46;
-    case "strongeragainstwind": case "strongeragainstwindpct": return 47;
-    case "strongeragainstearth": case "strongeragainstearthpct": return 48;
-    case "strongeragainstlight": case "strongeragainstlightpct": return 49;
-    case "strongeragainstdark": case "strongeragainstdarkpct": return 50;
-    case "strongeragainstneutral": case "strongeragainstneutralpct": return 110;
+    case "strongeragainstfire": case "strongeragainstfirepct": case "dtefire": return 45;
+    case "strongeragainstwater": case "strongeragainstwaterpct": case "dtewater": return 46;
+    case "strongeragainstwind": case "strongeragainstwindpct": case "dtewind": return 47;
+    case "strongeragainstearth": case "strongeragainstearthpct": case "dteearth": return 48;
+    case "strongeragainstlight": case "strongeragainstlightpct": case "dtelight": return 49;
+    case "strongeragainstdark": case "strongeragainstdarkpct": case "dtedark": return 50;
+    case "strongeragainstneutral": case "strongeragainstneutralpct": case "dteneutral": return 110;
 
     // === OTROS ===
     case "aggro": case "aggropct": return 61;
     case "guardpower": case "guardpowerpct": return 58;
     case "guardrecharge": case "guardrechargepct": return 59;
     case "evasionrecharge": case "evasionrechargepct": return 60;
-    case "physicalpierce": case "physicalpiercepct": return 25;
-    case "magicpierce": case "magicpiercepct": return 26;
-    case "shortrangedamage": case "shortrangedamagepct": return 69;
-    case "longrangedamage": case "longrangedamagepct": return 70;
-    case "unsheatheattack": return 116;
-    case "unsheatheattackpct": return 117;
+    case "physicalpierce": case "physicalpiercepct": case "ppierce": return 25;
+    case "magicpierce": case "magicpiercepct": case "mpierce": return 26;
+    case "shortrangedamage": case "shortrangedamagepct": case "srd": return 69;
+    case "longrangedamage": case "longrangedamagepct": case "lrd": return 70;
+    case "unsheatheattack": case "unsheathe": return 116;
+    case "unsheatheattackpct": case "unsheathepct": return 117;
     
     case "physicalbarrier": return 124;
     case "magicbarrier": return 128;
@@ -235,6 +231,14 @@ export function getStatIdFromName(name: string): number {
     
     case "additionalmelee": case "additionalmeleepct": return 129;
     case "additionalmagic": case "additionalmagicpct": return 130;
+
+    // === ELEMENTO (AWAKENING) ===
+    case "elementfire": return 62;
+    case "elementwater": return 63;
+    case "elementwind": return 64;
+    case "elementearth": return 65;
+    case "elementlight": return 66;
+    case "elementdark": return 67;
   }
   return 0;
 }

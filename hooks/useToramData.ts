@@ -1,3 +1,4 @@
+//hook/usetoramdata.ts
 import { useState, useEffect } from "react";
 
 export function useToramData(mainTypeId: string, subTypeId: string) {

@@ -1,3 +1,4 @@
+//agregrator
 import { CharacterInput } from "./types";
 import { getStatIdFromName, STAT_ID } from "./statIds";
 
@@ -41,22 +42,41 @@ export function aggregateStats(input: CharacterInput): number[] {
   if (input.armorType === "light") bitset |= RESTRICTION.LIGHT_ARMOR;
   if (input.armorType === "heavy") bitset |= RESTRICTION.HEAVY_ARMOR;
 
-  // Helper para sumar
+  // Helper para sumar (Versión Corregida)
   const add = (key: string, val: any, appliedTo: number = 0) => {
-    // 1. Chequear restricción de BITMASK
+    // 1. Chequear restricción de equipo (si aplica)
     if (appliedTo !== 0 && !(appliedTo & bitset)) return;
 
-    // 2. Obtener ID
-    const id = getStatIdFromName(key);
-    if (id <= 0 || id >= 350) return;
-
-    // 3. Convertir valor
+    // --- FIX 1: CONVERTIR STRING A NÚMERO ---
+    // Tu JSON trae "-15", esto lo convierte a -15 (número real)
     const num = Number(val);
-    if (!isNaN(num) && num !== 0) {
+    
+    // Si no es número válido o es 0, salimos
+    if (isNaN(num) || num === 0) return;
+
+    // --- FIX 2: NORMALIZAR CLAVE ---
+    // Convierte "MaxHP %" -> "maxhp%" (Minúsculas y sin espacios)
+    const cleanKey = key.toString().toLowerCase().replace(/\s/g, '');
+
+    // 3. Obtener el ID correcto
+    let id = 0;
+
+    // Interceptamos manualmente los casos críticos de HP para asegurar que no fallen
+    if (cleanKey === "maxhp%") {
+        id = 18; // ID de STAT_ID.MAXHP_P
+    } else if (cleanKey === "maxhp") {
+        id = 17; // ID de STAT_ID.MAXHP
+    } else {
+        // Para el resto (ATK, MATK, etc), usamos la función de búsqueda
+        id = getStatIdFromName(cleanKey);
+    }
+
+    // 4. Sumar al array final
+    if (id > 0 && id < 350) {
       eq_stats[id] += num;
     }
   };
-
+  
   // 2. EQUIPAMIENTO
   input.equipment.forEach(item => {
     if (!item) return;
@@ -99,18 +119,39 @@ export function aggregateStats(input: CharacterInput): number[] {
       item.playerStats.forEach((s: any) => add(s.key, s.value, 0));
     }
 
-    // C) Xtals
-    if (item.xtals) {
-      Object.values(item.xtals).forEach((xtal: any) => {
+     // C) Xtals (Soporte para Slot1, Slot2 y Arrays antiguos)
+    const processXtalStats = (xtal: any) => {
         if (!xtal || !xtal.stats) return;
+
+        // Normalizar si es Array u Objeto
         const list = Array.isArray(xtal.stats) ? xtal.stats : Object.entries(xtal.stats);
+        
         list.forEach((entry: any) => {
+           // Soporte para estructura {key: "STR", value: 10} o ["STR", 10]
            const k = entry.key || entry[0];
            const v = entry.value || entry[1];
            const r = entry.applied_to || 0; 
+           
+           // IMPORTANTE: Aquí NO filtramos defensa base porque los Xtals 
+           // dan stats "planos" (DEF+10), no defensa base de equipo.
            add(k, v, r);
         });
-      });
+    };
+
+    // 1. Verificar Slot 1
+    if (item.slot1) processXtalStats(item.slot1);
+
+    // 2. Verificar Slot 2
+    if (item.slot2) processXtalStats(item.slot2);
+
+    // 3. Verificar array "crystas" (si usas ese formato en el futuro)
+    if (item.crystas && Array.isArray(item.crystas)) {
+        item.crystas.forEach(processXtalStats);
+    }
+
+    // 4. Verificar objeto "xtals" (Legacy/Formato antiguo)
+    if (item.xtals && !item.slot1 && !item.slot2) {
+      Object.values(item.xtals).forEach(processXtalStats);
     }
   });
 

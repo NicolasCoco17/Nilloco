@@ -1,62 +1,93 @@
-//lib/engine/applyEquipment
-
 import { Status } from "./types";
 
-// Helper para limpiar nombres de stats (ej: "STR %" -> "STR", type: percent)
-function parseStat(key: string, value: number) {
+// --- 1. Helper para limpiar nombres y valores ---
+function parseStat(key: string, value: string | number) {
+  // 1. Detectar porcentaje antes de limpiar
   const isPercent = key.includes("%");
+  
+  // 2. Limpiar nombre: "MaxHP %" -> "MaxHP"
   const cleanKey = key.replace("%", "").trim();
   
-  // Mapeos comunes de nombres (Ajusta según tus JSONs)
+  // 3. Mapeo de nombres (Normaliza tus JSONs aquí)
   const map: Record<string, string> = {
     "Critical Rate": "CR",
     "Critical Damage": "CD",
-    "Aggro": "Aggro", // Si lo usas
-    // Añade más si tus JSON tienen nombres raros
+    "Aggro": "Aggro",
+    "Attack MP Recovery": "AMPR",
+    "Motion Speed": "MotionSpeed",
+    // Añade aquí correcciones si tus JSON tienen nombres inconsistentes
   };
 
-  return {
-    key: (map[cleanKey] || cleanKey) as keyof Status["base"],
-    value: Number(value),
-    isPercent
-  };
+  const finalKey = (map[cleanKey] || cleanKey) as keyof Status["base"];
+  
+  // 4. Asegurar que el valor sea número (tus JSON traen strings "-15")
+  const numValue = Number(value);
+
+  return { key: finalKey, value: numValue, isPercent };
 }
 
+// --- 2. Función interna para aplicar un objeto de stats al Status ---
+function applyStatsObject(status: Status, statsObj: any) {
+  if (!statsObj) return;
+
+  // Soporte para Array [{key: "STR", value: 10}]
+  if (Array.isArray(statsObj)) {
+    statsObj.forEach((s: any) => {
+      const { key, value, isPercent } = parseStat(s.key || s.stat, s.value);
+      if (isNaN(value)) return;
+
+      if (isPercent) {
+        if (status.percent[key] !== undefined) status.percent[key] += value;
+      } else {
+        if (status.flat[key] !== undefined) status.flat[key] += value;
+      }
+    });
+  } 
+  // Soporte para Objeto {"MaxHP %": "-15"} (Tu formato de Xtals)
+  else if (typeof statsObj === "object") {
+    Object.entries(statsObj).forEach(([k, v]) => {
+      const { key, value, isPercent } = parseStat(k, v as string | number);
+      if (isNaN(value)) return;
+
+      if (isPercent) {
+        if (status.percent[key] !== undefined) status.percent[key] += value;
+      } else {
+        if (status.flat[key] !== undefined) status.flat[key] += value;
+      }
+    });
+  }
+}
+
+// --- 3. Función Principal Exportada ---
 export function applyEquipment(status: Status, equipment: any[]) {
   if (!equipment) return;
 
   for (const item of equipment) {
     if (!item) continue;
 
-    // 1. Stats Base del Item (si tiene stats pre-calculados o raw)
-    const statsObj = item.stats || item.base_stats || {}; 
+    // A. Aplicar stats del ITEM BASE (Arma, Armadura, etc.)
+    // Busca en 'stats' (común) o 'base_stats' (a veces usado)
+    const baseStats = item.stats || item.base_stats;
+    applyStatsObject(status, baseStats);
+
+    // B. Aplicar XTALS (Slots)
+    // Asumimos que 'item.slot1' contiene el OBJETO del xtal (con propiedad .stats)
+    // Si tu UI solo guarda el ID, necesitarías buscarlo en la lista de xtals aquí, 
+    // pero es mejor guardar el objeto completo en el estado "selectedEquipment".
     
-    // Si tus JSON tienen los stats como array [{key: "STR", value: 10}]
-    if (Array.isArray(statsObj)) {
-      statsObj.forEach((s: any) => {
-        const { key, value, isPercent } = parseStat(s.key || s.stat, s.value);
-        if (isPercent) {
-          if (status.percent[key] !== undefined) status.percent[key] += value;
-        } else {
-          if (status.flat[key] !== undefined) status.flat[key] += value;
-        }
-      });
-    } 
-    // Si son objeto {"STR": 10}
-    else {
-      Object.entries(statsObj).forEach(([k, v]) => {
-        const { key, value, isPercent } = parseStat(k, Number(v));
-        if (isPercent) {
-          if (status.percent[key] !== undefined) status.percent[key] += value;
-        } else {
-          if (status.flat[key] !== undefined) status.flat[key] += value;
-        }
-      });
+    if (item.slot1 && item.slot1.stats) {
+      applyStatsObject(status, item.slot1.stats);
     }
 
-    // 2. Aplicar Xtals (si el item ya viene con xtals procesados o raw)
-    // Nota: Aquí asumo que 'item.xtals' es el objeto {x1: "id", x2: "id"} que pasamos desde page.tsx
-    // Para procesarlos, necesitaríamos buscar sus stats en la lista de xtals.
-    // Por simplicidad ahora, asegúrate de que 'applyEquipment' reciba los stats ya sumados o procesa los xtals aquí.
+    if (item.slot2 && item.slot2.stats) {
+      applyStatsObject(status, item.slot2.stats);
+    }
+    
+    // Si usas una estructura de array para crystas:
+    if (item.crystas && Array.isArray(item.crystas)) {
+        item.crystas.forEach((xtal: any) => {
+            if (xtal && xtal.stats) applyStatsObject(status, xtal.stats);
+        });
+    }
   }
 }
