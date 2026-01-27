@@ -589,39 +589,54 @@ export function calcCharacterStatus(input: CharacterInput): Status {
   let refineResistance = armorRefine + addRefine;
   if (isShield) refineResistance += subRefine;
 
-  // ==========================================
-  // 9. CÁLCULOS MÁGICOS (CRIT & CDMG)
+// 9. CÁLCULOS DE CRITICAL DAMAGE (FÍSICO Y MÁGICO)
   // ==========================================
   
-  // 1. Calcular Daño Crítico Físico Final (Lo sacamos fuera del objeto final para reusarlo)
-  // Base 150 + Stats Planos * Multiplicador %
-  let finalCDMG = trunc((150 + getStat(STAT_ID.CRITICAL_DAMAGE) + getStat(252)) * (1 + (getStat(STAT_ID.CRITICAL_DAMAGE_P) + getStat(253))/100));
-  // Softcap de CDMG: Si pasa de 300, el exceso se divide a la mitad (fórmula estándar)
-  if (finalCDMG > 300) finalCDMG = 300 + ((finalCDMG - 300) / 2);
+  // A. Calcular Base CDMG por Stats (STR o AGI)
+  // Fórmula: Base 150. Si AGI > STR suma (STR+AGI)/10. Si no, suma STR/5.
+  let baseCDMG = 150;
+  if (AGI > STR) {
+      baseCDMG += floor((STR + AGI) / 10);
+  } else {
+      baseCDMG += floor(STR / 5);
+  }
 
-  // 2. Skill Spell Burst (Estallido Mágico)
+  // B. Obtener Bonos de Equipo/Skills
+  // Asegúrate de usar 'STAT_ID.CRITICAL_DAMAGE' (43) y '_P' (44)
+  const flatCD = getStat(STAT_ID.CRITICAL_DAMAGE) + getStat(252);
+  const pctCD = (getStat(STAT_ID.CRITICAL_DAMAGE_P) + getStat(253)) / 100;
+
+  // C. Calcular Físico Final
+  // (Base + Plano) * (1 + %)
+  let finalCDMG = trunc((baseCDMG + flatCD) * (1 + pctCD));
+
+  // D. Aplicar Soft Cap de CDMG
+  // Si supera 300, el exceso cuenta a la mitad
+  if (finalCDMG > 300) {
+      finalCDMG = 300 + trunc((finalCDMG - 300) / 2);
+  }
+
+  // E. Cálculos Mágicos (Spell Burst)
   const spellBurstLvl = skills["Spell Burst"] || 0;
 
-  // 3. Conversión de Rate Mágico
-  // Por defecto es 0. Spell Burst da 2.5% por nivel.
-  let mcrConversion = spellBurstLvl * 0.025; 
-  
-  // Bonus: Si es Bastón (Main) y Elemento Neutro (implícito), +25% conversión (Opcional, según tu referencia v4_7)
-  // if (mainType === "staff" && /* check neutral */) mcrConversion += 0.25;
-
-  // 4. Magic Crit Rate (Normal)
+  // Conversión Rate Mágico: Base 0% + 2.5% por nivel de Spell Burst
+  const mcrConversion = spellBurstLvl * 0.025; 
   const magicCritRate = floor(finalCR * mcrConversion);
-
-  // 5. Magic Crit Rate (Con Weaken / Debilitar)
-  // Weaken añade un 50% (0.5) extra de conversión física
+  
+  // Con Weaken (Debilitar): Se suma un 50% base a la conversión
   const magicCritRateWeaken = floor(finalCR * (mcrConversion + 0.5));
 
-  // 6. Magic Critical Damage
-  // Fórmula: 100 + (Físico - 100) * (0.5 + SpellBurst%)
-  // Base conversión es 50% (0.5)
+  // Conversión Daño Mágico: Base 50% + 2.5% por nivel de Spell Burst
   const mcdConversion = 0.5 + (spellBurstLvl * 0.025);
-  const magicCDMG = floor(100 + (finalCDMG - 100) * mcdConversion);
+  
+  // Fórmula Magic CDMG: 100 + (Físico - 100) * conversión
+  // Usamos max(100, ...) para evitar errores si el físico fuera muy bajo (raro)
+  const magicCDMG = floor(100 + (max(100, finalCDMG) - 100) * mcdConversion);
 
+
+  // ==========================================
+  // 10. OBJETO FINAL
+  // ==========================================
   const final: DetailedStats = {
     MaxHP: finalHP, 
     MaxMP: finalMP, 
@@ -636,7 +651,14 @@ export function calcCharacterStatus(input: CharacterInput): Status {
     ATK: finalATK, 
     MATK: finalMATK,
     CriticalRate: finalCR,
-    CriticalDamage: finalCDMG,
+    
+    // --- AQUÍ ESTÁN LAS CORRECCIONES ---
+    CriticalDamage: finalCDMG,       // Físico
+    MagicCriticalDamage: magicCDMG,  // Mágico
+    MagicCriticalRate: magicCritRate,
+    MagicCriticalRateWeaken: magicCritRateWeaken,
+    // -----------------------------------
+
     PhysicalResistance: physRes,
     MagicResistance: magRes,
     DTE_Neutral: 100 + getStat(STAT_ID.DTE_NEUTRAL),
@@ -663,14 +685,17 @@ export function calcCharacterStatus(input: CharacterInput): Status {
     Stability: stability, 
     SubATK: finalATKsub, 
     SubStability: stabilitysub, 
-    PhysicalPierce: getStat(STAT_ID.PHYSICAL_PIERCE), Accuracy: finalHIT,
+    PhysicalPierce: getStat(STAT_ID.PHYSICAL_PIERCE), 
+    Accuracy: finalHIT,
     MagicStability: trunc((stability + 100)/2), 
-    MagicPierce: getStat(STAT_ID.MAGIC_PIERCE),
-    MagicCriticalRate: magicCritRate, 
-    MagicCriticalDamage: magicCDMG, 
-    AdditionalMagic: 100 + getStat(STAT_ID.ADDITIONAL_MAGIC),MagicCriticalRateWeaken: magicCritRateWeaken,
-    ShortRangeDmg: 100 + getStat(STAT_ID.SHORT_RANGE_DMG), LongRangeDmg: 100 + getStat(STAT_ID.LONG_RANGE_DMG), 
-    Anticipate: getStat(STAT_ID.ANTICIPATE), GuardBreak: getStat(STAT_ID.GUARD_BREAK),
+    MagicPierce: getStat(STAT_ID.MAGIC_PIERCE), 
+    
+    AdditionalMagic: 100 + getStat(STAT_ID.ADDITIONAL_MAGIC),
+    
+    ShortRangeDmg: 100 + getStat(STAT_ID.SHORT_RANGE_DMG), 
+    LongRangeDmg: 100 + getStat(STAT_ID.LONG_RANGE_DMG), 
+    Anticipate: getStat(STAT_ID.ANTICIPATE), 
+    GuardBreak: getStat(STAT_ID.GUARD_BREAK),
     Element: "Neutral", SubElement: "Neutral",
     RES_Neutral: resNeutral, RES_Fire: resFire, RES_Water: resWater, 
     RES_Wind: resWind, RES_Earth: resEarth, RES_Light: resLight, RES_Dark: resDark,
