@@ -24,8 +24,8 @@ export function useToramData(mainTypeId: string, subTypeId: string) {
       "bow": "bows_clean.json",
       "bwg": "bwg_clean.json",
       "staff": "staff_clean.json",
-      "md": "md_clean.json",
-      "knux": "knuckles_clean.json",
+      "md": "MD_clean.json",
+      "knux": "Knuckles_clean.json",
       "kat": "katana_clean.json",
       "hb": "hb_clean.json",
     };
