@@ -713,6 +713,22 @@
     }
   },
   {
+    "id": "xtal_merzehal",
+    "name": "Merzehal",
+    "type": [
+      "enhancer",
+      "armor"
+    ],
+    "upgradeFor": null,
+    "level": 0,
+    "stats": {
+      "MaxHP %": "25",
+      "Physical Resistance %": "15",
+      "MATK %": "13",
+      "Magic Pierce %": "10"
+    }
+  },
+  {
     "id": "xtal_meteora",
     "name": "Meteora",
     "type": [

@@ -1,3 +1,4 @@
+//applyequipament
 import { Status } from "./types";
 
 // --- 1. Helper para limpiar nombres y valores ---

@@ -612,8 +612,8 @@
       "MATK %": "9",
       "CSPD %": "9",
       "Anticipate %": "9",
-      "Shield only:Aggro %": "Aggro %",
-      "Staff only:Aggro %": "Aggro %"
+      "Shield only:Aggro %": "Aggro % 9",
+      "Staff only:Aggro %": "Aggro % -9"
     }
   },
   {

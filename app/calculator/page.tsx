@@ -341,6 +341,11 @@ export default function CalculatorPage() {
             </div>
           </div>
 
+          {/* RESULTADOS */}
+          <div style={{ position:'sticky', top:'20px' }}>
+            <StatusDisplay stats={finalStats.final} />
+          </div>
+
           {/* REGISTLETS */}
           <div style={{...styles.card, marginTop:'20px'}}>
               <h3 style={styles.label}>Registlets</h3>
@@ -487,10 +492,7 @@ export default function CalculatorPage() {
           </div>
         </div>
 
-          {/* RESULTADOS */}
-          <div style={{ position:'sticky', top:'20px' }}>
-            <StatusDisplay stats={finalStats.final} />
-          </div>
+          
 
            {/* DEBUG PANEL FLOTANTE */}
           {/* TypeScript se quejará de que 'raw' no existe en finalStats si no actualizaste types.ts, 
