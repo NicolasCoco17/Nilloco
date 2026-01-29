@@ -11,10 +11,9 @@ export function StatusDisplay({ stats }: { stats: DetailedStats }) {
       {/* Título Toggleable */}
       <div 
         className="flex justify-between items-center cursor-pointer border-b border-[#333] pb-2 mb-4"
-        onClick={() => setIsOpen(!isOpen)}
       >
         <h2 className="text-xl font-bold text-[#00ccff] uppercase tracking-wider">Status</h2>
-        <span className="text-[#666]">{isOpen ? "▲" : "▼"}</span>
+
       </div>
 
       {isOpen && (
