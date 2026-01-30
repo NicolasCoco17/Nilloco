@@ -1,0 +1,112 @@
+[
+  {
+    "id": "Metal_Ninjutsu_Scroll",
+    "name": "Metal Ninjutsu Scroll",
+    "weapon_type": "scroll",
+    "variants": {
+      "player": {
+        "stats": {
+          "Critical Rate": 5
+        },
+        "base_atk": 0,
+        "stability": 0,
+        "allow_custom_stats": false
+      }
+    }
+  },
+  {
+    "id": "Fire_Ninjutsu_Scroll",
+    "name": "Fire Ninjutsu Scroll",
+    "weapon_type": "scroll",
+    "variants": {
+      "player": {
+        "stats": {
+          "MATK%": 1,
+          "Staff only: Magic Pierce%": 5
+        },
+        "base_atk": 0,
+        "stability": 0,
+        "allow_custom_stats": false
+      }
+    }
+  },
+  {
+    "id": "Lightning_Ninjutsu_Scroll",
+    "name": "Lightning Ninjutsu Scroll",
+    "weapon_type": "scroll",
+    "variants": {
+      "player": {
+        "stats": {
+          "Stability%": 5,
+          "Katana only: Accuracy%": 5
+        },
+        "base_atk": 0,
+        "stability": 0,
+        "allow_custom_stats": false
+      }
+    }
+  },
+  {
+    "id": "Water_Ninjutsu_Scroll",
+    "name": "Water Ninjutsu Scroll",
+    "weapon_type": "scroll",
+    "variants": {
+      "player": {
+        "stats": {
+          "Ailment Resistance%": 5,
+          "Magic Device only: Aggro%": -10
+        },
+        "base_atk": 0,
+        "stability": 0,
+        "allow_custom_stats": false
+      }
+    }
+  },
+  {
+    "id": "Earth_Ninjutsu_Scroll",
+    "name": "Earth Ninjutsu Scroll",
+    "weapon_type": "scroll",
+    "variants": {
+      "player": {
+        "stats": {
+          "MaxHP%": 10,
+          "1-Handed Sword only: Fractional Barrier%": 10
+        },
+        "base_atk": 0,
+        "stability": 0,
+        "allow_custom_stats": false
+      }
+    }
+  },
+  {
+    "id": "Wind_Ninjutsu_Scroll",
+    "name": "Wind Ninjutsu Scroll",
+    "weapon_type": "scroll",
+    "variants": {
+      "player": {
+        "stats": {
+          "ASPD": 250,
+          "Katana only: Critical Rate": 5
+        },
+        "base_atk": 0,
+        "stability": 0,
+        "allow_custom_stats": false
+      }
+    }
+  },
+  {
+    "id": "Dark_Ninjutsu_Scroll",
+    "name": "Dark Ninjutsu Scroll",
+    "weapon_type": "scroll",
+    "variants": {
+      "player": {
+        "stats": {
+          "Aggro%": -10
+        },
+        "base_atk": 0,
+        "stability": 0,
+        "allow_custom_stats": false
+      }
+    }
+  }
+]

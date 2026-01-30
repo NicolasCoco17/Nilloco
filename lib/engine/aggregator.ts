@@ -115,6 +115,9 @@ export function aggregateStats(input: CharacterInput): number[] {
     // Si sigue siendo inválido o es 0, salimos
     if (isNaN(num) || num === 0) return;
 
+
+
+
     // 4. Normalización y Búsqueda de ID
     const normalizedKey = cleanKey.toLowerCase().replace(/\s/g, '');
     let id = 0;
@@ -128,24 +131,25 @@ export function aggregateStats(input: CharacterInput): number[] {
     }
   };
   
-  // 2. PROCESAR ITEMS
-  input.equipment.forEach(item => {
-    if (!item) return;
+    // 2. PROCESAR ITEMS
+    input.equipment.forEach(item => {
+      if (!item) return;
 
     // Filtro estricto sub-armas
     if (item.type === "sub") {
-        const allowedSubStats = ["shield", "dagger", "arrow", "scroll"];
+        const allowedSubStats = ["1h","shield","dagger", "arrow","md", "knux","kat","scroll"];
         if (!allowedSubStats.includes(sub)) return; 
     }
 
     // Stats Base
-    if (!item.isPlayerMode && item.stats) {
+    if (item.stats) {
       const list = Array.isArray(item.stats) ? item.stats : Object.entries(item.stats);
       list.forEach((entry: any) => {
         const k = entry.key || entry[0];
         const v = entry.value || entry[1];
         const r = entry.applied_to || 0;
         
+        // Evitamos sumar DEF base como stat porcentual/plano, ya que se calcula aparte
         if (!((item.type === 'armor' || item.type === 'add' || item.type === 'shield') && k === 'DEF')) {
              add(k, v, r);
         }

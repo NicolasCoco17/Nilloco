@@ -2,7 +2,7 @@
 
 /* =========================
    VARIABLES BASE
-========================= */
+   ========================= */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,7 +22,7 @@ body {
 
 /* =========================
    FONDO LOGIN
-========================= */
+   ========================= */
 .bg-login {
   background-image: url("/NILLOCO_ONLINE[1].png");
   background-size: cover;
@@ -38,14 +38,10 @@ body {
 
 @keyframes neonGlow {
   0%, 100% {
-    filter:
-      drop-shadow(0 0 4px #22d3ee)
-      drop-shadow(0 0 8px #8b5cf6);
+    filter: drop-shadow(0 0 4px #22d3ee) drop-shadow(0 0 8px #8b5cf6);
   }
   50% {
-    filter:
-      drop-shadow(0 0 8px #22d3ee)
-      drop-shadow(0 0 16px #8b5cf6);
+    filter: drop-shadow(0 0 8px #22d3ee) drop-shadow(0 0 16px #8b5cf6);
   }
 }
 
@@ -54,57 +50,49 @@ body {
   animation: neonGlow 3s ease-in-out infinite;
 }
 
-/* Desktop boost */
 @media (min-width: 768px) {
   .neon-glow {
     animation-duration: 2.5s;
   }
 }
 
-/* Mobile: más liviano */
 @media (max-width: 640px) {
   .neon-glow {
-    filter:
-      drop-shadow(0 0 3px #22d3ee)
-      drop-shadow(0 0 6px #8b5cf6);
+    filter: drop-shadow(0 0 3px #22d3ee) drop-shadow(0 0 6px #8b5cf6);
     animation: none;
   }
 }
 
 @media (hover: hover) {
   .neon-glow:hover {
-    filter:
-      drop-shadow(0 0 14px #22d3ee)
-      drop-shadow(0 0 28px #8b5cf6);
+    filter: drop-shadow(0 0 14px #22d3ee) drop-shadow(0 0 28px #8b5cf6);
   }
 }
-/* Ajuste para móviles: título más pequeño si hace falta */
+
+/* Ajuste para móviles */
 @media (max-width: 640px) {
   h1 { font-size: 1.1rem !important; }
-    /* Ocultar texto de botones en móvil muy pequeño si es necesario, 
-    aunque la clase 'hidden sm:inline' ya hace esto */
 }
 
 /* FORZAR MODO OSCURO EN FORMULARIOS MÓVILES */
 :root {
-  color-scheme: dark; /* Esto pinta los scrollbars y dropdowns nativos de oscuro */
+  color-scheme: dark; 
 }
 
 input, select, textarea {
   background-color: #0f0f0f !important;
-  color: #e0e0e0 !important;
+  color: #ffffff !important; /* CAMBIADO A BLANCO PURO */
   border-color: #333 !important;
   
-  /* Eliminar estilo nativo del móvil (el relieve blanco) */
-  appearance: none; 
+  /* Eliminar estilo nativo */
+  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
   
-  /* Asegurar que la fuente no se haga zoom en iOS */
-  font-size: 16px !important; 
+  font-size: 16px !important;
 }
 
-/* Recrear la flechita del Select porque 'appearance: none' la borra */
+/* Flechita del Select personalizada */
 select {
   background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300ccff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -113,74 +101,26 @@ select {
   padding-right: 2.5rem !important;
 }
 
-/* Fix específico para opciones en Android/Windows */
+/* Opciones del select */
 option {
   background-color: #0f0f0f;
-  color: #e0e0e0;
+  color: #ffffff;
 }
 
-
-
-/* INICIO DEL BLOQUE COMENTADO DE NILLA */
-/*
-.nilla-sprite-animado {
-  background-image: url('/sprites/Black-Idle.png');
-  background-size: 1400px 280px;
-  animation: playSpriteNilla 1.5s steps(5) infinite;
-  box-shadow: 0 0 25px rgba(236, 72, 153, 0.45);
-  transition: transform 0.3s ease-in-out;
+/* ESTILOS ESPECÍFICOS PARA REFINE */
+select.refine-select {
+  color: #ffffff !important; /* AQUI ESTABA EL ERROR: Ahora es blanco */
+  background-color: #0f0f0f !important;
+  font-weight: bold;
 }
-*/
-/* FIN DEL BLOQUE COMENTADO DE NILLA */
 
-/* INICIO DEL BLOQUE COMENTADO DE COCO */
-/*
-.coco-sprite-animado {
-  background-image: url('/sprites/Black-Idle.png');
-  background-size: 1400px 280px;
-  animation: playSpriteCoco 1.5s steps(5) infinite;
-  box-shadow: 0 0 25px rgba(34, 211, 238, 0.45);
-  transition: transform 0.3s ease-in-out;
+/* Fondo de las opciones de refine */
+select.refine-select option {
+  background-color: #0f0f0f !important;
+  color: #ffffff !important;
 }
-*/
-/* FIN DEL BLOQUE COMENTADO DE COCO */
 
-/* INICIO DEL BLOQUE COMENTADO DE HOVER */
-/*
-.nilla-sprite-animado:hover,
-.coco-sprite-animado:hover {
-  transform: scale(1.05);
-}
-*/
-/* FIN DEL BLOQUE COMENTADO DE HOVER */
-
-/* INICIO DEL BLOQUE COMENTADO DE KEYFRAMES NILLA */
-/*
-@keyframes playSpriteNilla {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -1400px 0;
-  }
-}
-*/
-/* FIN DEL BLOQUE COMENTADO DE KEYFRAMES NILLA */
-
-/* INICIO DEL BLOQUE COMENTADO DE KEYFRAMES COCO */
-/*
-@keyframes playSpriteCoco {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: -1400px 0;
-  }
-}
-*/
-/* FIN DEL BLOQUE COMENTADO DE KEYFRAMES COCO */
-
-/* Animación de flotación para los sprites (ESTA ESTÁ CORRECTA) */
+/* Animación float */
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-16px); }
@@ -194,64 +134,3 @@ option {
   animation: float 6s ease-in-out infinite;
   animation-delay: 1.5s;
 }
-/* =========================
-   GATITO ESTILO GOOGLE COLAB
-   (movimiento continuo) - NUEVA IMAGEN
-========================= 
-
-.cat-layer {
-  position: fixed;
-  bottom: 16px;
-  left: -100px;
-  width: 100%;
-  pointer-events: none;
-  z-index: 99999;
-}
-
-.cat-sprite {
-  width: 120px;
-  height: 120px;
-
-  /* 1. Usar el nuevo archivo de imagen (reemplaza 'Cat-Walk-New.png' con tu nombre real) *
-  background-image: url("/cats/PACK/cat 4 (64х64).png"); 
-  
-  background-repeat: no-repeat;
-  background-position: 0 0;
-
-  image-rendering: pixelated;
-
-  filter:
-    drop-shadow(0 0 4px rgba(0,0,0,0.4)) /* Usé un drop-shadow oscuro para siluetas negras *
-    drop-shadow(0 0 8px rgba(0,0,0,0.2));
-
-  /* 2. Ajuste de animaciones:
-     - cat-walk 0.7s: 8 pasos en 0.7 segundos (velocidad moderada)
-     - steps(8): Coincide con los 8 frames de tu nueva imagen
-     - cat-move 35s: Movimiento lateral lento y natural
-  *
-  animation:
-    cat-walk 1.5s steps(22) infinite,
-    cat-move 40s linear infinite;
-}
-
-/* Animación de pasos (cat-walk) *
-@keyframes cat-walk {
-  from {
-    background-position-x: 0;
-  }
-  to {
-    /* 3. Desplazamiento total para 8 frames (8 * 64px = 512px) *
-    background-position-x: -512px; 
-  }
-}
-
-/* Movimiento SIN FLASH (cat-move) *
-@keyframes cat-move {
-  from {
-    transform: translateX(-100px);
-  }
-  to {
-    transform: translateX(calc(100vw + 100px));
-  }
-}
-*/

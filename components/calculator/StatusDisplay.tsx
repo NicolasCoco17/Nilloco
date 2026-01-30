@@ -71,9 +71,14 @@ export function StatusDisplay({ stats }: { stats: DetailedStats }) {
           </div>
 
           {/* COLUMNA 4: ELEMENTS & GENERAL */}
-          <div className="space-y-3">
+           <div className="space-y-3">
             <h3 className="font-bold text-[#ffff55] border-b border-[#333] pb-1">Elements</h3>
-            <StatRow label="Element" value={stats.Element} color="#ffff55" />
+            
+            {/* AGREGADO: Weapon & Sub-weapon Elements */}
+            {/* Si no tienes la variable en stats, puedes dejar "Neutral" fijo o usar la variable correspondiente */}
+            <StatRow label="Weapon Element" value={stats.Element || "Neutral"} />
+            <StatRow label="Sub-weapon Element" value={stats.SubElement || "Neutral"} />
+
             <div className="grid grid-cols-3 gap-1 text-xs text-center mt-2">
                 <div className="text-[#666]">Ele</div>
                 <div className="text-[#666]">DTE%</div>
@@ -92,7 +97,6 @@ export function StatusDisplay({ stats }: { stats: DetailedStats }) {
             <StatRow label="Short Range %" value={`${stats.ShortRangeDmg}%`} />
             <StatRow label="Long Range %" value={`${stats.LongRangeDmg}%`} />
           </div>
-
         </div>
       )}
     </div>

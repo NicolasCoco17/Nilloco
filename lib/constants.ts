@@ -2,7 +2,7 @@
 
 // 1. Lista Maestra de Stats 
 export const FULL_STAT_LIST = [
-  "STR", "STR %", "INT", "INT %", "VIT", "VIT %", "AGI", "AGI %", "DEX", "DEX %",
+  "Select" ,"STR", "STR %", "INT", "INT %", "VIT", "VIT %", "AGI", "AGI %", "DEX", "DEX %",
   "Natural HP Regen", "Natural HP Regen %", "Natural MP Regen", "Natural MP Regen %",
   "MaxHP", "MaxHP %", "MaxMP",
   "ATK", "ATK %", "MATK", "MATK %",
@@ -229,6 +229,7 @@ export const BUFFLAND_STAT_LIST = [
 
 
 export const WEAPON_TYPES = [
+  { id: "barehand", label: "Barehand", file: "" }, 
   { id: "1h", label: "1H Sword", file: "espadas_1h_clean.json" },
   { id: "2h", label: "2H Sword", file: "espadas_2h_clean.json" },
   { id: "bow", label: "Bow", file: "bows_clean.json" },
@@ -238,15 +239,16 @@ export const WEAPON_TYPES = [
   { id: "knux", label: "Knuckles", file: "knuckles_clean.json" },
   { id: "kat", label: "Katana", file: "katana_clean.json" },
   { id: "hb", label: "Halberd", file: "hb_clean.json" },
-  { id: "barehand", label: "Barehand", file: "" }, 
 ];
 
 export const SUB_TYPES = [
   { id: "none", label: "None" },
+  { id: "1h", label: "1H Sword"},
   { id: "shield", label: "Shield" },
   { id: "dagger", label: "Dagger" },
   { id: "arrow", label: "Arrow" },
   { id: "md", label: "Magic Device" },
   { id: "knux", label: "Knuckles" },
   { id: "kat", label: "Katana" },
+  { id:"scroll", label: "Scroll", file: "Ninjutsu_Scroll.json"},
 ];

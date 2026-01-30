@@ -51,10 +51,15 @@ const getItemBaseDef = (item: any): number => {
   if (!item) return 0;
   if (typeof item.base_def === "number") return item.base_def;
   if (typeof item.def === "number") return item.def;
+  // 2. Buscar en Variantes
   if (item.variants) {
+    // Usar la variante seleccionada (puede ser "player", "npc" o "drop")
     const variantKey = item.selectedVariant || "npc"; 
-    let variant = item.variants[variantKey] || item.variants["drop"];
-    if (!variant) { const keys = Object.keys(item.variants); if (keys.length > 0) variant = item.variants[keys[0]]; }
+    let variant = item.variants[variantKey];
+    
+    // Fallback seguro si la variante no existe
+    if (!variant) variant = item.variants["drop"] || item.variants["npc"]; 
+    
     if (variant && typeof variant.base_def === "number") return variant.base_def;
   }
   return 0;
@@ -62,24 +67,34 @@ const getItemBaseDef = (item: any): number => {
 
 const getItemStatValue = (item: any, statKey: string): number => {
     if (!item) return 0;
+    
+    // Intentar leer stats procesados
     let stats = item.stats;
-    if (!stats && item.variants) {
+
+    // Si no hay stats en raíz, buscar en la variante seleccionada
+    if ((!stats || Object.keys(stats).length === 0) && item.variants) {
         const variantKey = item.selectedVariant || "npc";
-        let variant = item.variants[variantKey] || item.variants["drop"];
-        if (!variant) { const keys = Object.keys(item.variants); if (keys.length > 0) variant = item.variants[keys[0]]; }
+        let variant = item.variants[variantKey];
+        if (!variant) variant = item.variants["drop"] || item.variants["npc"];
+        
         if (variant) stats = variant.stats;
     }
+
     if (!stats) return 0;
+
+    // Búsqueda insensible a mayúsculas
+    const upperKey = statKey.toUpperCase();
+
     if (Array.isArray(stats)) {
         const found = stats.find((s: any) => {
-            if (s.key) return s.key === statKey || s.key === statKey.toUpperCase();
-            if (Array.isArray(s)) return s[0] === statKey;
-            return false;
+            const k = (s.key || s[0] || "").toUpperCase();
+            return k === upperKey;
         });
-        if (found) return Number(found.value ?? found[1] ?? 0);
+        return found ? Number(found.value ?? found[1] ?? 0) : 0;
     } else if (typeof stats === "object") {
-        const val = stats[statKey] ?? stats[statKey.toUpperCase()];
-        return Number(val || 0);
+        // Busca keys insensibles a mayúsculas en el objeto
+        const foundKey = Object.keys(stats).find(k => k.toUpperCase() === upperKey);
+        if (foundKey) return Number(stats[foundKey]);
     }
     return 0;
 };
@@ -93,7 +108,7 @@ export function calcCharacterStatus(input: CharacterInput): Status {
   const mainWeapon = input.equipment.find(e => e.type === "main");
   const subWeapon = input.equipment.find(e => e.type === "sub");
   
-  const mainType = input.weaponType;
+  const mainType = input.weaponType ;
   const subType = input.subWeaponType || "none";
   const armorType = input.armorType || "normal";
   const isDual = mainType === "1h" && subType === "1h";

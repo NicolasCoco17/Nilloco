@@ -17,7 +17,7 @@ export function useToramData(mainTypeId: string, subTypeId: string) {
 
   // 1. Cargar Armas
   useEffect(() => {
-    if (!mainTypeId) return;
+    if (mainTypeId === "none") return;
     const fileMap: Record<string, string> = {
       "1h": "espadas_1h_clean.json",
       "2h": "espadas_2h_clean.json",
@@ -37,13 +37,14 @@ export function useToramData(mainTypeId: string, subTypeId: string) {
   useEffect(() => {
     if (subTypeId === "none") { setSubWeapons([]); return; }
     const subMap: Record<string, string> = {
+      "1h": "espadas_1h_clean.json",
       "shield": "escudos_clean.json",
       "arrow": "flecha_clean.json",
       "dagger": "daga_clean.json",
       "md": "md_clean.json",
       "knux": "knuckles_clean.json",
       "kat": "katana_clean.json",
-      "scroll": "scroll_clean.json"
+      "scroll": "Ninjutsu_Scroll.json"
     };
     const file = subMap[subTypeId];
     if (file) fetch(`/data/weapons/${file}`).then(r => r.json()).then(setSubWeapons).catch(() => setSubWeapons([]));

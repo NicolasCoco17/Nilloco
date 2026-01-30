@@ -11,19 +11,7 @@ import { PASSIVE_SKILLS_DATA, AVATAR_STAT_LIST, BUFFLAND_STAT_LIST } from "@/lib
 import { StatusDisplay } from "@/components/calculator/StatusDisplay";
 import { useAuth } from "@/hooks/useAuth";
 import { useBuilds } from "@/hooks/useBuilds";
-import { Save, FolderOpen, Trash2, X, FileText, Calendar } from "lucide-react"; // Iconos para mejorar UI
-
-/* ======================
-   CONSTANTES TEMPORALES
-====================== */
-const ACTIVE_SKILLS_DATA = [
-  { id: "God Speed", name: "Godspeed Wield", img: "/icons/skill_gsw.png" },
-  { id: "War Cry", name: "War Cry", img: "/icons/skill_warcry.png" },
-  { id: "Kairiki Ranshin", name: "Kairiki Ranshin", img: "/icons/skill_kairiki.png" },
-  { id: "Brave Aura", name: "Brave Aura", img: "/icons/skill_brave.png" },
-  { id: "Quick Aura", name: "Quick Aura", img: "/icons/skill_quick.png" },
-  { id: "Decoy Shot", name: "Decoy Shot", img: "/icons/skill_decoy.png" },
-];
+import { Save, FolderOpen, Trash2, X, FileText, Calendar } from "lucide-react";
 
 /* ======================
    HELPERS
@@ -64,19 +52,19 @@ export default function CalculatorPage() {
   const [activeSkills, setActiveSkills] = useState<Record<string, number>>({});
 
   const [weapon, setWeapon] = useState<any>(null);
-  const [weaponRefine, setWeaponRefine] = useState("S");
+  const [weaponRefine, setWeaponRefine] = useState("0");
   const [weaponXtals, setWeaponXtals] = useState<XtalSlotState>({ x1: "-1", x2: "-1" });
 
   const [subWeapon, setSubWeapon] = useState<any>(null);
   const [subRefine, setSubRefine] = useState("0");
 
   const [armor, setArmor] = useState<any>(null);
-  const [armorRefine, setArmorRefine] = useState("S");
+  const [armorRefine, setArmorRefine] = useState("0");
   const [armorXtals, setArmorXtals] = useState<XtalSlotState>({ x1: "-1", x2: "-1" });
   const [armorType, setArmorType] = useState<"normal" | "light" | "heavy">("normal");
 
   const [additional, setAdditional] = useState<any>(null);
-  const [addRefine, setAddRefine] = useState("S");
+  const [addRefine, setAddRefine] = useState("0");
   const [addXtals, setAddXtals] = useState<XtalSlotState>({ x1: "-1", x2: "-1" });
 
   const [special, setSpecial] = useState<any>(null);
@@ -94,11 +82,16 @@ export default function CalculatorPage() {
       registletsList, bufflandList, consumablesList 
   } = useToramData(mainType.id, subType.id);  
 
-  // CORRECCIÓN: Ahora los nombres coinciden con lo que se usa en el HTML (combined...)
   const combinedWeaponXtals = useMemo(() => [...xtals.weapons, ...xtals.normal], [xtals]);
   const combinedArmorXtals = useMemo(() => [...xtals.armors, ...xtals.normal], [xtals]);
   const combinedAddXtals = useMemo(() => [...xtals.add, ...xtals.normal], [xtals]);
   const combinedRingXtals = useMemo(() => [...xtals.ring, ...xtals.normal], [xtals]);
+
+  /* ======================
+     LOGICA DE VISIBILIDAD
+  ====================== */
+  const showMainRefine = mainType.id !== "barehand" && mainType.id !== "none";
+  const showSubRefine = ["shield", "1h", "kat", "knux", "md"].includes(subType.id);
 
   /* --- CÁLCULO --- */
   const finalStats = useMemo(() => {
@@ -133,7 +126,6 @@ export default function CalculatorPage() {
 
     const combinedSkills = { ...passiveSkills, ...activeSkills };
 
-    // CORRECCIÓN: Aquí también actualizamos para usar 'combined...'
     const equipList = [
       { 
         ...weapon, refine: weaponRefine, type: "main", stability: weapon?.stability ?? weapon?.base_stability,
@@ -174,13 +166,13 @@ export default function CalculatorPage() {
     special, specialRefine, specialXtals,
     passiveSkills, activeSkills, avatars, foods, buffland, activeRegistlets, 
     registletsList, consumablesList, xtals, 
-    combinedWeaponXtals, combinedArmorXtals, combinedAddXtals, combinedRingXtals // Dependencias actualizadas
+    combinedWeaponXtals, combinedArmorXtals, combinedAddXtals, combinedRingXtals
   ]);
 
   const statKeys = Object.keys(baseStats) as Array<keyof typeof baseStats>;
 
   /* ======================
-     3. HANDLERS
+     HANDLERS
   ====================== */
   const handleCloudSave = async () => {
     if (!buildName.trim()) return alert("Ponle un nombre a la build");
@@ -252,7 +244,7 @@ export default function CalculatorPage() {
   }, [isLoadModalOpen, isAuthenticated, fetchBuilds]);
 
   /* ======================
-     4. RENDER
+     RENDER
   ====================== */
   return (
     <div className="toram-calculator-container">
@@ -287,7 +279,7 @@ export default function CalculatorPage() {
             </h1>
         </div>
 
-        {/* BOTONES DE ACCIÓN (Ahora arriba) */}
+        {/* BOTONES DE ACCIÓN */}
         <div style={{display:'flex', gap:'10px'}}>
             <button 
                 onClick={() => isAuthenticated ? setIsSaveModalOpen(true) : alert("Inicia sesión para guardar en la nube.")} 
@@ -378,21 +370,40 @@ export default function CalculatorPage() {
             <div style={styles.equipBlock}>
               <div style={styles.equipLabelRow}>
                   <span>Main Weapon</span>
-                  <select style={{...styles.select, width:'auto', padding:'0 10px'}} value={mainType.id} onChange={(e) => setMainType(WEAPON_TYPES.find((t: any) => t.id === e.target.value) || WEAPON_TYPES[0])}>
+                  <select 
+                    style={{...styles.select, width:'auto', padding:'0 10px'}} 
+                    value={mainType.id} 
+                    onChange={(e) => {
+                      // RESET: Al cambiar de arma principal
+                      setMainType(WEAPON_TYPES.find((t: any) => t.id === e.target.value) || WEAPON_TYPES[0]);
+                      setWeapon(null); // Borra el item
+                      setWeaponXtals({ x1: "-1", x2: "-1" }); // Borra Xtals
+                      setWeaponRefine("0"); // Resetea Refine
+                    }}
+                  >
                     {WEAPON_TYPES.map((t: any) => <option key={t.id} value={t.id}>{t.label}</option>)}
                   </select>
               </div>
-              <EquipmentSlot label="" category="weapon" items={weapons} selectedItem={weapon} onSelect={setWeapon} refineValue={weaponRefine} onRefineChange={setWeaponRefine} xtalList={combinedWeaponXtals} xtals={weaponXtals} setXtals={setWeaponXtals} />
+              <EquipmentSlot label="" category="weapon" items={weapons} selectedItem={weapon} onSelect={setWeapon} refineValue={weaponRefine} onRefineChange={setWeaponRefine} xtalList={combinedWeaponXtals} xtals={weaponXtals} setXtals={setWeaponXtals} showRefine={showMainRefine} />
             </div>
 
             <div style={styles.equipBlock}>
               <div style={styles.equipLabelRow}>
                   <span>Sub Weapon</span>
-                  <select style={{...styles.select, width:'auto', padding:'0 10px'}} value={subType.id} onChange={(e) => setSubType(SUB_TYPES.find((t: any) => t.id === e.target.value) || SUB_TYPES[0])}>
+                  <select 
+                    style={{...styles.select, width:'auto', padding:'0 10px'}} 
+                    value={subType.id} 
+                    onChange={(e) => {
+                      // RESET: Al cambiar de sub-arma
+                      setSubType(SUB_TYPES.find((t: any) => t.id === e.target.value) || SUB_TYPES[0]);
+                      setSubWeapon(null); // Borra el item
+                      setSubRefine("0"); // Resetea Refine
+                    }}
+                  >
                     {SUB_TYPES.map((t: any) => <option key={t.id} value={t.id}>{t.label}</option>)}
                   </select>
               </div>
-              <EquipmentSlot label="" category="weapon" items={subWeapons} selectedItem={subWeapon} onSelect={setSubWeapon} refineValue={subRefine} onRefineChange={setSubRefine} xtalList={[]} xtals={{x1:'-1', x2:'-1'}} setXtals={() => {}} hasSlots={subType.id === "shield"} />
+              <EquipmentSlot label="" category="weapon" items={subWeapons} selectedItem={subWeapon} onSelect={setSubWeapon} refineValue={subRefine} onRefineChange={setSubRefine} xtalList={[]} xtals={{x1:'-1', x2:'-1'}} setXtals={() => {}} hasSlots={subType.id === "shield"} showRefine={showSubRefine}/>
             </div>
 
             <div style={styles.equipBlock}>
@@ -461,34 +472,28 @@ export default function CalculatorPage() {
       {/* SKILLS CONTAINER */}
       <div style={{ ...styles.card, marginTop: '20px' }}>
         <div style={styles.sectionHeader}>Skills</div>
-        <div>
-          <h4 style={{ textAlign: 'center', color: '#888', margin: '0 0 10px 0', fontSize: '0.9em', textTransform: 'uppercase' }}>
-            {/* Puedes poner un título aquí si quieres, o borrar este h4 */}
-          </h4>
-          
-          <div style={styles.skillGrid}>
-            {PASSIVE_SKILLS_DATA.map(skill => (
-              <div key={skill.id} style={styles.skillCard}>
-                <div style={styles.skillHeader}>
-                  <img 
-                    src={skill.img} 
-                    alt="" 
-                    style={{ width: '24px', height: '24px', objectFit: 'contain' }} 
-                    onError={(e) => (e.currentTarget.style.display = 'none')} 
-                  />
-                  <span style={styles.skillName} title={skill.name}>{skill.name}</span>
-                </div>
-                <select 
-                  className="form-control" 
-                  style={{ ...styles.select, marginTop: 'auto' }} 
-                  value={passiveSkills[skill.id] || 0} 
-                  onChange={(e) => setPassiveSkills(prev => ({ ...prev, [skill.id]: Number(e.target.value) }))}
-                >
-                  {[...Array(11)].map((_, v) => <option key={v} value={v}>{v === 10 ? 'MAX' : v}</option>)}
-                </select>
+        <div style={styles.skillGrid}>
+          {PASSIVE_SKILLS_DATA.map(skill => (
+            <div key={skill.id} style={styles.skillCard}>
+              <div style={styles.skillHeader}>
+                <img 
+                  src={skill.img} 
+                  alt="" 
+                  style={{ width: '24px', height: '24px', objectFit: 'contain' }} 
+                  onError={(e) => (e.currentTarget.style.display = 'none')} 
+                />
+                <span style={styles.skillName} title={skill.name}>{skill.name}</span>
               </div>
-            ))}
-          </div>
+              <select 
+                className="form-control" 
+                style={{ ...styles.select, marginTop: 'auto' }} 
+                value={passiveSkills[skill.id] || 0} 
+                onChange={(e) => setPassiveSkills(prev => ({ ...prev, [skill.id]: Number(e.target.value) }))}
+              >
+                {[...Array(11)].map((_, v) => <option key={v} value={v}>{v === 10 ? 'MAX' : v}</option>)}
+              </select>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -592,40 +597,84 @@ function CustomStatRow({ item, idx, setter, options }: any) {
 }
 
 /* ======================
-   ESTILOS
-====================== */
+      ESTILOS
+   ====================== */
 const styles: any = {
-  headerContainer: { 
-  display: 'flex', 
-  flexDirection: 'column',alignItems: 'center',gap: '15px',marginBottom: '30px',borderBottom: '1px solid #222',paddingBottom: '15px',textAlign: 'center'},
+  headerContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    gap: '15px',
+    marginBottom: '30px',
+    borderBottom: '1px solid #222',
+    paddingBottom: '15px',
+    textAlign: 'center'
+  },
   title: { margin: 0, fontSize: '1.8rem', fontWeight: '800', letterSpacing: '1px', color: '#fff' },
-  versionBadge: { fontSize: '0.4em', background: '#333', padding: '2px 6px', borderRadius: '4px', verticalAlign: 'middle', marginLeft: '10px', color:'#aaa' },
-  
-  headerBtnSave: { display:'flex', alignItems:'center', gap:'6px', background: '#10b981', border: 'none', color: 'white', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer', fontSize:'0.9em' },
-  headerBtnLoad: { display:'flex', alignItems:'center', gap:'6px', background: '#3b82f6', border: 'none', color: 'white', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer', fontSize:'0.9em' },
+  versionBadge: { fontSize: '0.4em', background: '#333', padding: '2px 6px', borderRadius: '4px', verticalAlign: 'middle', marginLeft: '10px', color: '#aaa' },
+
+  headerBtnSave: { display: 'flex', alignItems: 'center', gap: '6px', background: '#10b981', border: 'none', color: 'white', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer', fontSize: '0.9em' },
+  headerBtnLoad: { display: 'flex', alignItems: 'center', gap: '6px', background: '#3b82f6', border: 'none', color: 'white', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer', fontSize: '0.9em' },
 
   mainGrid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '20px', alignItems: 'stretch' },
   column: { display: 'flex', flexDirection: 'column', gap: '20px', height: '100%' },
   card: { background: '#121212', borderRadius: '12px', padding: '20px', border: '1px solid #222', boxShadow: '0 4px 12px rgba(0,0,0,0.3)', display: 'flex', flexDirection: 'column' },
-  sectionHeader: { className: 'section-header', marginBottom: '15px', color: '#00ccff', fontSize: '0.85rem', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', borderBottom:'1px solid #222', paddingBottom:'8px' },
-  
+  sectionHeader: { marginBottom: '15px', color: '#00ccff', fontSize: '0.85rem', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', borderBottom: '1px solid #222', paddingBottom: '8px' },
+
   input: { background: '#0f0f0f', border: '1px solid #333', color: '#00ff88', height: '36px', borderRadius: '6px', textAlign: 'center', fontWeight: 'bold', outline: 'none', transition: 'border-color 0.2s', width: '100%' },
-  select: { height: '36px', background: '#0f0f0f', color: '#e0e0e0', border: '1px solid #333', borderRadius: '6px', padding: '0 8px', outline: 'none', cursor: 'pointer', width: '100%' },
   
+  select: { height: '36px', background: '#0f0f0f', color: '#ffffff', border: '1px solid #333', borderRadius: '6px', padding: '0 8px', outline: 'none', cursor: 'pointer', width: '100%' },
+
   skillGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))", gap: "10px", width: "100%" },
   skillCard: { background: "#1a1a1a", border: "1px solid #2a2a2a", borderRadius: "6px", padding: "10px", display: "flex", flexDirection: "column", gap: "6px", minHeight: "80px" },
-  skillHeader: { display: "flex", alignItems: "center", gap: "6px", fontSize: "0.8em", overflow: "hidden", marginBottom:'4px' },
-  skillName: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", color: "#ccc", fontWeight:'bold' },
+  skillHeader: { display: "flex", alignItems: "center", gap: "6px", fontSize: "0.8em", overflow: "hidden", marginBottom: '4px' },
+  skillName: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", color: "#ccc", fontWeight: 'bold' },
 
   equipBlock: { marginBottom: '20px', paddingBottom: '15px', borderBottom: '1px solid #1a1a1a' },
-  equipLabelRow: { display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:'8px', fontSize:'0.85rem', color:'#aaa' },
-  toggleGroup: { display:'flex', background:'#1a1a1a', borderRadius:'6px', padding:'2px' },
-  toggleBtn: { border:'none', padding:'4px 8px', borderRadius:'4px', fontSize:'0.75rem', fontWeight:'bold', cursor:'pointer' },
+  equipLabelRow: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px', fontSize: '0.85rem', color: '#aaa' },
+  toggleGroup: { display: 'flex', background: '#1a1a1a', borderRadius: '6px', padding: '2px' },
+  toggleBtn: { border: 'none', padding: '4px 8px', borderRadius: '4px', fontSize: '0.75rem', fontWeight: 'bold', cursor: 'pointer' },
 };
 
 const modalStyles = {
-    overlay: { position: 'fixed' as 'fixed', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.85)', backdropFilter: 'blur(5px)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000 },
-    content: { background: '#0a0a0a', padding: '25px', borderRadius: '12px', border: '1px solid #333', width: '90%', maxWidth: '400px', color: '#fff', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' },
-    cancelBtn: { background: 'transparent', border: '1px solid #555', color: '#ccc', padding: '8px 15px', borderRadius: '5px', cursor: 'pointer' },
-    confirmBtn: { background: '#10b981', border: 'none', color: '#fff', padding: '8px 20px', borderRadius: '5px', cursor: 'pointer', fontWeight: 'bold' }
+  overlay: {
+    position: 'fixed' as 'fixed',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    background: 'rgba(0,0,0,0.85)',
+    backdropFilter: 'blur(5px)',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    zIndex: 1000
+  },
+  content: {
+    background: '#0a0a0a',
+    padding: '25px',
+    borderRadius: '12px',
+    border: '1px solid #333',
+    width: '90%',
+    maxWidth: '400px',
+    color: '#fff',
+    boxShadow: '0 10px 30px rgba(0,0,0,0.5)'
+  },
+  cancelBtn: {
+    background: 'transparent',
+    border: '1px solid #555',
+    color: '#ccc',
+    padding: '8px 15px',
+    borderRadius: '5px',
+    cursor: 'pointer'
+  },
+  confirmBtn: {
+    background: '#10b981',
+    border: 'none',
+    color: '#fff',
+    padding: '8px 20px',
+    borderRadius: '5px',
+    cursor: 'pointer',
+    fontWeight: 'bold'
+  }
 };
