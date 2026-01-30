@@ -78,6 +78,48 @@ body {
       drop-shadow(0 0 28px #8b5cf6);
   }
 }
+/* Ajuste para móviles: título más pequeño si hace falta */
+@media (max-width: 640px) {
+  h1 { font-size: 1.1rem !important; }
+    /* Ocultar texto de botones en móvil muy pequeño si es necesario, 
+    aunque la clase 'hidden sm:inline' ya hace esto */
+}
+
+/* FORZAR MODO OSCURO EN FORMULARIOS MÓVILES */
+:root {
+  color-scheme: dark; /* Esto pinta los scrollbars y dropdowns nativos de oscuro */
+}
+
+input, select, textarea {
+  background-color: #0f0f0f !important;
+  color: #e0e0e0 !important;
+  border-color: #333 !important;
+  
+  /* Eliminar estilo nativo del móvil (el relieve blanco) */
+  appearance: none; 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  /* Asegurar que la fuente no se haga zoom en iOS */
+  font-size: 16px !important; 
+}
+
+/* Recrear la flechita del Select porque 'appearance: none' la borra */
+select {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300ccff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  background-size: 1.2em;
+  padding-right: 2.5rem !important;
+}
+
+/* Fix específico para opciones en Android/Windows */
+option {
+  background-color: #0f0f0f;
+  color: #e0e0e0;
+}
+
+
 
 /* INICIO DEL BLOQUE COMENTADO DE NILLA */
 /*

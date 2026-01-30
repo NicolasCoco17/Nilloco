@@ -45,6 +45,9 @@ export default function Sidebar() {
           <a href="/dyes" className="hover:bg-white/10 p-2 rounded transition" onClick={() => setIsOpen(false)}>
             Simulador de dyes
           </a>
+          <a href="/calculator" className="hover:bg-white/10 p-2 rounded transition" onClick={() => setIsOpen(false)}>
+            Calculadora de Stats
+          </a>
         </nav>
       </div>
     </>

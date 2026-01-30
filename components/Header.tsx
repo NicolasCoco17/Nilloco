@@ -15,8 +15,11 @@ export default function Header() {
   }
 
   return (
-    <header className="fixed top-0 left-0 lg:left-64 right-0 z-40 h-16 bg-black/80 backdrop-blur-md shadow-lg">
-      <div className="flex items-center justify-between h-full px-4">
+<header className="absolute top-0 left-0 lg:left-64 right-0 z-40 h-16 bg-black/80 backdrop-blur-md shadow-lg">      {/* 
+       Agregamos 'pl-14' (padding-left) en móvil para que el botón del menú
+       no tape el logo. En escritorio (lg:) quitamos ese padding (pl-4).
+    */}
+    <div className="flex items-center justify-between h-full px-4 pl-14 lg:pl-4">
 
         {/* 🔥 LOGO / BANNER */}
         <Link
