@@ -612,7 +612,7 @@ const styles: any = {
   input: { background: '#0f0f0f', border: '1px solid #333', color: '#00ff88', height: '36px', borderRadius: '6px', textAlign: 'center', fontWeight: 'bold', outline: 'none', transition: 'border-color 0.2s', width: '100%' },
   select: { height: '36px', background: '#0f0f0f', color: '#e0e0e0', border: '1px solid #333', borderRadius: '6px', padding: '0 8px', outline: 'none', cursor: 'pointer', width: '100%' },
   
-  skillGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(130px, 1fr))", gap: "10px" },
+  skillGrid: { display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))", gap: "10px", width: "100%" },
   skillCard: { background: "#1a1a1a", border: "1px solid #2a2a2a", borderRadius: "6px", padding: "10px", display: "flex", flexDirection: "column", gap: "6px", minHeight: "80px" },
   skillHeader: { display: "flex", alignItems: "center", gap: "6px", fontSize: "0.8em", overflow: "hidden", marginBottom:'4px' },
   skillName: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", color: "#ccc", fontWeight:'bold' },
