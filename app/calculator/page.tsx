@@ -27,6 +27,46 @@ const formatBuffStats = (stats: SimpleStat[] | Record<string, number> = []) => {
   }
 };
 
+const getWeaponIcon = (typeId: string) => {
+  const map: Record<string, string> = {
+    "1h": "/icons/ohs.png",
+    "2h": "/icons/2h.png",
+    "bow": "/icons/bow(1).png",
+    "bwg": "/icons/bwg.png",
+    "staff": "/icons/staff(1).png",
+    "md": "/icons/md(1).png",
+    "knux": "/icons/knuckle.png",
+    "kat": "/icons/katana(1).png",
+    "hb": "/icons/halb.png",
+    "barehand": "/icons/barehand(1).png",
+    "shield": "/icons/shield.png",
+    "dagger": "/icons/dagger.png",
+    "arrow": "/icons/flecha.png",
+    "scroll": "/icons/ninjutsu-scroll (1).png",
+  };
+  return map[typeId] || "/icons/unknown.png";
+};
+
+const getArmorIcon = (type: string) => {
+  const map: Record<string, string> = {
+    "light": "/icons/light.png",   // Asegúrate de tener esta imagen
+    "heavy": "/icons/heavy.png",   // Asegúrate de tener esta imagen
+    "normal": "/icons/normal.png"
+  };
+  return map[type] || "/icons/normal.png";
+};
+
+const getXtalIcon = (typeId: string) => {
+  const map: Record<string, string> = {
+    "armor": "/icons/armor.png",
+    "weapon": "/icons/weapon.png",
+    "normal": "/icons/xtal_normal.png",
+    "add": "/icons/xtal_add.png",
+    "ring": "/icons/xtal_ring.png",
+  };
+  return map[typeId] || "/icons/unknown.png";
+};
+
 export default function CalculatorPage() {
   /* ======================
      1. HOOKS Y ESTADOS
@@ -362,42 +402,76 @@ export default function CalculatorPage() {
           </div>
         </div>
 
-        {/* COLUMNA 2: Equipment */}
+ {/* COLUMNA 2: Equipment */}
         <div style={styles.column}>
           <div style={{...styles.card, height: '100%'}}>
             <div style={styles.sectionHeader}>Equipment</div>
             
+            {/* === MAIN WEAPON === */}
             <div style={styles.equipBlock}>
               <div style={styles.equipLabelRow}>
-                  <span>Main Weapon</span>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '8px'}}>
+                      <img 
+                        // SOLUCIÓN 1: key={mainType.id} fuerza a react a redibujar la imagen si cambia el ID
+                        key={mainType.id} 
+                        src={getWeaponIcon(mainType.id)} 
+                        alt="Main" 
+                        style={{width:'24px', height:'24px', objectFit:'contain'}} 
+                        onError={(e) => e.currentTarget.style.display = 'none'}
+                      />
+                      <span>Main Weapon</span>
+                  </div>
                   <select 
                     style={{...styles.select, width:'auto', padding:'0 10px'}} 
                     value={mainType.id} 
                     onChange={(e) => {
-                      // RESET: Al cambiar de arma principal
                       setMainType(WEAPON_TYPES.find((t: any) => t.id === e.target.value) || WEAPON_TYPES[0]);
-                      setWeapon(null); // Borra el item
-                      setWeaponXtals({ x1: "-1", x2: "-1" }); // Borra Xtals
-                      setWeaponRefine("0"); // Resetea Refine
+                      setWeapon(null);
+                      setWeaponXtals({ x1: "-1", x2: "-1" });
+                      setWeaponRefine("0");
                     }}
                   >
                     {WEAPON_TYPES.map((t: any) => <option key={t.id} value={t.id}>{t.label}</option>)}
                   </select>
               </div>
-              <EquipmentSlot label="" category="weapon" items={weapons} selectedItem={weapon} onSelect={setWeapon} refineValue={weaponRefine} onRefineChange={setWeaponRefine} xtalList={combinedWeaponXtals} xtals={weaponXtals} setXtals={setWeaponXtals} showRefine={showMainRefine} />
+              
+              {/* SOLUCIÓN 2: Pasamos el icono del xtal */}
+              <EquipmentSlot 
+                label="" 
+                category="weapon" 
+                items={weapons} 
+                selectedItem={weapon} 
+                onSelect={setWeapon} 
+                refineValue={weaponRefine} 
+                onRefineChange={setWeaponRefine} 
+                xtalList={combinedWeaponXtals} 
+                xtals={weaponXtals} 
+                setXtals={setWeaponXtals} 
+                showRefine={showMainRefine}
+                xtalIcon={getXtalIcon("weapon")} // <--- NUEVO
+              />
             </div>
 
+            {/* === SUB WEAPON === */}
             <div style={styles.equipBlock}>
               <div style={styles.equipLabelRow}>
-                  <span>Sub Weapon</span>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '8px'}}>
+                      <img 
+                        key={subType.id} // <--- KEY AGREGADA
+                        src={getWeaponIcon(subType.id)} 
+                        alt="Sub" 
+                        style={{width:'24px', height:'24px', objectFit:'contain'}}
+                        onError={(e) => e.currentTarget.style.display = 'none'}
+                      />
+                      <span>Sub Weapon</span>
+                  </div>
                   <select 
                     style={{...styles.select, width:'auto', padding:'0 10px'}} 
                     value={subType.id} 
                     onChange={(e) => {
-                      // RESET: Al cambiar de sub-arma
                       setSubType(SUB_TYPES.find((t: any) => t.id === e.target.value) || SUB_TYPES[0]);
-                      setSubWeapon(null); // Borra el item
-                      setSubRefine("0"); // Resetea Refine
+                      setSubWeapon(null);
+                      setSubRefine("0");
                     }}
                   >
                     {SUB_TYPES.map((t: any) => <option key={t.id} value={t.id}>{t.label}</option>)}
@@ -406,26 +480,99 @@ export default function CalculatorPage() {
               <EquipmentSlot label="" category="weapon" items={subWeapons} selectedItem={subWeapon} onSelect={setSubWeapon} refineValue={subRefine} onRefineChange={setSubRefine} xtalList={[]} xtals={{x1:'-1', x2:'-1'}} setXtals={() => {}} hasSlots={subType.id === "shield"} showRefine={showSubRefine}/>
             </div>
 
+            {/* === BODY ARMOR === */}
             <div style={styles.equipBlock}>
               <div style={styles.equipLabelRow}>
-                  <span>Body Armor</span>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '8px'}}>
+                      <img 
+                        key={armorType} // Importante para refrescar si hubo error de carga antes
+                        src={getArmorIcon(armorType)} 
+                        alt="Armor" 
+                        style={{width:'24px', height:'24px', objectFit:'contain'}} 
+                        onError={(e) => e.currentTarget.style.display = 'none'}
+                      />
+                      {/* Opcional: Cambia el texto según el tipo */}
+                      <span>
+                        {armorType === 'light' ? 'Light Armor' : 
+                         armorType === 'heavy' ? 'Heavy Armor' : 
+                         'Normal Armor'}
+                      </span>
+                  </div>
+                  
                   <div style={styles.toggleGroup}>
                     {['light', 'normal', 'heavy'].map(type => (
-                      <button key={type} style={{...styles.toggleBtn, background: armorType===type ? '#00ccff' : '#1a1a1a', color: armorType===type ? '#000' : '#888'}} onClick={() => setArmorType(type as any)}>{type.charAt(0).toUpperCase()}</button>
+                      <button 
+                        key={type} 
+                        style={{
+                          ...styles.toggleBtn, 
+                          background: armorType===type ? '#00ccff' : '#1a1a1a', 
+                          color: armorType===type ? '#000' : '#888'
+                        }} 
+                        onClick={() => setArmorType(type as any)}
+                      >
+                        {type.charAt(0).toUpperCase()}
+                      </button>
                     ))}
                   </div>
               </div>
-              <EquipmentSlot label="" category="armor" items={armors} selectedItem={armor} onSelect={setArmor} refineValue={armorRefine} onRefineChange={setArmorRefine} xtalList={combinedArmorXtals} xtals={armorXtals} setXtals={setArmorXtals} />
+              <EquipmentSlot 
+                  label="" 
+                  category="armor" 
+                  items={armors} 
+                  selectedItem={armor} 
+                  onSelect={setArmor} 
+                  refineValue={armorRefine} 
+                  onRefineChange={setArmorRefine} 
+                  xtalList={combinedArmorXtals} 
+                  xtals={armorXtals} 
+                  setXtals={setArmorXtals}
+                  xtalIcon={getXtalIcon("armor")} // <--- NUEVO
+              />
             </div>
 
+            {/* === ADDITIONAL GEAR === */}
             <div style={styles.equipBlock}>
-              <div style={styles.equipLabelRow}><span>Additional Gear</span></div>
-              <EquipmentSlot label="" category="add" items={additionals} selectedItem={additional} onSelect={setAdditional} refineValue={addRefine} onRefineChange={setAddRefine} xtalList={combinedAddXtals} xtals={addXtals} setXtals={setAddXtals} />
+              <div style={styles.equipLabelRow}>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '8px'}}>
+                      <img src="/icons/add.png" alt="Add" style={{width:'24px', height:'24px', objectFit:'contain'}} />
+                      <span>Additional Gear</span>
+                  </div>
+              </div>
+              <EquipmentSlot 
+                  label="" 
+                  category="add" 
+                  items={additionals} 
+                  selectedItem={additional} 
+                  onSelect={setAdditional} 
+                  refineValue={addRefine} 
+                  onRefineChange={setAddRefine} 
+                  xtalList={combinedAddXtals} 
+                  xtals={addXtals} 
+                  setXtals={setAddXtals}
+                  xtalIcon={getXtalIcon("add")} // <--- NUEVO
+               />
             </div>
 
+            {/* === SPECIAL GEAR (RING) === */}
             <div style={styles.equipBlock}>
-              <div style={styles.equipLabelRow}><span>Special Gear</span></div>
-              <EquipmentSlot label="" category="ring" items={specials} selectedItem={special} onSelect={setSpecial} refineValue={specialRefine} xtalList={combinedRingXtals} xtals={specialXtals} setXtals={setSpecialXtals} />
+              <div style={styles.equipLabelRow}>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '8px'}}>
+                      <img src="/icons/ring.png" alt="Ring" style={{width:'24px', height:'24px', objectFit:'contain'}} />
+                      <span>Special Gear</span>
+                  </div>
+              </div>
+              <EquipmentSlot 
+                  label="" 
+                  category="ring" 
+                  items={specials} 
+                  selectedItem={special} 
+                  onSelect={setSpecial} 
+                  refineValue={specialRefine} 
+                  xtalList={combinedRingXtals} 
+                  xtals={specialXtals} 
+                  setXtals={setSpecialXtals} 
+                  xtalIcon={getXtalIcon("ring")} // <--- NUEVO
+              />
             </div>
           </div>
         </div>

@@ -21,6 +21,7 @@ type Props = {
   xtalList: Xtal[];
   xtals: XtalSlotState;
   setXtals: React.Dispatch<React.SetStateAction<XtalSlotState>>;
+  xtalIcon?: string; 
   hasSlots?: boolean;
 };
 
@@ -30,7 +31,7 @@ export function EquipmentSlot({
   label, category, items, selectedItem, onSelect, 
   refineValue, onRefineChange, 
   showRefine = true,
-  xtalList, xtals, setXtals, hasSlots = true 
+  xtalList, xtals, setXtals, xtalIcon, hasSlots = true 
 }: Props) {
   
   const [variantType, setVariantType] = useState<string>("drop");
@@ -263,18 +264,38 @@ export function EquipmentSlot({
         </div>
       )}
 
-      {/* Xtals */}
+       {/* Xtals */}
       {hasSlots && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
+          
+          {/* SLOT 1 */}
           <div className="flex flex-col">
-            <XtalSelect label="Slot 1" value={xtals.x1} xtalKey="x1" category={category} list={xtalList} setXtals={setXtals} />
+            <XtalSelect 
+              label="Slot 1" 
+              value={xtals.x1} 
+              xtalKey="x1" 
+              category={category} 
+              list={xtalList} 
+              setXtals={setXtals}
+              icon={xtalIcon} // <--- PASAR EL ICONO AQUI
+            />
             {renderXtalStats(xtals.x1)}
           </div>
           
+          {/* SLOT 2 */}
           <div className="flex flex-col">
-            <XtalSelect label="Slot 2" value={xtals.x2} xtalKey="x2" category={category} list={xtalList} setXtals={setXtals} />
+            <XtalSelect 
+              label="Slot 2" 
+              value={xtals.x2} 
+              xtalKey="x2" 
+              category={category} 
+              list={xtalList} 
+              setXtals={setXtals}
+              icon={xtalIcon} // <--- PASAR EL ICONO AQUI TAMBIEN
+            />
             {renderXtalStats(xtals.x2)}
           </div>
+
         </div>
       )}
     </div>
