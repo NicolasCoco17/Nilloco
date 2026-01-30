@@ -93,7 +93,7 @@ export function StatusDisplay({ stats }: { stats: DetailedStats }) {
                 <span>Neut</span><span>{stats.DTE_Neutral}%</span><span>{stats.RES_Neutral}%</span>
             </div>
             
-            <h3 className="font-bold text-[#ff55ff] border-b border-[#333] pb-1 mt-4">General</h3>
+            <h3 className="font-bold text-[#ff55ff] border-b border-[#333] pb-1 mt-4">RANGE</h3>
             <StatRow label="Short Range %" value={`${stats.ShortRangeDmg}%`} />
             <StatRow label="Long Range %" value={`${stats.LongRangeDmg}%`} />
           </div>

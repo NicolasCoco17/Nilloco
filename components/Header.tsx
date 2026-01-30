@@ -7,48 +7,53 @@ import { useGlobalSession } from '@/hooks/useGlobalSession'
 export default function Header() {
   const { isLoggedIn, userNick, logout } = useGlobalSession()
 
-  // ⏳ Evita parpadeo mientras carga sesión
   if (isLoggedIn === undefined) return null
 
   const handleLogout = () => {
-    void logout('/') // 👈 evita error TS por Promise
+    void logout('/')
   }
 
   return (
-<header className="absolute top-0 left-0 lg:left-64 right-0 z-40 h-16 bg-black/80 backdrop-blur-md shadow-lg">      {/* 
-       Agregamos 'pl-14' (padding-left) en móvil para que el botón del menú
-       no tape el logo. En escritorio (lg:) quitamos ese padding (pl-4).
-    */}
-    <div className="flex items-center justify-between h-full px-4 pl-14 lg:pl-4">
+    <header className="absolute top-0 left-0 lg:left-64 right-0 z-40 h-16 bg-black/80 backdrop-blur-md shadow-lg">
+      
+      {/* 
+         1. Agregamos 'gap-4' para separar la imagen de los botones.
+         2. Mantenemos el padding.
+      */}
+      <div className="flex items-center h-full px-4 pl-14 lg:pl-4 gap-4">
 
-        {/* 🔥 LOGO / BANNER */}
-        <Link
+        {/* 🔥 LOGO / BANNER EXPANDIDO */}
+         <Link
           href="https://www.youtube.com/@nilloconline"
           target="_blank"
           rel="noopener noreferrer"
-          className="group flex items-center neon-glow"
+          className="
+            group 
+            relative
+            flex-1
+            h-full
+            /* neon-glow  <-- A veces el glow molesta si la imagen tiene transparencia, actívalo si te gusta */
+          "
         >
           <Image
-            src="/1000239745.jpg"
-            alt="Nilloco Online - YouTube Channel"
-            width={1920}
-            height={400}
+            src="/banner.jpg"
+            alt="Nilloco Online"
+            fill
             priority
             className="
-              h-10 sm:h-12 md:h-14
-              w-auto object-contain
+              object-contain    /* <--- CLAVE: Ajusta la imagen para que quepa entera */
+              object-left       /* Alinea el banner a la izquierda (junto al botón de menú si hubiera) */
               transition-all duration-300
               group-hover:scale-105
-              group-hover:brightness-110
             "
           />
         </Link>
 
-        {/* 🔘 SESIÓN */}
-        <nav className="flex items-center gap-4">
+
+        {/* 🔘 SESIÓN (Con shrink-0 para que no se aplaste) */}
+        <nav className="flex items-center gap-4 shrink-0">
           {isLoggedIn ? (
             <>
-              {/* 👤 USUARIO */}
               {userNick && (
                 <span className="text-sm text-gray-200 hidden sm:block">
                   👋 {userNick}
@@ -61,6 +66,7 @@ export default function Header() {
                   py-1 px-4 rounded-full text-sm font-semibold
                   bg-red-600 hover:bg-red-700
                   transition duration-200
+                  whitespace-nowrap
                 "
               >
                 Cerrar Sesión
@@ -73,6 +79,7 @@ export default function Header() {
                 py-1 px-4 rounded-full text-sm font-semibold
                 bg-green-500 hover:bg-green-600
                 transition duration-200
+                whitespace-nowrap
               "
             >
               Iniciar Sesión

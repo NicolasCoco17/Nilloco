@@ -4,133 +4,136 @@
    VARIABLES BASE
    ========================= */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #050505; /* Fondo oscuro por defecto */
+  --foreground: #ededed;
+  color-scheme: dark; /* Fuerza al navegador a usar controles oscuros */
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* =========================
-   FONDO LOGIN
+   INPUTS Y SELECTS (SOLUCIÓN DEFINITIVA)
    ========================= */
+
+/* Regla maestra para todos los inputs y selects */
+input, select, textarea {
+  background-color: #0f0f0f !important;
+  color: #ffffff !important;
+  border: 1px solid #333 !important;
+  border-radius: 6px !important;
+  font-size: 16px !important; /* Evita zoom en iOS */
+  box-sizing: border-box;
+}
+
+/* Personalización del Select */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  /* Flecha personalizada blanca */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 0.4rem center; /* Flecha más pegada a la derecha */
+  background-size: 1em;
+  
+  /* IMPORTANTE: Padding reducido para que quepa el texto en el Refine */
+  padding-right: 1.6rem !important; 
+  padding-left: 0.5rem !important;
+}
+
+/* Opciones del desplegable (Windows/Android) */
+option {
+  background-color: #0f0f0f !important;
+  color: #ffffff !important;
+}
+
+/* Inputs deshabilitados */
+input:disabled, select:disabled {
+  opacity: 0.5;
+  color: #888 !important;
+  cursor: not-allowed;
+}
+
+/* =========================
+   CLASES DE UTILIDAD PARA LA CALCULADORA
+   ========================= */
+
+/* Grid Principal: 1 col móvil / 3 cols PC */
+.main-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (min-width: 1024px) {
+  .main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+}
+
+/* Header Responsive */
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #222;
+}
+
+.header-btn-group {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-btn-group {
+    width: auto;
+  }
+}
+
+/* Control Responsive (Input/Select altura) */
+.responsive-control {
+  height: 42px; /* Alto para móvil */
+  width: 100%;
+}
+
+@media (min-width: 1024px) {
+  .responsive-control {
+    height: 36px; /* Compacto para PC */
+    font-size: 14px !important;
+  }
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #0f0f0f; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+
+/* Efectos de fondo y neón (Preservados de tu código original) */
 .bg-login {
   background-image: url("/NILLOCO_ONLINE[1].png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-
-@media (max-width: 640px) {
-  .bg-login {
-    background-size: cover;
-  }
-}
-
+.neon-glow { animation: neonGlow 3s ease-in-out infinite; }
 @keyframes neonGlow {
-  0%, 100% {
-    filter: drop-shadow(0 0 4px #22d3ee) drop-shadow(0 0 8px #8b5cf6);
-  }
-  50% {
-    filter: drop-shadow(0 0 8px #22d3ee) drop-shadow(0 0 16px #8b5cf6);
-  }
-}
-
-/* Neon base */
-.neon-glow {
-  animation: neonGlow 3s ease-in-out infinite;
-}
-
-@media (min-width: 768px) {
-  .neon-glow {
-    animation-duration: 2.5s;
-  }
-}
-
-@media (max-width: 640px) {
-  .neon-glow {
-    filter: drop-shadow(0 0 3px #22d3ee) drop-shadow(0 0 6px #8b5cf6);
-    animation: none;
-  }
-}
-
-@media (hover: hover) {
-  .neon-glow:hover {
-    filter: drop-shadow(0 0 14px #22d3ee) drop-shadow(0 0 28px #8b5cf6);
-  }
-}
-
-/* Ajuste para móviles */
-@media (max-width: 640px) {
-  h1 { font-size: 1.1rem !important; }
-}
-
-/* FORZAR MODO OSCURO EN FORMULARIOS MÓVILES */
-:root {
-  color-scheme: dark; 
-}
-
-input, select, textarea {
-  background-color: #0f0f0f !important;
-  color: #ffffff !important; /* CAMBIADO A BLANCO PURO */
-  border-color: #333 !important;
-  
-  /* Eliminar estilo nativo */
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  
-  font-size: 16px !important;
-}
-
-/* Flechita del Select personalizada */
-select {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300ccff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-  background-repeat: no-repeat;
-  background-position: right 0.5rem center;
-  background-size: 1.2em;
-  padding-right: 2.5rem !important;
-}
-
-/* Opciones del select */
-option {
-  background-color: #0f0f0f;
-  color: #ffffff;
-}
-
-/* ESTILOS ESPECÍFICOS PARA REFINE */
-select.refine-select {
-  color: #ffffff !important; /* AQUI ESTABA EL ERROR: Ahora es blanco */
-  background-color: #0f0f0f !important;
-  font-weight: bold;
-}
-
-/* Fondo de las opciones de refine */
-select.refine-select option {
-  background-color: #0f0f0f !important;
-  color: #ffffff !important;
-}
-
-/* Animación float */
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-16px); }
-}
-
-.animate-float {
-  animation: float 6s ease-in-out infinite;
-}
-
-.animate-float-delayed {
-  animation: float 6s ease-in-out infinite;
-  animation-delay: 1.5s;
+  0%, 100% { filter: drop-shadow(0 0 4px #22d3ee) drop-shadow(0 0 8px #8b5cf6); }
+  50% { filter: drop-shadow(0 0 8px #22d3ee) drop-shadow(0 0 16px #8b5cf6); }
 }

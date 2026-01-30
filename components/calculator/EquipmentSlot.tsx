@@ -46,7 +46,6 @@ export function EquipmentSlot({
   useEffect(() => {
     if (selectedItem) {
        if (selectedItem.variants && !selectedItem.variants[variantType]) {
-          // Si la variante actual no existe en el item nuevo, resetear a la primera disponible o 'player' si es scroll único
           const firstVariant = Object.keys(selectedItem.variants)[0];
           setVariantType(firstVariant || "drop");
        }
@@ -61,16 +60,15 @@ export function EquipmentSlot({
        
        setBaseValue(Number(selectedItem.modifiedBaseValue ?? initialVal ?? 0));
     }
-  }, [selectedItem?.id, variantType]); 
+  }, [selectedItem?.id, variantType, category, selectedItem]); 
 
-  // === EFECTO 2 CORREGIDO: Manejo de allow_custom_stats ===
+  // === EFECTO 2: Manejo de allow_custom_stats ===
   useEffect(() => {
     if (!selectedItem) return;
 
     let processedItem = { ...selectedItem };
     let currentVariantData = null;
 
-    // 1. Obtener datos de la variante actual
     if (selectedItem.variants) {
        currentVariantData = selectedItem.variants[variantType];
        if (currentVariantData) {
@@ -79,36 +77,28 @@ export function EquipmentSlot({
             base_atk: currentVariantData.base_atk ?? selectedItem.base_atk,
             base_def: currentVariantData.base_def ?? selectedItem.base_def,
             stability: currentVariantData.stability ?? selectedItem.stability,
-            // Importante: Asignamos stats base aquí por defecto
             stats: currentVariantData.stats, 
             selectedVariant: variantType
           };
        }
     }
 
-    // 2. Determinar si permite custom stats
-    // Si es variant "player" Y tiene la flag en true (o undefined en items viejos, cuidado aquí, mejor explícito)
     const isPlayerVariant = variantType === "player";
-    // Leemos la propiedad del JSON. Si es Scroll, será false.
     const allowsCustom = currentVariantData?.allow_custom_stats === true;
 
     if (isPlayerVariant && allowsCustom) {
-      // CASO A: Player Craft (Espadas, Armaduras) -> Usa los inputs manuales
       const statsToExport = customStats
         .filter(s => s.value !== 0)
         .map(s => ({ key: s.key, value: s.value }));
       
       processedItem.playerStats = statsToExport;
-      processedItem.stats = []; // Borramos stats fijos para evitar duplicados en crafts puros
+      processedItem.stats = [];
       processedItem.isPlayerMode = true; 
     } else {
-      // CASO B: Drop, NPC, o Player Fixed (Scrolls)
-      // Mantenemos los stats fijos que asignamos en el paso 1 (currentVariantData.stats)
-      processedItem.playerStats = []; // Limpiamos custom stats previos
-      processedItem.isPlayerMode = isPlayerVariant; // Sigue siendo player mode para lógica de colores, etc.
+      processedItem.playerStats = [];
+      processedItem.isPlayerMode = isPlayerVariant;
     }
 
-    // 3. Sobrescribir valor base manual
     if (category === 'weapon') processedItem.base_atk = baseValue;
     else if (category === 'armor' || category === 'add' || category === 'ring') processedItem.base_def = baseValue;
     
@@ -129,11 +119,8 @@ export function EquipmentSlot({
 
   const availableVariants = selectedItem?.variants ? Object.keys(selectedItem.variants) : [];
 
-  // Helper para saber si mostrar inputs
   const currentVariantData = selectedItem?.variants?.[variantType];
   const showCustomInputs = variantType === "player" && currentVariantData?.allow_custom_stats === true;
-  
-  // Helper para saber si mostrar stats fijos (Scrolls caen aquí ahora)
   const showFixedStats = selectedItem && !showCustomInputs;
 
   const renderXtalStats = (xtalId: string) => {
@@ -154,20 +141,25 @@ export function EquipmentSlot({
   };
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 flex flex-col gap-3">
+    <div className="bg-[#121212] p-4 rounded-lg shadow-sm border border-gray-800 flex flex-col gap-3">
       {/* Cabecera */}
       <div className="flex justify-between items-center">
-        <h3 className="font-bold text-gray-700 dark:text-gray-200">{label}</h3>
+        <h3 className="font-bold text-gray-200 text-sm">{label}</h3>
         {showRefine && onRefineChange && (
           <div className="flex items-center gap-2 text-sm">
-            <span className="text-gray-400">Refine:</span>
+            <span className="text-gray-400 text-xs">Refine:</span>
+            {/* --- FIX AQUI: Eliminados estilos inline conflictivos --- */}
             <select
-              className="border rounded p-1 text-center font-bold"
-              style={{ width: '60px', color: '#ffffff', backgroundColor: '#333333', borderColor: '#555555', outline: 'none', cursor: 'pointer', appearance: 'menulist' }}
+              className="border border-gray-700 rounded p-0 text-center font-bold bg-[#0f0f0f] text-white outline-none cursor-pointer h-[30px]"
+              style={{ width: '60px' }} // Solo mantenemos el ancho
               value={refineValue}
               onChange={(e) => onRefineChange(e.target.value)}
             >
-              {REFINE_LEVELS.map(r => <option key={r} value={r} style={{ color: '#ffffff', backgroundColor: '#333333' }}>+{r}</option>)}
+              {REFINE_LEVELS.map(r => (
+                <option key={r} value={r} className="bg-[#0f0f0f] text-white">
+                  +{r}
+                </option>
+              ))}
             </select>
           </div>
         )}
@@ -175,7 +167,7 @@ export function EquipmentSlot({
 
       {/* Selector de Item */}
       <select 
-        className="w-full p-2 border rounded bg-gray-50 dark:bg-gray-900 dark:text-white dark:border-gray-600"
+        className="w-full h-[40px] px-2 border rounded bg-[#0f0f0f] text-white border-gray-700 outline-none"
         onChange={(e) => {
            const id = e.target.value;
            const item = items.find(i => String(i.id) === id);
@@ -183,7 +175,7 @@ export function EquipmentSlot({
         }}
         value={selectedItem?.id || ""}
       >
-        <option value="">-- Select {label} --</option>
+        <option value="">-- Select {label || "Item"} --</option>
         {items.map((item, idx) => (
           <option key={`${item.id}-${idx}`} value={item.id}>{item.name}</option>
         ))}
@@ -206,26 +198,23 @@ export function EquipmentSlot({
 
       {/* Input de Base Stat Manual */}
       {selectedItem && (
-        <div className="flex gap-2 items-center bg-gray-900 p-2 rounded border border-gray-700">
+        <div className="flex gap-2 items-center bg-[#1a1a1a] p-2 rounded border border-gray-700">
           <span className="text-xs font-bold text-gray-400 w-24">
             {category === 'weapon' ? 'ATK' : 'DEF'}:
           </span>
           <input 
             type="number"
-            className="flex-1 p-1 text-sm bg-black border border-gray-600 rounded text-white text-center font-mono"
+            className="flex-1 p-1 text-sm bg-[#0f0f0f] border border-gray-600 rounded text-white text-center font-mono outline-none"
             value={baseValue}
             onChange={(e) => setBaseValue(Number(e.target.value))}
           />
         </div>
       )}
 
-      {/* === CORRECCIÓN VISUAL === */}
-      
-      {/* 1. Renderizado de Stats FIJOS (Drop, NPC, o Player sin custom) */}
+      {/* Stats Fijos */}
       {showFixedStats && (
-        <div className="text-xs text-gray-400 p-2 bg-gray-900 rounded border border-gray-700">
+        <div className="text-xs text-gray-400 p-2 bg-[#1a1a1a] rounded border border-gray-700">
           <p className="font-bold text-white mb-1">Stats:</p>
-          {/* Prioridad: Stats de la variante > Stats base del item */}
           {(() => {
              const statsToShow = currentVariantData?.stats || selectedItem.stats;
              if (!statsToShow || (Array.isArray(statsToShow) && statsToShow.length === 0)) return <span className="italic text-gray-600">None</span>;
@@ -240,14 +229,14 @@ export function EquipmentSlot({
         </div>
       )}
 
-      {/* 2. Custom Inputs SOLO si es Player Y allow_custom_stats es true */}
+      {/* Custom Inputs */}
       {showCustomInputs && (
-        <div className="grid grid-cols-1 gap-1 bg-gray-900 p-2 rounded border border-gray-700">
+        <div className="grid grid-cols-1 gap-1 bg-[#1a1a1a] p-2 rounded border border-gray-700">
           <p className="font-bold text-white text-xs mb-1">Custom Stats (8 Slots):</p>
           {customStats.map((stat, idx) => (
             <div key={idx} className="flex gap-1">
               <select 
-                className="flex-1 text-xs bg-gray-800 text-white border border-gray-600 rounded"
+                className="flex-1 text-xs bg-[#0f0f0f] text-white border border-gray-600 rounded h-[30px]"
                 value={stat.key}
                 onChange={(e) => handleCustomStatChange(idx, 'key', e.target.value)}
               >
@@ -255,7 +244,7 @@ export function EquipmentSlot({
               </select>
               <input 
                 type="number"
-                className="w-16 text-xs bg-gray-800 text-white border border-gray-600 rounded text-center"
+                className="w-16 text-xs bg-[#0f0f0f] text-white border border-gray-600 rounded text-center h-[30px]"
                 value={stat.value}
                 onChange={(e) => handleCustomStatChange(idx, 'value', Number(e.target.value))}
               />
@@ -267,8 +256,6 @@ export function EquipmentSlot({
        {/* Xtals */}
       {hasSlots && (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-2">
-          
-          {/* SLOT 1 */}
           <div className="flex flex-col">
             <XtalSelect 
               label="Slot 1" 
@@ -277,12 +264,10 @@ export function EquipmentSlot({
               category={category} 
               list={xtalList} 
               setXtals={setXtals}
-              icon={xtalIcon} // <--- PASAR EL ICONO AQUI
+              icon={xtalIcon} 
             />
             {renderXtalStats(xtals.x1)}
           </div>
-          
-          {/* SLOT 2 */}
           <div className="flex flex-col">
             <XtalSelect 
               label="Slot 2" 
@@ -291,11 +276,10 @@ export function EquipmentSlot({
               category={category} 
               list={xtalList} 
               setXtals={setXtals}
-              icon={xtalIcon} // <--- PASAR EL ICONO AQUI TAMBIEN
+              icon={xtalIcon} 
             />
             {renderXtalStats(xtals.x2)}
           </div>
-
         </div>
       )}
     </div>
