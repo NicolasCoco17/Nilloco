@@ -477,7 +477,19 @@ export default function CalculatorPage() {
                     {SUB_TYPES.map((t: any) => <option key={t.id} value={t.id}>{t.label}</option>)}
                   </select>
               </div>
-              <EquipmentSlot label="" category="weapon" items={subWeapons} selectedItem={subWeapon} onSelect={setSubWeapon} refineValue={subRefine} onRefineChange={setSubRefine} xtalList={[]} xtals={{x1:'-1', x2:'-1'}} setXtals={() => {}} hasSlots={subType.id === "shield"} showRefine={showSubRefine}/>
+              <EquipmentSlot 
+              label="" 
+              category="weapon" 
+              items={subWeapons} 
+              selectedItem={subWeapon} 
+              onSelect={setSubWeapon} 
+              refineValue={subRefine} 
+              onRefineChange={setSubRefine} 
+              xtalList={[]} 
+              xtals={{x1:'-1', x2:'-1'}} 
+              setXtals={() => {}} 
+              hasSlots={false} 
+              showRefine={showSubRefine}/>
             </div>
 
             {/* === BODY ARMOR === */}
