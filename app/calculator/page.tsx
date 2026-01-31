@@ -288,13 +288,13 @@ export default function CalculatorPage() {
   ====================== */
   return (
     <div className="toram-calculator-container">
-      {/* HEADER SUPERIOR */}
-      <div className="header-container">
-        <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
-            <h1 style={styles.title}>
-            Calculadora <span style={{color: '#00ccff'}}>Toram</span>
-            </h1>
-        </div>
+      {/* HEADER SUPERIOR (TITULO) */}
+        <div className="header-container px-4"> {/* Agregué px-4 para que no pegue a los bordes en móvil */}
+          <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
+              <h1 style={styles.title} className="text-2xl font-bold text-white">
+              Stats Calculator <span style={{color: '#00ccff'}}>Toram</span>
+              </h1>
+          </div>
 
         <div className="header-btn-group">
             <button 
