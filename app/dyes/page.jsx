@@ -16,13 +16,22 @@ export default function DyeSimulator() {
 
   useEffect(() => {
     fetch("/dye-data.json")
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error("No se encontró el archivo de datos");
+        return res.json();
+      })
       .then(json => {
-        setDATA(json);
-        setSelectedItem(json.armor[0]);
-      });
+        // Validar que hay datos antes de asignar
+        if (json && json.armor && json.armor.length > 0) {
+          setDATA(json);
+          setSelectedItem(json.armor[0]); // Seleccionar el primero por defecto
+        } else {
+          console.error("El JSON está vacío o mal formado");
+        }
+      })
+      .catch(err => console.error("Error cargando dyes:", err));
   }, []);
-
+  
   useEffect(() => {
     if (!selectedItem) return;
 

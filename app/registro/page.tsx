@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { Mail, Lock, User, Shield, AlertCircle, CheckCircle, Loader2 } from "lucide-react";
+import { Turnstile } from "react-turnstile"; // <--- Importamos Turnstile
 
 export default function RegisterPage() {
   const [form, setForm] = useState({
@@ -17,12 +18,23 @@ export default function RegisterPage() {
 
   const [mensaje, setMensaje] = useState<{ type: 'error' | 'success'; text: string } | null>(null);
   const [loading, setLoading] = useState(false);
+  
+  // Estado para el token del captcha
+  const [captchaToken, setCaptchaToken] = useState<string | null>(null);
+  
   const router = useRouter();
 
   const handleRegister = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setMensaje(null);
+
+    // Validar Captcha
+    if (!captchaToken) {
+      setMensaje({ type: 'error', text: "Debes completar el captcha para continuar." });
+      setLoading(false);
+      return;
+    }
 
     // 1. Validaciones básicas
     if (form.password !== form.confirmPassword) {
@@ -37,15 +49,15 @@ export default function RegisterPage() {
       return;
     }
 
-    // 2. Registro en Supabase Auth
+    // 2. Registro en Supabase Auth con Captcha
     const { data, error } = await supabase.auth.signUp({
       email: form.email,
       password: form.password,
       options: {
-        // Guardamos estos datos en la metadata del usuario
+        captchaToken: captchaToken, // <--- Enviamos el token
         data: {
           nick: form.nick,
-          gremio: form.gremio, // Importante para tu lógica de gremio
+          gremio: form.gremio,
         },
       },
     });
@@ -65,7 +77,6 @@ export default function RegisterPage() {
 
   return (
     <main className="min-h-screen flex items-center justify-center bg-login bg-cover bg-center px-4 relative">
-      {/* Overlay oscuro para mejorar legibilidad sobre la imagen de fondo */}
       <div className="absolute inset-0 bg-black/60 backdrop-blur-sm z-0"></div>
 
       <div className="relative z-10 bg-[#121212] border border-gray-800 p-8 rounded-2xl shadow-2xl max-w-md w-full text-white">
@@ -77,7 +88,6 @@ export default function RegisterPage() {
           <p className="text-gray-400 text-sm mt-2">Únete a la comunidad de Nilloco Online</p>
         </div>
 
-        {/* Mensajes de Alerta */}
         {mensaje && (
           <div className={`p-3 mb-6 rounded-lg flex items-center gap-2 text-sm ${
             mensaje.type === 'success' 
@@ -106,7 +116,7 @@ export default function RegisterPage() {
             </div>
           </div>
 
-          {/* Nick & Gremio (Grid) */}
+          {/* Nick & Gremio */}
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-1">
               <label className="text-xs text-gray-500 font-bold uppercase tracking-wider ml-1">Nick</label>
@@ -164,9 +174,19 @@ export default function RegisterPage() {
             </div>
           </div>
 
+          {/* --- CAPTCHA CLOUDFLARE --- */}
+          <div className="flex justify-center py-2">
+            <Turnstile
+              // Usamos la variable de entorno aquí 👇
+              sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string}
+              onVerify={(token) => setCaptchaToken(token)}
+              theme="dark"
+            />
+          </div>
+
           <button
-            disabled={loading}
-            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white py-3 rounded-lg font-bold shadow-lg shadow-blue-500/20 transition-all transform active:scale-95 flex justify-center items-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed mt-4"
+            disabled={loading || !captchaToken} // Bloquear si no hay captcha
+            className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white py-3 rounded-lg font-bold shadow-lg shadow-blue-500/20 transition-all transform active:scale-95 flex justify-center items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed mt-4"
           >
             {loading ? (
                 <>
