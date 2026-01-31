@@ -1,3 +1,4 @@
+// components/calculator/EquipmentSlot.tsx
 "use client";
 
 import { FULL_STAT_LIST } from "@/lib/constants"; 
@@ -42,12 +43,16 @@ export function EquipmentSlot({
 
   const [baseValue, setBaseValue] = useState<number>(0);
 
-  // Efecto 1: Resetear variante y actualizar baseValue inicial
+  // === EFECTO 1: Resetear variante y actualizar baseValue inicial ===
   useEffect(() => {
     if (selectedItem) {
+       // 1. Verificar si la variante actual existe en el nuevo item
        if (selectedItem.variants && !selectedItem.variants[variantType]) {
           const firstVariant = Object.keys(selectedItem.variants)[0];
           setVariantType(firstVariant || "drop");
+          // Importante: Si cambiamos la variante, salimos. 
+          // El cambio de estado de setVariantType disparará este efecto de nuevo correctamente.
+          return; 
        }
 
        let initialVal = 0;
@@ -58,11 +63,14 @@ export function EquipmentSlot({
           initialVal = category === 'weapon' ? selectedItem.base_atk : selectedItem.base_def;
        }
        
+       // Si el item ya trae un valor modificado (porque venimos de una carga o edición previa), lo respetamos
        setBaseValue(Number(selectedItem.modifiedBaseValue ?? initialVal ?? 0));
     }
-  }, [selectedItem?.id, variantType, category, selectedItem]); 
+  // CORRECCIÓN AQUÍ: Eliminado 'selectedItem' completo, solo usamos 'selectedItem?.id'
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedItem?.id, variantType, category]); 
 
-  // === EFECTO 2: Manejo de allow_custom_stats ===
+  // === EFECTO 2: Manejo de actualización hacia el padre ===
   useEffect(() => {
     if (!selectedItem) return;
 
@@ -99,11 +107,14 @@ export function EquipmentSlot({
       processedItem.isPlayerMode = isPlayerVariant;
     }
 
+    // Actualizar ATK/DEF basado en el input manual (baseValue)
     if (category === 'weapon') processedItem.base_atk = baseValue;
     else if (category === 'armor' || category === 'add' || category === 'ring') processedItem.base_def = baseValue;
     
     processedItem.modifiedBaseValue = baseValue;
 
+    // Solo llamamos a onSelect si realmente ha cambiado algo relevante para evitar ciclos,
+    // pero como React optimiza los estados, el ciclo principal se rompió en el Efecto 1.
     onSelect(processedItem); 
     
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -148,10 +159,9 @@ export function EquipmentSlot({
         {showRefine && onRefineChange && (
           <div className="flex items-center gap-2 text-sm">
             <span className="text-gray-400 text-xs">Refine:</span>
-            {/* --- FIX AQUI: Eliminados estilos inline conflictivos --- */}
             <select
               className="border border-gray-700 rounded p-0 text-center font-bold bg-[#0f0f0f] text-white outline-none cursor-pointer h-[30px]"
-              style={{ width: '60px' }} // Solo mantenemos el ancho
+              style={{ width: '60px' }}
               value={refineValue}
               onChange={(e) => onRefineChange(e.target.value)}
             >

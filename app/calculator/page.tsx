@@ -14,7 +14,7 @@ import { useBuilds } from "@/hooks/useBuilds";
 import { Save, FolderOpen, Trash2, X, FileText, Calendar } from "lucide-react";
 
 /* ======================
-   HELPERS
+   HELPERS (Sin cambios)
 ====================== */
 type SimpleStat = { key: string; value: number };
 const PERSONAL_STATS = ["NA", "CRT", "LUK", "TEC", "MTL"];
@@ -69,7 +69,7 @@ const getXtalIcon = (typeId: string) => {
 
 export default function CalculatorPage() {
   /* ======================
-     HOOKS Y ESTADOS
+     HOOKS Y ESTADOS (Sin cambios)
   ====================== */
   const { isAuthenticated } = useAuth();
   const { saveBuildCloud, builds, fetchBuilds, deleteBuildCloud, loading: cloudLoading } = useBuilds();
@@ -212,11 +212,10 @@ export default function CalculatorPage() {
   const statKeys = Object.keys(baseStats) as Array<keyof typeof baseStats>;
 
   /* ======================
-     HANDLERS
+     HANDLERS (Sin cambios)
   ====================== */
   const handleCloudSave = async () => {
     if (!buildName.trim()) return alert("Ponle un nombre a la build");
-    // ... logica de guardado ...
     const currentBuildData = {
       level, baseStats, personalStatType, personalStatValue,
       mainType, subType, passiveSkills, activeSkills,
@@ -288,8 +287,52 @@ export default function CalculatorPage() {
   ====================== */
   return (
     <div className="toram-calculator-container">
+      {/* --- ESTILOS RESPONSIVOS CORREGIDOS --- */}
+      <style jsx global>{`
+        /* --- ESCRITORIO (POR DEFECTO) --- */
+        /* Aseguramos que sea ROW y ocupe el ancho */
+        .main-grid {
+           display: flex;
+           flex-direction: row; 
+           gap: 20px;
+           width: 100%;
+           align-items: flex-start;
+        }
+
+        /* Las columnas deben comportarse como columnas normales en PC */
+        .layout-column {
+           display: flex;
+           flex-direction: column;
+           gap: 20px;
+           flex: 1; /* Esto fuerza a las 3 columnas a dividirse el espacio */
+           min-width: 0;
+        }
+
+        /* --- MÓVIL (PANTALLAS < 1024px) --- */
+        @media (max-width: 1024px) {
+           /* Aquí cambiamos el contenedor principal a columna */
+           .main-grid {
+             flex-direction: column;
+           }
+
+           /* EL TRUCO: Solo en móvil desaparecemos los wrappers de las columnas */
+           .layout-column {
+             display: contents; 
+           }
+
+           /* Y reordenamos las tarjetas individuales */
+           .area-stats { order: 1; }
+           .area-equip { order: 2; }
+           .area-avatars { order: 3; }
+           .area-buffs { order: 4; }
+           .area-regs { order: 5; }
+           .area-foods { order: 6; }
+           .area-skills { order: 7; }
+        }
+      `}</style>
+
       {/* HEADER SUPERIOR (TITULO) */}
-        <div className="header-container px-4"> {/* Agregué px-4 para que no pegue a los bordes en móvil */}
+        <div className="header-container px-4">
           <div style={{display:'flex', alignItems:'center', gap:'10px'}}>
               <h1 style={styles.title} className="text-2xl font-bold text-white">
               Stats Calculator <span style={{color: '#00ccff'}}>Toram</span>
@@ -315,11 +358,14 @@ export default function CalculatorPage() {
         </div>
       </div>
 
+      {/* CONTENEDOR PRINCIPAL */}
       <div className="main-grid">
         
         {/* COLUMNA 1: Stats, Buffs, Registlets */}
-        <div style={{...styles.column, flex: 1}}>
-          <div style={styles.card}>
+        <div className="layout-column">
+          
+          {/* AREA: STATS */}
+          <div style={styles.card} className="area-stats">
             <div style={styles.sectionHeader}>Character Stats</div>
             
             <div style={{display: 'flex', alignItems: 'center', justifyContent:'space-between', marginBottom: '15px'}}>
@@ -344,35 +390,122 @@ export default function CalculatorPage() {
             </div>
           </div>
           
-          <div style={styles.card}>
-             <div style={styles.sectionHeader}>Buffland</div>
-             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                {buffland.map((slot, idx) => {
-                  const foodInfo = bufflandList.find((b: any) => b.stat === slot.key);
-                  return (
-                    <div key={idx} style={{display:'flex', gap:'8px', alignItems:'center'}}>
-                      <select style={{ ...styles.select, flex: 1.5, fontSize:'0.85em' }} className="responsive-control" value={slot.key} onChange={(e) => { const newStat = e.target.value; setBuffland(prev => { const copy = [...prev]; copy[idx] = { ...copy[idx], key: newStat }; return copy; }); }}>
-                        <option value="">(None)</option>
-                        {BUFFLAND_STAT_LIST.map((stat) => <option key={stat} value={stat}>{stat}</option>)}
-                      </select>
-                      <div style={{ flex: 1, fontSize: '0.7em', color: '#888', textAlign: 'center', lineHeight: '1.1' }}>{foodInfo ? foodInfo.nombre : "-"}</div>
-                      <input type="number" style={{ ...styles.input, width:'50px' }} className="responsive-control" value={slot.value} onChange={(e) => { setBuffland(prev => { const copy = [...prev]; copy[idx] = { ...copy[idx], value: Number(e.target.value) }; return copy; }); }} />
+          {/* AREA: BUFFLAND */}
+          <div style={styles.card} className="area-buffs">
+            <div style={styles.sectionHeader}>Buffland</div>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              {buffland.map((slot, idx) => {
+                const foodInfo = bufflandList.find(
+                  (b: any) => b.stat === slot.key
+                );
+
+                return (
+                  <div
+                    key={idx}
+                    style={{ display: 'flex', gap: '8px', alignItems: 'center' }}
+                  >
+                    {/* SELECT MODIFICADO */}
+                    <select
+                      style={{ ...styles.select, flex: 1.5, fontSize: '0.85em' }}
+                      className="responsive-control"
+                      value={slot.key}
+                      onChange={(e) => {
+                        const newStat = e.target.value;
+                        setBuffland(prev => {
+                          const copy = [...prev];
+                          // 🔥 Al cambiar el stat, el valor se resetea a 0
+                          copy[idx] = { key: newStat, value: 0 };
+                          return copy;
+                        });
+                      }}
+                    >
+                      <option value="">(None)</option>
+                      {BUFFLAND_STAT_LIST.map(stat => (
+                        <option key={stat} value={stat}>
+                          {stat}
+                        </option>
+                      ))}
+                    </select>
+
+                    <div
+                      style={{
+                        flex: 1,
+                        fontSize: '0.7em',
+                        color: '#00ff88',
+                        textAlign: 'center',
+                        lineHeight: '1.1',
+                      }}
+                    >
+                      {foodInfo ? foodInfo.nombre : "-"}
                     </div>
-                  );
-                })}
-             </div>
+
+                    <input
+                      type="number"
+                      style={{ ...styles.input, width: '50px' }}
+                      className="responsive-control"
+                      value={slot.value}
+                      onChange={(e) => {
+                        setBuffland(prev => {
+                          const copy = [...prev];
+                          copy[idx] = {
+                            ...copy[idx],
+                            value: Number(e.target.value),
+                          };
+                          return copy;
+                        });
+                      }}
+                    />
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
-          <div style={{...styles.card, flex: 1}}>
+          {/* AREA: REGISTLETS */}
+          <div style={{...styles.card, flex: 1}} className="area-regs">
              <div style={styles.sectionHeader}>Registlets</div>
              <div style={{flex: 1, display:'flex', flexDirection:'column', gap:'8px'}}>
               {activeRegistlets.map((reg, idx) => (
                 <div key={idx} style={{display:'flex', gap:'8px'}}>
-                    <select style={{...styles.select, flex: 1, fontSize:'0.85em'}} className="responsive-control" value={reg.id} onChange={(e) => { const newRegs = [...activeRegistlets]; newRegs[idx].id = e.target.value; setActiveRegistlets(newRegs); }}>
+                    <select 
+                        style={{...styles.select, flex: 1, fontSize:'0.85em'}} 
+                        className="responsive-control" 
+                        value={reg.id} 
+                        onChange={(e) => { 
+                            const newRegs = [...activeRegistlets]; 
+                            // CAMBIO AQUI:
+                            // Al cambiar la opción, actualizamos el ID y 
+                            // forzamos el nivel a 1 inmediatamente.
+                            newRegs[idx] = { id: e.target.value, level: 1 }; 
+                            setActiveRegistlets(newRegs); 
+                        }}
+                    >
                       <option value="">(Empty Slot)</option>
                       {registletsList.map((r:any) => <option key={r.id} value={r.id}>{r.name} ({r.stat})</option>)}
                     </select>
-                    <input type="number" min="1" max="100" style={{...styles.input, width:'60px'}} className="responsive-control" value={reg.level} onChange={(e) => { const newRegs = [...activeRegistlets]; newRegs[idx].level = Number(e.target.value); setActiveRegistlets(newRegs); }} />
+                    
+                    <input 
+                        type="number" 
+                        min="1" 
+                        max="100" 
+                        style={{
+                            ...styles.input, 
+                            width:'60px',
+                            // CAMBIO AQUI: Si no hay ID seleccionado, bajamos la opacidad (se ve gris)
+                            opacity: !reg.id ? 0.3 : 1,
+                            borderColor: !reg.id ? '#333' : '#00ccff'
+                        }} 
+                        className="responsive-control" 
+                        value={reg.level} 
+                        // CAMBIO AQUI: Deshabilitamos el input si está vacío
+                        disabled={!reg.id}
+                        onChange={(e) => { 
+                            const newRegs = [...activeRegistlets]; 
+                            newRegs[idx].level = Number(e.target.value); 
+                            setActiveRegistlets(newRegs); 
+                        }} 
+                    />
                 </div>
               ))}
              </div>
@@ -380,8 +513,10 @@ export default function CalculatorPage() {
         </div>
 
         {/* COLUMNA 2: Equipment */}
-        <div style={styles.column}>
-          <div style={{...styles.card, height: '100%'}}>
+        <div className="layout-column">
+          
+          {/* AREA: EQUIPMENT */}
+          <div style={{...styles.card, height: '100%'}} className="area-equip">
             <div style={styles.sectionHeader}>Equipment</div>
             
             {/* === MAIN WEAPON === */}
@@ -396,7 +531,6 @@ export default function CalculatorPage() {
                   </select>
               </div>
               
-              {/* FIX BAREHAND: Ocultar todo si es barehand */}
               {mainType.id !== 'barehand' && (
                 <EquipmentSlot label="" category="weapon" items={weapons} selectedItem={weapon} onSelect={setWeapon} refineValue={weaponRefine} onRefineChange={setWeaponRefine} xtalList={combinedWeaponXtals} xtals={weaponXtals} setXtals={setWeaponXtals} showRefine={showMainRefine} xtalIcon={getXtalIcon("weapon")} />
               )}
@@ -406,7 +540,6 @@ export default function CalculatorPage() {
             <div style={styles.equipBlock}>
               <div style={styles.equipLabelRow}>
                   <div style={{display: 'flex', alignItems: 'center', gap: '8px'}}>
-                      {/* FIX SUB WEAPON: Ocultar imagen si es none */}
                       {subType.id !== 'none' && (
                         <img key={subType.id} src={getWeaponIcon(subType.id)} alt="Sub" style={{width:'24px', height:'24px', objectFit:'contain'}} onError={(e) => e.currentTarget.style.display = 'none'} />
                       )}
@@ -416,7 +549,6 @@ export default function CalculatorPage() {
                     {SUB_TYPES.map((t: any) => <option key={t.id} value={t.id}>{t.label}</option>)}
                   </select>
               </div>
-              {/* FIX SUB WEAPON: Ocultar caja si es none */}
               {subType.id !== 'none' && (
                 <EquipmentSlot label="" category="weapon" items={subWeapons} selectedItem={subWeapon} onSelect={setSubWeapon} refineValue={subRefine} onRefineChange={setSubRefine} xtalList={[]} xtals={{x1:'-1', x2:'-1'}} setXtals={() => {}} hasSlots={false} showRefine={showSubRefine}/>
               )}
@@ -463,8 +595,10 @@ export default function CalculatorPage() {
         </div>
 
         {/* COLUMNA 3: Avatars + Consumables */}
-        <div style={{...styles.column, minHeight: 'auto'}}>
-          <div style={styles.card}>
+        <div className="layout-column">
+          
+          {/* AREA: AVATARS */}
+          <div style={styles.card} className="area-avatars">
             <div style={styles.sectionHeader}>Avatars</div>
             {[{ title: "Accessory", start: 0 }, { title: "Top", start: 3 }, { title: "Bottom", start: 6 }].map(group => (
               <div key={group.title} style={{ marginBottom: '15px' }}>
@@ -476,7 +610,8 @@ export default function CalculatorPage() {
             ))}
           </div>
 
-          <div style={{...styles.card, flex: 1}}>
+          {/* AREA: FOODS */}
+          <div style={{...styles.card, flex: 1}} className="area-foods">
              <div style={styles.sectionHeader}>Consumables</div>
              <div style={{ flex: 1, display: "flex", flexDirection:'column', gap: '10px' }}>
                 {foods.map((slot, idx) => {
@@ -501,8 +636,8 @@ export default function CalculatorPage() {
         </div>
       </div>
       
-      {/* SKILLS CONTAINER */}
-      <div style={{ ...styles.card, marginTop: '20px' }}>
+      {/* SKILLS CONTAINER (Automaticamente al final porque está fuera del grid) */}
+      <div style={{ ...styles.card, marginTop: '20px' }} className="area-skills">
         <div style={styles.sectionHeader}>Skills</div>
         <div style={styles.skillGrid}>
           {PASSIVE_SKILLS_DATA.map(skill => (
@@ -523,7 +658,7 @@ export default function CalculatorPage() {
              <StatusDisplay stats={finalStats.final} />
       </div>
 
-      {/* MODALES */}
+      {/* MODALES (Sin cambios) */}
       {isSaveModalOpen && (
         <div style={modalStyles.overlay}>
             <div style={modalStyles.content}>
@@ -580,11 +715,38 @@ function CustomStatRow({ item, idx, setter, options }: any) {
   }
   return (
     <div style={{display:'flex', gap:'5px', marginBottom:'5px'}}>
-      <select className="responsive-control" style={{...styles.select, flex:2, fontSize:'0.85em'}} value={item.key} onChange={(e) => setter((prev:any[]) => { const copy = [...prev]; copy[idx].key = e.target.value; if (e.target.value === "") copy[idx].value = 0; return copy; })}>
+      <select 
+        className="responsive-control" 
+        style={{...styles.select, flex:2, fontSize:'0.85em'}} 
+        value={item.key} 
+        onChange={(e) => setter((prev:any[]) => { 
+          const copy = [...prev]; 
+          // CAMBIO: Asignamos la nueva key y reseteamos el value a 0 siempre
+          copy[idx] = { key: e.target.value, value: 0 };
+          return copy; 
+        })}
+      >
         <option value="">-</option>
         {options.map((o:string) => <option key={o} value={o}>{o}</option>)}
       </select>
-      <input type="number" className="responsive-control" value={item.value} onChange={(e) => setter((prev:any[]) => { const copy = [...prev]; copy[idx].value = Number(e.target.value); return copy; })} disabled={!item.key} style={{...styles.input, width:'50px', opacity: !item.key ? 0.3 : 1, borderColor: !item.key ? '#333' : '#444'}} />
+      
+      <input 
+        type="number" 
+        className="responsive-control" 
+        value={item.value} 
+        onChange={(e) => setter((prev:any[]) => { 
+          const copy = [...prev]; 
+          copy[idx].value = Number(e.target.value); 
+          return copy; 
+        })} 
+        disabled={!item.key} 
+        style={{
+            ...styles.input, 
+            width:'50px', 
+            opacity: !item.key ? 0.3 : 1, 
+            borderColor: !item.key ? '#333' : '#444'
+        }} 
+      />
     </div>
   )
 }
@@ -593,7 +755,7 @@ const styles: any = {
   title: { margin: 0, fontSize: '1.8rem', fontWeight: '800', letterSpacing: '1px', color: '#fff' },
   headerBtnSave: { display: 'flex', alignItems: 'center', gap: '6px', background: '#10b981', border: 'none', color: 'white', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer', fontSize: '0.9em' },
   headerBtnLoad: { display: 'flex', alignItems: 'center', gap: '6px', background: '#3b82f6', border: 'none', color: 'white', padding: '8px 16px', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer', fontSize: '0.9em' },
-  column: { display: 'flex', flexDirection: 'column', gap: '20px', height: '100%' },
+  /* NOTA: Eliminé 'column' de aquí porque ahora lo maneja la clase CSS .layout-column */
   card: { background: '#121212', borderRadius: '12px', padding: '20px', border: '1px solid #222', boxShadow: '0 4px 12px rgba(0,0,0,0.3)', display: 'flex', flexDirection: 'column' },
   sectionHeader: { marginBottom: '15px', color: '#00ccff', fontSize: '0.85rem', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '1px', borderBottom: '1px solid #222', paddingBottom: '8px' },
   input: { background: '#0f0f0f', border: '1px solid #333', color: '#00ff88', height: '36px', borderRadius: '6px', textAlign: 'center', fontWeight: 'bold', outline: 'none', transition: 'border-color 0.2s', width: '100%' },
