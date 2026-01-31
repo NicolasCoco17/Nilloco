@@ -1,3 +1,4 @@
+//app/dye/constants.js
 export const TORAM_PALETTE = [
   { id: 0, hex: "transparent", name: "Original" },
   { id: 1, hex: "#FFFFFF" }, { id: 2, hex: "#C0C0C0" }, { id: 3, hex: "#808080" },
@@ -30,3 +31,12 @@ export const TORAM_PALETTE = [
   { id: 82, hex: "#00004D" }, { id: 83, hex: "#26004D" }, { id: 84, hex: "#4D004D" },
   { id: 85, hex: "#4D003A" }
 ];
+
+export const getContrastColor = (hex) => {
+  if (hex === "transparent") return "#ffffff";
+  const r = parseInt(hex.substring(1, 3), 16);
+  const g = parseInt(hex.substring(3, 5), 16);
+  const b = parseInt(hex.substring(5, 7), 16);
+  const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+  return (yiq >= 128) ? '#000000' : '#ffffff';
+};
