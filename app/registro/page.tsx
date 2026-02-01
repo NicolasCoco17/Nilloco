@@ -183,10 +183,7 @@ export default function RegisterPage() {
               theme="dark"
             />
           </div>
-          <p className="text-xs text-gray-400">
-            Sitekey: {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ? "OK" : "MISSING"}
-          </p>
-
+          
           <button
             disabled={loading || !captchaToken} // Bloquear si no hay captcha
             className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-500 hover:to-purple-500 text-white py-3 rounded-lg font-bold shadow-lg shadow-blue-500/20 transition-all transform active:scale-95 flex justify-center items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed mt-4"
