@@ -183,6 +183,9 @@ export default function RegisterPage() {
               theme="dark"
             />
           </div>
+          <p className="text-xs text-gray-400">
+            Sitekey: {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ? "OK" : "MISSING"}
+          </p>
 
           <button
             disabled={loading || !captchaToken} // Bloquear si no hay captcha
