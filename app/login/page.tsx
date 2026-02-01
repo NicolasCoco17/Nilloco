@@ -6,6 +6,8 @@ import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { Turnstile } from "react-turnstile"; // <--- Importamos Turnstile
 
+console.log("DEBUG CLAVE:", process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY);
+
 export default function LoginPage() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -81,16 +83,18 @@ export default function LoginPage() {
 
           {/* --- CAPTCHA CLOUDFLARE --- */}
           <div className="flex justify-center py-2">
-            <Turnstile
-              // Usamos la variable de entorno aquí 👇
-              sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY as string}
-              onVerify={(token) => setCaptchaToken(token)}
-              theme="dark"
-            />
+            {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ? (
+              <Turnstile
+                sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
+                onVerify={(token) => setCaptchaToken(token)}
+                theme="dark"
+              />
+            ) : (
+              <div className="text-red-500 text-xs border border-red-500 p-2">
+                ⚠️ Error: La SiteKey no se ha cargado. Revisa las variables en Vercel y haz Redeploy.
+              </div>
+            )}
           </div>
-          <p className="text-xs text-gray-400">
-            Sitekey: {process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ? "OK" : "MISSING"}
-          </p>
           
           <button 
             disabled={loading || !captchaToken} // Deshabilitado si carga o no hay captcha
