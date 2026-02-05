@@ -127,58 +127,36 @@
 
     // --- PASO 2: TINTAR SOLO SI NO ES "ORIGINAL" ---
 const applyLayer = (texture, dyeId) => {
-      if (!texture) return; // Si no hay textura, no hacemos nada
+  if (!texture) return;
 
-      // 1. Crear un canvas temporal para esta capa
-      const tmp = document.createElement("canvas");
-      tmp.width = 400; 
-      tmp.height = 600;
-      const tCtx = tmp.getContext("2d");
+  // 🔴 CLAVE: si es Original, no dibujamos la capa
+  if (dyeId === 0) return;
 
-      // 2. Obtener el color. Si es ID 0 (Original), no aplicamos tinte, solo dibujamos la textura tal cual.
-      // NOTA: En tus imágenes grises, el "Original" probablemente sea blanco/gris. 
-      // Si el item original tiene color, necesitas saber cuál es el color default.
-      // Asumiremos que ID 0 = Sin Tinte (se ve gris) o un color por defecto.
-      const colorObj = TORAM_PALETTE.find(d => d.id == dyeId);
-      
-      // A. DIBUJAR LA TEXTURA GRIS
-      tCtx.drawImage(texture, 0, 0, 400, 600);
+  const tmp = document.createElement("canvas");
+  tmp.width = 400;
+  tmp.height = 600;
+  const tCtx = tmp.getContext("2d");
 
-      // B. APLICAR EL COLOR (Solo si no es el original ID 0, o si quieres forzar un color)
-      if (dyeId !== 0 && colorObj) {
-          
-          // --- AQUÍ ESTÁ LA MAGIA DEL REALISMO ---
-          
-          // MODO 1: MULTIPLY (Multiplicar)
-          // El mejor para telas y texturas claras. El blanco se vuelve el color del tinte.
-          // El gris se vuelve una versión oscura del tinte.
-          tCtx.globalCompositeOperation = "multiply"; 
-          
-          tCtx.fillStyle = colorObj.hex;
-          tCtx.fillRect(0, 0, 400, 600);
+  const colorObj = TORAM_PALETTE.find(d => d.id == dyeId);
+  if (!colorObj) return;
 
-          // MODO 2: RECUPERAR BRILLOS (Opcional, para armaduras metálicas)
-          // Si la armadura se ve muy oscura, descomenta esto:
-          /*
-          tCtx.globalCompositeOperation = "destination-atop";
-          tCtx.drawImage(texture, 0, 0, 400, 600);
-          tCtx.globalCompositeOperation = "soft-light";
-          tCtx.fillStyle = "#FFFFFF"; // Luz
-          tCtx.globalAlpha = 0.3;
-          tCtx.fillRect(0,0,400,600);
-          */
+  // 1. Dibujar máscara gris
+  tCtx.drawImage(texture, 0, 0, 400, 600);
 
-          // C. LIMPIEZA FINAL (Recortar lo que se salió de los bordes)
-          // "destination-in" hace que el color solo se quede donde había imagen original
-          tCtx.globalCompositeOperation = "destination-in";
-          tCtx.globalAlpha = 1.0;
-          tCtx.drawImage(texture, 0, 0, 400, 600);
-      }
+  // 2. Tinte realista
+  tCtx.globalCompositeOperation = "multiply";
+  tCtx.fillStyle = colorObj.hex;
+  tCtx.fillRect(0, 0, 400, 600);
 
-      // 3. PINTAR EL RESULTADO EN EL CANVAS PRINCIPAL
-      ctx.globalCompositeOperation = "source-over";
-      ctx.drawImage(tmp, 0, 0);
-    };
+  // 3. Recorte perfecto
+  tCtx.globalCompositeOperation = "destination-in";
+  tCtx.globalAlpha = 1;
+  tCtx.drawImage(texture, 0, 0, 400, 600);
+
+  // 4. Pintar encima de la base
+  ctx.globalCompositeOperation = "source-over";
+  ctx.drawImage(tmp, 0, 0);
+};
 
     applyLayer(dA, selectedDyes.a);
     applyLayer(dB, selectedDyes.b);
