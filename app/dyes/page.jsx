@@ -91,10 +91,10 @@
     const ctx = canvas.getContext("2d", { willReadFrequently: true });
     
   // --- CONFIGURACIÓN DE CÁMARA ---
-  const zoom = 1.15;      // Bajamos un poco el zoom para que quepa el cuerpo
-  const offsetX = -240;  // Mueve la imagen a la izquierda para ver el frente (lado derecho)
-  const offsetY = -280;  // Mueve la imagen hacia ARRIBA para centrar el cuerpo
-
+  const zoom = 1;      // Bajamos un poco el zoom para que quepa el cuerpo
+  const offsetX = -190;  // Mueve la imagen a la izquierda para ver el frente (lado derecho)
+  const offsetY = -200;  // Mueve la imagen hacia ARRIBA para centrar el cuerpo
+    
     const cleanPath = selectedItem.path.startsWith('/') ? selectedItem.path : `/${selectedItem.path}`;
     let basePath = `${cleanPath}/${gender}`;
     
