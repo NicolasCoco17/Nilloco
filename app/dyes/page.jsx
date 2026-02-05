@@ -89,8 +89,12 @@
   const render = async () => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext("2d", { willReadFrequently: true });
+    
+  // --- CONFIGURACIÓN DE CÁMARA ---
+  const zoom = 1.15;      // Bajamos un poco el zoom para que quepa el cuerpo
+  const offsetX = -240;  // Mueve la imagen a la izquierda para ver el frente (lado derecho)
+  const offsetY = -280;  // Mueve la imagen hacia ARRIBA para centrar el cuerpo
 
-    // 1. Asegurar que la ruta base sea absoluta desde el root (/)
     const cleanPath = selectedItem.path.startsWith('/') ? selectedItem.path : `/${selectedItem.path}`;
     let basePath = `${cleanPath}/${gender}`;
     
@@ -99,7 +103,7 @@
 
     const load = (src) => new Promise(res => {
       const i = new Image(); 
-      i.crossOrigin = "Anonymous"; // Solo si las imágenes están en otro servidor
+      i.crossOrigin = "Anonymous"; 
       i.src = src;
       i.onload = () => res(i); 
       i.onerror = () => { console.warn("⚠️ No se encontró:", src); res(null); };
@@ -115,53 +119,43 @@
 
     if (!isMounted) return;
 
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    
-    // --- PASO 1: DIBUJAR LA BASE ---
-    if (base) {
-      ctx.drawImage(base, 0, 0, 400, 600);
-    } else {
-      ctx.fillStyle = "red";
-      ctx.fillText(`Error: Falta base1.png en ${basePath}`, 10, 20);
-    }
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  if (base) {
+    // Dibujamos la base con el zoom y offset
+    ctx.drawImage(base, offsetX, offsetY, base.width * zoom, base.height * zoom);
+  }
 
     // --- PASO 2: TINTAR SOLO SI NO ES "ORIGINAL" ---
-const applyLayer = (texture, dyeId) => {
-  if (!texture) return;
+  const applyLayer = (texture, dyeId) => {
+    if (!texture || dyeId === 0) return;
 
-  // 🔴 CLAVE: si es Original, no dibujamos la capa
-  if (dyeId === 0) return;
+    const tmp = document.createElement("canvas");
+    tmp.width = canvas.width;
+    tmp.height = canvas.height;
+    const tCtx = tmp.getContext("2d");
 
-  const tmp = document.createElement("canvas");
-  tmp.width = 400;
-  tmp.height = 600;
-  const tCtx = tmp.getContext("2d");
+    const colorObj = TORAM_PALETTE.find(d => d.id == dyeId);
+    if (!colorObj) return;
 
-  const colorObj = TORAM_PALETTE.find(d => d.id == dyeId);
-  if (!colorObj) return;
+    // Dibujar la capa de tinte con la MISMA cámara (zoom/offset)
+    tCtx.drawImage(texture, offsetX, offsetY, texture.width * zoom, texture.height * zoom);
 
-  // 1. Dibujar máscara gris
-  tCtx.drawImage(texture, 0, 0, 400, 600);
+    tCtx.globalCompositeOperation = "multiply";
+    tCtx.fillStyle = colorObj.hex;
+    tCtx.fillRect(0, 0, tmp.width, tmp.height);
 
-  // 2. Tinte realista
-  tCtx.globalCompositeOperation = "multiply";
-  tCtx.fillStyle = colorObj.hex;
-  tCtx.fillRect(0, 0, 400, 600);
+    tCtx.globalCompositeOperation = "destination-in";
+    tCtx.drawImage(texture, offsetX, offsetY, texture.width * zoom, texture.height * zoom);
 
-  // 3. Recorte perfecto
-  tCtx.globalCompositeOperation = "destination-in";
-  tCtx.globalAlpha = 1;
-  tCtx.drawImage(texture, 0, 0, 400, 600);
-
-  // 4. Pintar encima de la base
-  ctx.globalCompositeOperation = "source-over";
-  ctx.drawImage(tmp, 0, 0);
-};
-
-    applyLayer(dA, selectedDyes.a);
-    applyLayer(dB, selectedDyes.b);
-    applyLayer(dC, selectedDyes.c);
+    ctx.globalCompositeOperation = "source-over";
+    ctx.drawImage(tmp, 0, 0);
   };
+
+  applyLayer(dA, selectedDyes.a);
+  applyLayer(dB, selectedDyes.b);
+  applyLayer(dC, selectedDyes.c);
+};
 
   render();
   return () => { isMounted = false; }; // Limpieza
@@ -183,9 +177,10 @@ const applyLayer = (texture, dyeId) => {
             
             <canvas 
               ref={canvasRef} 
-              width="400" 
-              height="600" 
-              className="w-[300px] h-[450px] md:w-[350px] md:h-[525px] object-contain"
+              width="400"   
+              height="550" 
+              // Cambia h-auto por h-[550px] para asegurar que el contenedor no se colapse
+              className="w-[400px] h-[550px] border-2 border-[#333] rounded-lg bg-[#111] shadow-inner"
               style={{ imageRendering: "pixelated" }} 
             />
             
@@ -213,7 +208,7 @@ const applyLayer = (texture, dyeId) => {
             <h2 className="text-[#f1c40f] font-bold uppercase tracking-widest text-sm">
               Personalización
             </h2>
-            <span className="text-xs text-gray-600">v2.0 Toram Style</span>
+            <span className="text-xs text-gray-600">Dye Simulator</span>
           </div>
           
           {/* Selector de Armadura */}
